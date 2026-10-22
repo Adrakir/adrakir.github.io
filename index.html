@@ -9,6 +9,7 @@ body[data-theme="contrast"]{--bg:#000;--bg2:#000;--panel:#090909;--panel2:#16161
 /* Hörbuch-Player und Absätze in längeren Nacherzählungen */
 .audiobox{border:1px solid var(--line);background:var(--panel2);padding:15px 17px;border-radius:14px;margin:9px 0 23px;}
 .audiobox .speaktools{margin:12px 0 7px;}
+.voicepick{display:grid;grid-template-columns:auto minmax(0,1fr) auto;align-items:center;gap:9px;margin:8px 0 4px}.voicepick label{font-weight:800;font-size:.86rem}.voicepick select{width:100%;min-width:0}.voicepick .btn{white-space:nowrap;padding:9px 11px;font-size:.82rem}@media(max-width:560px){.voicepick{grid-template-columns:1fr}.voicepick .btn{width:100%}}
 .audiostatus{font-size:.88em;color:var(--muted);min-height:1.5em;}
 .storytext{white-space:pre-line;}
 @media(max-width:650px){.audiobox .speaktools .btn{flex:1 1 155px;}}
@@ -120,10 +121,10 @@ const STORIES = [{"id":"millennium","year":1999,"icon":"🗓️","title":"Der Ka
 const KEY='it-pannenakte-bsi-v1';
 function load(){try{return JSON.parse(localStorage.getItem(KEY)||'{}')}catch{return {}}}
 const saved=load();
-const state={screen:'library',id:null,act:0,filter:'Alle',tag:'Alle',origin:'Alle',sort:'featured',query:'',favsOnly:false,limit:24,theme:saved.theme||'dark',large:!!saved.large,reduce:!!saved.reduce,rate:typeof saved.rate==='number'?saved.rate:1,favorites:saved.favorites||[],visited:saved.visited||{},done:saved.done||{},feedback:{},marathon:null};
+const state={screen:'library',id:null,act:0,filter:'Alle',tag:'Alle',origin:'Alle',sort:'featured',query:'',favsOnly:false,limit:24,theme:saved.theme||'dark',large:!!saved.large,reduce:!!saved.reduce,rate:typeof saved.rate==='number'?saved.rate:.9,voice:saved.voice||'auto',favorites:saved.favorites||[],visited:saved.visited||{},done:saved.done||{},feedback:{},marathon:null};
 const app=document.getElementById('app');
 const printbox=document.getElementById('printbox');
-function save(){try{localStorage.setItem(KEY,JSON.stringify({theme:state.theme,large:state.large,reduce:state.reduce,rate:state.rate,favorites:state.favorites,visited:state.visited,done:state.done}))}catch{}}
+function save(){try{localStorage.setItem(KEY,JSON.stringify({theme:state.theme,large:state.large,reduce:state.reduce,rate:state.rate,voice:state.voice,favorites:state.favorites,visited:state.visited,done:state.done}))}catch{}}
 const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 function find(id){return STORIES.find(x=>x.id===id)}
 function done(id){return state.done[id]||{}}
@@ -154,10 +155,71 @@ function cardsHTML(data){return data.length?data.map(c=>`<article class="casecar
 function questionHTML(c,which){let q=which==='q'?c.quiz:c.decision,ok=done(c.id)[which],f=state.feedback[c.id+'-'+which],lab=which==='q'?'WISSENSFRAGE':'DU ENTSCHEIDEST';return `<section class="quizbox" data-question="${which}"><div class="eyebrow">${lab}${ok?' · ✓ GELÖST':''}</div><h3>${esc(q[0])}</h3><div class="choices">${q[1].map((s,i)=>`<button type="button" class="choice ${ok&&i===q[2]?'correct':''} ${f&&f.index===i&&!f.ok?'wrong':''}" data-pick="${which}" data-opt="${i}" ${ok?'disabled':''}>${String.fromCharCode(65+i)} · ${esc(s)}</button>`).join('')}</div>${ok?`<p class="feedback correct" role="status">✓ Richtig! ${esc(q[3])}</p>`:f?`<p class="feedback ${f.ok?'correct':'wrong'}" role="status">${f.ok?'✓ Super!':'✗ Das passt noch nicht. Wähle eine andere Antwort.'}</p>`:''}</section>`}
 function renderStory(){const c=find(state.id);if(!c){state.screen='library';renderLibrary();return}const a=c.acts[state.act];let allEnd=state.act===c.acts.length-1;
  renderShell(`<section class="storyhead"><div class="crumb">${menuBtn('← Alle Akten','library','ghost')}</div><div class="storyhero"><div class="eyebrow">Akte ${String(STORIES.indexOf(c)+1).padStart(3,'0')} von ${STORIES.length} · ${sourceBadge(c)}</div><h1>${c.icon} ${esc(c.title)}</h1><img class="storyart" src="${c.image}" alt="Illustration zur Geschichte ${esc(c.title)}"/><p class="subtitle">${esc(c.kicker)}</p><div class="storymeta"><span class="pill">📅 ${c.year}</span><span class="pill">🏷️ ${esc(c.kind)}</span>${c.tags.map(t=>`<span class="pill">${esc(t)}</span>`).join('')}<span class="pill">🎓 ${esc(c.level)}</span><span class="pill">${completed(c.id)?'🏆 Gemeistert':'📚 Lernakte'}</span></div></div></section>
- <div class="storylayout"><div class="surface"><div class="panelhead"><span class="chapter">SZENE ${state.act+1} / ${c.acts.length}</span><button class="favbtn" type="button" data-fav="${c.id}" aria-label="Favorit umschalten" aria-pressed="${state.favorites.includes(c.id)}">${state.favorites.includes(c.id)?'♥':'♡'}</button></div><div class="scenebar" role="img" aria-label="Szene ${state.act+1} von ${c.acts.length}">${c.acts.map((_,i)=>`<span class="${i<=state.act?'on':''}"></span>`).join('')}</div><h2 class="chaptertitle">${esc(a[0])}</h2><div class="audiobox" aria-label="Hörgeschichte"><div class="eyebrow">🎧 Hörbuch-Modus</div><div class="speaktools"><button class="btn primary" type="button" data-action="speak-all" ${!('speechSynthesis' in window)?'disabled title="Sprachausgabe hier nicht verfügbar"':''}>▶ Ganze Geschichte erzählen</button><button class="btn" type="button" data-action="speak" ${!('speechSynthesis' in window)?'disabled title="Sprachausgabe hier nicht verfügbar"':''}>🔊 Dieses Kapitel</button><button class="btn ghost" type="button" data-action="pause-speak" id="pause-speech" ${!('speechSynthesis' in window)?'disabled':''}>⏸ Pause</button><button class="btn ghost" type="button" data-action="stop-speak">⏹ Stopp</button></div><p id="speech-status" class="audiostatus" role="status" aria-live="polite">Starten, um die Geschichte mit der Stimme deines Geräts zu hören.</p></div><p class="storytext">${esc(a[1])}</p><div class="storybottom">${menuBtn('← Zurück','prev',state.act===0?'ghost':'')}${menuBtn(allEnd?'✓ Geschichte vollständig':'Nächste Szene →','next','primary')}</div>${allEnd?`<div class="endbox"><div class="eyebrow">Die Lehre</div><h3>Was wir daraus lernen</h3><p>${esc(c.lesson)}</p><p class="small muted" style="margin-top:12px">Beantworte beide Aufgaben, um diese Akte abzuschließen.</p></div>${questionHTML(c,'q')}${questionHTML(c,'decision')}${completed(c.id)?`<div class="endbox"><h3>🏅 Akte gemeistert!</h3><p>Du hast die Geschichte gelesen und beide Aufgaben richtig gelöst.</p><div class="heroactions">${menuBtn('🎲 Nächster Zufallsfall','random','primary')}${menuBtn('📚 Alle Akten','library')}</div></div>`:''}`:''}</div><aside><section class="surface"><div class="eyebrow">Aktenprüfung</div><h3 style="margin-top:9px">Was ist wirklich belegt?</h3><ul class="factlist">${c.facts.map(f=>`<li>${esc(f)}</li>`).join('')}</ul><h3>Quellenhinweis</h3><div class="sourcebox"><strong>${esc(c.source[0])}</strong><p style="margin-top:8px">${sourceUrl(c.source[1],c.origin)}</p>${c.note?`<p class="small muted" style="margin-top:9px">${esc(c.note)}</p>`:''}</div><p class="small muted" style="margin-top:16px">Die erzählerischen Szenen sind redaktionell nacherzählt. Keine erfundenen Personen oder Zitate werden als belegte Tatsachen dargestellt.</p><div class="heroactions">${menuBtn('🖨️ Ganze Akte drucken','print')}</div></section></aside></div>`);
+ <div class="storylayout"><div class="surface"><div class="panelhead"><span class="chapter">SZENE ${state.act+1} / ${c.acts.length}</span><button class="favbtn" type="button" data-fav="${c.id}" aria-label="Favorit umschalten" aria-pressed="${state.favorites.includes(c.id)}">${state.favorites.includes(c.id)?'♥':'♡'}</button></div><div class="scenebar" role="img" aria-label="Szene ${state.act+1} von ${c.acts.length}">${c.acts.map((_,i)=>`<span class="${i<=state.act?'on':''}"></span>`).join('')}</div><h2 class="chaptertitle">${esc(a[0])}</h2><div class="audiobox" aria-label="Hörgeschichte"><div class="eyebrow">🎧 Hörbuch-Modus</div><div class="voicepick"><label for="voice-select">Stimme</label><select id="voice-select">${voiceOptionsHTML()}</select><button class="btn ghost" type="button" data-action="voice-test">🎙 Testen</button></div><div class="speaktools"><button class="btn primary" type="button" data-action="speak-all" ${!('speechSynthesis' in window)?'disabled title="Sprachausgabe hier nicht verfügbar"':''}>▶ Ganze Geschichte erzählen</button><button class="btn" type="button" data-action="speak" ${!('speechSynthesis' in window)?'disabled title="Sprachausgabe hier nicht verfügbar"':''}>🔊 Dieses Kapitel</button><button class="btn ghost" type="button" data-action="pause-speak" id="pause-speech" ${!('speechSynthesis' in window)?'disabled':''}>⏸ Pause</button><button class="btn ghost" type="button" data-action="stop-speak">⏹ Stopp</button></div><p id="speech-status" class="audiostatus" role="status" aria-live="polite">Starten, um die Geschichte mit der Stimme deines Geräts zu hören.</p></div><p class="storytext">${esc(a[1])}</p><div class="storybottom">${menuBtn('← Zurück','prev',state.act===0?'ghost':'')}${menuBtn(allEnd?'✓ Geschichte vollständig':'Nächste Szene →','next','primary')}</div>${allEnd?`<div class="endbox"><div class="eyebrow">Die Lehre</div><h3>Was wir daraus lernen</h3><p>${esc(c.lesson)}</p><p class="small muted" style="margin-top:12px">Beantworte beide Aufgaben, um diese Akte abzuschließen.</p></div>${questionHTML(c,'q')}${questionHTML(c,'decision')}${completed(c.id)?`<div class="endbox"><h3>🏅 Akte gemeistert!</h3><p>Du hast die Geschichte gelesen und beide Aufgaben richtig gelöst.</p><div class="heroactions">${menuBtn('🎲 Nächster Zufallsfall','random','primary')}${menuBtn('📚 Alle Akten','library')}</div></div>`:''}`:''}</div><aside><section class="surface"><div class="eyebrow">Aktenprüfung</div><h3 style="margin-top:9px">Was ist wirklich belegt?</h3><ul class="factlist">${c.facts.map(f=>`<li>${esc(f)}</li>`).join('')}</ul><h3>Quellenhinweis</h3><div class="sourcebox"><strong>${esc(c.source[0])}</strong><p style="margin-top:8px">${sourceUrl(c.source[1],c.origin)}</p>${c.note?`<p class="small muted" style="margin-top:9px">${esc(c.note)}</p>`:''}</div><p class="small muted" style="margin-top:16px">Die erzählerischen Szenen sind redaktionell nacherzählt. Keine erfundenen Personen oder Zitate werden als belegte Tatsachen dargestellt.</p><div class="heroactions">${menuBtn('🖨️ Ganze Akte drucken','print')}</div></section></aside></div>`);
 }
 function printStory(c){return `<article><p>IT-PANNENAKTE · unabhängiges Lernprojekt</p><h1>${esc(c.title)}</h1><p>${c.year} · ${esc(c.kind)}</p>${c.acts.map(a=>`<h2>${esc(a[0])}</h2><p>${esc(a[1])}</p>`).join('')}<h2>Wirklich belegt</h2><ul>${c.facts.map(f=>`<li>${esc(f)}</li>`).join('')}</ul><h2>Was wir lernen</h2><p>${esc(c.lesson)}</p><p class="printsource">Quelle (${esc(c.origin)}): ${esc(c.source[0])}<br>${esc(c.source[1])}</p></article>`}
-function renderSettings(){renderShell(`<section class="hero"><div class="eyebrow">Persönliche Einstellungen</div><h1>Lesen, hören, entdecken.</h1><p>Die App funktioniert ohne Anmeldung und ohne Internet. Externe Quellenlinks benötigen zum Öffnen eine Verbindung; die Geschichten und Bilder funktionieren offline.</p></section><div class="settingsgrid"><section class="setting"><label for="theme">Darstellung und Kontrast</label><select id="theme"><option value="dark" ${state.theme==='dark'?'selected':''}>Dunkelblau</option><option value="light" ${state.theme==='light'?'selected':''}>Hell</option><option value="contrast" ${state.theme==='contrast'?'selected':''}>Sehr hoher Kontrast</option></select><p class="muted small" style="margin-top:10px">Für Laptop, Tablet und Smartphones optimiert.</p></section><section class="setting"><label for="rate">Vorlesegeschwindigkeit</label><select id="rate"><option value="0.8" ${state.rate===.8?'selected':''}>Langsam</option><option value="1" ${state.rate===1?'selected':''}>Normal</option><option value="1.2" ${state.rate===1.2?'selected':''}>Etwas schneller</option></select><p class="muted small" style="margin-top:10px">Die Gerätestimme kann wahlweise einzelne Kapitel oder die ganze Geschichte erzählen. Auf iPhones am besten Safari verwenden. Verfügbarkeit abhängig von Betriebssystem und Browser.</p></section><section class="setting"><label class="toggleline"><input type="checkbox" id="large" ${state.large?'checked':''}> Größere Schrift</label><p class="muted small">Hilfreich auf kleineren Bildschirmen.</p></section><section class="setting"><label class="toggleline"><input type="checkbox" id="reduce" ${state.reduce?'checked':''}> Bewegungen reduzieren</label><p class="muted small">Reduziert Übergänge und Effekte.</p></section><section class="setting"><h3>Lernstand</h3><p class="muted">Gelesene Geschichten, gelöste Aufgaben und Favoriten werden nach Möglichkeit lokal auf deinem Gerät gespeichert.</p><div class="heroactions">${menuBtn('🧹 Lernstand löschen','reset')}</div></section><section class="setting"><h3>Quellen & Transparenz</h3><p>Die Sammlung enthält Fälle mit BSI-Dokumentation, CERT-EU-Berichten, anderen Fachquellen und Nachschlagehinweisen. BSI-Nennung bedeutet keine Zertifizierung dieser App. Die Herkunft steht bei jeder Akte.</p></section></div><div class="heroactions">${menuBtn('← Zurück zu den Akten','library','primary')}</div>`)}
+let availableVoices=[];
+function germanVoices(){
+ if(!('speechSynthesis' in window))return [];
+ const list=window.speechSynthesis.getVoices().filter(v=>(v.lang||'').toLowerCase().startsWith('de'));
+ availableVoices=list.slice().sort((a,b)=>voiceScore(b)-voiceScore(a)||a.name.localeCompare(b.name,'de'));
+ return availableVoices;
+}
+function voiceScore(v){
+ const n=(v.name||'').toLowerCase();let score=0;
+ if((v.lang||'').toLowerCase()==='de-de')score+=40;else if((v.lang||'').toLowerCase().startsWith('de'))score+=25;
+ if(/siri|premium|enhanced|natural|neural|online/.test(n))score+=80;
+ if(/microsoft/.test(n)&&/natural|online/.test(n))score+=45;
+ if(/google.*deutsch|google.*german/.test(n))score+=40;
+ if(/anna|petra|markus|katja|conrad|seraphina|amal|vicki|marlene|yannick/.test(n))score+=22;
+ if(v.localService)score+=8;if(v.default)score+=5;
+ if(/compact|eloquence|novelty/.test(n))score-=25;
+ return score;
+}
+function preferredVoice(){
+ const list=germanVoices();
+ if(state.voice!=='auto'){const exact=list.find(v=>v.name===state.voice);if(exact)return exact;}
+ return list[0]||null;
+}
+function voiceOptionsHTML(){
+ const list=germanVoices();
+ const best=list[0];
+ let html=`<option value="auto" ${state.voice==='auto'?'selected':''}>Automatisch${best?' · '+esc(best.name):''}</option>`;
+ for(const v of list)html+=`<option value="${esc(v.name)}" ${state.voice===v.name?'selected':''}>${esc(v.name)} · ${esc(v.lang||'Deutsch')}</option>`;
+ return html;
+}
+function refreshVoiceSelect(){
+ germanVoices();
+ for(const el of document.querySelectorAll('#voice-select,#voice')){
+  const current=state.voice;el.innerHTML=voiceOptionsHTML();el.value=availableVoices.some(v=>v.name===current)?current:'auto';
+ }
+}
+function spokenText(text){
+ return String(text)
+  .replace(/\bIT\b/g,'I T').replace(/\bBSI\b/g,'B S I').replace(/\bCERT[- ]EU\b/gi,'CERT E U')
+  .replace(/\bDNS\b/g,'D N S').replace(/\bUSB\b/g,'U S B').replace(/\bSMS\b/g,'S M S')
+  .replace(/\bAPI\b/g,'A P I').replace(/\bKI\b/g,'K I').replace(/\bDDoS\b/gi,'D D O S')
+  .replace(/\bGitHub\b/g,'Git Hub').replace(/\s+/g,' ').trim();
+}
+function makeUtterance(text){
+ const u=new SpeechSynthesisUtterance(spokenText(text));
+ u.lang='de-DE';
+ u.rate=Math.max(.72,Math.min(1.05,state.rate*.92));
+ u.pitch=.98;u.volume=1;
+ const v=preferredVoice();if(v)u.voice=v;
+ return u;
+}
+function testVoice(){
+ if(!('speechSynthesis' in window)||typeof SpeechSynthesisUtterance==='undefined')return;
+ try{window.speechSynthesis.cancel()}catch{}
+ const u=makeUtterance('So klingt die ausgewählte Stimme. Willkommen bei der Adrakir I T Pannenakte.');
+ try{window.speechSynthesis.speak(u)}catch{}
+}
+if('speechSynthesis' in window){
+ try{window.speechSynthesis.onvoiceschanged=refreshVoiceSelect}catch{}
+ setTimeout(refreshVoiceSelect,80);setTimeout(refreshVoiceSelect,600);
+}
+function renderSettings(){renderShell(`<section class="hero"><div class="eyebrow">Persönliche Einstellungen</div><h1>Lesen, hören, entdecken.</h1><p>Die App funktioniert ohne Anmeldung und ohne Internet. Externe Quellenlinks benötigen zum Öffnen eine Verbindung; die Geschichten und Bilder funktionieren offline.</p></section><div class="settingsgrid"><section class="setting"><label for="theme">Darstellung und Kontrast</label><select id="theme"><option value="dark" ${state.theme==='dark'?'selected':''}>Dunkelblau</option><option value="light" ${state.theme==='light'?'selected':''}>Hell</option><option value="contrast" ${state.theme==='contrast'?'selected':''}>Sehr hoher Kontrast</option></select><p class="muted small" style="margin-top:10px">Für Laptop, Tablet und Smartphones optimiert.</p></section><section class="setting"><label for="rate">Vorlesegeschwindigkeit</label><select id="rate"><option value="0.8" ${state.rate===.8?'selected':''}>Ruhig</option><option value="0.9" ${state.rate===.9?'selected':''}>Natürlich</option><option value="1" ${state.rate===1?'selected':''}>Normal</option><option value="1.1" ${state.rate===1.1?'selected':''}>Etwas schneller</option></select><p class="muted small" style="margin-top:10px">Für Geschichten klingt „Natürlich“ meist angenehmer als die Standardgeschwindigkeit.</p></section><section class="setting"><label for="voice">Vorlesestimme</label><select id="voice">${voiceOptionsHTML()}</select><div class="heroactions" style="margin-top:10px">${menuBtn('🎙 Stimme testen','voice-test')}</div><p class="muted small" style="margin-top:10px">„Automatisch“ bevorzugt hochwertige deutsche Natural-, Premium-, Enhanced- oder Siri-Stimmen, sofern dein Gerät sie dem Browser zur Verfügung stellt.</p></section><section class="setting"><label class="toggleline"><input type="checkbox" id="large" ${state.large?'checked':''}> Größere Schrift</label><p class="muted small">Hilfreich auf kleineren Bildschirmen.</p></section><section class="setting"><label class="toggleline"><input type="checkbox" id="reduce" ${state.reduce?'checked':''}> Bewegungen reduzieren</label><p class="muted small">Reduziert Übergänge und Effekte.</p></section><section class="setting"><h3>Lernstand</h3><p class="muted">Gelesene Geschichten, gelöste Aufgaben und Favoriten werden nach Möglichkeit lokal auf deinem Gerät gespeichert.</p><div class="heroactions">${menuBtn('🧹 Lernstand löschen','reset')}</div></section><section class="setting"><h3>Quellen & Transparenz</h3><p>Die Sammlung enthält Fälle mit BSI-Dokumentation, CERT-EU-Berichten, anderen Fachquellen und Nachschlagehinweisen. BSI-Nennung bedeutet keine Zertifizierung dieser App. Die Herkunft steht bei jeder Akte.</p></section></div><div class="heroactions">${menuBtn('← Zurück zu den Akten','library','primary')}</div>`)}
 function badgesHTML(){let c=completedCount(),v=visitedCount(),f=state.favorites.length;const arr=[['🔍','Neugierig',v>=1,'1 Akte öffnen'],['📚','Geschichtensammler',v>=7,'7 Akten öffnen'],['💡','Fehlerdetektiv',c>=1,'1 Akte meistern'],['🧠','IT-Profi',c>=5,'5 Akten meistern'],['🏆','Master of Disaster',c===STORIES.length,'Alle 200 Akten meistern'],['♥','Kurator',f>=3,'3 Favoriten markieren']];return `<div class="badges">${arr.map(b=>`<div class="badgeitem ${b[2]?'':'locked'}"><span style="font-size:2em">${b[0]}</span><div><strong>${b[1]}</strong><div class="muted small">${b[2]?'Freigeschaltet':'Ziel: '+b[3]}</div></div></div>`).join('')}</div>`}
 function renderMarathon(){const m=state.marathon; if(!m){startMarathon();return}if(m.idx>=m.ids.length){let p=Math.round(m.score/m.ids.length*100);renderShell(`<div class="quizfocus surface endresult"><div class="resultbig">${p>=80?'🏆':p>=50?'🎖️':'📚'}</div><div class="eyebrow">Challenge beendet</div><h1>${m.score} von ${m.ids.length} richtig!</h1><p style="margin-top:15px">${p>=80?'Großartige Arbeit! Du hast technische Fehler und Sicherheitsvorfälle gut unterschieden.':'Eine gute Gelegenheit, die Akten noch einmal nachzulesen.'}</p><div class="heroactions" style="justify-content:center">${menuBtn('🔁 Neue Challenge','restart','primary')}${menuBtn('📚 Geschichten lesen','library')}</div></div><section style="max-width:820px;margin:25px auto"><h2>Deine Auszeichnungen</h2>${badgesHTML()}</section>`);return}
  let c=find(m.ids[m.idx]),q=c.quiz; renderShell(`<section class="quizfocus"><div class="crumb">${menuBtn('← Zurück zur Sammlung','library','ghost')}</div><div class="surface"><div class="eyebrow">10-Fragen-Challenge</div><div class="panelhead"><h2>Wissen statt Raten</h2><span class="pill">${m.idx+1} / ${m.ids.length}</span></div><div class="meter"><span style="width:${m.idx/m.ids.length*100}%"></span></div><p class="muted">${c.icon} ${esc(c.title)}</p><div class="quizbox"><h3>${esc(q[0])}</h3><div class="choices">${q[1].map((s,i)=>`<button class="choice ${m.choice!==null&&i===q[2]?'correct':''} ${m.choice===i&&i!==q[2]?'wrong':''}" data-marathon-pick="${i}" ${m.choice!==null?'disabled':''}>${String.fromCharCode(65+i)} · ${esc(s)}</button>`).join('')}</div>${m.choice!==null?`<div class="feedback ${m.choice===q[2]?'correct':'wrong'}" role="status"><strong>${m.choice===q[2]?'Richtig!':'Nicht ganz.'}</strong> ${esc(q[3])}</div><div class="heroactions">${menuBtn(m.idx===m.ids.length-1?'Ergebnis anzeigen →':'Nächste Frage →','marathon-next','primary')}</div>`:''}</div></div></section>`)}
@@ -181,18 +243,28 @@ function stopSpeak(){
  speechStatus('Wiedergabe gestoppt.');
 }
 function speechChunks(text){
- // Satzweise schneiden: vermeidet Abbrüche nach langen Texten auf mobilen Geräten.
- const sentences=text.replace(/\s+/g,' ').split(/(?<=[.!?])\s+(?=[A-ZÄÖÜ„])/u);
+ // Größere, vollständige Sätze klingen natürlicher als viele kurze Browser-TTS-Häppchen.
+ const clean=String(text).replace(/\s+/g,' ').trim();
+ const sentences=clean.match(/[^.!?…]+(?:[.!?…]+|$)/g)||[clean];
  const out=[];let buffer='';
- for(const sentence of sentences){
-  if(buffer.length+sentence.length>175&&buffer){out.push(buffer);buffer='';}
-  if(sentence.length>260){
-   if(buffer){out.push(buffer);buffer='';}
-   for(let i=0;i<sentence.length;i+=170)out.push(sentence.slice(i,i+170));
-  }else buffer+=(buffer?' ':'')+sentence;
+ const flush=()=>{if(buffer.trim()){out.push(buffer.trim());buffer='';}};
+ const splitLong=sentence=>{
+  const clauses=sentence.split(/(?<=[,;:])\s+/u);let part='';
+  for(const clause of clauses){
+   if((part+' '+clause).trim().length>330&&part){out.push(part.trim());part='';}
+   if(clause.length>380){
+    const words=clause.split(/\s+/);for(const word of words){if((part+' '+word).trim().length>330&&part){out.push(part.trim());part='';}part+=(part?' ':'')+word;}
+   }else part+=(part?' ':'')+clause;
+  }
+  if(part.trim())out.push(part.trim());
+ };
+ for(const raw of sentences){
+  const sentence=raw.trim();if(!sentence)continue;
+  if(sentence.length>380){flush();splitLong(sentence);continue;}
+  if((buffer+' '+sentence).trim().length>330)flush();
+  buffer+=(buffer?' ':'')+sentence;
  }
- if(buffer)out.push(buffer);
- return out;
+ flush();return out;
 }
 function narrate(all){
  if(!('speechSynthesis' in window)||typeof SpeechSynthesisUtterance==='undefined'){
@@ -234,11 +306,7 @@ function playSpeechSegment(){
   return;
  }
  const seg=task.segments[task.index];
- const utterance=new SpeechSynthesisUtterance(seg.text);
- utterance.lang='de-DE';utterance.rate=state.rate;utterance.pitch=1;
- const voices=window.speechSynthesis.getVoices();
- const voice=voices.find(v=>v.lang?.toLowerCase()==='de-de'&&v.localService)||voices.find(v=>v.lang?.toLowerCase().startsWith('de'));
- if(voice)utterance.voice=voice;
+ const utterance=makeUtterance(seg.text);
  utterance.onstart=()=>{
   if(task.token===speechGeneration&&speechTask===task){
    if(task.total)showNarratedChapter(seg.part);
@@ -266,8 +334,8 @@ function pauseOrResumeSpeak(){
 }
 function updateChoices(c,kind,index){stopSpeak();const q=kind==='q'?c.quiz:c.decision;state.feedback[c.id+'-'+kind]={index,ok:index===q[2]};if(index===q[2]){if(!state.done[c.id])state.done[c.id]={};state.done[c.id][kind]=true;save()}let y=window.scrollY;renderStory();window.scrollTo(0,y)}
 app.addEventListener('input',e=>{if(e.target.id==='search'){state.query=e.target.value;state.limit=24;renderLibrary()}});
-app.addEventListener('change',e=>{if(e.target.id==='origin'){state.origin=e.target.value;state.limit=24;renderLibrary()}else if(e.target.id==='sort'){state.sort=e.target.value;state.limit=24;renderLibrary()}else if(e.target.id==='theme'){state.theme=e.target.value;save();render()}else if(e.target.id==='rate'){state.rate=Number(e.target.value);save()}else if(e.target.id==='large'){state.large=e.target.checked;save();render()}else if(e.target.id==='reduce'){state.reduce=e.target.checked;save();render()}});
-app.addEventListener('click',e=>{const t=e.target.closest('button,a[data-link]');if(!t)return;if(t.dataset.link){e.preventDefault();go(t.dataset.link);return}if(t.dataset.open){openStory(t.dataset.open);return}if(t.dataset.fav){const id=t.dataset.fav;state.favorites=state.favorites.includes(id)?state.favorites.filter(x=>x!==id):[...state.favorites,id];save();let y=scrollY;render();scrollTo(0,y);return}if(t.dataset.filter){state.filter=t.dataset.filter;state.limit=24;renderLibrary();return}if(t.dataset.tag){state.tag=t.dataset.tag;state.limit=24;renderLibrary();return}if(t.dataset.pick){updateChoices(find(state.id),t.dataset.pick,Number(t.dataset.opt));return}if(t.dataset.marathonPick!==undefined){let m=state.marathon;if(m.choice===null){m.choice=Number(t.dataset.marathonPick);if(m.choice===find(m.ids[m.idx]).quiz[2])m.score++;let y=scrollY;renderMarathon();scrollTo(0,y)}return}switch(t.dataset.action){case'library':go('library');break;case'settings':go('settings');break;case'first':openStory(STORIES[0].id);break;case'random':randomStory();break;case'listen-random':randomStory(true);break;case'marathon':startMarathon();break;case'restart':startMarathon();break;case'marathon-next':state.marathon.idx++;state.marathon.choice=null;renderMarathon();window.scrollTo(0,0);break;case'favorites':state.favsOnly=!state.favsOnly;state.limit=24;renderLibrary();break;case'more':{let y=scrollY;state.limit+=24;renderLibrary();scrollTo(0,y);break}case'prev':stopSpeak();if(state.act>0){state.act--;state.feedback={};renderStory();scrollTo(0,0)}else go('library');break;case'next':stopSpeak();if(state.act<find(state.id).acts.length-1){state.act++;state.feedback={};renderStory();scrollTo(0,0)}else document.querySelector('[data-question]')?.scrollIntoView({behavior:state.reduce?'instant':'smooth',block:'start'});break;case'speak':narrate(false);break;case'speak-all':narrate(true);break;case'pause-speak':pauseOrResumeSpeak();break;case'stop-speak':stopSpeak();break;case'print':window.print();break;case'reset':if(window.confirm('Lernstand, gelöste Akten und Favoriten wirklich löschen?')){state.visited={};state.favorites=[];state.done={};save();render()}break;}});
+app.addEventListener('change',e=>{if(e.target.id==='origin'){state.origin=e.target.value;state.limit=24;renderLibrary()}else if(e.target.id==='sort'){state.sort=e.target.value;state.limit=24;renderLibrary()}else if(e.target.id==='theme'){state.theme=e.target.value;save();render()}else if(e.target.id==='rate'){state.rate=Number(e.target.value);save()}else if(e.target.id==='voice'||e.target.id==='voice-select'){state.voice=e.target.value;save();refreshVoiceSelect()}else if(e.target.id==='large'){state.large=e.target.checked;save();render()}else if(e.target.id==='reduce'){state.reduce=e.target.checked;save();render()}});
+app.addEventListener('click',e=>{const t=e.target.closest('button,a[data-link]');if(!t)return;if(t.dataset.link){e.preventDefault();go(t.dataset.link);return}if(t.dataset.open){openStory(t.dataset.open);return}if(t.dataset.fav){const id=t.dataset.fav;state.favorites=state.favorites.includes(id)?state.favorites.filter(x=>x!==id):[...state.favorites,id];save();let y=scrollY;render();scrollTo(0,y);return}if(t.dataset.filter){state.filter=t.dataset.filter;state.limit=24;renderLibrary();return}if(t.dataset.tag){state.tag=t.dataset.tag;state.limit=24;renderLibrary();return}if(t.dataset.pick){updateChoices(find(state.id),t.dataset.pick,Number(t.dataset.opt));return}if(t.dataset.marathonPick!==undefined){let m=state.marathon;if(m.choice===null){m.choice=Number(t.dataset.marathonPick);if(m.choice===find(m.ids[m.idx]).quiz[2])m.score++;let y=scrollY;renderMarathon();scrollTo(0,y)}return}switch(t.dataset.action){case'library':go('library');break;case'settings':go('settings');break;case'first':openStory(STORIES[0].id);break;case'random':randomStory();break;case'listen-random':randomStory(true);break;case'marathon':startMarathon();break;case'restart':startMarathon();break;case'marathon-next':state.marathon.idx++;state.marathon.choice=null;renderMarathon();window.scrollTo(0,0);break;case'favorites':state.favsOnly=!state.favsOnly;state.limit=24;renderLibrary();break;case'more':{let y=scrollY;state.limit+=24;renderLibrary();scrollTo(0,y);break}case'prev':stopSpeak();if(state.act>0){state.act--;state.feedback={};renderStory();scrollTo(0,0)}else go('library');break;case'next':stopSpeak();if(state.act<find(state.id).acts.length-1){state.act++;state.feedback={};renderStory();scrollTo(0,0)}else document.querySelector('[data-question]')?.scrollIntoView({behavior:state.reduce?'instant':'smooth',block:'start'});break;case'speak':narrate(false);break;case'speak-all':narrate(true);break;case'pause-speak':pauseOrResumeSpeak();break;case'stop-speak':stopSpeak();break;case'voice-test':testVoice();break;case'print':window.print();break;case'reset':if(window.confirm('Lernstand, gelöste Akten und Favoriten wirklich löschen?')){state.visited={};state.favorites=[];state.done={};save();render()}break;}});
 window.addEventListener('beforeunload',stopSpeak);
 render();
 </script></body></html>
