@@ -1,0 +1,3608 @@
+{
+  "timezone": "Europe/Berlin",
+  "anchor": "2026-10-24",
+  "step": 73,
+  "offset": 149,
+  "stories": [
+    {
+      "id": "millennium",
+      "number": 1,
+      "title": "Der Kalender mit der Zeitbombe",
+      "year": 1999,
+      "origin": "BSI",
+      "daily": [
+        "Zwei gesparte Ziffern machten plötzlich Überstunden: Der Kalender hatte eine Jahrhundertfrage.",
+        "Silvester 1999: Die Welt zählt die Sekunden bis zum Jahr 2000.",
+        "In alten Systemen konnte die Rechnung „00 minus 99“ zu unsinnigen Ergebnissen führen.",
+        "Der vermeintlich größte Computerfehler der Jahrtausendwende wurde auch deshalb nicht zur Katastrophe, weil zuvor weltweit enorme Anstrengungen in Prüfung und Korrektur geflossen waren."
+      ],
+      "lesson": "Bei Datenformaten müssen Annahmen über Zeiträume und Randfälle ausdrücklich geprüft werden.",
+      "source": [
+        "BSI-Zeitstrahl – Year 2000 Problem",
+        "https://www.bsi.bund.de/EN/Das-BSI/Zeitstrahl/zeitstrahl_bsi_ab_1991.html"
+      ]
+    },
+    {
+      "id": "loveletter",
+      "number": 2,
+      "title": "Die E-Mail mit dem Liebesbrief",
+      "year": 2000,
+      "origin": "BSI",
+      "daily": [
+        "Dieser Liebesbrief brauchte keine Briefmarke, sondern einen sehr misstrauischen Blick auf den Anhang.",
+        "Im Jahr 2000 verbreitet sich eine Nachricht mit dem Betreff „ILOVEYOU“.",
+        "Wird das Skript ausgeführt, kann der Wurm auf dem betroffenen Rechner aktiv werden.",
+        "Das BSI führt LoveLetter als großen Vorfall des Jahres 2000 auf."
+      ],
+      "lesson": "Neugier ist normal. Verdächtige Anhänge und Links benötigen trotzdem eine Prüfung.",
+      "source": [
+        "BSI-Zeitstrahl – Love Letter Worm",
+        "https://www.bsi.bund.de/EN/Das-BSI/Zeitstrahl/zeitstrahl_bsi_ab_1991.html"
+      ]
+    },
+    {
+      "id": "log4shell",
+      "number": 3,
+      "title": "Das Logbuch mit der Hintertür",
+      "year": 2021,
+      "origin": "BSI",
+      "daily": [
+        "Eigentlich sollte das digitale Tagebuch nur mitschreiben. Dann bekam es viel zu viel Handlungsspielraum.",
+        "Viele Java-Anwendungen verwenden Log4j, um Ereignisse zu protokollieren: zum Beispiel Anfragen oder Fehler.",
+        "Bestimmte verwundbare Versionen konnten speziell gestaltete Inhalte in Protokollnachrichten als Nachschlageanweisung verarbeiten.",
+        "Das BSI bewertete die Lage zunächst mit Warnstufe Rot."
+      ],
+      "lesson": "Auch Software-Bausteine und Abhängigkeiten müssen inventarisiert, überwacht und aktualisiert werden.",
+      "source": [
+        "BSI – Kritische Schwachstelle in Java-Bibliothek Log4j",
+        "https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Informationen-und-Empfehlungen/Empfehlungen-nach-Angriffszielen/Webanwendungen/log4j/log4j_node.html"
+      ]
+    },
+    {
+      "id": "wind",
+      "number": 4,
+      "title": "5.800 Windräder ohne Fernwartung",
+      "year": 2022,
+      "origin": "BSI",
+      "daily": [
+        "Ein Windrad braucht Wind. Seine Fernwartung braucht zusätzlich eine Verbindung, die nicht einfach davonweht.",
+        "Im Februar 2022 betrifft ein Cyberangriff das KA-SAT-Kommunikationsnetz.",
+        "Viasat beschrieb einen Einbruch in einen am Boden betriebenen Verwaltungsbereich des Netzes.",
+        "Viasat arbeitete mit Vertriebspartnern an der Wiederherstellung und stellte Ersatzmodems bereit."
+      ],
+      "lesson": "Kritische Systeme brauchen dokumentierte Abhängigkeiten und Notfallverfahren auch für externe Verbindungen.",
+      "source": [
+        "BSI-Zeitstrahl – Attack on companies’ satellite communication",
+        "https://www.bsi.bund.de/EN/Das-BSI/Zeitstrahl/zeitstrahl_bsi_ab_1991.html"
+      ]
+    },
+    {
+      "id": "ihk",
+      "number": 5,
+      "title": "79 Kammern ziehen den Stecker",
+      "year": 2022,
+      "origin": "BSI",
+      "daily": [
+        "Manchmal ist der mutigste IT-Knopf ausgerechnet der zum Abschalten.",
+        "Am 3.",
+        "Nach Untersuchungen und Beratung mit Sicherheitsfachleuten werden Systeme vorsorglich heruntergefahren.",
+        "Das BSI berichtet, dass einzelne Dienste noch Monate später beeinträchtigt waren."
+      ],
+      "lesson": "Notfallpläne müssen auch einen geordneten sicheren Betrieb ohne zentrale IT vorsehen.",
+      "source": [
+        "BSI-Lagebericht 2023, S. 57 – IHK nach Cyberangriff offline",
+        "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/Lageberichte/Lagebericht2023.pdf?__blob=publicationFile&v=7"
+      ]
+    },
+    {
+      "id": "usb",
+      "number": 6,
+      "title": "Der Tresor-Stick mit dem schwachen Schloss",
+      "year": 2022,
+      "origin": "BSI",
+      "daily": [
+        "Ein Schloss auf dem Gehäuse ist ungefähr so überzeugend wie ein Tresoraufkleber auf einer Brotdose.",
+        "Ein USB-Stick mit Tastenfeld und dem Versprechen „sicher verschlüsselt“ klingt praktisch: Selbst wenn jemand den Stick verliert, soll niemand an die Daten kommen.",
+        "Das BSI berichtet 2022 über Untersuchungen des Sicherheitsexperten Matthias Deeg.",
+        "Das Gerät, das gerade wegen seiner Verschlüsselung gekauft worden sein könnte, erzeugt ein falsches Sicherheitsgefühl."
+      ],
+      "lesson": "Sicherheitsversprechen durch unabhängige Prüfungen und Updates überprüfen.",
+      "source": [
+        "BSI – SICHER • INFORMIERT vom 07.07.2022",
+        "https://www.bsi.bund.de/SharedDocs/Newsletter/DE/BuergerCERT-Newsletter/14_Sicher-Informiert_07-07-2022.html"
+      ]
+    },
+    {
+      "id": "supply",
+      "number": 7,
+      "title": "Die Schadsoftware in der Schadsoftware",
+      "year": 2023,
+      "origin": "BSI",
+      "daily": [
+        "Bei dieser Softwarelieferung hätte selbst das Paket im Paket noch eine Sicherheitskontrolle gebraucht.",
+        "Stell dir eine Firma vor, die Telefonsoftware entwickelt.",
+        "Bei der Untersuchung zeigt sich laut BSI eine erstaunliche Vorgeschichte.",
+        "Ein Supply-Chain-Angriff entstand aus einem anderen Supply-Chain-Angriff."
+      ],
+      "lesson": "Auch Lieferanten, Build-Prozesse und signierte Pakete müssen überwacht werden.",
+      "source": [
+        "BSI-Lagebericht 2023, S. 27 – Supply-Chain-Angriff nach Supply-Chain-Angriff",
+        "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/Lageberichte/Lagebericht2023.pdf?__blob=publicationFile&v=7"
+      ]
+    },
+    {
+      "id": "moveit",
+      "number": 8,
+      "title": "Der Datentransporter mit der offenen Tür",
+      "year": 2023,
+      "origin": "BSI",
+      "daily": [
+        "Ein digitaler Paketdienst sollte Dateien bewegen. Nur bitte nicht heimlich in die falschen Hände.",
+        "Unternehmen nutzen Dateiübertragungssoftware, um sensible Daten sicher auszutauschen. 2023 wird ausgerechnet eine weitverbreitete Transferlösung namens MOVEit zum Ziel einer Angriffskampagne.",
+        "Laut BSI nutzen Angreifer die Lücke spätestens ab dem 27.",
+        "Am 1."
+      ],
+      "lesson": "Öffentlich erreichbare Dateitransfersysteme benötigen schnelle Updates, Überwachung und Datenminimierung.",
+      "source": [
+        "BSI-Lagebericht 2023, S. 38 – MOVEit",
+        "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/Lageberichte/Lagebericht2023.pdf?__blob=publicationFile&v=7"
+      ]
+    },
+    {
+      "id": "microsoft",
+      "number": 9,
+      "title": "Ein Schlüssel für die falschen Türen",
+      "year": 2023,
+      "origin": "BSI",
+      "daily": [
+        "Ein Schlüssel für eine Tür ist praktisch. Ein Schlüssel, den zu viele Türen akzeptieren, eher weniger.",
+        "Digitale Dienste verwenden signierte Zugangsmarken, sogenannte Tokens.",
+        "2023 wird bekannt, dass Angreifer einen Microsoft-Signaturschlüssel kompromittiert haben.",
+        "Microsoft berichtete von rund 25 betroffenen Organisationen weltweit."
+      ],
+      "lesson": "Zugangsmarken müssen streng auf Aussteller, Empfänger, Kontotyp und Gültigkeit geprüft werden.",
+      "source": [
+        "BSI-Lagebericht 2024, S. 54 – Microsoft-Cloud-Infrastruktur",
+        "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/Lageberichte/Lagebericht2024.pdf?__blob=publicationFile&v=3"
+      ]
+    },
+    {
+      "id": "municipal",
+      "number": 10,
+      "title": "Ein Angriff, 72 Kommunen im Ausnahmezustand",
+      "year": 2023,
+      "origin": "BSI",
+      "daily": [
+        "Zentrale IT spart Wege. Bei einer Störung stehen leider auch viele gleichzeitig vor derselben verschlossenen Tür.",
+        "Ende Oktober 2023 trifft ein Ransomware-Angriff einen kommunalen IT-Dienstleister.",
+        "Das BSI berichtet über rund 20.000 kommunale Arbeitsplätze bei 72 Kunden mit mindestens 1,7 Millionen Einwohnerinnen und Einwohnern.",
+        "Im später veröffentlichten Forensikbericht wird die Gruppe Akira als Angreifer benannt."
+      ],
+      "lesson": "Zentrale IT-Dienstleister brauchen segmentierte Netze, Wiederanlaufpläne und getestete Backups.",
+      "source": [
+        "BSI-Lagebericht 2024, S. 75 – kommunaler IT-Dienstleister",
+        "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/Lageberichte/Lagebericht2024.pdf?__blob=publicationFile&v=3"
+      ]
+    },
+    {
+      "id": "crowdstrike",
+      "number": 11,
+      "title": "Das Schutz-Update, das Computer stoppte",
+      "year": 2024,
+      "origin": "BSI",
+      "daily": [
+        "Ein Schutz-Update sollte die Computer bewachen. Stattdessen machten manche Computer erst einmal komplett Feierabend.",
+        "Am 19.",
+        "Die spätere Ursachenanalyse beschreibt einen ungültigen Speicherzugriff bei der Verarbeitung der neuen Inhalte.",
+        "CrowdStrike nimmt die fehlerhaften Inhalte noch am selben Tag zurück."
+      ],
+      "lesson": "Kritische Updates benötigen Qualitätsprüfung, gestaffelte Verteilung und belastbare Wiederherstellungswege.",
+      "source": [
+        "BSI-Lagebericht 2024, S. 71 – CrowdStrike",
+        "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/Lageberichte/Lagebericht2024.pdf?__blob=publicationFile&v=3"
+      ]
+    },
+    {
+      "id": "ivanti",
+      "number": 12,
+      "title": "Der „kleine Bug“, der keiner war",
+      "year": 2025,
+      "origin": "BSI",
+      "daily": [
+        "Ein verfügbarer Flicken stopft noch kein Loch, solange er im digitalen Nähkästchen liegen bleibt.",
+        "Bei einer Fernzugriffslösung des Herstellers Ivanti existiert im Februar 2025 bereits ein Software-Patch.",
+        "Am 3.",
+        "Ein Fehler kann bereits mit einem Patch bedacht worden sein und trotzdem unterschätzt werden."
+      ],
+      "lesson": "Bei Fernzugriffssystemen müssen veraltete Versionen schnell ersetzt und neue Bewertungen verfolgt werden.",
+      "source": [
+        "BSI-Cybersicherheitswarnung vom 09.04.2025",
+        "https://www.bsi.bund.de/SharedDocs/Cybersicherheitswarnungen/DE/2025/2025-238620-1032.html"
+      ]
+    },
+    {
+      "id": "fortinet",
+      "number": 13,
+      "title": "Eine Hintertür im Sprachordner",
+      "year": 2025,
+      "origin": "BSI",
+      "daily": [
+        "Eine Hintertür wird nicht harmlos, nur weil sie sich hinter dem Sprachunterricht versteckt.",
+        "Sicherheitsgeräte wie Firewalls sollen Netzwerke schützen.",
+        "Angreifer nutzten bereits bekannte Sicherheitslücken in Fortinet-Firewalls aus und richteten einen symbolischen Link ein.",
+        "Die Änderung konnte nach BSI-Darstellung Aktualisierungen des Systems überstehen."
+      ],
+      "lesson": "Nach einem bestätigten Einbruch sind forensische Prüfung und gegebenenfalls Neuaufbau nötig – nicht nur ein Patch.",
+      "source": [
+        "BSI-Cybersicherheitswarnung – Fortinet FortiOS",
+        "https://www.bsi.bund.de/SharedDocs/Cybersicherheitswarnungen/DE/2025/2025-238765-1032_csw.html"
+      ]
+    },
+    {
+      "id": "rsa",
+      "number": 14,
+      "title": "Der Schlüsselhersteller wird geknackt",
+      "year": 2011,
+      "origin": "CERT-EU",
+      "daily": [
+        "Wer digitale Schlüssel verkauft, braucht für die eigene Werkstatt besonders gute Schlösser.",
+        "RSA verkauft Sicherheitsverfahren für digitale Anmeldungen; viele Unternehmen vertrauen darauf.",
+        "Angreifer drangen in das Unternehmen ein und erbeuteten Informationen zum SecurID-System.",
+        "Ausgerechnet ein Sicherheitsanbieter musste seine Kunden vor möglichen Folgen eines Angriffs warnen."
+      ],
+      "lesson": "Auch Lieferanten für Sicherheitsprodukte sind Teil der eigenen Angriffsfläche.",
+      "source": [
+        "CERT-EU – Threat Landscape 2011–2021",
+        "https://cert.europa.eu/publications/tlr-10-years/"
+      ]
+    },
+    {
+      "id": "lockheed",
+      "number": 15,
+      "title": "Der gestohlene Sicherheitsschlüssel wird ausprobiert",
+      "year": 2011,
+      "origin": "CERT-EU",
+      "daily": [
+        "Ein gestohlener Schlüssel ist gefährlich. Gut, wenn hinter der ersten Tür noch weitere Kontrollen warten.",
+        "Nach dem Angriff auf RSA rückte der Rüstungskonzern Lockheed Martin ins Visier.",
+        "Angreifer versuchten mit kompromittierten SecurID-Informationen in das Netzwerk einzudringen.",
+        "Lockheed Martin meldete die Abwehr des Angriffs und erklärte, es seien keine Daten kompromittiert worden."
+      ],
+      "lesson": "Mehrstufige Abwehr kann helfen, auch wenn ein Anmeldebaustein betroffen ist.",
+      "source": [
+        "CERT-EU – Threat Landscape 2011–2021",
+        "https://cert.europa.eu/publications/tlr-10-years/"
+      ]
+    },
+    {
+      "id": "blackhole",
+      "number": 16,
+      "title": "Das Baukastensystem für digitale Fallen",
+      "year": 2011,
+      "origin": "CERT-EU",
+      "daily": [
+        "Ein Angriffsbaukasten ist die Sorte Fertigbausatz, die niemand im eigenen Browser zusammengebaut haben möchte.",
+        "Kriminelle wollen nicht jedes Mal neue Schadsoftware entwickeln.",
+        "Das Blackhole-Exploit-Kit automatisierte den Angriff über verwundbare Browser und Plug-ins.",
+        "Der Baukasten wurde über Jahre zu einer weit verbreiteten Bedrohung im Web."
+      ],
+      "lesson": "Veraltete Browserkomponenten vergrößern die Angriffsfläche.",
+      "source": [
+        "CERT-EU – Threat Landscape 2011–2021",
+        "https://cert.europa.eu/publications/tlr-10-years/"
+      ]
+    },
+    {
+      "id": "gmail-politics",
+      "number": 17,
+      "title": "Politische Postfächer werden ausgespäht",
+      "year": 2011,
+      "origin": "CERT-EU",
+      "daily": [
+        "Auch ein privates Postfach kann für Spione interessanter sein als ein Aktenkoffer mit Zahlenschloss.",
+        "Die E-Mail-Konten hochrangiger Personen sind für Spionage besonders interessant.",
+        "Google berichtete über die Kompromittierung von Gmail-Konten, die auch US-Regierungsangehörigen gehörten.",
+        "Der Fall zeigte: Für Spionage reicht manchmal ein persönliches Postfach."
+      ],
+      "lesson": "Mehrfaktor-Anmeldung und Phishing-Schutz gehören zusammen.",
+      "source": [
+        "CERT-EU – Threat Landscape 2011–2021",
+        "https://cert.europa.eu/publications/tlr-10-years/"
+      ]
+    },
+    {
+      "id": "belgacom",
+      "number": 18,
+      "title": "Spione in der Telefonzentrale",
+      "year": 2011,
+      "origin": "CERT-EU",
+      "daily": [
+        "Eine Telefonzentrale soll Gespräche verbinden. Ungebetene Zuhörer gehören ausdrücklich nicht zum Service.",
+        "Telekommunikationsunternehmen transportieren Gespräche und Daten vieler Menschen.",
+        "Der belgische Anbieter Belgacom wurde Ziel einer nach öffentlichen Berichten staatlichen Spionageoperation.",
+        "Über die kompromittierte Infrastruktur sollten Kommunikationswege ausgespäht werden."
+      ],
+      "lesson": "Telekommunikationsnetze benötigen besonders strenge Trennung und Überwachung.",
+      "source": [
+        "CERT-EU – Threat Landscape 2011–2021",
+        "https://cert.europa.eu/publications/tlr-10-years/"
+      ]
+    },
+    {
+      "id": "imf",
+      "number": 19,
+      "title": "Angriff auf den Internationalen Währungsfonds",
+      "year": 2011,
+      "origin": "CERT-EU",
+      "daily": [
+        "Bei besonders wichtigen Finanzdaten sollte Neugier spätestens an der digitalen Eingangstür enden.",
+        "Der Internationale Währungsfonds verarbeitet besonders sensible Informationen.",
+        "Die Organisation machte einen komplexen Angriff auf ihre Systeme öffentlich.",
+        "Wie weit die Angreifer vordrangen, blieb öffentlich unklar."
+      ],
+      "lesson": "Bei großen Vorfällen sollte man gesicherte Erkenntnisse von Vermutungen trennen.",
+      "source": [
+        "CERT-EU – Threat Landscape 2011–2021",
+        "https://cert.europa.eu/publications/tlr-10-years/"
+      ]
+    },
+    {
+      "id": "router-backdoor",
+      "number": 20,
+      "title": "Versteckte Zugänge in Netztechnik",
+      "year": 2011,
+      "origin": "CERT-EU",
+      "daily": [
+        "Der unauffällige Router in der Ecke kann mehr Türen haben, als seine Bedienungsanleitung vermuten lässt.",
+        "Netzwerkgeräte stehen unauffällig in Büros und zu Hause.",
+        "Vodafone entdeckte nach einem CERT-EU-Rückblick problematische Zugänge in Geräten eines Lieferanten.",
+        "Die gemeldeten Probleme wurden gegenüber dem Hersteller angesprochen und behoben."
+      ],
+      "lesson": "Auch unauffällige Router verdienen Sicherheitsprüfungen.",
+      "source": [
+        "CERT-EU – Threat Landscape 2011–2021",
+        "https://cert.europa.eu/publications/tlr-10-years/"
+      ]
+    },
+    {
+      "id": "china-chopper",
+      "number": 21,
+      "title": "Eine winzige Web-Hintertür",
+      "year": 2012,
+      "origin": "CERT-EU",
+      "daily": [
+        "Manche gefährlichen Dateien brauchen erstaunlich wenig Platz. Klein ist eben keine Sicherheitsfreigabe.",
+        "Ein Schadprogramm muss nicht riesig sein, um gefährlich zu werden.",
+        "Die als China Chopper bekannte Webshell ermöglichte fremde Befehle auf kompromittierten Servern.",
+        "Sie blieb über Jahre bei verschiedenen Angreifern beliebt."
+      ],
+      "lesson": "Kleine Dateien mit ungewöhnlichem Verhalten dürfen nicht übersehen werden.",
+      "source": [
+        "CERT-EU – Threat Landscape 2011–2021",
+        "https://cert.europa.eu/publications/tlr-10-years/"
+      ]
+    },
+    {
+      "id": "flame",
+      "number": 22,
+      "title": "Das Spionageprogramm mit vielen Talenten",
+      "year": 2012,
+      "origin": "CERT-EU",
+      "daily": [
+        "Dieses Spionageprogramm sammelte Fähigkeiten, als würde es ein sehr unerfreuliches Technikabzeichen anstreben.",
+        "In einer Region laufen Computer, die für gewöhnliche Nutzer völlig normal wirken.",
+        "Forschende entdeckten mit Flame ein sehr komplexes digitales Spionagewerkzeug.",
+        "Es konnte unterschiedliche Wege nutzen, um Informationen zu sammeln."
+      ],
+      "lesson": "Mehrschichtige Erkennung ist nötig, weil Spionageprogramme sich tarnen.",
+      "source": [
+        "CERT-EU – Threat Landscape 2011–2021",
+        "https://cert.europa.eu/publications/tlr-10-years/"
+      ]
+    },
+    {
+      "id": "shamoon",
+      "number": 23,
+      "title": "Die Datenlöschung bei Saudi Aramco",
+      "year": 2012,
+      "origin": "CERT-EU",
+      "daily": [
+        "Ein Computer kann aussehen wie immer und trotzdem dringend eine zuverlässige Sicherung brauchen.",
+        "Ein großer Energiekonzern benötigt Tausende Computer für seine Arbeit.",
+        "Die Schadsoftware Shamoon beschädigte große Mengen an Daten auf Arbeitsplatzrechnern.",
+        "Saudi Aramco musste aufwendige Wiederherstellungsarbeiten leisten."
+      ],
+      "lesson": "Backups und Netzsegmentierung sind auch bei Bürorechnern wichtig.",
+      "source": [
+        "CERT-EU – Threat Landscape 2011–2021",
+        "https://cert.europa.eu/publications/tlr-10-years/"
+      ]
+    },
+    {
+      "id": "red-october",
+      "number": 24,
+      "title": "Operation Roter Oktober",
+      "year": 2013,
+      "origin": "CERT-EU",
+      "daily": [
+        "Nicht jeder digitale Eindringling poltert. Manche ziehen lieber unsichtbar die Hausschuhe an.",
+        "Diplomatische Einrichtungen besitzen Dokumente, die für Spione wertvoll sind.",
+        "Eine langjährige Spionagekampagne mit dem Namen Red October wurde öffentlich untersucht.",
+        "Die Entdeckung machte deutlich, dass manche Angriffe jahrelang unbemerkt bleiben."
+      ],
+      "lesson": "Nicht nur akute Ausfälle, auch stille Datenabflüsse sind gefährlich.",
+      "source": [
+        "CERT-EU – Threat Landscape 2011–2021",
+        "https://cert.europa.eu/publications/tlr-10-years/"
+      ]
+    },
+    {
+      "id": "cryptolocker",
+      "number": 25,
+      "title": "Dateien hinter einer digitalen Geldforderung",
+      "year": 2013,
+      "origin": "CERT-EU",
+      "daily": [
+        "Wenn die eigenen Dateien plötzlich Eintritt verlangen, läuft das Geschäftsmodell eindeutig in die falsche Richtung.",
+        "Fotos, Dokumente und Tabellen liegen auf dem Computer und scheinen sicher.",
+        "CryptoLocker verschlüsselte Dateien und verlangte Lösegeld für ihre Freigabe.",
+        "Das Erpressungsmodell wurde zum Vorbild späterer Ransomware-Wellen."
+      ],
+      "lesson": "Getrennte getestete Sicherungen sind entscheidend.",
+      "source": [
+        "CERT-EU – Threat Landscape 2011–2021",
+        "https://cert.europa.eu/publications/tlr-10-years/"
+      ]
+    },
+    {
+      "id": "mabna",
+      "number": 26,
+      "title": "Universitäten als Spionageziele",
+      "year": 2013,
+      "origin": "CERT-EU",
+      "daily": [
+        "Forschung darf neugierig sein. Fremde Konten dafür zu knacken, gehört nicht zum wissenschaftlichen Austausch.",
+        "Universitäten besitzen wertvolle Forschung und oft viele offene Zugänge.",
+        "Nach Angaben von CERT-EU griff das iranische Mabna Institute Forschungseinrichtungen an.",
+        "Die USA erhoben Jahre später Anklage gegen neun Beteiligte."
+      ],
+      "lesson": "Offene Forschung und Schutz sensibler Zugänge müssen ausbalanciert werden.",
+      "source": [
+        "CERT-EU – Threat Landscape 2011–2021",
+        "https://cert.europa.eu/publications/tlr-10-years/"
+      ]
+    },
+    {
+      "id": "ke3chang",
+      "number": 27,
+      "title": "Eine Kampagne mit seltsamem Namen",
+      "year": 2013,
+      "origin": "CERT-EU",
+      "daily": [
+        "Ein rätselhafter Kampagnenname ist noch kein Schutzschild gegen sehr handfeste Spionage.",
+        "Der Name Ke3chang klingt eher wie ein Rätsel als wie eine Bedrohung.",
+        "Sicherheitsforscher entdeckten eine längerfristige Spionagekampagne gegen Ziele in Europa und anderswo.",
+        "Die Aktivitäten wurden in späteren Jahren erneut beobachtet."
+      ],
+      "lesson": "Ein einmal entdeckter Angreifer kann mit neuen Methoden zurückkehren.",
+      "source": [
+        "CERT-EU – Threat Landscape 2011–2021",
+        "https://cert.europa.eu/publications/tlr-10-years/"
+      ]
+    },
+    {
+      "id": "gamma-leak",
+      "number": 28,
+      "title": "Ein Spionageanbieter wird selbst ausspioniert",
+      "year": 2014,
+      "origin": "CERT-EU",
+      "daily": [
+        "Auch wer Spionagewerkzeuge anbietet, sollte die eigenen Fenster nicht offen stehen lassen.",
+        "Gamma Group verkaufte Überwachungstechnologie an Kunden.",
+        "Ein Angreifer mit dem Namen Phineas Fisher veröffentlichte Material aus dem Unternehmen.",
+        "Der Vorfall machte Interna über Überwachungssoftware öffentlich."
+      ],
+      "lesson": "Anbieter von Überwachungstechnik sind selbst angreifbar.",
+      "source": [
+        "CERT-EU – Threat Landscape 2011–2021",
+        "https://cert.europa.eu/publications/tlr-10-years/"
+      ]
+    },
+    {
+      "id": "evil-corp",
+      "number": 29,
+      "title": "Die Bande mit dem Filmbösewichtnamen",
+      "year": 2014,
+      "origin": "CERT-EU",
+      "daily": [
+        "Schon der Name klingt nicht nach einer Firma für freundlichen Kundendienst.",
+        "Manche Cybercrime-Gruppen wählen Namen wie aus einem Agentenfilm.",
+        "Evil Corp wurde mit großflächigen Kampagnen und Bankenschadsoftware in Verbindung gebracht.",
+        "Der Fall zeigt organisierte und professionell betriebene Cyberkriminalität."
+      ],
+      "lesson": "Schutz muss auch gegen arbeitsteilig organisierte Gegner funktionieren.",
+      "source": [
+        "CERT-EU – Threat Landscape 2011–2021",
+        "https://cert.europa.eu/publications/tlr-10-years/"
+      ]
+    },
+    {
+      "id": "dridex",
+      "number": 30,
+      "title": "Der Banktrojaner, der Konten ins Visier nahm",
+      "year": 2014,
+      "origin": "CERT-EU",
+      "daily": [
+        "Beim Onlinebanking sollte nur der Kontoinhaber mitlesen, selbst wenn Schadsoftware ausgesprochen interessiert ist.",
+        "Onlinebanking vereinfacht Überweisungen und schafft neue Angriffsmöglichkeiten.",
+        "Dridex stahl Zugangsinformationen und zielte auf digitale Bankgeschäfte.",
+        "Die Schadsoftware wurde international ein relevantes Problem."
+      ],
+      "lesson": "Banktransaktionen benötigen starke Authentisierung und Wachsamkeit.",
+      "source": [
+        "CERT-EU – Threat Landscape 2011–2021",
+        "https://cert.europa.eu/publications/tlr-10-years/"
+      ]
+    },
+    {
+      "id": "syrian-news",
+      "number": 31,
+      "title": "Angriffe auf Nachrichtenkonten",
+      "year": 2014,
+      "origin": "CERT-EU",
+      "daily": [
+        "Ein Nachrichtenkonto braucht mehr als gute Schlagzeilen: Es braucht jemanden, der den Zugang bewacht.",
+        "Nachrichtenredaktionen verbreiten Meldungen in Sekunden über soziale Netzwerke.",
+        "Die Syrian Electronic Army griff Accounts und Webseiten verschiedener Medien an.",
+        "Manipulierte Veröffentlichungen können Verunsicherung auslösen, noch bevor sie korrigiert werden."
+      ],
+      "lesson": "Redaktionskonten brauchen besonders starken Zugriffsschutz.",
+      "source": [
+        "CERT-EU – Threat Landscape 2011–2021",
+        "https://cert.europa.eu/publications/tlr-10-years/"
+      ]
+    },
+    {
+      "id": "korea-hydro",
+      "number": 32,
+      "title": "Ein Atomkonzern wird gehackt",
+      "year": 2014,
+      "origin": "CERT-EU",
+      "daily": [
+        "Bei Energieunternehmen gehören digitale Sicherheit und reale Verantwortung in denselben Werkzeugkasten.",
+        "Südkorea betreibt Kernkraftwerke mit besonders sensiblen Systemen.",
+        "Beim Betreiber Korea Hydro & Nuclear Power wurde ein Cyberangriff bekannt.",
+        "Der Fall löste politische und sicherheitstechnische Untersuchungen aus."
+      ],
+      "lesson": "Industrieanlagen und Büro-IT müssen als unterschiedliche Sicherheitszonen behandelt werden.",
+      "source": [
+        "CERT-EU – Threat Landscape 2011–2021",
+        "https://cert.europa.eu/publications/tlr-10-years/"
+      ]
+    },
+    {
+      "id": "sony-leaks",
+      "number": 33,
+      "title": "Hollywoods Geheimnisse im Netz",
+      "year": 2014,
+      "origin": "CERT-EU",
+      "daily": [
+        "Hollywood kennt überraschende Wendungen. Unfreiwillig veröffentlichte Firmendaten gehören allerdings nicht ins Drehbuch.",
+        "In einem Filmstudio liegen Drehbücher, Mails und unveröffentlichte Filme digital bereit.",
+        "Angreifer drangen bei Sony Pictures ein und veröffentlichten vertrauliches Material.",
+        "Der Angriff beschädigte Betriebsabläufe und brachte peinliche Interna ans Licht."
+      ],
+      "lesson": "Informationssicherheit betrifft auch Unterhaltung und Kreativwirtschaft.",
+      "source": [
+        "CERT-EU – Threat Landscape 2011–2021",
+        "https://cert.europa.eu/publications/tlr-10-years/"
+      ]
+    },
+    {
+      "id": "hacking-team",
+      "number": 34,
+      "title": "Die Hacker der Hackerfirma",
+      "year": 2015,
+      "origin": "CERT-EU",
+      "daily": [
+        "Wenn eine Hackerfirma selbst gehackt wird, schreibt die IT ihren sehr eigenen Spiegelbericht.",
+        "Eine Firma verkauft Werkzeuge, mit denen andere Computer überwacht werden können.",
+        "Hacking Team wurde selbst angegriffen; interne Dateien und Angriffswerkzeuge gelangten nach außen.",
+        "Das Leck machte auch bisher unbekannte Schwachstellen bekannt."
+      ],
+      "lesson": "Selbst professionelle Angriffsanbieter sind keine unverwundbaren Gegner.",
+      "source": [
+        "CERT-EU – Threat Landscape 2011–2021",
+        "https://cert.europa.eu/publications/tlr-10-years/"
+      ]
+    },
+    {
+      "id": "ukraine-grid",
+      "number": 35,
+      "title": "Licht aus durch Fernzugriff",
+      "year": 2015,
+      "origin": "CERT-EU",
+      "daily": [
+        "Ein Lichtschalter sollte auf Menschen hören, die ihn bedienen dürfen. Für das digitale Gegenstück gilt dasselbe.",
+        "Stromnetz-Betreiber nutzen digitale Steuerungen für verteilte Anlagen.",
+        "Bei einem Angriff in der Ukraine wurden mehrere regionale Energieversorger beeinträchtigt.",
+        "Teile der Stromversorgung fielen zeitweise aus."
+      ],
+      "lesson": "Für kritische Infrastruktur sind Notbetrieb und getrennte Steuerungsnetze zentral.",
+      "source": [
+        "CERT-EU – Threat Landscape 2011–2021",
+        "https://cert.europa.eu/publications/tlr-10-years/"
+      ]
+    },
+    {
+      "id": "bangladesh",
+      "number": 36,
+      "title": "Die Millionenüberweisung mit einer Spur von Tippfehlern",
+      "year": 2016,
+      "origin": "CERT-EU",
+      "daily": [
+        "Ein Tippfehler ist normalerweise lästig. In einer Zahlungsnachricht kann jedes einzelne Wort wichtig werden.",
+        "Die Zentralbank von Bangladesch überträgt Geld über internationale Finanzsysteme.",
+        "Angreifer nutzten kompromittierte Abläufe im SWIFT-Umfeld für gefälschte Zahlungsaufträge.",
+        "Rund 81 Millionen US-Dollar wurden tatsächlich erbeutet."
+      ],
+      "lesson": "Ungewöhnliche Zahlungen brauchen unabhängige Kontrollen.",
+      "source": [
+        "CERT-EU – Threat Landscape 2011–2021",
+        "https://cert.europa.eu/publications/tlr-10-years/"
+      ]
+    },
+    {
+      "id": "dncleak",
+      "number": 37,
+      "title": "Gestohlene Daten im Wahlkampf",
+      "year": 2016,
+      "origin": "CERT-EU",
+      "daily": [
+        "Im Wahlkampf sollten Argumente überzeugen. Gestohlene Daten sind keine faire Abkürzung.",
+        "Wahlkampfteams tauschen strategische Informationen digital aus.",
+        "Angreifer entwendeten Daten aus dem Umfeld der US-Demokraten; später wurden Teile veröffentlicht.",
+        "Die Veröffentlichung wurde selbst zum politischen Ereignis."
+      ],
+      "lesson": "Datenintegrität und nachvollziehbare Herkunft sind entscheidend.",
+      "source": [
+        "CERT-EU – Threat Landscape 2011–2021",
+        "https://cert.europa.eu/publications/tlr-10-years/"
+      ]
+    },
+    {
+      "id": "shadow-brokers",
+      "number": 38,
+      "title": "Geheime Angriffswerkzeuge tauchen öffentlich auf",
+      "year": 2016,
+      "origin": "CERT-EU",
+      "daily": [
+        "Ein Werkzeugkasten voller Angriffswerkzeuge ist das Gegenteil eines beruhigenden Fundbüros.",
+        "Spezielle Programme, die Sicherheitslücken ausnutzen, sind normalerweise streng geschützt.",
+        "Die Gruppe Shadow Brokers veröffentlichte ein Archiv angeblicher Werkzeuge der Equation Group.",
+        "Teile des Materials wurden später in weltweiten Angriffen wichtig."
+      ],
+      "lesson": "Auch die Werkzeuge der Angreifer müssen vor Diebstahl geschützt werden.",
+      "source": [
+        "CERT-EU – Threat Landscape 2011–2021",
+        "https://cert.europa.eu/publications/tlr-10-years/"
+      ]
+    },
+    {
+      "id": "mirai",
+      "number": 39,
+      "title": "Die Kamera, die beim Internetangriff mithalf",
+      "year": 2016,
+      "origin": "CERT-EU",
+      "daily": [
+        "Die kleine Webcam wollte eigentlich Bilder liefern. Für ein Botnetz war ihr das viel zu viel Nebenbeschäftigung.",
+        "Webcams und Heimrouter werden häufig nur einmal eingerichtet und dann vergessen.",
+        "Mirai infizierte schwach gesicherte Geräte und bündelte sie zu einem Botnetz.",
+        "Mit solchen Netzen lassen sich Internetdienste durch Anfragen überlasten."
+      ],
+      "lesson": "Standardpasswörter auf IoT-Geräten unbedingt ersetzen.",
+      "source": [
+        "CERT-EU – Threat Landscape 2011–2021",
+        "https://cert.europa.eu/publications/tlr-10-years/"
+      ]
+    },
+    {
+      "id": "vault7",
+      "number": 40,
+      "title": "Geheimdienstwerkzeuge auf einer Leckseite",
+      "year": 2017,
+      "origin": "CERT-EU",
+      "daily": [
+        "Geheime Werkzeuge verlieren im öffentlichen Schaufenster ziemlich schnell ihren Geheimhaltungsbonus.",
+        "Cyberwerkzeuge von Geheimdiensten sind nicht für die Öffentlichkeit bestimmt.",
+        "Unter dem Namen Vault 7 veröffentlichte WikiLeaks Dokumente über CIA-Fähigkeiten.",
+        "Damit wurden Informationen über Angriffstechniken öffentlich diskutiert."
+      ],
+      "lesson": "Geheime technische Bestände brauchen konsequente Zugriffskontrolle.",
+      "source": [
+        "CERT-EU – Threat Landscape 2011–2021",
+        "https://cert.europa.eu/publications/tlr-10-years/"
+      ]
+    },
+    {
+      "id": "french-election",
+      "number": 41,
+      "title": "Geleakte Dokumente kurz vor der Wahl",
+      "year": 2017,
+      "origin": "CERT-EU",
+      "daily": [
+        "Kurz vor einer Wahl ist Eile ohnehin verbreitet. Genau deshalb verdient jedes geleakte Dokument einen zweiten Blick.",
+        "Im französischen Präsidentschaftswahlkampf 2017 spielen Dokumente und E-Mails eine große Rolle.",
+        "Kurz vor der Abstimmung wurden Materialien aus dem Umfeld von Emmanuel Macron öffentlich verbreitet.",
+        "Der Zeitpunkt verstärkte die Debatte über Wahlbeeinflussung."
+      ],
+      "lesson": "Vor Wahlen sind Kontoschutz und Quellenprüfung besonders wichtig.",
+      "source": [
+        "CERT-EU – Threat Landscape 2011–2021",
+        "https://cert.europa.eu/publications/tlr-10-years/"
+      ]
+    },
+    {
+      "id": "lazarus-banks",
+      "number": 42,
+      "title": "Bankwebseiten werden zur Falle",
+      "year": 2017,
+      "origin": "CERT-EU",
+      "daily": [
+        "Eine häufig besuchte Webseite kann zur Falle werden, auch wenn sie keinen roten Warnteppich ausrollt.",
+        "Besucher erwarten, dass die Webseite ihrer Bank vertrauenswürdig ist.",
+        "Angreifer nutzten eine Watering-Hole-Kampagne über Finanzwebseiten.",
+        "So konnten ausgewählte Zielgruppen angegriffen werden."
+      ],
+      "lesson": "Auch legitime Webseiten können Angriffswege werden.",
+      "source": [
+        "CERT-EU – Threat Landscape 2011–2021",
+        "https://cert.europa.eu/publications/tlr-10-years/"
+      ]
+    },
+    {
+      "id": "kyiv-grid",
+      "number": 43,
+      "title": "Noch ein Stromausfall in Kiew",
+      "year": 2017,
+      "origin": "CERT-EU",
+      "daily": [
+        "Wenn das Licht ausgeht, braucht die Ursachenforschung mehr als eine besonders schnelle Schuldzuweisung.",
+        "Die Stromversorgung einer Großstadt hängt von verlässlichen Steuerungen ab.",
+        "CERT-EU beschreibt einen Angriffsvorwurf im Umfeld eines Ausfalls im Dezember 2016.",
+        "Der Fall zeigt, wie schwer technische Ursachen und zugeschriebene Verantwortlichkeit zu trennen sind."
+      ],
+      "lesson": "Bei unklarer Attribution muss man zwischen Behauptung und Beleg unterscheiden.",
+      "source": [
+        "CERT-EU – Threat Landscape 2011–2021",
+        "https://cert.europa.eu/publications/tlr-10-years/"
+      ]
+    },
+    {
+      "id": "wannacry",
+      "number": 44,
+      "title": "Der Wurm mit der Lösegeldforderung",
+      "year": 2017,
+      "origin": "BSI",
+      "daily": [
+        "Dieser Wurm brauchte keinen Fahrplan: Eine ungepatchte Schwachstelle genügte für die Weiterreise.",
+        "Im Mai 2017 laufen weltweit Computer mit verwundbaren Windows-Versionen.",
+        "WannaCry nutzte eine Schwachstelle, um sich teilweise selbstständig weiterzuverbreiten.",
+        "Krankenhäuser, Unternehmen und Behörden in vielen Ländern waren betroffen."
+      ],
+      "lesson": "Sicherheitsupdates und Segmentierung können Kettenreaktionen bremsen.",
+      "source": [
+        "BSI – offizieller Zeitstrahl",
+        "https://www.bsi.bund.de/EN/Das-BSI/Zeitstrahl/zeitstrahl_bsi_ab_1991.html"
+      ]
+    },
+    {
+      "id": "notpetya",
+      "number": 45,
+      "title": "Die Erpressersoftware, die keine Rettung vorsah",
+      "year": 2017,
+      "origin": "CERT-EU",
+      "daily": [
+        "Eine Lösegeldforderung klingt schon schlecht. Noch schlechter ist Schadsoftware ohne brauchbaren Rückweg.",
+        "Ein zunächst regionaler Angriff in der Ukraine trifft digital vernetzte Unternehmen.",
+        "NotPetya verbreitete sich über Systeme und richtete massive Schäden an.",
+        "Ausfälle reichten bis zu internationalen Unternehmen und Logistik."
+      ],
+      "lesson": "Manche vermeintliche Erpressersoftware dient tatsächlich der Zerstörung.",
+      "source": [
+        "CERT-EU – Threat Landscape 2011–2021",
+        "https://cert.europa.eu/publications/tlr-10-years/"
+      ]
+    },
+    {
+      "id": "shadowpad",
+      "number": 46,
+      "title": "Die Schadsoftware im legitimen Programm",
+      "year": 2017,
+      "origin": "CERT-EU",
+      "daily": [
+        "Ein bekanntes Programmpaket kann einen sehr unbekannten Mitreisenden enthalten.",
+        "Firmen laden Software eines bekannten Anbieters herunter und vertrauen der Updatekette.",
+        "Manipulierte Pakete von NetSarang verbreiteten die ShadowPad-Hintertür.",
+        "Ein Lieferkettenangriff nutzt das Vertrauen in reguläre Software aus."
+      ],
+      "lesson": "Updates müssen signiert und die Lieferkette überwacht werden.",
+      "source": [
+        "CERT-EU – Threat Landscape 2011–2021",
+        "https://cert.europa.eu/publications/tlr-10-years/"
+      ]
+    },
+    {
+      "id": "krack",
+      "number": 47,
+      "title": "Der Knackser im WLAN-Protokoll",
+      "year": 2017,
+      "origin": "CERT-EU",
+      "daily": [
+        "Auch ein WLAN-Handschlag sollte nicht einfach noch einmal auf dieselbe unsichere Art stattfinden.",
+        "WLAN-Nutzer verlassen sich auf die Verschlüsselung des WPA2-Standards.",
+        "Forscher beschrieben den KRACK-Angriff gegen Teile des Schlüsselaushandlungsverfahrens.",
+        "Auch etablierte Protokolle können überraschende Schwächen besitzen."
+      ],
+      "lesson": "Updates für WLAN-Clients und Router sind wichtig.",
+      "source": [
+        "CERT-EU – Threat Landscape 2011–2021",
+        "https://cert.europa.eu/publications/tlr-10-years/"
+      ]
+    },
+    {
+      "id": "triton",
+      "number": 48,
+      "title": "Ein Angriff auf die Notbremse einer Fabrik",
+      "year": 2017,
+      "origin": "CERT-EU",
+      "daily": [
+        "Die digitale Notbremse einer Fabrik ist kein Ort für unerwünschte Experimente.",
+        "Industrielle Schutzsysteme sollen Anlagen auch bei Störungen in einen sicheren Zustand bringen.",
+        "Die Triton-Schadsoftware zielte auf solche Sicherheitssteuerungen in einer Industrieanlage.",
+        "Der Fall gilt als besonders beunruhigend, weil Schutzfunktionen selbst betroffen waren."
+      ],
+      "lesson": "Sicherheitssteuerungen verdienen unabhängige Schutzschichten.",
+      "source": [
+        "CERT-EU – Threat Landscape 2011–2021",
+        "https://cert.europa.eu/publications/tlr-10-years/"
+      ]
+    },
+    {
+      "id": "shadowhammer",
+      "number": 49,
+      "title": "Das Asus-Update als falscher Freund",
+      "year": 2018,
+      "origin": "CERT-EU",
+      "daily": [
+        "Ein Update soll etwas verbessern. Für eingeschmuggelte Hintertüren ist im Wartungsplan kein Platz vorgesehen.",
+        "Viele Rechner laden automatisch Updates für Gerätehersteller-Software.",
+        "Beim Angriff ShadowHammer wurde der Updateweg von Asus missbraucht.",
+        "Die vertrauenswürdig wirkende Software konnte eine Hintertür transportieren."
+      ],
+      "lesson": "Signaturen allein ersetzen keine Prüfung von Updateinfrastruktur.",
+      "source": [
+        "CERT-EU – Threat Landscape 2011–2021",
+        "https://cert.europa.eu/publications/tlr-10-years/"
+      ]
+    },
+    {
+      "id": "spectre",
+      "number": 50,
+      "title": "Prozessoren verraten ihre Geheimnisse",
+      "year": 2018,
+      "origin": "CERT-EU",
+      "daily": [
+        "Wenn ein Prozessor zu eifrig vorausdenkt, dürfen seine Nebenwirkungen trotzdem keine Geheimnisse ausplaudern.",
+        "Moderne Prozessoren versuchen Arbeitsschritte vorauszuahnen, um schneller zu sein.",
+        "Spectre nutzte Seiteneffekte dieser spekulativen Ausführung aus.",
+        "Es entstand ein neues Feld komplexer Hardware- und Softwareabwehr."
+      ],
+      "lesson": "Geschwindigkeit kann unerwartete Sicherheitskompromisse erzeugen.",
+      "source": [
+        "CERT-EU – Threat Landscape 2011–2021",
+        "https://cert.europa.eu/publications/tlr-10-years/"
+      ]
+    },
+    {
+      "id": "meltdown",
+      "number": 51,
+      "title": "Geheime Daten hinter der Prozessorgrenze",
+      "year": 2018,
+      "origin": "CERT-EU",
+      "daily": [
+        "Ein schneller Prozessor braucht Grenzen, die auch bei seinem inneren Arbeitstempo standhalten.",
+        "Betriebssysteme schützen Speicherbereiche voneinander.",
+        "Meltdown zeigte, wie bestimmte Prozessoroptimierungen Grenzen unterlaufen konnten.",
+        "Software- und Mikrocode-Updates mussten Schutz herstellen."
+      ],
+      "lesson": "Hardwaredesign ist Teil der Informationssicherheit.",
+      "source": [
+        "CERT-EU – Threat Landscape 2011–2021",
+        "https://cert.europa.eu/publications/tlr-10-years/"
+      ]
+    },
+    {
+      "id": "olympic",
+      "number": 52,
+      "title": "Ein Angriff auf die Winterspiele",
+      "year": 2018,
+      "origin": "CERT-EU",
+      "daily": [
+        "Bei Winterspielen sollen sportliche Überraschungen für Aufregung sorgen, nicht ausfallende Computerdienste.",
+        "Bei den Olympischen Winterspielen hängen Tickets, Webseiten und Übertragungen an IT.",
+        "Die Schadsoftware Olympic Destroyer störte digitale Dienste rund um die Spiele.",
+        "Der Betrieb wurde beeinträchtigt, während die Wettkämpfe weiterliefen."
+      ],
+      "lesson": "Großereignisse brauchen erprobte Ausweichlösungen.",
+      "source": [
+        "CERT-EU – Threat Landscape 2011–2021",
+        "https://cert.europa.eu/publications/tlr-10-years/"
+      ]
+    },
+    {
+      "id": "vpnfilter",
+      "number": 53,
+      "title": "Der Router als verstecktes Werkzeug",
+      "year": 2018,
+      "origin": "CERT-EU",
+      "daily": [
+        "Ein Router ist ein Verkehrsknoten. Fremde sollen dort weder heimlich mitlesen noch die Ampeln bedienen.",
+        "Heim- und Bürorouter stehen dauerhaft eingeschaltet im Netz.",
+        "VPNFilter infizierte zahlreiche Geräte und eröffnete verschiedene Angriffsmöglichkeiten.",
+        "Selbst Alltagsgeräte können bei größeren Operationen mitwirken."
+      ],
+      "lesson": "Router brauchen regelmäßige Firmwarepflege.",
+      "source": [
+        "CERT-EU – Threat Landscape 2011–2021",
+        "https://cert.europa.eu/publications/tlr-10-years/"
+      ]
+    },
+    {
+      "id": "sandworm-de",
+      "number": 54,
+      "title": "Angriffe auf Medien und Forschung",
+      "year": 2018,
+      "origin": "CERT-EU",
+      "daily": [
+        "Medien und Forschung brauchen offene Fragen, aber keine offenen Hintereingänge.",
+        "Medienbetriebe und Forschungseinrichtungen sind digital stark vernetzt.",
+        "CERT-EU beschreibt Angriffe, die der Gruppe Sandworm zugeschrieben wurden.",
+        "Die Ziele zeigen, dass Angreifer sehr unterschiedliche Branchen auswählen."
+      ],
+      "lesson": "Angriffsflächen sollten organisationsweit sichtbar sein.",
+      "source": [
+        "CERT-EU – Threat Landscape 2011–2021",
+        "https://cert.europa.eu/publications/tlr-10-years/"
+      ]
+    },
+    {
+      "id": "cosmos-bank",
+      "number": 55,
+      "title": "Bankautomaten als Geldquelle",
+      "year": 2018,
+      "origin": "CERT-EU",
+      "daily": [
+        "Ein Geldautomat soll auf korrekte Aufträge reagieren und keine fremde Wunschliste abarbeiten.",
+        "Geldautomaten und Banken sind über zentrale Systeme verbunden.",
+        "Bei der indischen Cosmos Bank griffen Täter laut CERT-EU Zahlungs- und Automateninfrastruktur an.",
+        "Über 13 Millionen US-Dollar gingen in kurzer Zeit verloren."
+      ],
+      "lesson": "Zentrale Autorisierung und ungewöhnliche Muster müssen überwacht werden.",
+      "source": [
+        "CERT-EU – Threat Landscape 2011–2021",
+        "https://cert.europa.eu/publications/tlr-10-years/"
+      ]
+    },
+    {
+      "id": "apt28-election",
+      "number": 56,
+      "title": "Gefälschte Domains im Wahlkampf",
+      "year": 2018,
+      "origin": "CERT-EU",
+      "daily": [
+        "Eine täuschend echte Internetadresse ist noch lange keine echte Einladung zum Anmelden.",
+        "Vor Wahlen bekommen Politiker und Mitarbeitende besonders viele Nachrichten.",
+        "Microsoft meldete die Übernahme von Domains, die für Spear-Phishing genutzt werden konnten.",
+        "Schon gefälschte Webadressen werden zum wichtigen Teil der Abwehr."
+      ],
+      "lesson": "Domain-Überwachung kann Angriffswege früh sichtbar machen.",
+      "source": [
+        "CERT-EU – Threat Landscape 2011–2021",
+        "https://cert.europa.eu/publications/tlr-10-years/"
+      ]
+    },
+    {
+      "id": "dataresolution",
+      "number": 57,
+      "title": "Weihnachtsbescherung mit Ransomware",
+      "year": 2018,
+      "origin": "CERT-EU",
+      "daily": [
+        "Digitale Weihnachtsüberraschungen dürfen gern freundlich sein. Ransomware hat die Wunschliste offenbar falsch verstanden.",
+        "Ein IT-Dienstleister versorgt viele andere Firmen mit Infrastruktur.",
+        "Kurz vor Weihnachten 2018 traf Ryuk den Anbieter Data Resolution.",
+        "Der Dienstleister schaltete Systeme ab, um die Ausbreitung zu begrenzen."
+      ],
+      "lesson": "Eine gemeinsame Plattform kann Risiken für viele Kunden bündeln.",
+      "source": [
+        "CERT-EU – Threat Landscape 2011–2021",
+        "https://cert.europa.eu/publications/tlr-10-years/"
+      ]
+    },
+    {
+      "id": "facebook-contacts",
+      "number": 58,
+      "title": "Das Adressbuch, das niemand freigab",
+      "year": 2019,
+      "origin": "CERT-EU",
+      "daily": [
+        "Ein Adressbuch enthält auch Menschen, die gar nicht gefragt wurden, ob sie mit ins digitale Album möchten.",
+        "Adressbücher enthalten auch Informationen über Menschen, die selbst nichts hochgeladen haben.",
+        "Facebook räumte ein, Kontaktinformationen ohne angemessene Zustimmung importiert zu haben.",
+        "Aus einem Komfortmerkmal wurde eine Datenschutzkontroverse."
+      ],
+      "lesson": "Daten dürfen nur zweckgebunden und mit passender Rechtsgrundlage verarbeitet werden.",
+      "source": [
+        "CERT-EU – Threat Landscape 2011–2021",
+        "https://cert.europa.eu/publications/tlr-10-years/"
+      ]
+    },
+    {
+      "id": "facebook-passwords",
+      "number": 59,
+      "title": "Passwörter im Klartext statt geheim",
+      "year": 2019,
+      "origin": "CERT-EU",
+      "daily": [
+        "Ein Passwort ist kein Wandkalender: Es sollte nicht für Mitarbeitende bequem lesbar herumhängen.",
+        "Passwörter sollen selbst für Mitarbeitende eines Plattformbetreibers nicht lesbar sein.",
+        "Facebook bestätigte, Passwörter in bestimmten Systemen ungeschützt gespeichert zu haben.",
+        "Der Fall zeigte ein unerwartetes Problem bei einem sehr großen Dienst."
+      ],
+      "lesson": "Passwörter gehören sicher gehasht, niemals im Klartext gelagert.",
+      "source": [
+        "CERT-EU – Threat Landscape 2011–2021",
+        "https://cert.europa.eu/publications/tlr-10-years/"
+      ]
+    },
+    {
+      "id": "turla-exchange",
+      "number": 60,
+      "title": "Spione lesen Serverpost",
+      "year": 2019,
+      "origin": "CERT-EU",
+      "daily": [
+        "Ein Postserver braucht einen Briefträger, aber keinen heimlichen Dauergast im Sortierraum.",
+        "Ein Mailserver speichert vertrauliche Nachrichten vieler Beschäftigter.",
+        "Die Gruppe Turla zielte laut CERT-EU auf Exchange-Server in zahlreichen Staaten.",
+        "Eine zentrale E-Mail-Infrastruktur wurde zum wertvollen Spionageziel."
+      ],
+      "lesson": "Mailserver brauchen Härtung, Patches und Protokollauswertung.",
+      "source": [
+        "CERT-EU – Threat Landscape 2011–2021",
+        "https://cert.europa.eu/publications/tlr-10-years/"
+      ]
+    },
+    {
+      "id": "asco",
+      "number": 61,
+      "title": "Flugzeugteile statt Computer produzieren",
+      "year": 2019,
+      "origin": "CERT-EU",
+      "daily": [
+        "Flugzeugteile entstehen nicht allein aus Metall. Manchmal hängt die Werkhalle auch an funktionierender IT.",
+        "Ein Zulieferer der Luftfahrt arbeitet mit digitalen Fertigungsabläufen.",
+        "Ransomware störte den belgischen Hersteller ASCO Industries.",
+        "Produktionsabläufe wurden in mehreren Ländern beeinträchtigt."
+      ],
+      "lesson": "Störungen in der IT können die reale Lieferkette stoppen.",
+      "source": [
+        "CERT-EU – Threat Landscape 2011–2021",
+        "https://cert.europa.eu/publications/tlr-10-years/"
+      ]
+    },
+    {
+      "id": "double-extortion",
+      "number": 62,
+      "title": "Zweimal kassieren wollen",
+      "year": 2019,
+      "origin": "CERT-EU",
+      "daily": [
+        "Kriminelle entdeckten das unerfreuliche Doppelangebot: erst sperren und dann zusätzlich mit Veröffentlichung drohen.",
+        "Früher verlangten Erpresser oft Geld für einen Entschlüsselungsschlüssel.",
+        "Kriminelle begannen zusätzlich, erbeutete Daten mit Veröffentlichung zu bedrohen.",
+        "Damit wurde aus einem Ausfall zugleich eine mögliche Datenschutzkrise."
+      ],
+      "lesson": "Backups allein verhindern keine Datenerpressung; Abflusskontrollen sind ebenfalls wichtig.",
+      "source": [
+        "CERT-EU – Threat Landscape 2011–2021",
+        "https://cert.europa.eu/publications/tlr-10-years/"
+      ]
+    },
+    {
+      "id": "turla-iran",
+      "number": 63,
+      "title": "Wenn Spione andere Spione hacken",
+      "year": 2019,
+      "origin": "CERT-EU",
+      "daily": [
+        "Wenn Spione die Werkzeuge anderer Spione mitbenutzen, wird digitale Spurensuche zur mehrfach verschachtelten Matroschka.",
+        "Spionagegruppen verfolgen ihre Ziele oft jahrelang.",
+        "Britische und US-Behörden beschrieben, wie Turla Infrastruktur einer anderen Gruppe mitbenutzte.",
+        "Dadurch konnten Aktivitäten einer falschen Gruppe zugeschrieben werden."
+      ],
+      "lesson": "Digitale Spuren können bewusst täuschen und erfordern sorgfältige Attribution.",
+      "source": [
+        "CERT-EU – Threat Landscape 2011–2021",
+        "https://cert.europa.eu/publications/tlr-10-years/"
+      ]
+    },
+    {
+      "id": "great-cannon",
+      "number": 64,
+      "title": "Die digitale Kanone",
+      "year": 2019,
+      "origin": "CERT-EU",
+      "daily": [
+        "Eine digitale Kanone verschießt keine Papierkugeln. Ihre Wirkung zeigt sich im überlasteten Netz.",
+        "Netzwerkverkehr kann von staatlichen Infrastrukturen beeinflusst werden.",
+        "CERT-EU beschreibt den Einsatz des als Great Cannon bezeichneten Angriffswerkzeugs.",
+        "Damit konnten Ziele mit enormen Anfragevolumina unter Druck gesetzt werden."
+      ],
+      "lesson": "Netzwerkangriffe brauchen Widerstandsfähigkeit auf mehreren Ebenen.",
+      "source": [
+        "CERT-EU – Threat Landscape 2011–2021",
+        "https://cert.europa.eu/publications/tlr-10-years/"
+      ]
+    },
+    {
+      "id": "apt41-global",
+      "number": 65,
+      "title": "Eine Kampagne gegen viele Branchen",
+      "year": 2020,
+      "origin": "CERT-EU",
+      "daily": [
+        "Eine Angriffskampagne mit vielen Branchenzielen macht leider keinen Unterschied zwischen verschiedenen Firmenbriefköpfen.",
+        "Gesundheit, Banken und Forschung benötigen ganz unterschiedliche IT.",
+        "Die Gruppe APT41 zielte nach CERT-EU auf Organisationen weltweit in vielen Branchen.",
+        "Die Kampagne machte sektorübergreifende Spionage sichtbar."
+      ],
+      "lesson": "Auch unverbundene Branchen können dieselben Angriffsmethoden treffen.",
+      "source": [
+        "CERT-EU – Threat Landscape 2011–2021",
+        "https://cert.europa.eu/publications/tlr-10-years/"
+      ]
+    },
+    {
+      "id": "bundestag-warrant",
+      "number": 66,
+      "title": "Die Spur zur Bundestagsattacke",
+      "year": 2020,
+      "origin": "CERT-EU",
+      "daily": [
+        "Eine digitale Spurensuche endet nicht am Bildschirmrand. Manchmal führt sie bis zum Haftbefehl.",
+        "2015 war die IT des Deutschen Bundestags Ziel eines schwerwiegenden Angriffs.",
+        "2020 wurde im Zusammenhang mit dem damaligen Vorfall ein Haftbefehl öffentlich.",
+        "Die Aufarbeitung eines Cyberangriffs kann Jahre dauern."
+      ],
+      "lesson": "Forensische Beweissicherung muss schon beim Vorfall beginnen.",
+      "source": [
+        "CERT-EU – Threat Landscape 2011–2021",
+        "https://cert.europa.eu/publications/tlr-10-years/"
+      ]
+    },
+    {
+      "id": "softwareag",
+      "number": 67,
+      "title": "Erpressung bei einem Softwarekonzern",
+      "year": 2020,
+      "origin": "CERT-EU",
+      "daily": [
+        "Ein Softwarekonzern lebt von funktionierenden Programmen. Genau dort setzt eine digitale Erpressung besonders unangenehm an.",
+        "Softwarehersteller sind attraktive Ziele, weil sie selbst digitale Dienstleistungen erbringen.",
+        "2020 wurde Software AG von einem Ransomware-Angriff getroffen.",
+        "Der Vorfall löste umfangreiche Reaktions- und Wiederherstellungsarbeiten aus."
+      ],
+      "lesson": "IT-Anbieter müssen auch die eigene Umgebung robust absichern.",
+      "source": [
+        "CERT-EU – Threat Landscape 2011–2021",
+        "https://cert.europa.eu/publications/tlr-10-years/"
+      ]
+    },
+    {
+      "id": "sopra-steria",
+      "number": 68,
+      "title": "Die Ransomware beim IT-Dienstleister",
+      "year": 2020,
+      "origin": "CERT-EU",
+      "daily": [
+        "Wer anderen bei der IT hilft, braucht selbst einen besonders sorgfältig gepackten Notfallkoffer.",
+        "Ein Dienstleister betreut Prozesse zahlreicher großer Organisationen.",
+        "Sopra Steria wurde 2020 Opfer eines Ransomware-Vorfalls.",
+        "Der Fall verdeutlichte die wirtschaftlichen Folgen eines Dienstleisterausfalls."
+      ],
+      "lesson": "Notfallverfahren bei Dienstleistern sind auch für Kunden wichtig.",
+      "source": [
+        "CERT-EU – Threat Landscape 2011–2021",
+        "https://cert.europa.eu/publications/tlr-10-years/"
+      ]
+    },
+    {
+      "id": "ema-vaccine",
+      "number": 69,
+      "title": "Impfstoffdokumente werden gestohlen",
+      "year": 2020,
+      "origin": "CERT-EU",
+      "daily": [
+        "Bei Impfstoffunterlagen gehören Sorgfalt und Vertraulichkeit zusammen, nicht fremde Finger im Dokumentenordner.",
+        "Mitten in der Pandemie prüft die Europäische Arzneimittel-Agentur medizinische Unterlagen.",
+        "Angreifer verschafften sich unbefugt Zugriff auf Dokumente im Impfstoffumfeld.",
+        "Ein Teil der Unterlagen tauchte später im Netz auf."
+      ],
+      "lesson": "Auch Forschungs- und Zulassungsdaten brauchen starken Zugriffsschutz.",
+      "source": [
+        "CERT-EU – Threat Landscape 2011–2021",
+        "https://cert.europa.eu/publications/tlr-10-years/"
+      ]
+    },
+    {
+      "id": "solarwinds",
+      "number": 70,
+      "title": "Das Update als trojanisches Pferd",
+      "year": 2020,
+      "origin": "CERT-EU",
+      "daily": [
+        "Ein vertrautes Update kann zum trojanischen Pferd werden. Der digitale Paketbote braucht deshalb ebenfalls Kontrollen.",
+        "Viele Organisationen installieren Netzwerksoftware eines bekannten Herstellers.",
+        "Angreifer manipulierten den Updateweg der SolarWinds-Orion-Software.",
+        "Über scheinbar reguläre Updates entstand eine internationale Spionagekampagne."
+      ],
+      "lesson": "Vertrauen in Lieferanten muss technisch überwacht werden.",
+      "source": [
+        "CERT-EU – Threat Landscape 2011–2021",
+        "https://cert.europa.eu/publications/tlr-10-years/"
+      ]
+    },
+    {
+      "id": "proxylogon",
+      "number": 71,
+      "title": "Postserver mit offenem Hintereingang",
+      "year": 2021,
+      "origin": "BSI",
+      "daily": [
+        "Ein Postserver soll Nachrichten hereinlassen. Fremde Befehle gehören nicht in den Briefkasten.",
+        "Microsoft Exchange verwaltet die E-Mails zahlreicher Organisationen.",
+        "Mehrere Schwachstellen wurden für Angriffe auf exponierte Server kombiniert.",
+        "Weltweit mussten Betreiber schnell reagieren und Systeme prüfen."
+      ],
+      "lesson": "Schnelle Patches und Prüfung bereits erfolgter Zugriffe gehören zusammen.",
+      "source": [
+        "BSI – offizieller Zeitstrahl",
+        "https://www.bsi.bund.de/EN/Das-BSI/Zeitstrahl/zeitstrahl_bsi_ab_1991.html"
+      ]
+    },
+    {
+      "id": "pulse",
+      "number": 72,
+      "title": "Das VPN als Eingangstor",
+      "year": 2021,
+      "origin": "CERT-EU",
+      "daily": [
+        "Ein Fernzugang ist eine bequeme Tür. Genau deshalb darf das Schloss nicht auf der Warteliste bleiben.",
+        "VPN-Gateways stehen am Übergang zwischen Internet und Unternehmensnetz.",
+        "Angreifer nutzten Schwachstellen in Pulse-Secure-Geräten aus.",
+        "Behörden und Unternehmen mussten bestehende Fernzugänge untersuchen."
+      ],
+      "lesson": "Zugangssysteme selbst brauchen besonders schnelle Updates.",
+      "source": [
+        "CERT-EU – Threat Landscape 2011–2021",
+        "https://cert.europa.eu/publications/tlr-10-years/"
+      ]
+    },
+    {
+      "id": "apt29-reseller",
+      "number": 73,
+      "title": "Über Dienstleister zu deren Kunden",
+      "year": 2021,
+      "origin": "CERT-EU",
+      "daily": [
+        "Wer einen Dienstleister kontrolliert, kann womöglich mehr als dessen eigene Eingangstür erreichen.",
+        "Manche Cloudfirmen verwalten Zugänge für zahlreiche andere Unternehmen.",
+        "APT29 richtete Angriffe gegen Wiederverkäufer und Dienstleister mit diesen Berechtigungen.",
+        "Ein erfolgreicher Zugang konnte weitere Ziele öffnen."
+      ],
+      "lesson": "Administrationsrechte von Dienstleistern möglichst eng begrenzen.",
+      "source": [
+        "CERT-EU – Threat Landscape 2011–2021",
+        "https://cert.europa.eu/publications/tlr-10-years/"
+      ]
+    },
+    {
+      "id": "colonial",
+      "number": 74,
+      "title": "Die Pipeline, die nach einem IT-Angriff stoppte",
+      "year": 2021,
+      "origin": "CERT-EU",
+      "daily": [
+        "Eine Pipeline besteht aus Rohren und Pumpen. Ihr Betriebskonzept braucht trotzdem auch einen IT-Notfallplan.",
+        "Eine große Pipeline in den USA transportiert Treibstoff.",
+        "Nach einem Ransomware-Vorfall stoppte Colonial Pipeline vorübergehend den Betrieb.",
+        "Die digitale Krise führte zu Versorgungsängsten und Engpässen."
+      ],
+      "lesson": "IT-Notfälle können wirtschaftliche Abläufe weit außerhalb des Computers treffen.",
+      "source": [
+        "CERT-EU – Threat Landscape 2011–2021",
+        "https://cert.europa.eu/publications/tlr-10-years/"
+      ]
+    },
+    {
+      "id": "kaseya",
+      "number": 75,
+      "title": "Ein Angriff, über tausend Kunden betroffen",
+      "year": 2021,
+      "origin": "CERT-EU",
+      "daily": [
+        "Ein Verwaltungswerkzeug kann viele Rechner erreichen. In falschen Händen wird aus diesem Vorteil ein sehr großer Hebel.",
+        "IT-Firmen setzen Verwaltungswerkzeuge ein, um zahlreiche Kundensysteme zu betreuen.",
+        "Angreifer missbrauchten Kaseya-VSA-Software im Rahmen einer REvil-Kampagne.",
+        "Mehr als tausend nachgelagerte Kunden wurden nach Schätzungen getroffen."
+      ],
+      "lesson": "Zentrale Fernwartung ist ein besonders sensibler Vertrauenspunkt.",
+      "source": [
+        "CERT-EU – Threat Landscape 2011–2021",
+        "https://cert.europa.eu/publications/tlr-10-years/"
+      ]
+    },
+    {
+      "id": "tmobile",
+      "number": 76,
+      "title": "Millionen Datensätze beim Mobilfunkanbieter",
+      "year": 2021,
+      "origin": "CERT-EU",
+      "daily": [
+        "Kundendaten sollen beim Mobilfunkanbieter Verbindung halten und nicht auf unerwünschte Wanderschaft gehen.",
+        "Mobilfunkanbieter speichern sensible Kundendaten.",
+        "T-Mobile US meldete 2021 einen großen Datendiebstahl.",
+        "Persönliche Angaben vieler Millionen Menschen waren betroffen."
+      ],
+      "lesson": "Datensparsamkeit und starke Zugriffskontrollen begrenzen Schäden.",
+      "source": [
+        "CERT-EU – Threat Landscape 2011–2021",
+        "https://cert.europa.eu/publications/tlr-10-years/"
+      ]
+    },
+    {
+      "id": "ghostwriter",
+      "number": 77,
+      "title": "Wenn Nachrichten manipuliert werden",
+      "year": 2021,
+      "origin": "CERT-EU",
+      "daily": [
+        "Wenn eine Nachricht echt aussieht, sollte ihr Inhalt trotzdem nicht ohne Prüfung als Wahrheit durchgewinkt werden.",
+        "Öffentliche Kommunikation ist für demokratische Institutionen wichtig.",
+        "Die Kampagne Ghostwriter kombinierte digitale Kompromittierungen mit Desinformation.",
+        "Die EU kritisierte die Operation öffentlich."
+      ],
+      "lesson": "Cybersicherheit betrifft auch Vertrauen in Informationen.",
+      "source": [
+        "CERT-EU – Threat Landscape 2011–2021",
+        "https://cert.europa.eu/publications/tlr-10-years/"
+      ]
+    },
+    {
+      "id": "godaddy",
+      "number": 78,
+      "title": "Der Webhoster mit 1,2 Millionen Betroffenen",
+      "year": 2021,
+      "origin": "CERT-EU",
+      "daily": [
+        "Eine bequem verwaltete Webseite braucht hinter den Kulissen ebenfalls streng verwaltete Zugänge.",
+        "Viele Webseitenbetreiber vertrauen ihre Technik einem großen Hosterdienst an.",
+        "GoDaddy meldete einen Vorfall mit verwalteten WordPress-Umgebungen.",
+        "Mindestens 1,2 Millionen Kunden waren nach Angaben von CERT-EU betroffen."
+      ],
+      "lesson": "Zentrale Dienstleister müssen hohe Schutzanforderungen erfüllen.",
+      "source": [
+        "CERT-EU – Threat Landscape 2011–2021",
+        "https://cert.europa.eu/publications/tlr-10-years/"
+      ]
+    },
+    {
+      "id": "ariane",
+      "number": 79,
+      "title": "40 Sekunden bis zur Explosion",
+      "year": 1996,
+      "origin": "Fachquelle",
+      "daily": [
+        "Bewährte Software besitzt keinen Freifahrtschein für eine neue Rakete. Auch alter Code muss neu angeschnallt werden.",
+        "1996 hebt die europäische Ariane 5 zu ihrem ersten Flug ab.",
+        "Etwa 40 Sekunden nach dem Start gerät die Rakete außer Kontrolle.",
+        "Die Untersuchung zeigt, wie riskant es ist, alte Software ohne erneute Prüfung ihrer Annahmen zu übernehmen."
+      ],
+      "lesson": "Wiederverwendeter Code muss im neuen Einsatzgebiet erneut getestet werden.",
+      "source": [
+        "ESA – Ariane 501 Untersuchungsbericht",
+        "https://www.esa.int/Newsroom/Press_Releases/Ariane_501_-_Presentation_of_Inquiry_Board_report"
+      ]
+    },
+    {
+      "id": "mars",
+      "number": 80,
+      "title": "Die Raumsonde mit dem Einheiten-Mix",
+      "year": 1999,
+      "origin": "Fachquelle",
+      "daily": [
+        "Der Mars akzeptiert keine Entschuldigung nach dem Motto: Bei uns waren das aber andere Maßeinheiten.",
+        "Eine Raumsonde fliegt zum Mars.",
+        "Genau an einer solchen Schnittstelle liegt das Problem: Daten aus einem System liegen in angloamerikanischen Maßeinheiten vor, während ein anderes System metrische Werte erwartet.",
+        "Der Fall wurde berühmt, weil die Ursache so alltäglich klingt: Zwei Einheitensysteme wurden an einer technischen Schnittstelle nicht sauber vereinbart."
+      ],
+      "lesson": "Schnittstellen benötigen eindeutige Einheiten und automatische Plausibilitätsprüfungen.",
+      "source": [
+        "NASA/JPL – Mars Climate Orbiter",
+        "https://www.jpl.nasa.gov/missions/mars-climate-orbiter/"
+      ]
+    },
+    {
+      "id": "knight",
+      "number": 81,
+      "title": "460 Millionen Dollar in 45 Minuten",
+      "year": 2012,
+      "origin": "Fachquelle",
+      "daily": [
+        "45 Minuten können kurz sein. Ein automatisches Handelssystem bekommt darin erstaunlich viel Unsinn unter.",
+        "2012 handeln Computerprogramme an den Finanzmärkten in Sekundenbruchteilen.",
+        "Auf einem Server wird durch den fehlerhaften Rollout veraltete Handelslogik wirksam.",
+        "Knight Capital verzeichnet einen Verlust von mehr als 460 Millionen US-Dollar."
+      ],
+      "lesson": "Rollouts brauchen technische Freigaben, Überwachung und sofortige Abschaltung.",
+      "source": [
+        "US SEC – Knight Capital Untersuchungsbericht",
+        "https://www.sec.gov/newsroom/press-releases/2013-222"
+      ]
+    },
+    {
+      "id": "aws-s3",
+      "number": 82,
+      "title": "Ein falscher Wert nimmt das Netz mit",
+      "year": 2017,
+      "origin": "Fachquelle",
+      "daily": [
+        "Ein Wartungsbefehl sollte aufräumen. Ein falscher Parameter kann dabei einen viel zu großen Besen erwischen.",
+        "Am 28.",
+        "Beim Ausführen des Wartungsbefehls wird ein Parameter falsch eingegeben.",
+        "AWS erklärte den Ablauf anschließend öffentlich."
+      ],
+      "lesson": "Kritische Befehle sollten Grenzen und automatische Plausibilitätskontrollen haben.",
+      "source": [
+        "Amazon AWS – S3-Ereignisbericht",
+        "https://aws.amazon.com/message/41926/"
+      ]
+    },
+    {
+      "id": "gitlab-delete",
+      "number": 83,
+      "title": "Die Datenbank im falschen Ordner gelöscht",
+      "year": 2017,
+      "origin": "Fachquelle",
+      "daily": [
+        "Beim Löschen ist die Frage nach dem richtigen Server deutlich wertvoller als ein besonders schneller Tastendruck.",
+        "2017 arbeitet das Team der Entwicklerplattform GitLab an einem Datenbankproblem.",
+        "Bei der Fehlersuche wird versehentlich die falsche Datenbank gelöscht – die primäre statt der vorgesehenen sekundären Instanz.",
+        "GitLab veröffentlicht die Aufarbeitung ungewöhnlich transparent."
+      ],
+      "lesson": "Backups müssen nicht nur vorhanden sein, sondern erfolgreich rückspielbar.",
+      "source": [
+        "GitLab – Datenbank-Postmortem",
+        "https://about.gitlab.com/blog/postmortem-of-database-outage-of-january-31/"
+      ]
+    },
+    {
+      "id": "cloudflare-regex",
+      "number": 84,
+      "title": "Ein Satzzeichen legt Webseiten lahm",
+      "year": 2019,
+      "origin": "Fachquelle",
+      "daily": [
+        "Ein regulärer Ausdruck kann kurz aussehen und dem Rechner trotzdem eine ausgesprochen lange Beschäftigung verschaffen.",
+        "Cloudflare betreibt Dienste, die Websites gegen Angriffe schützen.",
+        "Die neue Regel löst einen extrem hohen Rechenaufwand aus.",
+        "Nach Angaben von Cloudflare dauert die weitreichende Störung etwa 27 Minuten."
+      ],
+      "lesson": "Auch Sicherheitsregeln brauchen Lasttests und schrittweise Verteilung.",
+      "source": [
+        "Cloudflare – Fehleranalyse 2. Juli 2019",
+        "https://blog.cloudflare.com/de-de/details-of-the-cloudflare-outage-on-july-2-2019/"
+      ]
+    },
+    {
+      "id": "meta-bgp",
+      "number": 85,
+      "title": "Facebook verschwindet aus dem Adressbuch",
+      "year": 2021,
+      "origin": "Fachquelle",
+      "daily": [
+        "Wenn die Wegweiser im Netz verschwinden, hilft es wenig, dass das Zielgebäude noch steht.",
+        "Am 4.",
+        "Eine fehlerhafte Änderung in der Netzwerkinfrastruktur trennt die Verbindung zwischen wichtigen Rechenzentren.",
+        "Erst Stunden später sind die Dienste wieder erreichbar."
+      ],
+      "lesson": "Netzänderungen brauchen sichere Rollbacks und unabhängige Administrationswege.",
+      "source": [
+        "Meta Engineering – Ausfall 4. Oktober 2021",
+        "https://engineering.fb.com/2021/10/05/networking-traffic/outage-details/"
+      ]
+    },
+    {
+      "id": "faa-notam",
+      "number": 86,
+      "title": "Eine gelöschte Datei stoppt US-Starts",
+      "year": 2023,
+      "origin": "Fachquelle",
+      "daily": [
+        "Auch eine kleine Datei kann im Flugverkehr eine große Aufgabe haben. Papierkorb ist da keine harmlose Zwischenstation.",
+        "Piloten erhalten vor dem Flug Informationen darüber, welche Besonderheiten auf Strecken und Flughäfen beachtet werden müssen.",
+        "Nach der vorläufigen Untersuchung der US-Luftfahrtbehörde FAA wurden bei der Korrektur von Synchronisierungsproblemen unbeabsichtigt Dateien gelöscht.",
+        "Der Vorfall brachte den Flugverkehr durcheinander und führte zu Untersuchungen."
+      ],
+      "lesson": "Kritische Datenbanken brauchen isolierte Backups und Vier-Augen-Verfahren.",
+      "source": [
+        "FAA – Offizielle Erklärung zum NOTAM-Ausfall",
+        "https://www.faa.gov/newsroom/faa-notam-statement"
+      ]
+    },
+    {
+      "id": "creeper",
+      "number": 87,
+      "title": "Das Programm mit der Botschaft „Catch me“",
+      "year": 1971,
+      "origin": "Nachschlagewerk",
+      "daily": [
+        "Ein frühes Programm forderte zum Fangen auf. Die Computergeschichte hatte damit ihr eigenes digitales Versteckspiel.",
+        "In einem frühen Computernetz experimentieren Forschende mit wandernden Programmen.",
+        "Creeper zeigte auf entfernten Rechnern die Nachricht, dass man es fangen solle.",
+        "Es war ein Experiment, keine mit modernen Erpressungswürmern vergleichbare Attacke."
+      ],
+      "lesson": "Die Geschichte von Schadsoftware beginnt auch mit spielerischen Experimenten.",
+      "source": [
+        "Wikipedia – Rechercheeinstieg: Creeper and Reaper",
+        "https://en.wikipedia.org/w/index.php?search=Creeper%20and%20Reaper"
+      ]
+    },
+    {
+      "id": "elkcloner",
+      "number": 88,
+      "title": "Ein Scherz auf der Diskette",
+      "year": 1982,
+      "origin": "Nachschlagewerk",
+      "daily": [
+        "Ein Gedicht auf einer Diskette ist nur dann charmant, wenn es nicht ungefragt mit auf andere Disketten umzieht.",
+        "In der Heimcomputerzeit werden Programme häufig über Disketten weitergegeben.",
+        "Elk Cloner verbreitete sich auf Apple-II-Disketten und zeigte einen gereimten Text.",
+        "Aus einem Streich wurde ein frühes Beispiel für selbstverbreitenden Computercode."
+      ],
+      "lesson": "Wechseldatenträger sind seit Jahrzehnten ein Infektionsweg.",
+      "source": [
+        "Wikipedia – Rechercheeinstieg: Elk Cloner",
+        "https://en.wikipedia.org/w/index.php?search=Elk%20Cloner"
+      ]
+    },
+    {
+      "id": "brain",
+      "number": 89,
+      "title": "Der Virus mit den Kontaktdaten",
+      "year": 1986,
+      "origin": "Nachschlagewerk",
+      "daily": [
+        "Kontaktangaben im Schadprogramm sind eine ungewöhnliche Visitenkarte. Vertrauenswürdig wird es dadurch nicht.",
+        "In Pakistan schreiben zwei Brüder Software für PCs.",
+        "Der Bootsektorvirus Brain verbreitete sich über Disketten und enthielt Kontaktinformationen.",
+        "Aus einem lokal entwickelten Programm wurde eine international bekannte Malware."
+      ],
+      "lesson": "Technische Fähigkeiten und sichere Verbreitungswege sind zweierlei.",
+      "source": [
+        "Wikipedia – Rechercheeinstieg: Brain (computer virus)",
+        "https://en.wikipedia.org/w/index.php?search=Brain%20%28computer%20virus%29"
+      ]
+    },
+    {
+      "id": "morris",
+      "number": 90,
+      "title": "Der Wurm, der zu eifrig war",
+      "year": 1988,
+      "origin": "Nachschlagewerk",
+      "daily": [
+        "Ein Wurm, der sich zu eifrig vermehrt, ist die digitale Variante eines Besuchers, der alle Freunde gleich mitbringt.",
+        "Das Internet ist 1988 noch klein und verbindet vor allem Forschungseinrichtungen.",
+        "Der Morris-Wurm verbreitete sich durch Programmfehler wesentlich aggressiver als beabsichtigt.",
+        "Viele damals vernetzte Rechner wurden überlastet oder unbenutzbar."
+      ],
+      "lesson": "Auch Experimente mit selbstverbreitendem Code können massive Folgen haben.",
+      "source": [
+        "Wikipedia – Rechercheeinstieg: Morris worm",
+        "https://en.wikipedia.org/w/index.php?search=Morris%20worm"
+      ]
+    },
+    {
+      "id": "att-network",
+      "number": 91,
+      "title": "Eine Telefonstörung pflanzt sich fort",
+      "year": 1990,
+      "origin": "Nachschlagewerk",
+      "daily": [
+        "Ein Neustart soll helfen. Wenn er beim Nachbarn den nächsten Neustart auslöst, wird es im Telefonnetz ungemütlich.",
+        "Das amerikanische Ferngesprächsnetz setzt automatisierte Vermittlungsstellen ein.",
+        "Ein Softwarefehler in der Netzsteuerung löste eine Kette von Neustarts aus.",
+        "Weite Teile des AT&T-Ferntelefonnetzes waren stundenlang gestört."
+      ],
+      "lesson": "Gleiche Fehler in vernetzten Systemen können sich gegenseitig verstärken.",
+      "source": [
+        "Wikipedia – Rechercheeinstieg: AT&T long-distance network collapse",
+        "https://en.wikipedia.org/w/index.php?search=AT%26T%20long-distance%20network%20collapse"
+      ]
+    },
+    {
+      "id": "therac",
+      "number": 92,
+      "title": "Die gefährliche Strahlungsmaschine",
+      "year": 1985,
+      "origin": "Nachschlagewerk",
+      "daily": [
+        "Bei einer medizinischen Maschine reicht ein optimistisches Programm nicht: Sicherheit braucht unabhängige Kontrollen.",
+        "Ein medizinisches Gerät soll Krebspatienten mit berechneten Strahlendosen behandeln.",
+        "Bei Therac-25 führten Software- und Sicherheitsmängel zu schwerwiegenden Fehlbestrahlungen.",
+        "Mehrere Menschen wurden verletzt und Todesfälle mit den Unfällen in Verbindung gebracht."
+      ],
+      "lesson": "Bei Medizinprodukten sind unabhängige Schutzmechanismen unverzichtbar.",
+      "source": [
+        "Wikipedia – Rechercheeinstieg: Therac-25",
+        "https://en.wikipedia.org/w/index.php?search=Therac-25"
+      ]
+    },
+    {
+      "id": "patriot",
+      "number": 93,
+      "title": "Die Uhr, die immer ungenauer ging",
+      "year": 1991,
+      "origin": "Nachschlagewerk",
+      "daily": [
+        "Eine Uhr kann winzig danebenliegen und mit der Zeit trotzdem ein ernstes Problem verursachen.",
+        "Ein Raketenabwehrsystem muss Geschwindigkeit und Zeit sehr präzise berechnen.",
+        "Ein bekannter Rundungsfehler in der Zeitberechnung vergrößerte den Positionsfehler über die Betriebsdauer.",
+        "Ein Patriot-System verfehlte im Golfkrieg eine anfliegende Rakete; es gab Tote."
+      ],
+      "lesson": "Laufzeitfehler und Rundungsungenauigkeiten gehören in Sicherheitstests.",
+      "source": [
+        "Wikipedia – Rechercheeinstieg: Patriot missile failure",
+        "https://en.wikipedia.org/w/index.php?search=Patriot%20missile%20failure"
+      ]
+    },
+    {
+      "id": "pentium",
+      "number": 94,
+      "title": "Der Prozessor kann nicht richtig teilen",
+      "year": 1994,
+      "origin": "Nachschlagewerk",
+      "daily": [
+        "Auch ein berühmter Prozessor darf bei einer Division nicht nach dem Prinzip ungefähr passt schon rechnen.",
+        "Intel verkauft Millionen Prozessoren mit mathematischen Rechenfunktionen.",
+        "Bei bestimmten Fließkomma-Divisionen konnte der Pentium FDIV falsche Ergebnisse liefern.",
+        "Die Debatte führte zu einem teuren Austauschprogramm und Reputationsschäden."
+      ],
+      "lesson": "Selbst seltene Rechenfehler brauchen transparente Fehlerbehandlung.",
+      "source": [
+        "Wikipedia – Rechercheeinstieg: Pentium FDIV bug",
+        "https://en.wikipedia.org/w/index.php?search=Pentium%20FDIV%20bug"
+      ]
+    },
+    {
+      "id": "melissa",
+      "number": 95,
+      "title": "Ein Word-Dokument schreibt an alle",
+      "year": 1999,
+      "origin": "Nachschlagewerk",
+      "daily": [
+        "Ein Word-Dokument sollte Text enthalten und nicht nebenberuflich den gesamten Bekanntenkreis anschreiben.",
+        "Bürocomputer tauschen Word-Dateien ganz selbstverständlich per Mail.",
+        "Melissa nutzte Makros in Dokumenten zur massenhaften Weiterverbreitung über Adressbücher.",
+        "Mailserver wurden überlastet und Organisationen mussten reagieren."
+      ],
+      "lesson": "Auch Dokumente können ausführbaren Code enthalten.",
+      "source": [
+        "Wikipedia – Rechercheeinstieg: Melissa (computer virus)",
+        "https://en.wikipedia.org/w/index.php?search=Melissa%20%28computer%20virus%29"
+      ]
+    },
+    {
+      "id": "codered",
+      "number": 96,
+      "title": "Der rote Code stürmt Webserver",
+      "year": 2001,
+      "origin": "Nachschlagewerk",
+      "daily": [
+        "Ein Webserver braucht Besucher. Ein selbstverbreitender Wurm ist dagegen keine erfreuliche Steigerung der Reichweite.",
+        "Windows-Webserver stehen als öffentliche Webseiten im Netz.",
+        "Der Wurm Code Red nutzte eine Schwachstelle des IIS-Webservers und vermehrte sich automatisch.",
+        "Viele Systeme mussten wegen der schnellen Ausbreitung abgesichert werden."
+      ],
+      "lesson": "Ungepatchte öffentlich erreichbare Server können zur Kettenreaktion führen.",
+      "source": [
+        "Wikipedia – Rechercheeinstieg: Code Red (computer worm)",
+        "https://en.wikipedia.org/w/index.php?search=Code%20Red%20%28computer%20worm%29"
+      ]
+    },
+    {
+      "id": "slammer",
+      "number": 97,
+      "title": "Ein Wurm, der nur einen winzigen Moment brauchte",
+      "year": 2003,
+      "origin": "Nachschlagewerk",
+      "daily": [
+        "Klein, schnell und unerwünscht: Bei diesem Wurm war wenig Programm erstaunlich viel Problem.",
+        "Datenbankdienste werden weltweit in Computernetzen eingesetzt.",
+        "SQL Slammer war sehr klein und vermehrte sich extrem schnell über eine bekannte Sicherheitslücke.",
+        "Netzwerke litten in kurzer Zeit unter massiven Störungen."
+      ],
+      "lesson": "Auch kleine Programme können das Internet großflächig beeinträchtigen.",
+      "source": [
+        "Wikipedia – Rechercheeinstieg: SQL Slammer",
+        "https://en.wikipedia.org/w/index.php?search=SQL%20Slammer"
+      ]
+    },
+    {
+      "id": "blackout",
+      "number": 98,
+      "title": "Ein Alarm, der nichts mehr anzeigt",
+      "year": 2003,
+      "origin": "Nachschlagewerk",
+      "daily": [
+        "Eine Alarmanzeige muss gerade dann funktionieren, wenn sie am dringendsten gebraucht wird.",
+        "Netzbetreiber überwachen Stromleitungen mit Leitstellen-Software.",
+        "Beim großen Nordost-Blackout der USA versagte unter anderem ein Alarmsystem und erschwerte die Erkennung von Problemen.",
+        "Die Kombination mehrerer Faktoren führte zu einem ausgedehnten Stromausfall."
+      ],
+      "lesson": "Ein fehlender Alarm kann kritischer sein als eine sichtbare Fehlermeldung.",
+      "source": [
+        "Wikipedia – Rechercheeinstieg: Northeast blackout of 2003",
+        "https://en.wikipedia.org/w/index.php?search=Northeast%20blackout%20of%202003"
+      ]
+    },
+    {
+      "id": "mydoom",
+      "number": 99,
+      "title": "Das Mail-Monster Mydoom",
+      "year": 2004,
+      "origin": "Nachschlagewerk",
+      "daily": [
+        "Nicht jede volle Mailbox bedeutet viele nette Kontakte. Manchmal hat schlicht die Schadsoftware zu viel Sendungsbewusstsein.",
+        "E-Mail gehört längst zum Büroalltag.",
+        "Mydoom verbreitete sich rasant über infizierte Nachrichten und Dateien.",
+        "Der Wurm wurde zu einer der bekanntesten Schadsoftware-Wellen seiner Zeit."
+      ],
+      "lesson": "Mailanhänge sind keine vertrauenswürdige Quelle für Programme.",
+      "source": [
+        "Wikipedia – Rechercheeinstieg: Mydoom",
+        "https://en.wikipedia.org/w/index.php?search=Mydoom"
+      ]
+    },
+    {
+      "id": "sasser",
+      "number": 100,
+      "title": "Ein Wurm ohne Klick auf den Anhang",
+      "year": 2004,
+      "origin": "Nachschlagewerk",
+      "daily": [
+        "Dieser Wurm wartete nicht höflich darauf, dass jemand einen Anhang öffnete.",
+        "Viele Windows-PCs hängen Anfang der 2000er dauerhaft im Internet.",
+        "Sasser griff eine verwundbare Systemkomponente über das Netz an, ohne dass eine Mail geöffnet werden musste.",
+        "Ausfälle trafen weltweit Organisationen und Privatnutzer."
+      ],
+      "lesson": "Auch ohne Nutzerklick braucht ein Rechner aktuelle Sicherheitsupdates.",
+      "source": [
+        "Wikipedia – Rechercheeinstieg: Sasser (computer worm)",
+        "https://en.wikipedia.org/w/index.php?search=Sasser%20%28computer%20worm%29"
+      ]
+    },
+    {
+      "id": "estonia",
+      "number": 101,
+      "title": "Ein Staat erlebt digitale Störungen",
+      "year": 2007,
+      "origin": "Nachschlagewerk",
+      "daily": [
+        "Wenn viele digitale Zugänge gleichzeitig verstopfen, wird aus einer Internetstörung schnell ein Alltagsproblem.",
+        "Banken, Medien und Behörden Estlands sind stark digitalisiert.",
+        "Große DDoS-Wellen erschwerten 2007 den Zugriff auf zahlreiche Dienste.",
+        "Die Vorfälle prägten die internationale Diskussion über staatliche Cybersicherheit."
+      ],
+      "lesson": "Digitale öffentliche Dienstleistungen benötigen Schutz gegen Überlastung.",
+      "source": [
+        "Wikipedia – Rechercheeinstieg: 2007 cyberattacks on Estonia",
+        "https://en.wikipedia.org/w/index.php?search=2007%20cyberattacks%20on%20Estonia"
+      ]
+    },
+    {
+      "id": "zeus",
+      "number": 102,
+      "title": "Der Trojaner Zeus sammelt Bankdaten",
+      "year": 2007,
+      "origin": "BSI",
+      "daily": [
+        "Ein mächtiger Name macht einen Banktrojaner nicht göttlich, sondern nur besonders unwillkommen.",
+        "Immer mehr Menschen verwalten Konten im Internet.",
+        "Der Banktrojaner Zeus wurde 2007 bekannt und zielte auf Zugangsdaten.",
+        "Kriminelle konnten gestohlene Informationen für Kontomissbrauch verwenden."
+      ],
+      "lesson": "Bankzugänge sollten mit starken zusätzlichen Faktoren geschützt werden.",
+      "source": [
+        "BSI – offizieller Zeitstrahl",
+        "https://www.bsi.bund.de/EN/Das-BSI/Zeitstrahl/zeitstrahl_bsi_ab_1991.html"
+      ]
+    },
+    {
+      "id": "debian",
+      "number": 103,
+      "title": "Eine winzige Codeänderung schwächt Schlüssel",
+      "year": 2008,
+      "origin": "Nachschlagewerk",
+      "daily": [
+        "Bei kryptografischen Schlüsseln ist Abwechslung keine Geschmacksfrage. Zu wenig Zufall ist ein Sicherheitsproblem.",
+        "Auf Linux-Systemen werden Schlüssel mit Hilfe kryptografischer Zufallszahlen erzeugt.",
+        "Eine Änderung an Debians OpenSSL-Paket verringerte jahrelang die Vielfalt möglicher Schlüssel drastisch.",
+        "Betroffene Schlüssel mussten nach Entdeckung ersetzt werden."
+      ],
+      "lesson": "Auch gut gemeinte Codebereinigung kann Kryptografie schwächen.",
+      "source": [
+        "Wikipedia – Rechercheeinstieg: Debian OpenSSL",
+        "https://en.wikipedia.org/w/index.php?search=Debian%20OpenSSL"
+      ]
+    },
+    {
+      "id": "conficker",
+      "number": 104,
+      "title": "Der Wurm mit dem Dauerleben",
+      "year": 2008,
+      "origin": "Nachschlagewerk",
+      "daily": [
+        "Manche Würmer sind ausgesprochen ausdauernd. Das ist leider keine Eigenschaft, für die man sie loben sollte.",
+        "Rechner auf der ganzen Welt verwenden ähnliche Windows-Dienste.",
+        "Conficker verbreitete sich über Schwachstellen und teils über unsichere Passwörter.",
+        "Das Botnetz beschäftigte Fachleute über lange Zeit."
+      ],
+      "lesson": "Komplexe Schädlinge lassen sich nicht mit einem einzelnen Schutzmittel stoppen.",
+      "source": [
+        "Wikipedia – Rechercheeinstieg: Conficker",
+        "https://en.wikipedia.org/w/index.php?search=Conficker"
+      ]
+    },
+    {
+      "id": "georgia",
+      "number": 105,
+      "title": "Digitale Angriffe in einer Krise",
+      "year": 2008,
+      "origin": "Nachschlagewerk",
+      "daily": [
+        "In einer realen Krise braucht verlässliche Kommunikation besonders sorgfältig geschützte digitale Wege.",
+        "Webseiten und Nachrichtenangebote sind während eines Konflikts besonders wichtig.",
+        "Im Jahr 2008 wurden georgische Internetdienste Ziel von Cyberangriffen und Störungen.",
+        "Der Zusammenhang mit dem bewaffneten Konflikt wurde international diskutiert."
+      ],
+      "lesson": "Krisenkommunikation braucht vom Internet unabhängige Wege.",
+      "source": [
+        "Wikipedia – Rechercheeinstieg: 2008 cyberattacks on Georgia",
+        "https://en.wikipedia.org/w/index.php?search=2008%20cyberattacks%20on%20Georgia"
+      ]
+    },
+    {
+      "id": "stuxnet",
+      "number": 106,
+      "title": "Der Wurm greift Maschinen an",
+      "year": 2010,
+      "origin": "BSI",
+      "daily": [
+        "Ein Computerwurm kann die Bildschirmwelt verlassen und Maschinen beeinflussen. Spätestens dort endet jeder harmlose Vergleich.",
+        "Industrieanlagen werden häufig von spezieller Steuerungssoftware betrieben.",
+        "Stuxnet manipulierte gezielt industrielle Systeme und zeigte neue Risiken für reale Maschinen.",
+        "Digitale Sabotage konnte damit körperliche Technik treffen."
+      ],
+      "lesson": "Industrienetze benötigen unabhängige Sicherheits- und Überwachungsmaßnahmen.",
+      "source": [
+        "BSI – offizieller Zeitstrahl",
+        "https://www.bsi.bund.de/EN/Das-BSI/Zeitstrahl/zeitstrahl_bsi_ab_1991.html"
+      ]
+    },
+    {
+      "id": "flashcrash",
+      "number": 107,
+      "title": "Ein Börsenkurs macht Achterbahn",
+      "year": 2010,
+      "origin": "Nachschlagewerk",
+      "daily": [
+        "Ein Börsenchart darf spannend aussehen. Eine Achterbahnfahrt in wenigen Minuten ist trotzdem kein Qualitätsmerkmal.",
+        "Der Aktienmarkt wird zunehmend von automatisierten Handelsalgorithmen geprägt.",
+        "Die Gefahr entsteht hier aus Tempo und Reichweite automatischer Abläufe.",
+        "Deshalb gehören zur Automatisierung klare Grenzen: Warnsignale, Prüfungen und ein Stoppmechanismus, der bei ungewöhnlichem Verhalten tatsächlich greift."
+      ],
+      "lesson": "Automatisierte Entscheidungen benötigen wirksame Handelsunterbrechungen.",
+      "source": [
+        "Wikipedia – Rechercheeinstieg: 2010 flash crash",
+        "https://en.wikipedia.org/w/index.php?search=2010%20flash%20crash"
+      ]
+    },
+    {
+      "id": "psn",
+      "number": 108,
+      "title": "Das Spielnetz ist wochenlang weg",
+      "year": 2011,
+      "origin": "Nachschlagewerk",
+      "daily": [
+        "Ein Spielnetz ohne Verbindung macht aus Mehrspieler plötzlich eine sehr einsame Menüauswahl.",
+        "Millionen Menschen spielen online über das PlayStation Network.",
+        "Sony nahm das Netzwerk nach einem Sicherheitsvorfall 2011 längere Zeit offline.",
+        "Spieler verloren zeitweise den Zugang, und Datensicherheitsfragen wurden diskutiert."
+      ],
+      "lesson": "Notfallkommunikation ist Teil guter Cybersicherheit.",
+      "source": [
+        "Wikipedia – Rechercheeinstieg: 2011 PlayStation Network outage",
+        "https://en.wikipedia.org/w/index.php?search=2011%20PlayStation%20Network%20outage"
+      ]
+    },
+    {
+      "id": "target",
+      "number": 109,
+      "title": "Der Einkauf wird zur Datenspur",
+      "year": 2013,
+      "origin": "Nachschlagewerk",
+      "daily": [
+        "Die Kasse soll Einkäufe abrechnen. Kartendaten sind kein kostenloses Mitnahmeangebot für Eindringlinge.",
+        "Ein großer Einzelhändler verarbeitet Zahlungen von sehr vielen Kunden.",
+        "Bei Target gelangten Angreifer über Zugänge und Kassensysteme an Kartendaten.",
+        "Der Datenverlust traf zahlreiche Verbraucher."
+      ],
+      "lesson": "Auch externe Dienstleisterzugänge brauchen enge Kontrollen.",
+      "source": [
+        "Wikipedia – Rechercheeinstieg: 2013 Target data breach",
+        "https://en.wikipedia.org/w/index.php?search=2013%20Target%20data%20breach"
+      ]
+    },
+    {
+      "id": "heartbleed",
+      "number": 110,
+      "title": "Ein Herz, das mehr verriet als geplant",
+      "year": 2014,
+      "origin": "Fachquelle",
+      "daily": [
+        "Ein kleiner Herzschlag zur Verbindungsprüfung sollte keine Geheimnisse aus dem Arbeitsspeicher mitbringen.",
+        "Eine sichere Internetverbindung nutzt unter anderem OpenSSL.",
+        "Heartbleed erlaubte unter bestimmten Bedingungen das Auslesen von Speicherinhalten verwundbarer Server.",
+        "Viele Betreiber mussten Software und möglicherweise Schlüssel austauschen."
+      ],
+      "lesson": "Patches können zusätzliche Maßnahmen wie Schlüsselwechsel nötig machen.",
+      "source": [
+        "Heartbleed – Sicherheitsforschung",
+        "https://heartbleed.com/"
+      ]
+    },
+    {
+      "id": "shellshock",
+      "number": 111,
+      "title": "Die Sicherheitslücke in einer alten Shell",
+      "year": 2014,
+      "origin": "Nachschlagewerk",
+      "daily": [
+        "Eine alte Kommandozeile kann noch immer überraschend viel bewirken, wenn fremde Eingaben falsch behandelt werden.",
+        "Bash wird auf sehr vielen Unix- und Linux-Systemen genutzt.",
+        "Shellshock erlaubte in bestimmten Konstellationen unerwünschte Befehlsausführung über Umgebungsvariablen.",
+        "Die weite Verbreitung machte die Behebung dringend."
+      ],
+      "lesson": "Alte Kernkomponenten müssen genauso geprüft werden wie neue Apps.",
+      "source": [
+        "Wikipedia – Rechercheeinstieg: Shellshock (software bug)",
+        "https://en.wikipedia.org/w/index.php?search=Shellshock%20%28software%20bug%29"
+      ]
+    },
+    {
+      "id": "poodle",
+      "number": 112,
+      "title": "Der Pudel knabbert an der Verschlüsselung",
+      "year": 2014,
+      "origin": "Nachschlagewerk",
+      "daily": [
+        "Dieser Pudel war keine harmlose Haustiergeschichte, sondern ein Warnzeichen für veraltete Verschlüsselung.",
+        "Browser sprechen Verschlüsselungsprotokolle mit Webservern.",
+        "POODLE zeigte Schwächen alter SSL-3.0-Verbindungen auf.",
+        "Ein lustiger Name stand für einen ernsten Protokollfehler."
+      ],
+      "lesson": "Veraltete Verschlüsselungsprotokolle sollten deaktiviert werden.",
+      "source": [
+        "Wikipedia – Rechercheeinstieg: POODLE",
+        "https://en.wikipedia.org/w/index.php?search=POODLE"
+      ]
+    },
+    {
+      "id": "opm",
+      "number": 113,
+      "title": "Personalakten in fremden Händen",
+      "year": 2015,
+      "origin": "Nachschlagewerk",
+      "daily": [
+        "Personalakten sind keine öffentliche Lektüre. Je sensibler die Angaben, desto sorgfältiger muss die digitale Tür bewacht werden.",
+        "Eine US-Behörde verwaltet vertrauliche Personaldaten von Beschäftigten.",
+        "Beim OPM-Angriff wurden äußerst sensible Datensätze gestohlen.",
+        "Betroffene mussten mit langfristigen Missbrauchsrisiken rechnen."
+      ],
+      "lesson": "Besonders vertrauliche Daten verlangen noch strengere Zugriffskontrolle.",
+      "source": [
+        "Wikipedia – Rechercheeinstieg: Office of Personnel Management data breach",
+        "https://en.wikipedia.org/w/index.php?search=Office%20of%20Personnel%20Management%20data%20breach"
+      ]
+    },
+    {
+      "id": "ashley",
+      "number": 114,
+      "title": "Ein Datenleck, das Privates öffentlich machte",
+      "year": 2015,
+      "origin": "Nachschlagewerk",
+      "daily": [
+        "Private Informationen brauchen Schutz gerade dann, wenn ihre Veröffentlichung für Betroffene besonders belastend wäre.",
+        "Eine Dating-Plattform speichert sehr sensible Angaben ihrer Mitglieder.",
+        "2015 entwendeten Angreifer Daten von Ashley Madison und veröffentlichten Bestände.",
+        "Der Vorfall hatte tiefgreifende Folgen für Privatsphäre und Betroffene."
+      ],
+      "lesson": "Betreiber sensibler Angebote tragen besondere Verantwortung für Datensparsamkeit.",
+      "source": [
+        "Wikipedia – Rechercheeinstieg: Ashley Madison data breach",
+        "https://en.wikipedia.org/w/index.php?search=Ashley%20Madison%20data%20breach"
+      ]
+    },
+    {
+      "id": "talktalk",
+      "number": 115,
+      "title": "Die Kunden-Datenbank hinter der Webseite",
+      "year": 2015,
+      "origin": "Nachschlagewerk",
+      "daily": [
+        "Ein Kommunikationsanbieter sollte mit Kunden reden. Eine offenliegende Datenbank führt leider zum falschen Gesprächspartner.",
+        "Telekommunikationsanbieter müssen Kundendaten über Onlineportale verwalten.",
+        "TalkTalk erlitt 2015 einen viel beachteten Angriff, bei dem Daten offengelegt wurden.",
+        "Eine bekannte Marke musste Kunden informieren und Verfahren verbessern."
+      ],
+      "lesson": "Webanwendungen brauchen konsequente Eingabe- und Zugriffssicherheit.",
+      "source": [
+        "Wikipedia – Rechercheeinstieg: TalkTalk Group",
+        "https://en.wikipedia.org/w/index.php?search=TalkTalk%20Group"
+      ]
+    },
+    {
+      "id": "dyn",
+      "number": 116,
+      "title": "Wenn die Adressauskunft ausfällt",
+      "year": 2016,
+      "origin": "Nachschlagewerk",
+      "daily": [
+        "Das digitale Adressbuch fällt aus, und plötzlich finden Browser den Weg zu bekannten Webseiten nicht mehr.",
+        "DNS-Dienstleister sagen Computern, unter welchen Adressen Webseiten erreichbar sind.",
+        "Ein großer DDoS-Angriff traf 2016 den Anbieter Dyn; Botnetze wie Mirai spielten eine Rolle.",
+        "Viele bekannte Webseiten waren zeitweise schlecht oder nicht erreichbar."
+      ],
+      "lesson": "Zentrale Internetdienste brauchen Kapazitätsreserven und Redundanz.",
+      "source": [
+        "Wikipedia – Rechercheeinstieg: 2016 Dyn cyberattack",
+        "https://en.wikipedia.org/w/index.php?search=2016%20Dyn%20cyberattack"
+      ]
+    },
+    {
+      "id": "uber",
+      "number": 117,
+      "title": "Das Datenleck, das lange geheim blieb",
+      "year": 2016,
+      "origin": "Nachschlagewerk",
+      "daily": [
+        "Ein Datenleck wird nicht kleiner, wenn seine Offenlegung länger auf sich warten lässt.",
+        "Eine Fahrdienstplattform hält Daten von Fahrern und Fahrgästen bereit.",
+        "Bei Uber wurden 2016 Daten entwendet; die Offenlegung des Vorfalls erfolgte später.",
+        "Neben dem Sicherheitsproblem wurde auch der Umgang mit der Meldung kritisiert."
+      ],
+      "lesson": "Transparente und fristgerechte Vorfallmeldungen sind entscheidend.",
+      "source": [
+        "Wikipedia – Rechercheeinstieg: Uber data breach",
+        "https://en.wikipedia.org/w/index.php?search=Uber%20data%20breach"
+      ]
+    },
+    {
+      "id": "equifax",
+      "number": 118,
+      "title": "Das Datenleck der Kreditdaten",
+      "year": 2017,
+      "origin": "Nachschlagewerk",
+      "daily": [
+        "Eine bekannte Sicherheitslücke bleibt nicht aus Höflichkeit ungenutzt, während der Patch auf seinen Termin wartet.",
+        "Auskunfteien speichern hochsensible Informationen über viele Menschen.",
+        "Ein Angreifer nutzte bei Equifax eine bekannte Schwachstelle in einer Webanwendung aus.",
+        "Persönliche Daten sehr vieler Betroffener wurden offengelegt."
+      ],
+      "lesson": "Bekannte kritische Schwachstellen müssen zeitnah geschlossen werden.",
+      "source": [
+        "Wikipedia – Rechercheeinstieg: 2017 Equifax data breach",
+        "https://en.wikipedia.org/w/index.php?search=2017%20Equifax%20data%20breach"
+      ]
+    },
+    {
+      "id": "marriott",
+      "number": 119,
+      "title": "Hotelgäste im Datenleck",
+      "year": 2018,
+      "origin": "Nachschlagewerk",
+      "daily": [
+        "Beim Hotelbesuch darf die Erinnerung bleiben. Persönliche Gästedaten sollten nicht ungefragt weiterreisen.",
+        "Hotels führen Buchungsdaten und personenbezogene Informationen zusammen.",
+        "Marriott berichtete 2018 von einem umfassenden Sicherheitsvorfall in Starwood-Systemen.",
+        "Die Nachwirkungen eines lange unentdeckten Angriffs wurden für Gäste sichtbar."
+      ],
+      "lesson": "Bei Firmenübernahmen sind Alt-Systeme und Sicherheitsprüfungen wichtig.",
+      "source": [
+        "Wikipedia – Rechercheeinstieg: Marriott International data breach",
+        "https://en.wikipedia.org/w/index.php?search=Marriott%20International%20data%20breach"
+      ]
+    },
+    {
+      "id": "british-airways",
+      "number": 120,
+      "title": "Die manipulierte Zahlungsseite",
+      "year": 2018,
+      "origin": "Nachschlagewerk",
+      "daily": [
+        "Eine Onlinebuchung soll den Reiseplan ändern und nicht heimlich den Empfänger sensibler Zahlungsdaten.",
+        "Fluggäste buchen und bezahlen Tickets online.",
+        "Angreifer manipulierten 2018 Teile des Web- und Buchungsumfeldes von British Airways.",
+        "Zahlungsdaten betroffener Kunden gerieten in Gefahr."
+      ],
+      "lesson": "Skripte auf Zahlungsseiten müssen besonders überwacht werden.",
+      "source": [
+        "Wikipedia – Rechercheeinstieg: British Airways data breach",
+        "https://en.wikipedia.org/w/index.php?search=British%20Airways%20data%20breach"
+      ]
+    },
+    {
+      "id": "capitalone",
+      "number": 121,
+      "title": "Eine Cloud-Konfiguration wird zum Einfallstor",
+      "year": 2019,
+      "origin": "Nachschlagewerk",
+      "daily": [
+        "Die Cloud ist kein magischer Sicherheitsschrank. Auch ihre Türen brauchen die passenden Einstellungen.",
+        "Finanzdienstleister speichern Kundendaten auch in Cloudsystemen.",
+        "Bei Capital One wurden 2019 umfangreiche Daten durch einen Angriff auf die Umgebung entwendet.",
+        "Der Fall verstärkte die Diskussion über Cloud-Konfiguration und Berechtigungen."
+      ],
+      "lesson": "Cloudsicherheit hängt stark von richtig gesetzten Rechten ab.",
+      "source": [
+        "Wikipedia – Rechercheeinstieg: 2019 Capital One data breach",
+        "https://en.wikipedia.org/w/index.php?search=2019%20Capital%20One%20data%20breach"
+      ]
+    },
+    {
+      "id": "baltimore",
+      "number": 122,
+      "title": "Eine Stadt im digitalen Ausnahmezustand",
+      "year": 2019,
+      "origin": "Nachschlagewerk",
+      "daily": [
+        "Eine Stadtverwaltung braucht Notfallwege, wenn plötzlich mehr als ein einzelner Bürocomputer streikt.",
+        "Kommunale Behörden nutzen IT für Zahlungen, Formulare und Verwaltung.",
+        "Baltimore wurde 2019 von einem Ransomware-Angriff getroffen.",
+        "Viele Dienste liefen nur eingeschränkt, die Wiederherstellung war aufwendig."
+      ],
+      "lesson": "Verwaltungen brauchen Notfallprozesse auch auf Papier.",
+      "source": [
+        "Wikipedia – Rechercheeinstieg: 2019 Baltimore ransomware attack",
+        "https://en.wikipedia.org/w/index.php?search=2019%20Baltimore%20ransomware%20attack"
+      ]
+    },
+    {
+      "id": "twitter-scam",
+      "number": 123,
+      "title": "Berühmte Konten versprechen Bitcoins",
+      "year": 2020,
+      "origin": "Nachschlagewerk",
+      "daily": [
+        "Wenn ein prominentes Konto plötzlich schnelle Bitcoin-Geschenke verspricht, verdient nicht nur das Geschenk Misstrauen.",
+        "Verifizierte Social-Media-Konten gelten vielen Nutzern als glaubwürdig.",
+        "2020 wurden bekannte Twitter-Accounts übernommen und für Bitcoin-Betrug missbraucht.",
+        "Der Betrug verbreitete sich über das Vertrauen in bekannte Namen."
+      ],
+      "lesson": "Administratorzugriffe bei Plattformen gehören besonders gesichert.",
+      "source": [
+        "Wikipedia – Rechercheeinstieg: 2020 Twitter account hijacking",
+        "https://en.wikipedia.org/w/index.php?search=2020%20Twitter%20account%20hijacking"
+      ]
+    },
+    {
+      "id": "garmin",
+      "number": 124,
+      "title": "Fitnessuhren ohne die Cloud",
+      "year": 2020,
+      "origin": "Nachschlagewerk",
+      "daily": [
+        "Eine Fitnessuhr kann Schritte zählen. Manche ihrer Dienste brauchen trotzdem eine gesunde Verbindung zur Cloud.",
+        "Sportuhren synchronisieren ihre Daten mit Onlineplattformen.",
+        "Garmin erlitt 2020 einen Ransomware-Vorfall und mehrere Onlinefunktionen fielen aus.",
+        "Auch scheinbar harmlose Freizeitgeräte waren indirekt betroffen."
+      ],
+      "lesson": "Offlinefunktionalität reduziert die Abhängigkeit von Cloudservices.",
+      "source": [
+        "Wikipedia – Rechercheeinstieg: Garmin",
+        "https://en.wikipedia.org/w/index.php?search=Garmin"
+      ]
+    },
+    {
+      "id": "jbs",
+      "number": 125,
+      "title": "Ein Angriff auf die Fleischproduktion",
+      "year": 2021,
+      "origin": "Nachschlagewerk",
+      "daily": [
+        "Auch eine Produktionshalle voller Maschinen kann von einem digitalen Problem ausgebremst werden.",
+        "Ein großer Lebensmittelkonzern organisiert Fertigung und Lieferketten digital.",
+        "JBS musste nach einem Ransomware-Angriff 2021 Betriebsabläufe zeitweise unterbrechen.",
+        "Ein IT-Vorfall erreichte Produktionsstätten und Handelsketten."
+      ],
+      "lesson": "Versorgungsketten brauchen getestete Betriebsfortführung.",
+      "source": [
+        "Wikipedia – Rechercheeinstieg: 2021 JBS cyberattack",
+        "https://en.wikipedia.org/w/index.php?search=2021%20JBS%20cyberattack"
+      ]
+    },
+    {
+      "id": "ireland-health",
+      "number": 126,
+      "title": "Die Gesundheits-IT wird angehalten",
+      "year": 2021,
+      "origin": "Nachschlagewerk",
+      "daily": [
+        "Gesundheitsversorgung braucht belastbare IT, aber auch Abläufe für den Moment, in dem die IT ausfällt.",
+        "Krankenhäuser benötigen Zugriff auf Termine, Befunde und Verwaltungssysteme.",
+        "Der irische Gesundheitsdienst HSE wurde 2021 von Ransomware getroffen.",
+        "Gesundheitsdienste arbeiteten teilweise mit eingeschränkten digitalen Möglichkeiten."
+      ],
+      "lesson": "Krankenhäuser brauchen einen realistischen Notfallbetrieb.",
+      "source": [
+        "Wikipedia – Rechercheeinstieg: Health Service Executive cyberattack",
+        "https://en.wikipedia.org/w/index.php?search=Health%20Service%20Executive%20cyberattack"
+      ]
+    },
+    {
+      "id": "fastly",
+      "number": 127,
+      "title": "Ein Kunde aktiviert einen versteckten Softwarefehler",
+      "year": 2021,
+      "origin": "Fachquelle",
+      "daily": [
+        "Eine erlaubte Kundeneinstellung sollte keinen versteckten Softwarefehler auf große Tournee schicken.",
+        "Viele Webseiten liefern Inhalte über denselben CDN-Anbieter aus.",
+        "Ein bereits vorhandener Softwarefehler bei Fastly wurde 2021 durch eine gültige Kundeneinstellung ausgelöst.",
+        "Zahlreiche Webseiten waren für kurze Zeit gestört."
+      ],
+      "lesson": "Seltene Wechselwirkungen müssen bei globalen Diensten getestet werden.",
+      "source": [
+        "Fastly – Bericht zum CDN-Ausfall",
+        "https://www.fastly.com/blog/summary-of-june-8-outage"
+      ]
+    },
+    {
+      "id": "costa-rica",
+      "number": 128,
+      "title": "Ein Land erklärt einen Cyber-Notstand",
+      "year": 2022,
+      "origin": "Nachschlagewerk",
+      "daily": [
+        "Ein Cyber-Notstand zeigt, dass digitale Widerstandsfähigkeit längst mehr ist als ein Bürothema.",
+        "Behörden in Costa Rica bearbeiten Steuern und andere Dienstleistungen digital.",
+        "2022 beeinträchtigten Ransomware-Angriffe zahlreiche staatliche Systeme.",
+        "Das Land erklärte wegen der Folgen den nationalen Notstand."
+      ],
+      "lesson": "Staatliche IT braucht abgestimmtes Krisenmanagement.",
+      "source": [
+        "Wikipedia – Rechercheeinstieg: 2022 Costa Rican ransomware attack",
+        "https://en.wikipedia.org/w/index.php?search=2022%20Costa%20Rican%20ransomware%20attack"
+      ]
+    },
+    {
+      "id": "lastpass",
+      "number": 129,
+      "title": "Ein Passwort-Tresor gerät unter Druck",
+      "year": 2022,
+      "origin": "Nachschlagewerk",
+      "daily": [
+        "Ein Passworttresor braucht mehr als einen beruhigenden Namen und ein hübsches Schloss-Symbol.",
+        "Passwortmanager sollen digitale Geheimnisse sicher verwahren.",
+        "LastPass meldete 2022 Sicherheitsvorfälle mit entwendeten technischen Daten und später Kundentresor-Backups.",
+        "Die Ereignisse warfen wichtige Fragen zu Masterpasswörtern und Schutzschichten auf."
+      ],
+      "lesson": "Sehr starke Masterpasswörter und unabhängige zusätzliche Faktoren sind sinnvoll.",
+      "source": [
+        "Wikipedia – Rechercheeinstieg: LastPass",
+        "https://en.wikipedia.org/w/index.php?search=LastPass"
+      ]
+    },
+    {
+      "id": "rogers",
+      "number": 130,
+      "title": "Das Netz, das Kanadier verstummen ließ",
+      "year": 2022,
+      "origin": "Nachschlagewerk",
+      "daily": [
+        "Bei einer großen Netzwerkänderung ist ein guter Rückweg wichtiger als die Zuversicht, dass schon alles klappen wird.",
+        "Kanada ist für viele Dienste von großen Mobilfunknetzen abhängig.",
+        "Eine Netzwerkänderung bei Rogers führte im Juli 2022 zu einem landesweiten Ausfall.",
+        "Kommunikation und Zahlungsdienste wurden vielerorts beeinträchtigt."
+      ],
+      "lesson": "Kritische Netze brauchen Redundanz und sichere Change-Prozesse.",
+      "source": [
+        "Wikipedia – Rechercheeinstieg: 2022 Rogers Communications outage",
+        "https://en.wikipedia.org/w/index.php?search=2022%20Rogers%20Communications%20outage"
+      ]
+    },
+    {
+      "id": "mgm",
+      "number": 131,
+      "title": "Kasinos mit Stift und Papier",
+      "year": 2023,
+      "origin": "Nachschlagewerk",
+      "daily": [
+        "Ein Kasino plant mit vielen Unwägbarkeiten. Die eigene IT sollte dabei möglichst nicht zu den Glücksspielen gehören.",
+        "In großen Hotels und Kasinos hängen Buchung, Türsysteme und Zahlungen an IT.",
+        "MGM Resorts erlitt 2023 einen Cyberangriff, der zahlreiche Dienste beeinträchtigte.",
+        "Auch der analoge Notbetrieb wurde plötzlich wichtig."
+      ],
+      "lesson": "Soziale Manipulation und Zugriffsschutz sind ebenso wichtig wie Firewalls.",
+      "source": [
+        "Wikipedia – Rechercheeinstieg: 2023 MGM Resorts cyberattack",
+        "https://en.wikipedia.org/w/index.php?search=2023%20MGM%20Resorts%20cyberattack"
+      ]
+    },
+    {
+      "id": "british-library",
+      "number": 132,
+      "title": "Die Bibliothek im digitalen Dunkeln",
+      "year": 2023,
+      "origin": "Fachquelle",
+      "daily": [
+        "Eine Bibliothek hütet Wissen. Gegen Ransomware hilft allerdings kein besonders strenger Bibliotheksausweis.",
+        "Eine Nationalbibliothek digitalisiert Bücher und verwaltet riesige Kataloge.",
+        "Die British Library wurde 2023 Opfer eines Ransomware-Angriffs.",
+        "Onlineangebote und Teile des Bibliotheksbetriebs waren über längere Zeit beeinträchtigt."
+      ],
+      "lesson": "Kulturgüter brauchen ebenso robuste IT-Notfallplanung wie Industriebetriebe.",
+      "source": [
+        "British Library – Cyber Incident Review",
+        "https://www.bl.uk/cyber-incident/"
+      ]
+    },
+    {
+      "id": "23andme",
+      "number": 133,
+      "title": "Familieninformationen als Angriffsziel",
+      "year": 2023,
+      "origin": "Nachschlagewerk",
+      "daily": [
+        "Ein wiederverwendetes Passwort kann mehr als ein Konto öffnen. Bei Familiendaten wird dieser Zweitschlüssel besonders unerfreulich.",
+        "Ein Gentest-Unternehmen betreibt Onlinekonten mit sensiblen Angaben.",
+        "Angreifer verwendeten wiederverwendete Zugangsdaten für den Zugriff auf Konten von 23andMe.",
+        "Über vernetzte Funktionen wurden weitere Informationen sichtbar."
+      ],
+      "lesson": "Einzigartige Passwörter und Mehrfaktor-Anmeldung sind besonders bei Gesundheitsdaten wichtig.",
+      "source": [
+        "Wikipedia – Rechercheeinstieg: 23andMe",
+        "https://en.wikipedia.org/w/index.php?search=23andMe"
+      ]
+    },
+    {
+      "id": "xz",
+      "number": 134,
+      "title": "Eine halbe Sekunde rettet vielleicht viele Server",
+      "year": 2024,
+      "origin": "CERT-EU",
+      "daily": [
+        "Eine halbe Sekunde zu viel kann einem aufmerksamen Entwickler mehr erzählen als eine ganze Reihe grüner Häkchen.",
+        "Im März 2024 beschäftigt sich ein Entwickler mit der ungewöhnlichen Leistung eines SSH-Dienstes unter Linux.",
+        "Forschende entdeckten, dass bestimmte xz-Versionen manipuliert worden waren.",
+        "Der Fall wurde zu einem außergewöhnlichen Beispiel für einen Lieferkettenangriff auf freie Software."
+      ],
+      "lesson": "Ungewöhnliche Leistungseinbrüche können ein Indiz für Manipulation sein.",
+      "source": [
+        "CERT-EU – XZ-Utils-Sicherheitswarnung",
+        "https://cert.europa.eu/publications/security-advisories/2024-032/"
+      ]
+    },
+    {
+      "id": "synnovis",
+      "number": 135,
+      "title": "Ein Laborangriff verschiebt Behandlungen",
+      "year": 2024,
+      "origin": "Fachquelle",
+      "daily": [
+        "Laborabläufe benötigen zuverlässige Ergebnisse und zuverlässige IT. Für einen Ausfall muss es einen Plan geben.",
+        "Krankenhäuser verlassen sich auf schnelle Bluttests und Laborberichte.",
+        "2024 traf ein Ransomware-Angriff den britischen Laboranbieter Synnovis.",
+        "Zahlreiche Termine und Eingriffe mussten in Südost-London verschoben werden."
+      ],
+      "lesson": "Abhängigkeiten von externen Laboren gehören in medizinische Notfallpläne.",
+      "source": [
+        "NHS England – Synnovis Incident",
+        "https://www.england.nhs.uk/synnovis-cyber-incident/"
+      ]
+    },
+    {
+      "id": "changecare",
+      "number": 136,
+      "title": "Das digitale Nadelöhr der US-Rechnungen",
+      "year": 2024,
+      "origin": "Nachschlagewerk",
+      "daily": [
+        "Eine zentrale Abrechnungsstelle ist ein Nadelöhr: Wenn sie ausfällt, wartet dahinter schnell eine lange Schlange.",
+        "Gesundheitsanbieter in den USA übermitteln Abrechnungen über zentrale Dienstleister.",
+        "Ein Ransomware-Angriff traf 2024 Change Healthcare.",
+        "Der Ausfall beeinträchtigte Abrechnungen und finanzielle Abläufe vieler Praxen und Apotheken."
+      ],
+      "lesson": "Zentralisierte Dienstleister sind systemrelevante Abhängigkeiten.",
+      "source": [
+        "Wikipedia – Rechercheeinstieg: Change Healthcare",
+        "https://en.wikipedia.org/w/index.php?search=Change%20Healthcare"
+      ]
+    },
+    {
+      "id": "cdk",
+      "number": 137,
+      "title": "Autohäuser ohne Verwaltungssystem",
+      "year": 2024,
+      "origin": "Nachschlagewerk",
+      "daily": [
+        "Im Autohaus kann der Schlüssel im Zündschloss stecken und die Arbeit trotzdem an fehlender Verwaltungs-IT hängen.",
+        "Autohäuser nutzen zentral bereitgestellte Software für Verkaufs- und Serviceprozesse.",
+        "Der Dienstleister CDK Global wurde 2024 von einem Cyberangriff betroffen.",
+        "Zahlreiche Händler mussten Abläufe vorübergehend manuell organisieren."
+      ],
+      "lesson": "Ein Dienstleisterausfall kann ganze Branchen ausbremsen.",
+      "source": [
+        "Wikipedia – Rechercheeinstieg: CDK Global",
+        "https://en.wikipedia.org/w/index.php?search=CDK%20Global"
+      ]
+    },
+    {
+      "id": "snowflake",
+      "number": 138,
+      "title": "Die Cloudkonten ohne zweiten Faktor",
+      "year": 2024,
+      "origin": "Nachschlagewerk",
+      "daily": [
+        "Eine Cloudanmeldung ohne wirksamen zweiten Faktor ist keine gute Gelegenheit für Passwort-Recycling.",
+        "Verschiedene Unternehmen speichern große Datenmengen bei Cloud-Datenplattformen.",
+        "2024 wurden gestohlene Anmeldedaten für Angriffe auf einzelne Snowflake-Kundenumgebungen verwendet.",
+        "In der Folge wurden große Datenabflüsse bei mehreren Organisationen bekannt."
+      ],
+      "lesson": "Starke Identitätskontrolle schützt auch korrekt funktionierende Cloudsoftware.",
+      "source": [
+        "Wikipedia – Rechercheeinstieg: Snowflake Inc.",
+        "https://en.wikipedia.org/w/index.php?search=Snowflake%20Inc."
+      ]
+    },
+    {
+      "id": "ticketmaster",
+      "number": 139,
+      "title": "Ein Konzertticket wird zum Datenproblem",
+      "year": 2024,
+      "origin": "Nachschlagewerk",
+      "daily": [
+        "Ein Ticket soll den Konzertbesuch ermöglichen, nicht einen unerwünschten Auftritt persönlicher Daten.",
+        "Ticketplattformen verwalten große Mengen personenbezogener Kundendaten.",
+        "2024 wurde ein Datendiebstahl im Umfeld von Ticketmaster bekannt.",
+        "Veranstaltungsbesucher mussten die Möglichkeit missbräuchlicher Datennutzung beachten."
+      ],
+      "lesson": "Der Schutz von Kundendaten endet nicht an der Ticketkasse.",
+      "source": [
+        "Wikipedia – Rechercheeinstieg: Ticketmaster",
+        "https://en.wikipedia.org/w/index.php?search=Ticketmaster"
+      ]
+    },
+    {
+      "id": "att-leak",
+      "number": 140,
+      "title": "Verbindungsdaten unter fremder Kontrolle",
+      "year": 2024,
+      "origin": "Nachschlagewerk",
+      "daily": [
+        "Verbindungsdaten verraten mehr über Kontakte, als ein unscheinbarer Tabellenkopf zunächst vermuten lässt.",
+        "Telekommunikations-Metadaten können viel über Kontakte verraten.",
+        "AT&T meldete 2024 den Abfluss umfangreicher Verbindungsdaten aus einer externen Datenumgebung.",
+        "Auch ohne Gesprächsinhalte können Kommunikationsmuster sensibel sein."
+      ],
+      "lesson": "Metadaten müssen ähnlich sorgfältig wie Inhalte geschützt werden.",
+      "source": [
+        "Wikipedia – Rechercheeinstieg: AT&T",
+        "https://en.wikipedia.org/w/index.php?search=AT%26T"
+      ]
+    },
+    {
+      "id": "ms-cyber",
+      "number": 141,
+      "title": "Ein Kaufhaus kämpft mit der digitalen Kasse",
+      "year": 2025,
+      "origin": "Fachquelle",
+      "daily": [
+        "Ein Kaufhaus kann volle Regale haben und trotzdem digitale Ersatzabläufe benötigen.",
+        "Der britische Einzelhändler Marks & Spencer verbindet Läden, Lager und Onlineshop.",
+        "Im Frühjahr 2025 meldete der Konzern einen schwerwiegenden Cybervorfall.",
+        "Onlinebestellungen und andere Geschäftsabläufe waren zeitweise beeinträchtigt."
+      ],
+      "lesson": "Im Einzelhandel entscheidet auch IT-Widerstandsfähigkeit über Lieferfähigkeit.",
+      "source": [
+        "Marks & Spencer – Konzernmitteilung",
+        "https://data.fca.org.uk/artefacts/NSM/RNS/5651766.html"
+      ]
+    },
+    {
+      "id": "coop-cyber",
+      "number": 142,
+      "title": "Eine Ladenkette wird digital ausgebremst",
+      "year": 2025,
+      "origin": "Nachschlagewerk",
+      "daily": [
+        "Hinter einer gewöhnlichen Ladenkasse steckt oft mehr vernetzte Technik, als der Einkaufsbon verrät.",
+        "Die britische Co-op-Gruppe betreibt viele Geschäfte und IT-Prozesse.",
+        "2025 berichtete das Unternehmen über einen Cyberangriff auf Teile seiner Systeme.",
+        "Der Vorfall sorgte für betriebliche Einschränkungen und Datenschutzsorgen."
+      ],
+      "lesson": "Handelsketten benötigen abgestufte Notfallpläne für Filialen und Zentrale.",
+      "source": [
+        "Wikipedia – Rechercheeinstieg: The Co-operative Group",
+        "https://en.wikipedia.org/w/index.php?search=The%20Co-operative%20Group"
+      ]
+    },
+    {
+      "id": "jlr-cyber",
+      "number": 143,
+      "title": "Autoproduktion unter Cyberdruck",
+      "year": 2025,
+      "origin": "Nachschlagewerk",
+      "daily": [
+        "Ein Auto besteht aus vielen Teilen. Für die Herstellung gehört funktionierende IT ebenfalls dazu.",
+        "Autowerke verbinden Produktion, Logistik und Lieferanten über digitale Systeme.",
+        "Jaguar Land Rover erlitt 2025 einen Cybervorfall, der die Fertigung erheblich beeinträchtigte.",
+        "Die Folgen reichten über den Hersteller hinaus in Lieferketten."
+      ],
+      "lesson": "Produktions-IT und Lieferanten brauchen abgestimmte Krisenpläne.",
+      "source": [
+        "Wikipedia – Rechercheeinstieg: Jaguar Land Rover",
+        "https://en.wikipedia.org/w/index.php?search=Jaguar%20Land%20Rover"
+      ]
+    },
+    {
+      "id": "emotet",
+      "number": 144,
+      "title": "Die Antwortmail, die nie geschrieben wurde",
+      "year": 2018,
+      "origin": "BSI",
+      "daily": [
+        "Eine Antwort auf ein bekanntes Gespräch kann echt wirken und trotzdem einen falschen Mitreisenden im Anhang haben.",
+        "Im Postfach erscheint eine Nachricht, die scheinbar auf ein echtes früheres Gespräch antwortet.",
+        "Emotet nutzte gestohlene Gesprächskontexte und überzeugende Mails, um Schadsoftware zu verbreiten.",
+        "Viele Unternehmen wurden von den darauf folgenden Infektionen schwer getroffen."
+      ],
+      "lesson": "Selbst passende Betreffzeilen sind kein Beweis für eine echte Nachricht.",
+      "source": [
+        "BSI – offizieller Zeitstrahl",
+        "https://www.bsi.bund.de/EN/Das-BSI/Zeitstrahl/zeitstrahl_bsi_ab_1991.html"
+      ]
+    },
+    {
+      "id": "ukd-hospital",
+      "number": 145,
+      "title": "Ein Krankenhaus muss Patienten umleiten",
+      "year": 2020,
+      "origin": "BSI",
+      "daily": [
+        "Bei einem Krankenhaus ist IT-Verfügbarkeit kein Komfortzubehör. Genau deshalb müssen Ersatzwege geübt sein.",
+        "Ein großes Klinikum benötigt IT für die Koordination seiner medizinischen Versorgung.",
+        "Am 10.",
+        "Das BSI unterstützte die Bewältigung des Vorfalls mit einem mobilen Team."
+      ],
+      "lesson": "Kritische Gesundheits-IT benötigt geübte Notfallabläufe.",
+      "source": [
+        "BSI – offizieller Zeitstrahl",
+        "https://www.bsi.bund.de/EN/Das-BSI/Zeitstrahl/zeitstrahl_bsi_ab_1991.html"
+      ]
+    },
+    {
+      "id": "collection-one",
+      "number": 146,
+      "title": "Die Datensammlung im Adventskalender-Stil",
+      "year": 2019,
+      "origin": "BSI",
+      "daily": [
+        "Ein Adventskalender sollte kleine Überraschungen enthalten. Private Daten anderer Menschen gehören nicht hinein.",
+        "Ein Twitter-Konto verbreitet Links wie Türchen eines Adventskalenders.",
+        "Private Angaben prominenter Personen und deutscher Politiker wurden über Links öffentlich gemacht.",
+        "Auch öffentliche Personen und Politiker waren von veröffentlichtem Material betroffen."
+      ],
+      "lesson": "Individuelle Passwörter und schnelle Reaktion auf Leaks sind wichtig.",
+      "source": [
+        "BSI – offizieller Zeitstrahl",
+        "https://www.bsi.bund.de/EN/Das-BSI/Zeitstrahl/zeitstrahl_bsi_ab_1991.html"
+      ]
+    },
+    {
+      "id": "avalanche",
+      "number": 147,
+      "title": "Ein kriminelles Computernetz wird zerlegt",
+      "year": 2016,
+      "origin": "BSI",
+      "daily": [
+        "Ein kriminelles Netz kann groß sein. Internationale Ermittler brauchen dafür mehr als einen einzelnen digitalen Schneeschieber.",
+        "Über infizierte Rechner und Server verteilen Kriminelle Schadsoftware im großen Stil.",
+        "Ermittler verschiedener Länder gingen 2016 gegen die Infrastruktur des Avalanche-Netzwerks vor.",
+        "Das BSI unterstützte die technische Analyse der Infrastruktur."
+      ],
+      "lesson": "Internationale Zusammenarbeit kann kriminelle Geschäftsmodelle stören.",
+      "source": [
+        "BSI – offizieller Zeitstrahl",
+        "https://www.bsi.bund.de/EN/Das-BSI/Zeitstrahl/zeitstrahl_bsi_ab_1991.html"
+      ]
+    },
+    {
+      "id": "emotet-takedown",
+      "number": 148,
+      "title": "Die Polizei übernimmt das Botnetz",
+      "year": 2021,
+      "origin": "BSI",
+      "daily": [
+        "Wenn die Polizei ein Botnetz übernimmt, bekommen kriminelle Betreiber eine äußerst unerwünschte Netzwerkverwaltung.",
+        "Eine gefährliche Schadsoftware verschickt vermeintlich vertraute Nachrichten.",
+        "Ermittler übernahmen 2021 in einer internationalen Aktion Teile der Emotet-Infrastruktur.",
+        "Ein bedeutender Verbreitungsweg der Malware wurde vorübergehend stillgelegt."
+      ],
+      "lesson": "Technische Strafverfolgung ergänzt den Schutz einzelner Geräte.",
+      "source": [
+        "BSI – offizieller Zeitstrahl",
+        "https://www.bsi.bund.de/EN/Das-BSI/Zeitstrahl/zeitstrahl_bsi_ab_1991.html"
+      ]
+    },
+    {
+      "id": "oil-trader",
+      "number": 149,
+      "title": "Ein Ölhändler gerät digital unter Druck",
+      "year": 2022,
+      "origin": "BSI",
+      "daily": [
+        "Auch im Ölhandel läuft nicht alles durch Rohre: Manche wichtigen Geschäftswege führen durch virtuelle Server.",
+        "Ein Unternehmen des Mineralölhandels betreibt zentrale Server und Kommunikationssysteme.",
+        "Bei einem Angriff auf einen deutschen Ölhändler im März 2022 fielen virtualisierte Server aus und Angreifer entwendeten Daten.",
+        "Das BSI beschrieb das Eindringen in mehrere Systeme und Speicher."
+      ],
+      "lesson": "Abwehr muss auch die Bewegung zwischen internen Servern erschweren.",
+      "source": [
+        "BSI – offizieller Zeitstrahl",
+        "https://www.bsi.bund.de/EN/Das-BSI/Zeitstrahl/zeitstrahl_bsi_ab_1991.html"
+      ]
+    },
+    {
+      "id": "mizuho",
+      "number": 150,
+      "title": "610.000 Aktien für einen Yen",
+      "year": 2005,
+      "origin": "Fachquelle",
+      "daily": [
+        "Zwei Eingabefelder tauschen die Plätze, und aus einer einzelnen Aktie wird ein ziemlich unbescheidenes Sonderangebot.",
+        "Japan, 2005: Ein Händler soll eine Aktie für 610.000 Yen verkaufen. Doch Preis und Stückzahl werden vertauscht. Im System steht plötzlich: 610.000 Aktien für jeweils einen Yen.",
+        "Die Korrektur gelingt wegen technischer beziehungsweise prozessualer Probleme nicht sofort. Aus dem vertauschten Zahlenpaar entstehen enorme Verluste.",
+        "Als Sonderangebot wäre das ziemlich großzügig gewesen. Als Börsenauftrag war es leider sehr ernst. Der Fall zeigt, warum ungewöhnliche Eingaben und sichere Abbruchwege geprüft werden müssen."
+      ],
+      "lesson": "Plausi-Prüfungen müssen Eingaben in der richtigen Größenordnung erzwingen.",
+      "source": [
+        "WDR – teuerster Tippfehler der Welt",
+        "https://www1.wdr.de/stichtag/stichtag-teuerster-tippfehler-100.html"
+      ]
+    },
+    {
+      "id": "sf-keys",
+      "number": 151,
+      "title": "Das Passwort, das nur einer kannte",
+      "year": 2008,
+      "origin": "Fachquelle",
+      "daily": [
+        "Ein Notfallzugang sollte nicht davon abhängen, ob der einzige Schlüsselverwalter gerade gesprächsbereit ist.",
+        "Ein zentraler Netzwerkadministrator verwaltete das FiberWAN der Stadt San Francisco.",
+        "Nach einem internen Streit verweigerte der Administrator die Herausgabe gültiger Zugangsdaten.",
+        "Das Stadtnetz lief zwar weiter, aber zuständige Kollegen konnten es zeitweise nicht regulär administrieren. 2010 wurde der Mann wegen der Zugangsverweigerung verurteilt."
+      ],
+      "lesson": "Kritische Zugänge dürfen nie von einer einzelnen Person abhängen. Ein dokumentierter Notfallzugang und geregelte Übergaben sind Pflicht.",
+      "source": [
+        "San Francisco Chronicle – Berufungsbericht",
+        "https://www.sfchronicle.com/crime/article/s-f-ex-computer-engineer-s-conviction-stands-4929117.php"
+      ]
+    },
+    {
+      "id": "jpl-pi",
+      "number": 152,
+      "title": "Der kleine Raspberry Pi als Hintertür",
+      "year": 2018,
+      "origin": "Amtliche Quelle",
+      "daily": [
+        "Ein kleiner Raspberry Pi ist kein Tarnumhang. Er gehört genauso ins Geräteverzeichnis wie seine großen Nachbarn.",
+        "Ein kleines Raspberry-Pi-Gerät war ohne die vorgeschriebene Genehmigung mit dem Netz des Jet Propulsion Laboratory verbunden.",
+        "Angreifer nutzten 2018 das nicht ordnungsgemäß verwaltete Gerät als Einstiegspunkt.",
+        "Ein günstiger Computer wurde zur Schwachstelle einer hochentwickelten Forschungseinrichtung."
+      ],
+      "lesson": "Unbekannte Geräte erkennen, Netze trennen und alle Anschlüsse inventarisieren.",
+      "source": [
+        "NASA Office of Inspector General – JPL-Audit 2019",
+        "https://oig.nasa.gov/wp-content/uploads/2024/02/IG-19-022.pdf"
+      ]
+    },
+    {
+      "id": "bsi-water-pipe",
+      "number": 153,
+      "title": "Die Wasserleitung über dem Stromverteiler",
+      "year": 2018,
+      "origin": "BSI-Beispiel",
+      "daily": [
+        "Wasser und Strom sollten sich im Rechenzentrum möglichst nur vom Hörensagen kennen.",
+        "Das BSI beschreibt in seinem IT-Grundschutz einen Serverraum, über dem eine Wasserleitung unter einer Gipskartondecke verlief.",
+        "Eine undichte Verbindung ließ Wasser über der Verkleidung sammeln.",
+        "Für die Reparatur mussten Wasser- und Stromversorgung des betroffenen Gebäudeteils abgeschaltet werden."
+      ],
+      "lesson": "Keine Wasserleitungen über sensibler IT; Räume regelmäßig prüfen und Leckageerkennung vorsehen.",
+      "source": [
+        "BSI IT-Grundschutz – Elementare Gefährdungen G 0.3 Wasser",
+        "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium/IT_Grundschutz_Kompendium_Edition2019.pdf?__blob=publicationFile&v=1"
+      ]
+    },
+    {
+      "id": "ovh-fire",
+      "number": 154,
+      "title": "Als ein Rechenzentrum tatsächlich brannte",
+      "year": 2021,
+      "origin": "Unternehmensquelle",
+      "daily": [
+        "Eine Cloud wohnt am Ende auch in echten Gebäuden. Brandschutz lässt sich deshalb nicht einfach virtuell wegklicken.",
+        "Im französischen Straßburg liefen zehntausende digitale Dienste über Rechenzentren von OVHcloud.",
+        "Am 10.",
+        "Tausende Kunden waren vom Ausfall betroffen."
+      ],
+      "lesson": "Backups außer Haus, getrennte Brandschutzabschnitte und überprüfbare Wiederherstellung.",
+      "source": [
+        "OVHcloud – Bericht über Brand in Straßburg",
+        "https://corporate.ovhcloud.com/en-gb/newsroom/news/informations-site-strasbourg/"
+      ]
+    },
+    {
+      "id": "morgan-old-disks",
+      "number": 155,
+      "title": "Die Festplatten, die beim Umzug mitgingen",
+      "year": 2022,
+      "origin": "Amtliche Quelle",
+      "daily": [
+        "Eine ausgemusterte Festplatte ist erst dann wirklich verabschiedet, wenn auch ihre Daten nicht mehr mitreisen.",
+        "Bei Morgan Stanley Smith Barney wurden ausrangierte Server und Festplatten an Dienstleister zur Entsorgung beziehungsweise Weiterverarbeitung gegeben.",
+        "Ein beauftragtes Umzugsunternehmen verkaufte Tausende Geräte weiter; ein Teil tauchte auf Online-Auktionsplattformen auf.",
+        "Die US-Börsenaufsicht SEC verhängte 2022 eine Strafe von 35 Millionen US-Dollar."
+      ],
+      "lesson": "Datenträger vor Abgabe sicher löschen oder vernichten, Verschlüsselung prüfen und Lieferketten überwachen.",
+      "source": [
+        "US SEC – Morgan Stanley Datenschutz-Strafbescheid",
+        "https://www.sec.gov/newsroom/press-releases/2022-168"
+      ]
+    },
+    {
+      "id": "dallas-evidence",
+      "number": 156,
+      "title": "Die Polizeiakten, die im Papierkorb landeten",
+      "year": 2021,
+      "origin": "Amtliche Quelle",
+      "daily": [
+        "Ein digitales Archiv braucht einen sorgfältigeren Umzugsplan als die alte Kaffeeküche.",
+        "Die Stadt Dallas wollte Datenbestände aus ihrem Archiv verlagern und verwalten.",
+        "Durch Handlungen eines IT-Mitarbeiters und mangelhafte Verfahren gingen im März 2021 insgesamt 20,9 Terabyte Archivdaten mit 8,26 Millionen Dateien verloren, wie die Stadt berichtete.",
+        "Es ging auch um potenziell beweisrelevante Informationen."
+      ],
+      "lesson": "Vor dem Löschen Migration und Wiederherstellung unabhängig überprüfen; Löschrechte begrenzen.",
+      "source": [
+        "Stadt Dallas – Abschlussbericht zum Datenverlust",
+        "https://dallascityhall.com/departments/ciservices/Pages/Report-on-Data-Loss.aspx"
+      ]
+    },
+    {
+      "id": "uk-police-cleanup",
+      "number": 157,
+      "title": "Routinepflege löscht Polizeidaten",
+      "year": 2021,
+      "origin": "Amtliche Quelle",
+      "daily": [
+        "Datenpflege soll Ordnung schaffen. Der Löschknopf braucht dabei deutlich engere Grenzen als ein Putzlappen.",
+        "In Großbritanniens Police National Computer werden für Strafverfolgung wichtige Datensätze verarbeitet.",
+        "Bei einem solchen Housekeeping-Prozess löschte ein menschlicher Fehler zahlreiche Einträge.",
+        "IT-Fachleute arbeiteten an der Wiederherstellung."
+      ],
+      "lesson": "Wartungsskripte mit Stichproben und Vier-Augen-Prüfung absichern; Wiederherstellung testen.",
+      "source": [
+        "Britisches Innenministerium – Datenwiederherstellung",
+        "https://www.gov.uk/government/news/home-office-working-to-restore-police-national-computer-data"
+      ]
+    },
+    {
+      "id": "hawaii-missile",
+      "number": 158,
+      "title": "38 Minuten Angst wegen eines Probealarms",
+      "year": 2018,
+      "origin": "Amtliche Quelle",
+      "daily": [
+        "Ein Probealarm muss unmissverständlich Probe heißen, und eine Rücknahme darf kein technisches Rätsel sein.",
+        "Hawaiis Warnzentrale übte am 13.",
+        "Ein Mitarbeiter hielt die Situation offenbar für real und bestätigte eine echte Raketenwarnung.",
+        "Viele Menschen glaubten an einen unmittelbar bevorstehenden Angriff."
+      ],
+      "lesson": "Test und Echtbetrieb strikt trennen; Warnungen mit Zweitfreigabe und sofortiger Rücknahme ausstatten.",
+      "source": [
+        "Hawaii Emergency Management Agency – Fehlalarm",
+        "https://dod.hawaii.gov/hiema/hawaii-emergency-management-agency-statement-on-missile-launch-false-alarm-january-13-2018/"
+      ]
+    },
+    {
+      "id": "tsb-migration",
+      "number": 159,
+      "title": "Der Bankumzug, der Kunden aussperrte",
+      "year": 2018,
+      "origin": "Amtliche Quelle",
+      "daily": [
+        "Ein Bankumzug ist erst gelungen, wenn die Kunden ihr Geld auch am neuen digitalen Schalter erreichen.",
+        "Die britische Bank TSB stellte 2018 ihre Systeme auf eine neue Plattform um.",
+        "Daten wurden übertragen, aber die neue Plattform hatte erhebliche technische Probleme.",
+        "Filial-, Telefon- und Onlinebanking fielen aus oder waren gestört."
+      ],
+      "lesson": "Kritische Migrationen nur mit realistischen Tests, Notfallrückweg und klarer Verantwortlichkeit starten.",
+      "source": [
+        "UK FCA – Bußgeld nach TSB-IT-Migration",
+        "https://www.fca.org.uk/news/press-releases/tsb-fined-48m-operational-resilience-failings"
+      ]
+    },
+    {
+      "id": "rbs-batch",
+      "number": 160,
+      "title": "Wenn eine Bank ihr Rechenzentrum unterschätzt",
+      "year": 2012,
+      "origin": "Amtliche Quelle",
+      "daily": [
+        "Ein Bankensystem braucht nach einer Störung mehr als den gut gemeinten Rat, es später noch einmal zu versuchen.",
+        "Die Banken RBS, NatWest und Ulster Bank arbeiteten mit komplexen, teils historisch gewachsenen Systemen.",
+        "Ein Softwarekompatibilitätsproblem führte ab 18.",
+        "Mindestens 6,5 Millionen Kunden waren betroffen; manche konnten Überweisungen nicht ausführen oder erhielten veraltete Kontostände."
+      ],
+      "lesson": "Altsysteme und Update-Abhängigkeiten verstehen; Resilienz ist Führungsaufgabe.",
+      "source": [
+        "Bank of England – RBS/NatWest-IT-Vorfälle",
+        "https://www.bankofengland.co.uk/news/2014/november/pra-fines-rbs-natwest-and-ulster-bank"
+      ]
+    },
+    {
+      "id": "toyota-full-disk",
+      "number": 161,
+      "title": "Ein voller Datenträger stoppt Autofabriken",
+      "year": 2023,
+      "origin": "Unternehmensquelle",
+      "daily": [
+        "Der Datenträger war voll. Leider ließ sich freie Kapazität nicht einfach zusammen mit den Fahrzeugteilen bestellen.",
+        "Toyota wollte bei einer regulären Wartung angesammelte Daten in seiner Produktions-IT bereinigen.",
+        "Bei der Arbeit ging der verfügbare Speicherplatz aus.",
+        "Am 29."
+      ],
+      "lesson": "Wartung mit Kapazitätsreserven testen und Redundanz vor gemeinsamen Fehlern schützen.",
+      "source": [
+        "Toyota – Produktionssystem-Ausfall und Ursache",
+        "https://global.toyota/en/newsroom/corporate/39732568.html"
+      ]
+    },
+    {
+      "id": "tse-backup",
+      "number": 162,
+      "title": "Die zweite Börsenmaschine springt nicht an",
+      "year": 2020,
+      "origin": "Unternehmensquelle",
+      "daily": [
+        "Ein Reservegerät sollte im Ernstfall übernehmen, statt gemeinsam mit dem Hauptgerät über das Problem nachzudenken.",
+        "Die Börse in Tokio hatte ein technisches Ersatzsystem für den Fall eines Speicherfehlers.",
+        "Am 1.",
+        "Der Aktienhandel wurde für einen ganzen Tag angehalten."
+      ],
+      "lesson": "Ein Backup ist erst dann eine Absicherung, wenn der automatische Ernstfall getestet wurde.",
+      "source": [
+        "Japan Exchange Group – Ausfall des Handelssystems",
+        "https://www.jpx.co.jp/english/news/1030/20201001-05.html"
+      ]
+    },
+    {
+      "id": "nats-same-name",
+      "number": 163,
+      "title": "Zwei gleiche Namen legen den Flugplan lahm",
+      "year": 2023,
+      "origin": "Unternehmensquelle",
+      "daily": [
+        "Zwei Wegpunkte mit demselben Namen sind für Menschen erklärbar. Software braucht dafür trotzdem eine klare Regel.",
+        "Die britische Flugsicherung NATS verarbeitet Flugpläne automatisiert.",
+        "Ein Flugplan enthielt zwei verschiedene Wegpunkte mit identischem Namen außerhalb Großbritanniens.",
+        "Viele Flüge verzögerten sich oder fielen aus."
+      ],
+      "lesson": "Seltene Eingaben testen und verhindern, dass Primär- und Rückfallsystem denselben Fehler teilen.",
+      "source": [
+        "NATS – Ursachenbericht Flugplanbearbeitung",
+        "https://www.nats.aero/news/nats-report-into-air-traffic-control-incident-details-root-cause-and-solution-implemented/"
+      ]
+    },
+    {
+      "id": "optus-routing",
+      "number": 164,
+      "title": "Das Telefonnetz stolpert über Routen",
+      "year": 2023,
+      "origin": "Amtliche Quelle",
+      "daily": [
+        "Ein Router bekommt viele Wegbeschreibungen. Zu viele ungewohnte Hinweise können daraus ein Verkehrschaos machen.",
+        "Australiens Optus-Netz ist auf den Austausch von Internet-Routinginformationen angewiesen.",
+        "Nach einer Softwareaktualisierung bei einem Peering-Partner wurden ungewöhnliche Routinginformationen übertragen.",
+        "Die Verbindung brach für viele Kunden zusammen; auch die Erreichbarkeit von Notrufdiensten war Thema behördlicher Untersuchungen."
+      ],
+      "lesson": "Routingänderungen begrenzen, testen und technische Rückholwege vorhalten.",
+      "source": [
+        "Australischer Senat – Untersuchung des Optus-Ausfalls",
+        "https://www.aph.gov.au/Parliamentary_Business/Committees/Senate/Environment_and_Communications/OptusNetworkOutage/Report/Chapter_2_-_The_Optus_network_outage"
+      ]
+    },
+    {
+      "id": "att-peerreview",
+      "number": 165,
+      "title": "Das Update ohne zweite Prüfung",
+      "year": 2024,
+      "origin": "Amtliche Quelle",
+      "daily": [
+        "Eine zweite Prüfung ist kein Misstrauensvotum, sondern die digitale Variante eines zweiten Blicks vor dem Einparken.",
+        "AT&T erweiterte 2024 während eines Wartungsfensters sein Mobilfunknetz.",
+        "Die Komponente war falsch konfiguriert.",
+        "Der Fehler pflanzte sich im Netz fort und führte am 22."
+      ],
+      "lesson": "Peer-Review und Testpflicht bei Kernnetzänderungen technisch erzwingen.",
+      "source": [
+        "FCC – Analyse AT&T-Netzausfall",
+        "https://docs.fcc.gov/public/attachments/DOC-404150A1.pdf"
+      ]
+    },
+    {
+      "id": "cf-abuse-button",
+      "number": 166,
+      "title": "Ein Klick gegen Phishing sperrt die Cloud",
+      "year": 2025,
+      "origin": "Unternehmensquelle",
+      "daily": [
+        "Ein Knopf gegen Missbrauch sollte möglichst nicht gleich den eigenen Cloud-Dienst mit aussperren.",
+        "Cloudflare bearbeitete im Februar 2025 eine Meldung über eine Phishingadresse im Cloud-Speicher R2.",
+        "Wegen schwacher Schutzkontrollen wurde nicht nur die beanstandete Adresse gesperrt, sondern versehentlich der Produktionszugangsdienst von R2 deaktiviert.",
+        "Der Speicherdienst und abhängige Produkte waren knapp eine Stunde gestört."
+      ],
+      "lesson": "Kritische Admin-Aktionen durch Schutzschranken, Rechtebegrenzung und unabhängige Freigaben absichern.",
+      "source": [
+        "Cloudflare – R2-Ausfall nach Fehlbedienung",
+        "https://blog.cloudflare.com/cloudflare-incident-on-february-6-2025"
+      ]
+    },
+    {
+      "id": "cf-portland-power",
+      "number": 167,
+      "title": "Ein Rechenzentrum verliert den Strom",
+      "year": 2023,
+      "origin": "Unternehmensquelle",
+      "daily": [
+        "Auch ein Rechenzentrum braucht Strom aus der Steckdose. Das Wort Cloud ersetzt keine funktionierende Versorgung.",
+        "Cloudflare nutzte ein besonders wichtiges Rechenzentrum in Portland.",
+        "Am 2.",
+        "Cloudflare räumte ein, nicht sämtliche vorgesehenen Ausfallschutzmaßnahmen für Dienste konsequent durchgesetzt zu haben."
+      ],
+      "lesson": "Jede kritische Anwendung muss den Totalausfall eines Standortes überstehen können.",
+      "source": [
+        "Cloudflare – Power-Outage-Postmortem",
+        "https://blog.cloudflare.com/post-mortem-on-cloudflare-control-plane-and-analytics-outage/"
+      ]
+    },
+    {
+      "id": "belgium-lightning",
+      "number": 168,
+      "title": "Vier Blitze in zwei Minuten",
+      "year": 2015,
+      "origin": "Unternehmensquelle",
+      "daily": [
+        "Vier Blitze in kurzer Folge sind ein deutlich anspruchsvollerer Test als ein freundlicher Sonnenscheinbetrieb.",
+        "In der Nähe eines Google-Rechenzentrums in Belgien trafen 2015 vier Blitze innerhalb von zwei Minuten das Stromnetz.",
+        "Bei der dritten und vierten Störung schalteten Batterien einiger Speichereinheiten nicht rechtzeitig um.",
+        "Google beschreibt den Vorfall in seinem Site-Reliability-Engineering-Material als Lehrstück für komplexe Stromversorgungs- und Speicherausfälle."
+      ],
+      "lesson": "Verfügbarkeit einer Gesamtanwendung testen, nicht nur jede Komponente einzeln.",
+      "source": [
+        "Google SRE – Blitzschlag im Rechenzentrum",
+        "https://sre.google/workbook/incident-response/"
+      ]
+    },
+    {
+      "id": "southwest-holiday",
+      "number": 169,
+      "title": "Weihnachten, aber die Flugplanung kommt nicht hinterher",
+      "year": 2022,
+      "origin": "Amtliche Quelle",
+      "daily": [
+        "Schlechtes Wetter ist schon schwierig. Wenn die Planungstechnik nicht hinterherkommt, wird daraus keine besinnliche Weihnachtsreise.",
+        "Während schwerer Winterwetterlagen musste Southwest Airlines 2022 Flugzeuge und Crews neu disponieren.",
+        "Aus einer Wetterstörung wurde ein langwieriger betrieblicher Zusammenbruch.",
+        "Rund 16.900 Flüge fielen aus, mehr als zwei Millionen Reisende waren betroffen."
+      ],
+      "lesson": "IT-Kapazitäten und Personalprozesse auf Störfälle dimensionieren, nicht nur auf normalen Betrieb.",
+      "source": [
+        "US-Verkehrsministerium – Southwest-Holiday-Meltdown",
+        "https://www.transportation.gov/briefing-room/dot-penalizes-southwest-airlines-140-million-2022-holiday-meltdown"
+      ]
+    },
+    {
+      "id": "unisuper-deleted",
+      "number": 170,
+      "title": "Die Cloud-Kundschaft, die plötzlich nicht mehr existierte",
+      "year": 2024,
+      "origin": "Unternehmensquelle",
+      "daily": [
+        "Ein Cloudkonto sollte nicht so leicht verschwinden wie ein versehentlich geschlossenes Browserfenster.",
+        "Der australische Pensionsfonds UniSuper nutzte Google Cloud für geschäftskritische Anwendungen.",
+        "Bei einer besonderen Konfiguration wurde nach gemeinsamer Erklärung von Google und UniSuper versehentlich das Konto des Kunden gelöscht.",
+        "Die Wiederherstellung dauerte Tage."
+      ],
+      "lesson": "Backups unabhängig vom Hauptanbieter und vom Administratorkonto bewahren.",
+      "source": [
+        "Google Cloud – UniSuper-Fehleranalyse",
+        "https://cloud.google.com/blog/products/infrastructure/details-of-google-cloud-gcve-incident"
+      ]
+    },
+    {
+      "id": "ubiquiti-impostor",
+      "number": 171,
+      "title": "46,7 Millionen Dollar auf fremde Konten",
+      "year": 2015,
+      "origin": "Amtliche Quelle",
+      "daily": [
+        "Eine dringende Nachricht vom angeblichen Chef braucht vor einer Überweisung lieber einen echten Rückruf als schnelle Ehrfurcht.",
+        "Bei Ubiquiti Networks erhielten Finanzmitarbeiter täuschende Anweisungen.",
+        "Der Finanzbereich veranlasste 14 internationale Überweisungen an Betrügerkonten, zusammen rund 46,7 Millionen US-Dollar.",
+        "Ein Teil des Geldes konnte zurückgeholt werden, ein erheblicher Betrag blieb verloren."
+      ],
+      "lesson": "Zahlungsdaten nur über unabhängige, bekannte Rückrufnummern bestätigen.",
+      "source": [
+        "SEC – Ubiquiti-Börsenmeldung vom 2015",
+        "https://www.sec.gov/Archives/edgar/data/1511737/000157104915006288/t1501817_8k.htm"
+      ]
+    },
+    {
+      "id": "leoni-fake-ceo",
+      "number": 172,
+      "title": "Der falsche Chef kostet rund 40 Millionen Euro",
+      "year": 2016,
+      "origin": "Unternehmensquelle",
+      "daily": [
+        "Ein wichtiger Titel in einer E-Mail ersetzt keine unabhängige Prüfung der Zahlungsanweisung.",
+        "Beim deutschen Autozulieferer Leoni erhielten Beschäftigte gefälschte Dokumente und Nachrichten, die berechtigte Anweisungen vortäuschten.",
+        "Im August 2016 wurden Gelder auf ausländische Konten transferiert.",
+        "Der Verlust belastete den Jahresabschluss."
+      ],
+      "lesson": "Hohe Zahlungen mit verbindlichem Vier-Augen-Prinzip und unabhängiger Rückbestätigung absichern.",
+      "source": [
+        "Leoni – Ad-hoc-Mitteilung zum Betrugsfall",
+        "https://www.globenewswire.com/de/news-release/2016/09/14/871798/0/en/dgap-adhoc-leoni-ag-leoni-takes-account-of-fraud-case-in-its-full-year-forecast.html"
+      ]
+    },
+    {
+      "id": "facc-ceo",
+      "number": 173,
+      "title": "Der angebliche Vorstand und die geheime Zahlung",
+      "year": 2016,
+      "origin": "Unternehmensquelle",
+      "daily": [
+        "Die Worte streng geheim dürfen nicht bedeuten, dass bei einer Überweisung niemand mehr kontrollieren soll.",
+        "Auch der österreichische Luftfahrtzulieferer FACC war 2016 Ziel einer Täuschung, bei der betrügerische Zahlungsanweisungen als Konzernauftrag dargestellt wurden.",
+        "Nach Berichten und Unternehmensangaben wurden rund 50 Millionen Euro auf betrügerisch kontrollierte Konten übertragen.",
+        "Ein millionenschwerer Schaden und personelle Konsequenzen machten den Vorfall international bekannt."
+      ],
+      "lesson": "Machtworte vermeintlicher Vorgesetzter ersetzen keine unabhängige Zahlungsprüfung.",
+      "source": [
+        "FACC – Ad-hoc-Meldung zu kriminellen Aktivitäten",
+        "https://press.facc.com/news-eans-adhoc-facc-ag-facc-ag-victim-of-cybercriminal-activities?id=63929&l=english&menueid=14308"
+      ]
+    },
+    {
+      "id": "macewan-vendor",
+      "number": 174,
+      "title": "Die Universität und die falsche Bankverbindung",
+      "year": 2017,
+      "origin": "Unternehmensquelle",
+      "daily": [
+        "Eine neue Bankverbindung gehört geprüft. Ein vertrauter Lieferantenname auf der Nachricht macht sie noch nicht richtig.",
+        "Die MacEwan University in Kanada bearbeitete Zahlungen an einen echten Auftragnehmer.",
+        "Die Universität übernahm die geänderten Zahlungsinformationen und überwies rund 11,8 Millionen kanadische Dollar auf ein fremdes Konto.",
+        "Die Universität dokumentierte die Zahlung an ein Betrügerkonto in ihrem Jahresbericht und bemühte sich um Rückholung."
+      ],
+      "lesson": "Bei Änderung einer Bankverbindung stets unter einer unabhängig geprüften Nummer rückfragen.",
+      "source": [
+        "MacEwan University – Geschäftsbericht 2016/17",
+        "https://www.macewan.ca/c/documents/annual_report_2016-17.pdf"
+      ]
+    },
+    {
+      "id": "snapchat-boss",
+      "number": 175,
+      "title": "Der Chef bittet um alle Gehaltsdaten",
+      "year": 2016,
+      "origin": "Fachquelle",
+      "daily": [
+        "Auch der vermeintliche Chef bekommt sensible Gehaltsdaten nicht allein wegen einer überzeugenden E-Mail-Adresse.",
+        "Ein Mitarbeiter in Snapchats Lohnbuchhaltung erhielt eine E-Mail, die angeblich vom CEO Evan Spiegel stammte und vertrauliche Beschäftigtendaten verlangte.",
+        "Die Nachricht war gefälscht.",
+        "Snapchat bestätigte die Datenschutzpanne und informierte betroffene Mitarbeiter."
+      ],
+      "lesson": "Auch bei scheinbaren Chef-Anfragen müssen Beschäftigtendaten besonders geprüft werden.",
+      "source": [
+        "Guardian – Snapchat-Mailbetrug",
+        "https://www.theguardian.com/technology/2016/feb/29/snapchat-leaks-employee-data-ceo-scam-email"
+      ]
+    },
+    {
+      "id": "seagate-w2",
+      "number": 176,
+      "title": "Ein Speichergigant gibt seine Lohnzettel preis",
+      "year": 2016,
+      "origin": "Fachquelle",
+      "daily": [
+        "Lohnzettel sind kein beiläufiger E-Mail-Anhang. Die Empfängerprüfung darf ruhig wichtiger sein als die vermeintliche Dringlichkeit.",
+        "Seagate stellte Speichertechnik her und beschäftigte zahlreiche Menschen.",
+        "Ein Betrüger gab sich in einer E-Mail als Unternehmenschef aus.",
+        "Mehrere Tausend Beschäftigte waren von der Datenweitergabe betroffen."
+      ],
+      "lesson": "Sensible Sammeldateien niemals allein wegen einer Mailanweisung versenden.",
+      "source": [
+        "KrebsOnSecurity – Seagate-W-2-Phishing",
+        "https://krebsonsecurity.com/2016/03/seagate-phish-exposes-all-employee-w-2s/"
+      ]
+    },
+    {
+      "id": "arup-deepfake",
+      "number": 177,
+      "title": "Das Chef-Meeting, das nie stattgefunden hat",
+      "year": 2024,
+      "origin": "Fachquelle",
+      "daily": [
+        "Ein Videomeeting kann sehr echt aussehen. Für eine große Überweisung sollte die Prüfung trotzdem außerhalb des Bildschirms weitergehen.",
+        "Ein Mitarbeiter eines Unternehmensbüros in Hongkong bekam eine vermeintlich vertrauliche Zahlungsanweisung.",
+        "Täter hatten mit Deepfake-Technik Stimmen und Bilder gefälscht.",
+        "Das Ingenieurunternehmen Arup bestätigte, selbst Opfer dieses 2024 bekannt gewordenen Betrugs gewesen zu sein."
+      ],
+      "lesson": "Auch Video- und Spracherkennung sind kein Identitätsbeweis: Zahlungen über separate Kanäle verifizieren.",
+      "source": [
+        "South China Morning Post – Bestätigung durch Arup",
+        "https://www.scmp.com/news/hong-kong/law-and-crime/article/3263151/uk-multinational-arup-confirmed-victim-hk200-million-deepfake-scam-used-digital-version-cfo-dupe"
+      ]
+    },
+    {
+      "id": "caesars-it-vendor",
+      "number": 178,
+      "title": "Die Hintertür beim externen IT-Dienstleister",
+      "year": 2023,
+      "origin": "Amtliche Quelle",
+      "daily": [
+        "Ein IT-Helpdesk hilft beim Zugang. Genau deshalb darf er sich nicht zum unfreiwilligen Türöffner überreden lassen.",
+        "Caesars Entertainment ließ bestimmte IT-Unterstützungsleistungen von einem externen Dienstleister erledigen.",
+        "Angreifer nutzten 2023 eine Social-Engineering-Attacke auf den ausgelagerten IT-Support.",
+        "Caesars meldete, dass unter anderem eine Kopie seiner Kundenbindungsdatenbank mit sensiblen Daten entwendet wurde."
+      ],
+      "lesson": "Vertrauen in Lieferanten ist kein Ersatz für strenge Prüfung ihrer Identitäten und Rechte.",
+      "source": [
+        "US SEC – Caesars-Vorfallsmeldung",
+        "https://www.sec.gov/Archives/edgar/data/1590895/000119312523235015/d537840d8k.htm"
+      ]
+    },
+    {
+      "id": "twilio-fake-it",
+      "number": 179,
+      "title": "Die SMS von der angeblichen IT-Abteilung",
+      "year": 2022,
+      "origin": "Unternehmensquelle",
+      "daily": [
+        "Eine SMS mit IT-Absender ist noch keine IT-Abteilung. Der Link muss sich seine Glaubwürdigkeit erst verdienen.",
+        "Twilio-Mitarbeitende erhielten SMS mit vorgetäuschten IT-Nachrichten.",
+        "Die Links führten zu nachgebauten Anmeldeseiten.",
+        "Twilio informierte Kunden über unberechtigten Zugriff auf einen begrenzten Teil von Kundendaten."
+      ],
+      "lesson": "Mitarbeiteranfragen nur über offizielle Portale prüfen und phishingresistente Anmeldemethoden nutzen.",
+      "source": [
+        "Twilio – Angriff auf Mitarbeitendenkonten",
+        "https://www.twilio.com/blog/august-2022-social-engineering-attack"
+      ]
+    },
+    {
+      "id": "cisco-fatigue",
+      "number": 180,
+      "title": "So viele Login-Anfragen, bis jemand nachgibt",
+      "year": 2022,
+      "origin": "Unternehmensquelle",
+      "daily": [
+        "Viele Login-Abfragen machen eine fremde Anmeldung nicht richtiger, sondern nur aufdringlicher.",
+        "Bei Cisco zielten Angreifer 2022 auf einen Mitarbeiterzugang.",
+        "Durch eine Kombination aus Tricks und MFA-Müdigkeit gelang der Zugriff auf die interne IT-Umgebung.",
+        "Der Vorfall blieb nach Cisco-Angaben auf Unternehmens-IT begrenzt; es wurden keine Cisco-Produkte manipuliert."
+      ],
+      "lesson": "MFA mit Herkunftsprüfung und starken Sicherheitsschlüsseln statt bloßer Bestätigungs-Pop-ups verwenden.",
+      "source": [
+        "Cisco Security – Security Incident 2022",
+        "https://sec.cloudapps.cisco.com/security/center/resources/corp_network_security_incident"
+      ]
+    },
+    {
+      "id": "uber-mfa",
+      "number": 181,
+      "title": "Die Dauer-Bestätigung im Smartphone",
+      "year": 2022,
+      "origin": "Unternehmensquelle",
+      "daily": [
+        "Wenn das Handy dauernd nach einer Anmeldung fragt, ist Zustimmung kein geeigneter Lautlosmodus.",
+        "Bei Uber verfügten Angreifer 2022 über Zugangsdaten eines externen Mitarbeiters.",
+        "Die Täter bombardierten den Mitarbeiter mit Sicherheitsabfragen und gaben sich nach Berichten als IT-Hilfe aus.",
+        "Uber bestätigte einen Angriff auf interne Systeme; nach damaligen Untersuchungen waren besonders sensible Kundendaten nicht offenkundig betroffen."
+      ],
+      "lesson": "Ungefragte MFA-Prompts ablehnen und sofort melden; keine Support-Anweisungen aus unbekannten Kanälen.",
+      "source": [
+        "Uber – Sicherheitsvorfall September 2022",
+        "https://www.uber.com/newsroom/security-update/"
+      ]
+    },
+    {
+      "id": "reddit-fake-intranet",
+      "number": 182,
+      "title": "Die täuschend echte interne Startseite",
+      "year": 2023,
+      "origin": "Unternehmensquelle",
+      "daily": [
+        "Eine interne Startseite sollte nicht nur aussehen wie zu Hause. Auch ihre Adresse muss tatsächlich dazugehören.",
+        "Reddit-Beschäftigte erhielten im Februar 2023 gezielte Phishingnachrichten, die auf eine nachgebaute interne Anmeldeseite führten.",
+        "Ein Mitarbeiter gab Zugangsdaten und den zweiten Faktor ein.",
+        "Reddit erklärte, die Systeme mit Benutzerpasswörtern seien nach damaligem Stand nicht kompromittiert worden."
+      ],
+      "lesson": "Firmenportale über Lesezeichen öffnen und Auffälligkeiten frühzeitig melden.",
+      "source": [
+        "Reddit – Eigene Vorfallsmeldung",
+        "https://www.reddit.com/r/reddit/comments/10y427y/we_had_a_security_incident_heres_what_we_know/"
+      ]
+    },
+    {
+      "id": "cloudflare-phish-blocked",
+      "number": 183,
+      "title": "Der Angriff, der am Sicherheitsschlüssel scheiterte",
+      "year": 2022,
+      "origin": "Unternehmensquelle",
+      "daily": [
+        "Ein physischer Sicherheitsschlüssel kann den entscheidenden Unterschied machen, wenn ein gefälschter Link besonders überzeugend wirkt.",
+        "Cloudflare-Mitarbeitende erhielten ähnlich wie Twilio im Sommer 2022 täuschende SMS, die auf Phishingseiten führten.",
+        "Einzelne Menschen reagierten auf den Betrugsversuch.",
+        "Cloudflare dokumentierte, wie ein zusätzliches technisches Hindernis eine menschliche Fehlentscheidung begrenzte."
+      ],
+      "lesson": "Sicherheit darf nicht davon abhängen, dass niemals jemand auf eine falsche Nachricht klickt.",
+      "source": [
+        "Cloudflare – Abgewehrte SMS-Phishing-Attacke",
+        "https://blog.cloudflare.com/2022-07-sms-phishing-attacks/"
+      ]
+    },
+    {
+      "id": "okta-support",
+      "number": 184,
+      "title": "Wenn eine Support-Datei einen Sitzungsschlüssel enthält",
+      "year": 2023,
+      "origin": "Unternehmensquelle",
+      "daily": [
+        "Eine Support-Datei darf gern bei der Fehlersuche helfen. Eine aktive Eintrittskarte sollte sie dabei nicht mitliefern.",
+        "Für Supportfälle lud man bei Okta technische Browser-Aufzeichnungen hoch.",
+        "Ein Angreifer verschaffte sich Zugang zum Supportverwaltungssystem und griff auf Kundendateien zu.",
+        "Okta veröffentlichte später Ursachenanalyse und zusätzliche Maßnahmen."
+      ],
+      "lesson": "Support-Dateien vor dem Upload bereinigen, Sitzungen widerrufen und Service-Konten isolieren.",
+      "source": [
+        "Okta Security – Support-System-Ursachenanalyse",
+        "https://sec.okta.com/articles/2023/11/unauthorized-access-oktas-support-case-management-system-root-cause/"
+      ]
+    },
+    {
+      "id": "cf-unused-tokens",
+      "number": 185,
+      "title": "Die vergessenen Schlüssel, die doch noch passten",
+      "year": 2023,
+      "origin": "Unternehmensquelle",
+      "daily": [
+        "Vergessene Zugangsschlüssel sind nicht automatisch unbenutzt. Manchmal findet bloß zuerst der falsche Mensch den Schlüsselbund.",
+        "Nach einem Sicherheitsvorfall bei einem Identitätsdienst mussten bei Cloudflare kompromittierte Zugangsdaten ersetzt werden.",
+        "Ein Dienst-Token und drei Dienstkonten blieben aktiv, weil sie fälschlich für ungenutzt gehalten wurden.",
+        "Cloudflare erklärte, dass keine Kundendaten und kein globales Produktionsnetz betroffen waren, aber interne Dokumentation und etwas Quellcode eingesehen wurden."
+      ],
+      "lesson": "Nach einem Vorfall alle potenziell betroffenen Geheimnisse zentral inventarisieren und rotieren.",
+      "source": [
+        "Cloudflare – Sicherheitsvorfall an Thanksgiving 2023",
+        "https://blog.cloudflare.com/de-de/thanksgiving-2023-security-incident/"
+      ]
+    },
+    {
+      "id": "ring-all-access",
+      "number": 186,
+      "title": "Wenn fast jeder die Türkamera ansehen darf",
+      "year": 2023,
+      "origin": "Amtliche Quelle",
+      "daily": [
+        "Eine Türkamera soll Besuch vor der Haustür zeigen und nicht zu viele Zuschauer hinter der Plattform versammeln.",
+        "Beim Kamerahersteller Ring hatten Mitarbeiter und externe Dienstleister lange umfassende Zugriffsrechte auf private Kundenvideos.",
+        "Einige Beschäftigte missbrauchten Zugriffsmöglichkeiten.",
+        "Ein Vergleich und Rückerstattungen folgten."
+      ],
+      "lesson": "Nur erforderliche Zugriffe vergeben, protokollieren und regelmäßig unabhängig kontrollieren.",
+      "source": [
+        "US FTC – Schutzlücken bei Ring",
+        "https://www.ftc.gov/news-events/news/press-releases/2023/05/ftc-says-ring-employees-illegally-surveilled-customers-failed-stop-hackers-taking-control-users"
+      ]
+    },
+    {
+      "id": "toyota-cloud-public",
+      "number": 187,
+      "title": "Das Auto, das zehn Jahre Daten verriet",
+      "year": 2023,
+      "origin": "Unternehmensquelle",
+      "daily": [
+        "Ein Auto soll seinen Standort dem richtigen Dienst mitteilen und nicht versehentlich dem offenen Internet.",
+        "Toyota Connected verwaltete Fahrzeugdienstdaten über Cloudsysteme.",
+        "Eine Fehlkonfiguration machte über Jahre Angaben wie Fahrzeugkennungen und Standortdaten potenziell von außen abrufbar.",
+        "Nach Berichten waren Daten von mehr als zwei Millionen Kundenfahrzeugen betroffen; eine konkrete missbräuchliche Nutzung wurde zunächst nicht festgestellt."
+      ],
+      "lesson": "Cloud-Zugriffsrechte automatisiert auf unbeabsichtigte Öffentlichkeit prüfen.",
+      "source": [
+        "Toyota – Cloud-Datenpanne 2023",
+        "https://global.toyota/en/newsroom/corporate/39241625.html"
+      ]
+    },
+    {
+      "id": "verizon-bucket",
+      "number": 188,
+      "title": "14 Millionen Kundendaten im offenen Cloudordner",
+      "year": 2017,
+      "origin": "Sicherheitsforschung",
+      "daily": [
+        "Ein Cloudordner ist kein öffentlicher Bücherschrank, nur weil seine Freigabe versehentlich so eingestellt wurde.",
+        "Ein Auftragnehmer von Verizon nutzte einen Online-Datenspeicher für Arbeitsmaterialien.",
+        "Ein Sicherheitsforscher entdeckte 2017, dass der Cloudspeicher wegen einer falschen Einstellung von außen erreichbar war.",
+        "Verizon ließ die Umgebung absichern."
+      ],
+      "lesson": "Gemeinsame Verantwortung bei Dienstleistern verlangt automatische Cloud-Konfigurationsprüfungen.",
+      "source": [
+        "UpGuard – Offener Verizon-Cloudspeicher",
+        "https://www.upguard.com/breaches/verizon-cloud-leak"
+      ]
+    },
+    {
+      "id": "powerapps-exposed",
+      "number": 189,
+      "title": "Die App war privat – die Datenschnittstelle nicht",
+      "year": 2021,
+      "origin": "Sicherheitsforschung",
+      "daily": [
+        "Eine private Oberfläche kann beruhigend aussehen, während die Datenschnittstelle nebenan noch die Tür offen hält.",
+        "Organisationen nutzten Microsoft Power Apps und angebundene Portale.",
+        "Forscher stellten 2021 fest, dass Daten aus zahlreichen Portalen wegen unglücklicher Standardkonfigurationen öffentlich über Schnittstellen erreichbar waren.",
+        "In Berichten war von rund 38 Millionen Datensätzen die Rede."
+      ],
+      "lesson": "Sicherheitsprüfungen müssen auch APIs, Metadaten und Standardberechtigungen umfassen.",
+      "source": [
+        "UpGuard – 38 Mio. Datensätze in Power-Apps-Portalen",
+        "https://www.upguard.com/breaches/power-apps"
+      ]
+    },
+    {
+      "id": "psni-hidden-sheet",
+      "number": 190,
+      "title": "Die versteckte Tabelle mit allen Polizeikräften",
+      "year": 2023,
+      "origin": "Amtliche Quelle",
+      "daily": [
+        "Ein ausgeblendetes Tabellenblatt ist ungefähr so geheim wie ein Zettel unter einer durchsichtigen Tischdecke.",
+        "Die Polizei Nordirlands wollte eine Anfrage nach dem Informationsfreiheitsgesetz beantworten und bereitete dafür eine Excel-Datei vor.",
+        "Eine ursprüngliche Tabelle mit Namen, Dienstgrad und Funktionen war zwar nicht mehr sichtbar, blieb jedoch im Dokument enthalten.",
+        "Daten von 9.483 Beschäftigten wurden preisgegeben."
+      ],
+      "lesson": "Vor jeder Veröffentlichung Datei-Inhalt einschließlich ausgeblendeter Blätter und Metadaten prüfen.",
+      "source": [
+        "UK ICO – PSNI-Excel-Panne und Geldbuße",
+        "https://cy.ico.org.uk/about-the-ico/media-centre/news-and-blogs/2024/10/what-price-privacy-poor-psni-procedures-culminate-in-750k-fine/"
+      ]
+    },
+    {
+      "id": "mod-cc",
+      "number": 191,
+      "title": "Ein falsches Adressfeld verrät gefährdete Menschen",
+      "year": 2021,
+      "origin": "Amtliche Quelle",
+      "daily": [
+        "Bei sensiblen Rundmails kann ein einziges falsches Adressfeld viel zu viel verraten.",
+        "Das britische Verteidigungsministerium verschickte 2021 Nachrichten an Menschen, die beim Abzug aus Afghanistan Schutz und Unterstützung benötigten.",
+        "Statt verdeckter Empfänger nutzte die Nachricht sichtbare Adressfelder.",
+        "Die Datenschutzaufsicht bestätigte die Offenlegung von 265 Adressen und verhängte eine Geldbuße."
+      ],
+      "lesson": "Sensible Massenmails technisch absichern: Versandlisten, Freigaben und BCC-Prüfung.",
+      "source": [
+        "UK ICO – E-Mail-Panne des Verteidigungsministeriums",
+        "https://ico.org.uk/action-weve-taken/enforcement/2024/02/ministry-of-defence-1/"
+      ]
+    },
+    {
+      "id": "mod-hidden-afghan",
+      "number": 192,
+      "title": "Die Tabelle enthielt unsichtbare Tausende",
+      "year": 2022,
+      "origin": "Amtliche Quelle",
+      "daily": [
+        "Unsichtbare Tabellenbereiche sind nicht verschwunden. Beim Teilen zählt, was die Datei enthält, nicht nur, was gerade zu sehen ist.",
+        "Ein weiteres britisches Verteidigungsministeriums-Dokument betraf Daten von afghanischen Personen, die eine Umsiedlung beantragt hatten.",
+        "Eine im Jahr 2022 extern versandte Kalkulationstabelle enthielt in ausgeblendeten Bereichen zusätzliche personenbezogene Daten. 2023 tauchten Auszüge im Internet auf.",
+        "2025 wurde öffentlich bekannt, dass mehr als 18.000 Betroffene von der versehentlichen Datenweitergabe berührt sein konnten."
+      ],
+      "lesson": "Daten vor dem Teilen exportieren und auf nicht sichtbare Inhalte sowie Verknüpfungen prüfen.",
+      "source": [
+        "UK ICO – verborgenes Tabellenmaterial 2022",
+        "https://ico.org.uk/about-the-ico/media-centre/news-and-blogs/2025/07/ico-statement-in-response-to-2022-mod-data-breach/"
+      ]
+    },
+    {
+      "id": "dot-mil-vs-ml",
+      "number": 193,
+      "title": "Ein fehlendes i schickt Militärpost nach Mali",
+      "year": 2023,
+      "origin": "Fachquelle",
+      "daily": [
+        "Manchmal ist ein einzelnes i der Unterschied zwischen dem richtigen Postfach und einem ganz anderen Land.",
+        "US-Militäradressen enden auf .mil.",
+        "Über Jahre wurden Nachrichten versehentlich an Adressen in Mali geleitet.",
+        "Einige Mails enthielten sensible, aber nach den Berichten keine als geheim klassifizierten Informationen."
+      ],
+      "lesson": "Lookalike-Domains blockieren, Empfänger technisch prüfen und vertrauliche Daten verschlüsseln.",
+      "source": [
+        "ABC News – Pentagon-Adressen versehentlich nach Mali",
+        "https://abcnews.com/International/us-military-emails-mail-common-typo/story?id=101516063"
+      ]
+    },
+    {
+      "id": "wpp-deepfake",
+      "number": 194,
+      "title": "Die Stimme des Chefs, die nicht dem Chef gehörte",
+      "year": 2024,
+      "origin": "Fachquelle",
+      "daily": [
+        "Die vertraute Stimme des Chefs ist kein fälschungssicheres Firmenstempelgerät.",
+        "Betrüger erstellten 2024 ein scheinbares Profil des WPP-Chefs und organisierten ein digitales Treffen unter dem Vorwand eines vertraulichen Projekts.",
+        "Bei der inszenierten Besprechung kamen nach Unternehmensangaben gefälschte Stimmen und ein täuschender digitaler Auftritt zum Einsatz.",
+        "Der Betrugsversuch scheiterte; Mitarbeitende schöpften Verdacht."
+      ],
+      "lesson": "Identität über vorab bekannte Kanäle bestätigen – auch wenn Video und Stimme überzeugend wirken.",
+      "source": [
+        "The Guardian – WPP-Deepfake-Versuch",
+        "https://www.theguardian.com/technology/article/2024/may/10/ceo-wpp-deepfake-scam"
+      ]
+    },
+    {
+      "id": "samsung-ai-paste",
+      "number": 195,
+      "title": "Vertraulicher Quellcode im fremden Chatbot",
+      "year": 2023,
+      "origin": "Fachquelle",
+      "daily": [
+        "Kopieren und Einfügen sind schnell. Die Frage, wohin vertraulicher Quellcode dabei reist, verdient trotzdem eine Denkpause.",
+        "Mitarbeitende von Samsung verwendeten 2023 generative KI-Werkzeuge im Arbeitsalltag, auch zur Analyse technischer Probleme.",
+        "Berichten zufolge wurden interne Programmteile und vertrauliche Inhalte in einen externen KI-Chatdienst eingegeben.",
+        "Samsung reagierte mit Regeln für den Einsatz solcher Werkzeuge."
+      ],
+      "lesson": "Keine Geheimnisse, Personendaten oder internen Code ohne Freigabe an öffentliche KI-Dienste übermitteln.",
+      "source": [
+        "Bloomberg – Samsung und interne KI-Eingaben",
+        "https://www.bloomberg.com/news/articles/2023-05-02/samsung-bans-chatgpt-and-other-generative-ai-use-by-staff-after-leak"
+      ]
+    },
+    {
+      "id": "npm-colors",
+      "number": 196,
+      "title": "Ein Paketentwickler legt absichtlich Anwendungen lahm",
+      "year": 2022,
+      "origin": "Sicherheitsforschung",
+      "daily": [
+        "Wenn ein Paketentwickler absichtlich Unsinn ausliefert, wird aus einer kleinen Abhängigkeit eine große Überraschung.",
+        "Die Open-Source-Bibliotheken colors und faker wurden von zahlreichen Anwendungen als Bausteine verwendet.",
+        "Anfang 2022 veränderte der Maintainer Code so, dass bei einigen Anwendungen merkwürdige Ausgaben beziehungsweise Fehlfunktionen auftraten.",
+        "Entwickler mussten fehlerhafte Versionen zurücknehmen oder Alternativen einbauen."
+      ],
+      "lesson": "Softwarelieferketten mit Versionssperren, Prüfungen und Reproduzierbarkeit absichern.",
+      "source": [
+        "Sonatype – Manipulierte npm-Libraries",
+        "https://www.sonatype.com/blog/npm-libraries-colors-and-faker-sabotaged-in-protest-by-their-maintainer-what-to-do-now"
+      ]
+    },
+    {
+      "id": "teams-cert",
+      "number": 197,
+      "title": "Ein abgelaufenes Zertifikat sperrt das Meeting",
+      "year": 2020,
+      "origin": "Fachquelle",
+      "daily": [
+        "Ein abgelaufenes Zertifikat kennt keine Besprechungskultur. Es kann das Meeting einfach vor der Tür warten lassen.",
+        "Damit Browser und Apps einer Onlineadresse vertrauen, sind gültige Zertifikate erforderlich.",
+        "Microsoft Teams war am 3.",
+        "Nutzer konnten sich vorübergehend nicht anmelden."
+      ],
+      "lesson": "Zertifikatsabläufe automatisch überwachen und Erneuerungen ohne Einzelpersonenabhängigkeit gestalten.",
+      "source": [
+        "Golem – Microsoft-Teams-Zertifikatsausfall",
+        "https://www.golem.de/news/teams-ausfall-microsoft-vergisst-zertifikat-zu-verlaengern-2002-146428.html"
+      ]
+    },
+    {
+      "id": "server-attic-scenario",
+      "number": 198,
+      "title": "Der Server auf dem Dachboden",
+      "year": 2022,
+      "origin": "Trainingsfall",
+      "daily": [
+        "Im fiktiven Büro bekommt der Server einen Dachbodenplatz. Ein Stellplatz ist allerdings noch lange kein Betriebskonzept.",
+        "In unserem ausdrücklich fiktiven Trainingsfall stellt eine kleine Firma einen Server auf den Dachboden, weil dort Platz ist.",
+        "Im Sommer steigt die Temperatur; im Winter kommt Feuchtigkeit hinzu.",
+        "Schließlich beendet der Rechner wiederholt seinen Dienst."
+      ],
+      "lesson": "Serverräume benötigen Temperaturkontrolle, Brand- und Wasserschutz und geregelten Zugang.",
+      "source": [
+        "BSI IT-Grundschutz – Gefährdungen durch Umgebung",
+        "https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/IT-Grundschutz/it-grundschutz_node.html"
+      ]
+    },
+    {
+      "id": "locked-room-scenario",
+      "number": 199,
+      "title": "Der Serverraum ist abgeschlossen – wo ist der Schlüssel?",
+      "year": 2022,
+      "origin": "Trainingsfall",
+      "daily": [
+        "Im fiktiven Serverraum funktioniert das Schloss hervorragend. Schade nur, wenn gerade die berechtigte Hilfe draußen steht.",
+        "Im erfundenen Trainingsfall meldet ein kleines Unternehmen den Ausfall seiner Netzwerkzentrale.",
+        "Ein neues Türschloss ist zwar sicher gegen Fremde, aber ohne Notfallzugangsregelung auch ein Hindernis für die eigene IT.",
+        "Die Geschäftsabläufe stehen still, obwohl die Hardware reparierbar wäre."
+      ],
+      "lesson": "Notfallschlüssel, dokumentierte Zutrittsregelung und Verantwortungsvertretung gehören zum Sicherheitskonzept.",
+      "source": [
+        "BSI IT-Grundschutz – Zutritt und Verfügbarkeit",
+        "https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/IT-Grundschutz/it-grundschutz_node.html"
+      ]
+    },
+    {
+      "id": "never-tested-backup",
+      "number": 200,
+      "title": "Die Sicherung, die nie jemand zurückspielte",
+      "year": 2022,
+      "origin": "Trainingsfall",
+      "daily": [
+        "Im fiktiven Backup meldet das grüne Häkchen gute Laune. Ob auch brauchbare Daten dahinterstecken, zeigt erst die Wiederherstellung.",
+        "Im fiktiven Trainingsfall bestätigt ein Backup-Programm jeden Morgen mit grünem Symbol: Auftrag abgeschlossen.",
+        "Nach einem Plattendefekt stellt sich heraus, dass nur leere Ordner erfasst wurden.",
+        "Die Geschichte ist eine ausdrücklich erfundene Übung, kein nachgewiesener Firmenvorfall."
+      ],
+      "lesson": "Wiederherstellungsproben sind unverzichtbar und müssen dokumentiert werden.",
+      "source": [
+        "BSI IT-Grundschutz – Datensicherung",
+        "https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/IT-Grundschutz/it-grundschutz_node.html"
+      ]
+    }
+  ]
+}
