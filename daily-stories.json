@@ -4683,6 +4683,1086 @@
         "Microsoft – Point-and-Print-Verhalten nach PrintNightmare",
         "https://www.microsoft.com/en-us/msrc/blog/2021/08/point-and-print-default-behavior-change"
       ]
+    },
+    {
+      "id": "ingressnightmare2025",
+      "number": 261,
+      "title": "Der Türprüfer bekommt zu viel Macht",
+      "year": 2025,
+      "origin": "Sicherheitsforschung",
+      "daily": [
+        "Der Türprüfer sollte nur neue Verkehrsregeln ansehen. Eine manipulierte Vorlage machte daraus beinahe einen Generalschlüssel für den ganzen Gebäudekomplex.",
+        "2025 veröffentlichten Wiz-Forscher mehrere Lücken im Admission-Controller des Community-Projekts ingress-nginx.",
+        "Unzureichend geprüfte Eingaben konnten in erzeugte NGINX-Konfigurationen gelangen und zu Codeausführung beitragen.",
+        "Betroffen war die konkrete Community-Controller-Implementierung, nicht pauschal jedes Produkt mit dem Namen NGINX."
+      ],
+      "lesson": "Prüfschnittstellen authentifizieren, Eingaben begrenzen und Controllerrechte minimieren.",
+      "source": [
+        "Wiz – IngressNightmare, März 2025",
+        "https://www.wiz.io/blog/ingress-nginx-kubernetes-vulnerabilities"
+      ]
+    },
+    {
+      "id": "toolshell2025",
+      "number": 262,
+      "title": "Der Server behält einen verlorenen Stempel",
+      "year": 2025,
+      "origin": "Unternehmensquelle",
+      "daily": [
+        "Der Eindringling war draußen, die Tür repariert. Nur der kopierte Firmenstempel lag leider noch in seiner Tasche.",
+        "Im Juli 2025 reagierte Microsoft auf aktiv ausgenutzte Schwachstellen in lokalen SharePoint-Servern.",
+        "Nach einem erfolgreichen Angriff konnten auch sensible ASP.NET-Maschinenschlüssel gefährdet sein.",
+        "Eine reparierte Eintrittslücke machte vorher kopierte Schlüssel nicht automatisch unbrauchbar."
+      ],
+      "lesson": "Nach Servereinbrüchen neben dem Patch auch erreichbare Vertrauensschlüssel erneuern.",
+      "source": [
+        "Microsoft – SharePoint-Kundenhinweise Juli 2025",
+        "https://www.microsoft.com/en-us/msrc/blog/2025/07/customer-guidance-for-sharepoint-vulnerability-cve-2025-53770"
+      ]
+    },
+    {
+      "id": "sap-visual2025",
+      "number": 263,
+      "title": "Der Baukasten nimmt fremde Bauteile an",
+      "year": 2025,
+      "origin": "Sicherheitsforschung",
+      "daily": [
+        "Der Baukasten sollte Anwendungen zusammensetzen. Der falsche Besucher lieferte Bauteile, die lieber den ganzen Werkzeugschrank übernehmen wollten.",
+        "Im April 2025 wurde eine aktiv ausgenutzte schwere Lücke in SAP NetWeaver Visual Composer bekannt.",
+        "Untersuchungen beschrieben die Kombination mit einer weiteren Schwachstelle für unauthentifizierte Codeausführung.",
+        "SAP stellte Korrekturen bereit."
+      ],
+      "lesson": "Optionale Unternehmenskomponenten inventarisieren und zusammenhängende Korrekturen vollständig anwenden.",
+      "source": [
+        "Onapsis – SAP-Visual-Composer-Angriffe 2025",
+        "https://onapsis.com/threat-research/cve-2025-31324/"
+      ]
+    },
+    {
+      "id": "sudo-chroot2025",
+      "number": 264,
+      "title": "Der Gast bringt sein eigenes Verzeichnis mit",
+      "year": 2025,
+      "origin": "Sicherheitsforschung",
+      "daily": [
+        "Der Gast durfte das Haus nicht verwalten. Also brachte er ein eigenes Verzeichnis mit, dessen Hausordnung plötzlich zu ernst genommen wurde.",
+        "Im Juni 2025 veröffentlichten Forscher eine lokale Rechteausweitung über die chroot-Option von Sudo.",
+        "Ein privilegierter Ablauf konnte Konfiguration aus einem nutzerkontrollierten Verzeichnis verwenden.",
+        "Die Korrektur erschien in Sudo 1.9.17p1; Distributionskorrekturen konnten eigene Versionsnummern tragen."
+      ],
+      "lesson": "Privilegierte Abläufe dürfen keine unkontrollierte Nutzerkonfiguration als vertrauenswürdig übernehmen.",
+      "source": [
+        "Stratascale – Sudo-chroot-Forschungsfund Juni 2025",
+        "https://www.stratascale.com/resource/cve-2025-32463-sudo-chroot-elevation-of-privilege/"
+      ]
+    },
+    {
+      "id": "asahi-manual2025",
+      "number": 265,
+      "title": "Die Bestellung wird wieder Handarbeit",
+      "year": 2025,
+      "origin": "Unternehmensquelle",
+      "daily": [
+        "Das Getränk brauchte keinen Neustart. Die Bestellung schon – und die Buchhaltung saß ebenfalls durstig vor einem unerreichbaren System.",
+        "Am 29.",
+        "Das Unternehmen begann teilweise mit manueller Auftragsbearbeitung und Auslieferung.",
+        "Warenversorgung und korrekte Finanzberichterstattung brauchten jeweils ihren Wiederanlauf."
+      ],
+      "lesson": "Ersatzverfahren für Warenfluss und Buchhaltung gemeinsam, aber mit eigenen Prüfpunkten planen.",
+      "source": [
+        "Asahi – Mitteilung zum Systemausfall und Rechnungsabschluss 2025",
+        "https://www.asahigroup-holdings.com/en/newsroom/detail/20251014-0102.html"
+      ]
+    },
+    {
+      "id": "davita-continuity2025",
+      "number": 266,
+      "title": "Die Behandlung braucht einen anderen Datenweg",
+      "year": 2025,
+      "origin": "Unternehmensquelle",
+      "daily": [
+        "Die Computer hatten ein ernstes Problem. Der Behandlungsplan konnte sich deshalb keinen Urlaub nehmen und brauchte einen verlässlichen Umweg.",
+        "Im April 2025 meldete DaVita einen Cybervorfall und arbeitete an der Fortsetzung der Patientenversorgung.",
+        "Die Mitteilung nannte besondere Telefonwege für Aufnahmen und dringende Anfragen sowie einen Faxweg für medizinische Unterlagen.",
+        "Alternative Wege müssen Unterlagen zuverlässig an die zuständige Stelle bringen."
+      ],
+      "lesson": "Ersatzkommunikation mit Zuständigkeit, Empfangskontrolle und Datenzuordnung vorbereiten.",
+      "source": [
+        "DaVita – Hinweise zum Cybervorfall April 2025",
+        "https://newsroom.davita.com/for-patient-admissions-urgent-inquiries-and-medical-records/"
+      ]
+    },
+    {
+      "id": "coinbase-insiders2025",
+      "number": 267,
+      "title": "Der Support bekommt das falsche Trinkgeld",
+      "year": 2025,
+      "origin": "Unternehmensquelle",
+      "daily": [
+        "Die Kriminellen knackten nicht zuerst eine komplizierte Rechenaufgabe. Sie versuchten es mit einem sehr unpassenden Trinkgeld für den Support.",
+        "Im Mai 2025 berichtete Coinbase, dass Kriminelle eine kleine Gruppe externer Supportmitarbeiter bestochen hatten.",
+        "Die Täter wollten die Daten für glaubwürdige Anrufe als angeblicher Coinbase-Support einsetzen.",
+        "Coinbase lehnte die Forderung ab und beschrieb Maßnahmen gegen die beteiligten Zugänge."
+      ],
+      "lesson": "Supportrechte begrenzen und vertraute Kundendetails nicht als Identitätsbeweis ansehen.",
+      "source": [
+        "Coinbase – Mitteilung zu Bestechung und Erpressung Mai 2025",
+        "https://www.coinbase.com/blog/protecting-our-customers-standing-up-to-extortionists"
+      ]
+    },
+    {
+      "id": "unfi-supply2025",
+      "number": 268,
+      "title": "Der Großhandel verliert den digitalen Einkaufszettel",
+      "year": 2025,
+      "origin": "Unternehmensquelle",
+      "daily": [
+        "Die Lebensmittel waren nicht plötzlich unsichtbar. Aber ohne den digitalen Einkaufszettel wusste die Lieferkette zeitweise deutlich schlechter, was wohin sollte.",
+        "Am 5.",
+        "Die Maßnahmen beeinträchtigten vorübergehend die Erfüllung und Verteilung von Kundenaufträgen.",
+        "In der späteren SEC-Mitteilung erwartete UNFI keine individuellen Verbrauchermeldungen wegen eines gesetzlich definierten Abflusses persönlicher oder gesundheitlicher Daten."
+      ],
+      "lesson": "Warenverfügbarkeit und funktionsfähige Auftragsverteilung getrennt absichern.",
+      "source": [
+        "UNFI – Unternehmensmeldung zum Cybervorfall Juni 2025",
+        "https://www.sec.gov/Archives/edgar/data/1020859/000102085925000036/unfi-20250621.htm"
+      ]
+    },
+    {
+      "id": "qantas-contact2025",
+      "number": 269,
+      "title": "Die Kundendaten fliegen ohne Boardingkarte",
+      "year": 2025,
+      "origin": "Unternehmensquelle",
+      "daily": [
+        "Die Flugzeuge brauchten keine Reparatur. Der Datensatz hatte dagegen einen unerwünschten Mitreisenden in der Serviceplattform.",
+        "Ende Juni 2025 entdeckte Qantas ungewöhnliche Aktivitäten auf einer externen Plattform eines Kontaktzentrums.",
+        "Die Airline erklärte, Flugbetrieb und Flugsicherheit seien nicht betroffen.",
+        "Im Oktober bestätigte Qantas die Veröffentlichung von Daten nach dem Vorfall."
+      ],
+      "lesson": "Kundendienstplattformen absichern und nach Datenabfluss mit gezielten Täuschungen rechnen.",
+      "source": [
+        "Qantas – Informationen zum Cybervorfall 2025",
+        "https://www.qantas.com/en-fr/help/cyber-safety-scams/cyber-incident"
+      ]
+    },
+    {
+      "id": "jenkins-atfile2024",
+      "number": 270,
+      "title": "Das At-Zeichen liest die falsche Datei",
+      "year": 2024,
+      "origin": "Unternehmensquelle",
+      "daily": [
+        "Das kleine At-Zeichen wollte nur beim Tippen helfen. Auf dem Build-Server wurde daraus versehentlich eine sehr neugierige Lesebrille.",
+        "Im Januar 2024 behob Jenkins eine schwere Dateileselücke seiner Kommandozeilenschnittstelle.",
+        "Die Verarbeitung fand auf dem Jenkins-Controller statt.",
+        "Auch vertrauliche Serverdaten konnten dadurch gefährdet werden."
+      ],
+      "lesson": "Komfortfunktionen eines Argumentparsers dürfen keine fremden Serverdateien preisgeben.",
+      "source": [
+        "Jenkins – Sicherheitsadvisory Januar 2024",
+        "https://www.jenkins.io/security/advisory/2024-01-24/"
+      ]
+    },
+    {
+      "id": "git-submodule2024",
+      "number": 271,
+      "title": "Das Klonen startet den falschen Helfer",
+      "year": 2024,
+      "origin": "Fachquelle",
+      "daily": [
+        "Der Klonauftrag sollte nur eine Kopie holen. Ein präpariertes Unterprojekt versuchte, gleich einen unbestellten Helfer mitarbeiten zu lassen.",
+        "Im Mai 2024 schloss Git eine Lücke bei rekursivem Klonen mit Submodulen.",
+        "Speziell aufgebaute Verzeichnisse und symbolische Links konnten Git in einen internen Hook-Pfad führen.",
+        "Der Fund zeigte, dass selbst das Beschaffen fremder Entwicklungsquellen sichere Werkzeugversionen braucht."
+      ],
+      "lesson": "Auch Klon- und Importwerkzeuge aktualisieren, bevor fremde Projekte verarbeitet werden.",
+      "source": [
+        "Git-Projekt – Advisory zu CVE-2024-32002",
+        "https://github.com/git/git/security/advisories/GHSA-8h77-4q3w-gfgv"
+      ]
+    },
+    {
+      "id": "gofetch2024",
+      "number": 272,
+      "title": "Der Prozessor apportiert zu eifrig",
+      "year": 2024,
+      "origin": "Sicherheitsforschung",
+      "daily": [
+        "Der Prozessor wollte vorausdenken und schon einmal etwas holen. Leider verriet der übereifrige Apportierdienst dabei, in welcher Geheimnisschublade er nachgesehen hatte.",
+        "2024 zeigten GoFetch-Forscher, wie eine Vorladefunktion bestimmter Apple-Prozessoren geheime Schlüssel gefährden konnte.",
+        "Der Prefetcher konnte bestimmte Datenmuster wie Adressen behandeln und davon abhängig Speicher vorladen.",
+        "Konstante Programmlaufzeit allein deckte dieses Hardwareverhalten nicht vollständig ab."
+      ],
+      "lesson": "Kryptografische Schutzannahmen auch gegen das Verhalten der Hardware prüfen.",
+      "source": [
+        "GoFetch – Originalveröffentlichung des Forschungsteams 2024",
+        "https://gofetch.fail/"
+      ]
+    },
+    {
+      "id": "ghostrace2024",
+      "number": 273,
+      "title": "Das Schloss hält, die Vorhersage läuft weiter",
+      "year": 2024,
+      "origin": "Sicherheitsforschung",
+      "daily": [
+        "Auf dem Flur stand „Bitte warten“. Die spekulative Vorhut las offenbar nur „Bitte“ und lief schon einmal hinter die Absperrung.",
+        "2024 untersuchten VUSec und IBM Research bei GhostRace die Wirkung von Synchronisationssperren auf spekulativen Codepfaden.",
+        "Die Forschung zeigte, dass bedingte Verzweigungen bestimmter Sperrmechanismen auf spekulativen Wegen umgangen werden konnten.",
+        "Ein im normalen Programmablauf richtiges Schloss war somit nicht automatisch eine vollständige Hardwarebarriere."
+      ],
+      "lesson": "Reguläre Synchronisation und spekulative Hardwaregrenzen getrennt prüfen.",
+      "source": [
+        "VUSec und IBM Research – GhostRace 2024",
+        "https://www.vusec.net/projects/ghostrace/"
+      ]
+    },
+    {
+      "id": "anydesk-cert2024",
+      "number": 274,
+      "title": "Der Fernhelfer erneuert seinen Ausweis",
+      "year": 2024,
+      "origin": "Unternehmensquelle",
+      "daily": [
+        "Der Fernhelfer sollte auf andere Rechner schauen. Dann musste er erst einmal seinen eigenen Dienstausweis neu ausstellen lassen.",
+        "Im Februar 2024 bestätigte AnyDesk kompromittierte Produktionssysteme.",
+        "AnyDesk widerrief sicherheitsrelevante Zertifikate und ersetzte das Codesignatur-Zertifikat.",
+        "Laut Mitteilung gab es zu diesem Zeitpunkt keine Belege für betroffene Endnutzergeräte."
+      ],
+      "lesson": "Nach einem Herstellerincident auch Signaturvertrauen und offizielle Updatewege beachten.",
+      "source": [
+        "AnyDesk – Incident Response Februar 2024",
+        "https://anydesk.com/en/public-statement-2-2-2024"
+      ]
+    },
+    {
+      "id": "teamviewer-separation2024",
+      "number": 275,
+      "title": "Der Besucher kommt nicht durch jede Wand",
+      "year": 2024,
+      "origin": "Unternehmensquelle",
+      "daily": [
+        "Ein Fremder stand im Firmenflur. Zum Glück war die Tür zur eigentlichen Fernwartungsanlage keine bloße Tapetenzeichnung.",
+        "Im Juni 2024 entdeckte TeamViewer einen Angriff auf seine interne Unternehmens-IT.",
+        "Nach abgeschlossener Untersuchung erklärte TeamViewer, dass die getrennte Produktumgebung und Konnektivitätsplattform nicht betroffen waren.",
+        "Der Vorfall illustriert eine wichtige Architekturentscheidung: Büro-IT und produktive Kundendienste können unterschiedliche Vertrauensbereiche sein."
+      ],
+      "lesson": "Interne Büro-IT und produktive Kundensysteme wirksam voneinander trennen.",
+      "source": [
+        "TeamViewer – Bericht zum zweiten Quartal 2024",
+        "https://ir.teamviewer.com/news/teamviewer-delivers-strong-second-quarter-with-sustained-enterprise-momentum-reiterates-fy-2024-guidance/00cd1ac9-7113-4b01-8383-3dc0c1b5d0fd"
+      ]
+    },
+    {
+      "id": "archive-recovery2024",
+      "number": 276,
+      "title": "Das Internetgedächtnis legt eine Lesepause ein",
+      "year": 2024,
+      "origin": "Unternehmensquelle",
+      "daily": [
+        "Die digitale Bibliothek hatte die Vergangenheit gut aufgehoben. Gegen den aktuellen Ansturm brauchte sie trotzdem mehr als ein freundliches „Pssst!“.",
+        "Im Oktober 2024 unterbrachen Cyberangriffe den Zugang zu Diensten des Internet Archive.",
+        "Zunächst kamen bestimmte Lesezugriffe zurück, während Funktionen für Beiträge länger brauchten.",
+        "Das Archive betonte anschließend, dass erhaltene Sammlungen zuverlässig erreichbar bleiben müssen."
+      ],
+      "lesson": "Bei Wiederherstellung sichere Lesefunktionen und schreibende Funktionen getrennt freigeben.",
+      "source": [
+        "Internet Archive – Learning from Cyberattacks, November 2024",
+        "https://blog.archive.org/2024/11/14/learning-from-cyberattacks/"
+      ]
+    },
+    {
+      "id": "nexperia-servers2024",
+      "number": 277,
+      "title": "Die Chipfirma findet einen fremden Servergast",
+      "year": 2024,
+      "origin": "Unternehmensquelle",
+      "daily": [
+        "Die Chips blieben am Arbeitsplatz. Ein fremder Gast hatte sich stattdessen bei den internen Dateien bedient.",
+        "Im März 2024 verschaffte sich ein unbefugter Dritter Zugang zu bestimmten Nexperia-IT-Servern.",
+        "Der spätere Unternehmensbericht bestätigte Datenabfluss, vor allem zu internen Abläufen.",
+        "Laufende Produktion bedeutet deshalb nicht automatisch, dass vertrauliche Informationen sicher geblieben sind."
+      ],
+      "lesson": "Weiterlaufenden Betrieb nicht mit ausgebliebenem Datenabfluss verwechseln.",
+      "source": [
+        "Nexperia – Nachhaltigkeitsbericht 2024, IT/OT-Risiken",
+        "https://www.nexperia.com/dam/jcr%3Afc307e7e-e159-482c-b21b-0f93a5ef64b8/NEXPERIA_Sustainability_Report_2024.pdf"
+      ]
+    },
+    {
+      "id": "mcdonalds-config2024",
+      "number": 278,
+      "title": "Die Pommes warten auf die Konfiguration",
+      "year": 2024,
+      "origin": "Unternehmensquelle",
+      "daily": [
+        "Die Kartoffeln waren einsatzbereit. Nur die digitale Bestellung hatte plötzlich beschlossen, heute langsam zu garen.",
+        "Am 15.",
+        "Die zentrale Abhängigkeit traf Restaurants in mehreren Märkten gleichzeitig.",
+        "Am Folgetag meldete McDonald’s alle Restaurants wieder geöffnet."
+      ],
+      "lesson": "Lieferantenänderungen schrittweise prüfen und einen Ablauf für Bestellstörungen vorbereiten.",
+      "source": [
+        "McDonald’s – Global Technology System Outage, März 2024",
+        "https://corporate.mcdonalds.com/corpmcd/our-stories/article/global-tech-outage.html"
+      ]
+    },
+    {
+      "id": "openai-telemetry2024",
+      "number": 279,
+      "title": "Die Überwachung beschäftigt den Maschinenraum",
+      "year": 2024,
+      "origin": "Unternehmensquelle",
+      "daily": [
+        "Das neue Messgerät wollte besonders gründlich nachsehen. Dabei stand es so oft im Maschinenraum, dass dort niemand mehr arbeiten konnte.",
+        "Am 11.",
+        "Die Überlastung erschwerte auch den Zugriff, der zum Entfernen der problematischen Änderung nötig war.",
+        "Teams mussten Steuerung und Cluster schrittweise zurückgewinnen."
+      ],
+      "lesson": "Überwachung begrenzen und einen unabhängigen Notzugang zur Steuerung bereithalten.",
+      "source": [
+        "OpenAI Status – Bericht zum 11. Dezember 2024",
+        "https://status.openai.com/incidents/ctrsv3lwd797"
+      ]
+    },
+    {
+      "id": "teamcity-auth2023",
+      "number": 280,
+      "title": "Die Softwarefabrik lässt den fremden Meister herein",
+      "year": 2023,
+      "origin": "Unternehmensquelle",
+      "daily": [
+        "Die Softwarefabrik hatte einen Eingangsplan. Ein falscher Seitengang führte jedoch direkt zum Meisterbüro und damit gefährlich nah an die nächsten Lieferungen.",
+        "2023 wurde eine schwere Anmeldeumgehung in TeamCity On-Premises korrigiert.",
+        "Später bestätigte JetBrains beobachtete Angriffe auf verwundbare Installationen.",
+        "Der Hersteller warnte, dass bereits eingerichtete Hintertüren nach einem Update bestehen bleiben können."
+      ],
+      "lesson": "Übernommene Build-Server zusätzlich zum Patch auf Hintertüren und manipulierte Lieferungen prüfen.",
+      "source": [
+        "JetBrains – TeamCity-Angriffsupdate Oktober 2023",
+        "https://blog.jetbrains.com/teamcity/2023/10/cve-2023-42793-vulnerability-in-teamcity-october-18-2023-update/"
+      ]
+    },
+    {
+      "id": "sshagent-forward2023",
+      "number": 281,
+      "title": "Der ausgeliehene Schlüsselhelfer hört auf Fremde",
+      "year": 2023,
+      "origin": "CERT-EU",
+      "daily": [
+        "Der Schlüsselhelfer sollte aus der Ferne nur kurz Türen öffnen. Eine fremde Maschine schickte ihm stattdessen unerwünschte Arbeitsanweisungen nach Hause.",
+        "2023 korrigierte OpenSSH eine Schwachstelle in weitergeleiteten ssh-agent-Verbindungen.",
+        "Unter zusätzlichen Voraussetzungen konnten dortige Anfragen bestimmte Bibliotheken auf dem lokalen System laden lassen.",
+        "OpenSSH 9.3p2 enthielt die Korrektur; auch enge erlaubte Bibliothekslisten konnten den beschriebenen Weg blockieren."
+      ],
+      "lesson": "Agent-Weiterleitung nur gezielt nutzen und ihre erlaubten Funktionen begrenzen.",
+      "source": [
+        "CERT-EU – ssh-agent-Schwachstelle Juli 2023",
+        "https://cert.europa.eu/publications/security-advisories/2023-051/"
+      ]
+    },
+    {
+      "id": "terrapin2023",
+      "number": 282,
+      "title": "Die verschlüsselte Unterhaltung verliert ihren Anfang",
+      "year": 2023,
+      "origin": "Sicherheitsforschung",
+      "daily": [
+        "Die sichere Unterhaltung hatte ihren Schutzmantel an. Ein Mitleser konnte unter bestimmten Bedingungen trotzdem heimlich die ersten Sätze aus dem Protokoll schneiden.",
+        "2023 veröffentlichten Forscher Terrapin für bestimmte SSH-Verbindungen.",
+        "Das konnte vereinbarte Erweiterungen und Schutzfunktionen schwächen.",
+        "Eine wichtige Gegenmaßnahme war strikter Schlüsselaustausch."
+      ],
+      "lesson": "Protokollschutz bei beiden Kommunikationspartnern aktualisieren und aushandeln.",
+      "source": [
+        "Ruhr-Universität Bochum – Terrapin-Forschung 2023",
+        "https://terrapin-attack.com/"
+      ]
+    },
+    {
+      "id": "downfall2023",
+      "number": 283,
+      "title": "Der Sammelbefehl sammelt fremde Reste",
+      "year": 2023,
+      "origin": "Sicherheitsforschung",
+      "daily": [
+        "Der schnelle Sammelhelfer brachte die bestellten Daten. Bei bestimmten Prozessoren lagen jedoch noch fremde Reste mit im Korb.",
+        "2023 veröffentlichte Daniel Moghimi Downfall für bestimmte Intel-Prozessoren.",
+        "Die Demonstrationen zeigten, wie Daten aus anderen Ausführungskontexten sichtbar werden konnten.",
+        "Abhilfe betraf unter anderem Prozessor-Microcode und Betriebssystemmaßnahmen."
+      ],
+      "lesson": "Bei Prozessorlücken Microcode und Betriebssystemstand gemeinsam berücksichtigen.",
+      "source": [
+        "Daniel Moghimi – Downfall-Forschung 2023",
+        "https://downfall.page/"
+      ]
+    },
+    {
+      "id": "zenbleed2023",
+      "number": 284,
+      "title": "Der Registerputzer macht rückwärts sauber",
+      "year": 2023,
+      "origin": "Sicherheitsforschung",
+      "daily": [
+        "Der Prozessor hatte einen sehr schnellen Putzbefehl. Beim Zurückspulen wurde jedoch nicht alles wieder so ordentlich, wie das Protokoll behauptete.",
+        "2023 dokumentierten Google-Forscher Zenbleed auf AMD-Zen-2-Prozessoren.",
+        "Dadurch ließen sich Registerinhalte über Grenzen zwischen gleichzeitig arbeitenden Prozessen beobachten.",
+        "Der Fund erforderte plattformspezifische Schutzmaßnahmen und Korrekturen."
+      ],
+      "lesson": "Prozessormodell und konkrete Korrekturen statt bloß den Herstellernamen prüfen.",
+      "source": [
+        "Google Security Research – Zenbleed 2023",
+        "https://github.com/google/security-research/blob/master/pocs/cpus/zenbleed/README.md"
+      ]
+    },
+    {
+      "id": "inception2023",
+      "number": 285,
+      "title": "Der Prozessor träumt vom falschen Rückweg",
+      "year": 2023,
+      "origin": "Sicherheitsforschung",
+      "daily": [
+        "Der Prozessor träumte schon vom nächsten Schritt. Die Forscher flüsterten ihm dabei eine Wegbeschreibung ein, die er für seine eigene Idee hielt.",
+        "2023 veröffentlichten ETH-Forscher Inception für AMD-Zen-Prozessoren.",
+        "So ließen sich vorläufige Rücksprungpfade beeinflussen und Daten über beobachtbare Spuren auslesen.",
+        "Die Demonstration zeigte Grenzen früherer Schutzmaßnahmen."
+      ],
+      "lesson": "Vorhersagezustände als gemeinsame Sicherheitsressource behandeln.",
+      "source": [
+        "ETH Zürich – Inception-Forschung 2023",
+        "https://comsec.ethz.ch/research/microarch/inception/"
+      ]
+    },
+    {
+      "id": "logofail2023",
+      "number": 286,
+      "title": "Das Startlogo übernimmt eine Nebenrolle",
+      "year": 2023,
+      "origin": "Sicherheitsforschung",
+      "daily": [
+        "Der Rechner wollte beim Start nur sein schickes Logo zeigen. Das präparierte Bild hatte jedoch beschlossen, selbst Regie zu führen.",
+        "2023 veröffentlichte Binarly LogoFAIL: Schwachstellen in Bildverarbeitern verschiedener UEFI-Firmware.",
+        "Ein passend präpariertes Logo konnte bei entsprechendem Schreibzugang auf Startdateien oder Firmware verarbeitet werden.",
+        "Voraussetzungen und betroffene Geräte unterschieden sich je nach Firmware."
+      ],
+      "lesson": "Firmware und Startdateien als eigene schützenswerte Verarbeitungsebene behandeln.",
+      "source": [
+        "Binarly – LogoFAIL-Forschung 2023",
+        "https://www.binarly.io/blog/far-reaching-consequences-of-logofail"
+      ]
+    },
+    {
+      "id": "blacklotus2023",
+      "number": 287,
+      "title": "Der alte Starter hat noch einen gültigen Ausweis",
+      "year": 2023,
+      "origin": "Unternehmensquelle",
+      "daily": [
+        "Der alte Hausmeister war längst nicht mehr zuverlässig. Sein noch akzeptierter Dienstausweis öffnete beim Rechnerstart aber weiterhin die falsche Tür.",
+        "2023 reagierte Microsoft auf Secure-Boot-Umgehungen im Zusammenhang mit dem BlackLotus-Bootkit.",
+        "Ein älterer verwundbarer Bootloader konnte trotz vorhandener Updates noch als vertrauenswürdig akzeptiert werden.",
+        "Microsoft beschrieb einen gestuften Schutzablauf."
+      ],
+      "lesson": "Veraltete Startfreigaben und kompatible Wiederherstellungsmedien zusammen pflegen.",
+      "source": [
+        "Microsoft – Secure-Boot-Hinweise zu BlackLotus 2023",
+        "https://www.microsoft.com/en-us/msrc/blog/2023/05/guidance-related-to-secure-boot-manager-changes-associated-with-cve-2023-24932"
+      ]
+    },
+    {
+      "id": "blastpass2023",
+      "number": 288,
+      "title": "Das Eintrittsticket bringt den falschen Gast",
+      "year": 2023,
+      "origin": "CERT-EU",
+      "daily": [
+        "Das digitale Ticket versprach einen einfachen Eintritt. Ein schädlicher Bildinhalt wollte allerdings selbst durch die Sicherheitsschleuse schlüpfen.",
+        "Im September 2023 wurde der gezielt eingesetzte iPhone-Angriff BLASTPASS bekannt.",
+        "Apple veröffentlichte Korrekturen für die beiden zugehörigen Schwachstellen.",
+        "Der Fall zeigt, dass ein praktischer Ticket- oder Anhangsdienst komplexe Daten verarbeitet."
+      ],
+      "lesson": "Auch selten bewusst verwendete Anhangs- und Ticketfunktionen aktuell halten.",
+      "source": [
+        "CERT-EU – BLASTPASS und Apple-Korrekturen 2023",
+        "https://cert.europa.eu/publications/security-advisories/2023-061/"
+      ]
+    },
+    {
+      "id": "outlook-reminder2023",
+      "number": 289,
+      "title": "Die Erinnerung klingelt bei der falschen Adresse",
+      "year": 2023,
+      "origin": "Unternehmensquelle",
+      "daily": [
+        "Die Erinnerung wollte nur einen Ton abspielen. Dafür klopfte sie an einer fremden Netzwerkfreigabe an und stellte sich dabei unnötig ausführlich vor.",
+        "2023 beschrieb Microsoft eine ausgenutzte Outlook-Windows-Lücke mit präparierten Erinnerungen.",
+        "Beim Zugriff auf die fremde SMB-Freigabe konnte Outlook einen NTLM-Anmeldenachweis versenden.",
+        "Updates und die Untersuchung verdächtiger Erinnerungen gehörten zur Reaktion."
+      ],
+      "lesson": "Unerwartete ausgehende Anmeldungen verhindern und automatische Nachrichtenfunktionen mitprüfen.",
+      "source": [
+        "Microsoft – Untersuchung der Outlook-Angriffe 2023",
+        "https://www.microsoft.com/en-us/security/blog/2023/03/24/guidance-for-investigating-attacks-using-cve-2023-23397/"
+      ]
+    },
+    {
+      "id": "winrar-view2023",
+      "number": 290,
+      "title": "Ein Bild öffnen, ein Programm erwischen",
+      "year": 2023,
+      "origin": "Sicherheitsforschung",
+      "daily": [
+        "Im Archiv sah alles nach einem harmlosen Bild aus. Beim Öffnen kam leider ein ausführbarer Begleiter aus dem falschen Fach.",
+        "2023 entdeckte Group-IB Angriffe über speziell aufgebaute ZIP-Archive in WinRAR.",
+        "Beim vermeintlichen Öffnen einer harmlosen Datei konnte aufgrund der Pfad- und Namensverarbeitung stattdessen Schadcode ausgeführt werden.",
+        "WinRAR 6.23 enthielt die Korrektur."
+      ],
+      "lesson": "Archivprogramme aktualisieren und sichtbare Dateinamen nicht mit sicherer Verarbeitung gleichsetzen.",
+      "source": [
+        "Group-IB – WinRAR-Zero-Day 2023",
+        "https://www.group-ib.com/blog/cve-2023-38831-winrar-zero-day/"
+      ]
+    },
+    {
+      "id": "dole-fresh2023",
+      "number": 291,
+      "title": "Der Salat wartet auf den Datenfluss",
+      "year": 2023,
+      "origin": "Unternehmensquelle",
+      "daily": [
+        "Salat hat keine Geduld für Wartungsfenster. Ein Computerproblem kann sich deshalb schneller frisch auswirken, als dem Lieferplan lieb ist.",
+        "Im Februar 2023 traf ein Ransomwareangriff Dole.",
+        "Dole holte externe Fachleute hinzu und arbeitete mit Ermittlern zusammen.",
+        "Bei Frischwaren lässt sich verlorene Bearbeitungszeit nicht beliebig auf einen späteren Termin verschieben."
+      ],
+      "lesson": "Notverfahren an verderbliche Ware und ihre engen Zeitfenster anpassen.",
+      "source": [
+        "Dole – Bericht zum ersten Quartal 2023",
+        "https://www.doleplc.com/news/company-news/company-news-details/2023/Dole-plc-Reports-First-Quarter-2023-Financial-Results/default.aspx"
+      ]
+    },
+    {
+      "id": "wd-mycloud2023",
+      "number": 292,
+      "title": "Die eigene Cloud braucht den fremden Schalter",
+      "year": 2023,
+      "origin": "Unternehmensquelle",
+      "daily": [
+        "Die Dateien lagen zu Hause, der bequeme Weg dorthin machte aber Dienstreise. Plötzlich wurde „eigene Cloud“ zur Frage nach dem Ersatzschlüssel.",
+        "Nach einem im März 2023 entdeckten Einbruch trennte Western Digital Systeme und Dienste vom öffentlichen Internet.",
+        "My Cloud wurde laut Unternehmensmeldung am 13.",
+        "Die Untersuchung bestätigte außerdem eine kopierte Shop-Datenbank mit persönlichen Kundendaten."
+      ],
+      "lesson": "Lokalen Datenzugriff unabhängig vom externen Komfortdienst vorbereiten.",
+      "source": [
+        "Western Digital – Vorfallsupdate Mai 2023",
+        "https://www.westerndigital.com/en-in/company/newsroom/press-releases/2023/2023-05-05-western-digital-provides-update-on-network-security-incident"
+      ]
+    },
+    {
+      "id": "capita-scope2023",
+      "number": 293,
+      "title": "Ein kleiner Serveranteil mit großer Bedeutung",
+      "year": 2023,
+      "origin": "Unternehmensquelle",
+      "daily": [
+        "Der Prozentrechner klang beruhigend. Die Daten in dem kleinen betroffenen Teil hatten diese Rechnung leider nicht unterschrieben.",
+        "Ende März 2023 traf ein Cybervorfall Capita und störte Teile der internen Anwendungen und Kundendienste.",
+        "Eine spätere Untersuchung bestätigte Datenabfluss von weniger als 0,1 Prozent des Serverbestands.",
+        "Capita musste Betroffene informieren und Wiederherstellung sowie zusätzliche Absicherung finanzieren."
+      ],
+      "lesson": "Vorfallsumfang nach Daten und Betroffenen bewerten, nicht allein nach Serverprozenten.",
+      "source": [
+        "Capita – Aktualisierung zum Cybervorfall 2023",
+        "https://www.capita.com/news-and-insights/news/2023/update-actions-taken-resolve-cyber-incident"
+      ]
+    },
+    {
+      "id": "suncor-retail2023",
+      "number": 294,
+      "title": "Die Tankstelle hat Sprit und Systemärger",
+      "year": 2023,
+      "origin": "Unternehmensquelle",
+      "daily": [
+        "Der Tank war nicht leer. Der digitale Kollege hinter dem Tresen brauchte nur leider eine sehr gründliche Wiederbelebung.",
+        "2023 störte ein Cybervorfall bei Suncor bestimmte Geschäftsabläufe und Dienste.",
+        "Suncor berichtete, dass Sicherheit und Zuverlässigkeit des Feldbetriebs nicht beeinträchtigt wurden.",
+        "Der Fall zeigt den Wert einer genauen Trennung betroffener Funktionen."
+      ],
+      "lesson": "Geschäfts- und Anlagenbetrieb abgrenzen und ihre Abhängigkeiten einzeln testen.",
+      "source": [
+        "Suncor – Jahresinformation zum Cybervorfall 2023",
+        "https://www.suncor.com/-/media/project/suncor/files/investor-centre/annual-report-2024/2024-aif-en.pdf?created=20250225185628&modified=20250226231024"
+      ]
+    },
+    {
+      "id": "github-hostkey2023",
+      "number": 295,
+      "title": "Der Server zeigt einen neuen Fingerabdruck",
+      "year": 2023,
+      "origin": "Unternehmensquelle",
+      "daily": [
+        "Der Server hatte seinen privaten Ausweis versehentlich ins öffentliche Schaufenster gelegt. Danach brauchte er einen neuen – und alle Stammgäste mussten genau hinsehen.",
+        "Im März 2023 entdeckte GitHub, dass sein privater RSA-SSH-Hostschlüssel kurzzeitig in einem öffentlichen Repository gelegen hatte.",
+        "Beim nächsten SSH-Kontakt konnte deshalb eine Warnung über eine geänderte Serveridentität erscheinen.",
+        "GitHub veröffentlichte den neuen Fingerabdruck und Anweisungen zur Überprüfung."
+      ],
+      "lesson": "Neue Serverfingerabdrücke unabhängig prüfen, bevor gespeichertes Vertrauen geändert wird.",
+      "source": [
+        "GitHub – Austausch des RSA-SSH-Hostschlüssels März 2023",
+        "https://github.blog/news-insights/company-news/we-updated-our-rsa-ssh-host-key/"
+      ]
+    },
+    {
+      "id": "chatgpt-redis2023",
+      "number": 296,
+      "title": "Die Antwort liegt im falschen Fach",
+      "year": 2023,
+      "origin": "Unternehmensquelle",
+      "daily": [
+        "Der digitale Postverteiler nahm eine Verbindung zurück, ließ aber die alte Antwort darin liegen. So wurde Wiederverwendung zur peinlichen Verwechslung.",
+        "Am 20.",
+        "Ein abgebrochener asynchroner Auftrag konnte eine Antwort in einer wiederverwendeten Verbindung zurücklassen.",
+        "OpenAI behob den Fehler und ergänzte Kontrollen der Nutzerzuordnung."
+      ],
+      "lesson": "Wiederverwendete Verbindungen nach Abbrüchen bereinigen und Datenzuordnung zusätzlich prüfen.",
+      "source": [
+        "OpenAI – Analyse des ChatGPT-Vorfalls vom 20. März 2023",
+        "https://openai.com/index/march-20-chatgpt-outage/"
+      ]
+    },
+    {
+      "id": "royalmail-export2023",
+      "number": 297,
+      "title": "Der Auslandsbrief wartet auf das System",
+      "year": 2023,
+      "origin": "Unternehmensquelle",
+      "daily": [
+        "Der Brief hatte eine Adresse und eine Marke. Was fehlte, war ausgerechnet die digitale Erlaubnis, die Reise anzutreten.",
+        "Im Januar 2023 unterbrach Royal Mail internationale Versandfunktionen nach einem Cybervorfall.",
+        "Aufträge konnten je nach übermitteltem Status entweder gar nicht importiert werden oder ohne nutzbare Frankierung liegen bleiben.",
+        "Die Folgen betrafen damit auch Händler, deren Bestellungen automatisch ins Versandsystem liefen."
+      ],
+      "lesson": "Versandstörungen nach Zielgebiet und Auftragsstatus unterscheiden und transparent anzeigen.",
+      "source": [
+        "Royal Mail – Hinweise zur internationalen Servicesperre Januar 2023",
+        "https://help.parcel.royalmail.com/hc/en-gb/articles/8765336619293-International-service-suspensions-important-information"
+      ]
+    },
+    {
+      "id": "dpworld-ports2023",
+      "number": 298,
+      "title": "Der Hafen zieht den Netzwerkstecker",
+      "year": 2023,
+      "origin": "Unternehmensquelle",
+      "daily": [
+        "Die Container waren stapelbar, die digitalen Probleme leider auch. Der Hafen musste erst das Netz sortieren, bevor die Kisten weiterdurften.",
+        "Am 10.",
+        "Das Unternehmen fand nach eigener Untersuchung keine eingesetzte Ransomware.",
+        "Am 13."
+      ],
+      "lesson": "Eindämmung und anschließenden Rückstau als getrennte Wiederanlaufaufgaben planen.",
+      "source": [
+        "DP World Australia – Vorfallsbericht November 2023",
+        "https://www.dpworld.com/en/news/releases/australia/media-statement-update-on-cybersecurity-incident"
+      ]
+    },
+    {
+      "id": "icbc-records2023",
+      "number": 299,
+      "title": "Der Handel hat ein Gedächtnisproblem",
+      "year": 2023,
+      "origin": "Amtliche Quelle",
+      "daily": [
+        "Geld vergisst selten jemand freiwillig. Wenn aber die digitale Buchführung nicht erreichbar ist, wird selbst Erinnern zur aufwendigen Sonderaufgabe.",
+        "Im November 2023 traf Ransomware ICBC Financial Services in den USA.",
+        "Als Reaktion wurden Verbindungen zu Abwicklungsstellen getrennt.",
+        "Die SEC stellte später fest, dass Aufzeichnungen und Kundenmitteilungen über einen längeren Zeitraum nicht ordnungsgemäß geführt wurden."
+      ],
+      "lesson": "Notbetrieb muss neben Transaktionen auch vollständige Aufzeichnungen sichern.",
+      "source": [
+        "SEC – Feststellungen zum ICBC-FS-Vorfall 2023",
+        "https://www.sec.gov/enforcement-litigation/administrative-proceedings/34-101794-s"
+      ]
+    },
+    {
+      "id": "clorox-orders2023",
+      "number": 300,
+      "title": "Die Reinigung braucht einen sauberen Bestellweg",
+      "year": 2023,
+      "origin": "Unternehmensquelle",
+      "daily": [
+        "Reinigungsmittel lösen viel. Eine blockierte digitale Bestellkette gehört bedauerlicherweise nicht zu den Flecken auf der Verpackung.",
+        "Ein im August 2023 gemeldeter Cyberangriff störte Clorox erheblich bei Auftragsbearbeitung und Lieferung.",
+        "Das Unternehmen musste Betriebsabläufe wiederherstellen, bevor Aufträge im gewohnten Umfang verarbeitet werden konnten.",
+        "Mit laufender Auftragsverarbeitung waren die Bestände im Handel noch nicht sofort aufgefüllt."
+      ],
+      "lesson": "Die Erholung einer Lieferkette bis zum tatsächlichen Warenbestand verfolgen.",
+      "source": [
+        "Clorox – Betriebsupdate Oktober 2023",
+        "https://investors.thecloroxcompany.com/news/news-details/2023/Clorox-Provides-Preliminary-Q1-Financial-Information-and-Operations-Update/default.aspx"
+      ]
+    },
+    {
+      "id": "synlapse2022",
+      "number": 301,
+      "title": "Das Datenlabor findet den Nachbarschlüssel",
+      "year": 2022,
+      "origin": "Sicherheitsforschung",
+      "daily": [
+        "Im Cloudlabor sollte jeder nur an seinem eigenen Tisch arbeiten. Die Forscher fanden jedoch einen Weg in den gemeinsamen Schlüsselschrank.",
+        "2022 veröffentlichten Orca-Forscher SynLapse in Azure Synapse Analytics und verwandter Infrastruktur.",
+        "Die Untersuchung führte zu Zugangsdaten und Zertifikaten, die über den eigenen vorgesehenen Bereich hinausreichten.",
+        "Microsoft verbesserte die Isolation und widerrief wichtige Vertrauensmittel."
+      ],
+      "lesson": "Mandantentrennung nach Korrekturen erneut gegen die vollständige Angriffskette testen.",
+      "source": [
+        "Orca Security – SynLapse-Forschung 2022",
+        "https://orca.security/resources/blog/synlapse-critical-azure-synapse-analytics-service-vulnerability/"
+      ]
+    },
+    {
+      "id": "autowarp2022",
+      "number": 302,
+      "title": "Der Automationshelfer greift ins Nachbarfach",
+      "year": 2022,
+      "origin": "Sicherheitsforschung",
+      "daily": [
+        "Der Roboter sollte nur die eigenen Aufgaben erledigen. Über einen internen Schalter erreichten Forscher jedoch die Zugangskarten anderer Arbeitsplätze.",
+        "2022 veröffentlichten Orca-Forscher AutoWarp in Azure Automation.",
+        "Die demonstrierte Lücke gab Zugriff auf Authentifizierungstokens fremder Konten.",
+        "Microsoft behob den gemeldeten Fehler."
+      ],
+      "lesson": "Automationsidentitäten minimal berechtigen und interne Verwaltungswege zwischen Mandanten trennen.",
+      "source": [
+        "Orca Security – AutoWarp, März 2022",
+        "https://orca.security/resources/blog/autowarp-microsoft-azure-automation-service-vulnerability/"
+      ]
+    },
+    {
+      "id": "zlib-header2022",
+      "number": 303,
+      "title": "Der kleine Anhang im komprimierten Koffer",
+      "year": 2022,
+      "origin": "Fachquelle",
+      "daily": [
+        "Der komprimierte Koffer war ordentlich beschriftet. Nur das Zusatzetikett nahm sich mehr Platz, als im Gepäckfach vorgesehen war.",
+        "2022 wurde ein Speicherfehler in zlib beim Verarbeiten besonders großer gzip-Zusatzfelder dokumentiert.",
+        "Laut Analyse waren nur Anwendungen betroffen, die inflateGetHeader auf dem relevanten Weg verwendeten.",
+        "Betreiber mussten Bibliotheksstand und tatsächliche Nutzung zusammen prüfen."
+      ],
+      "lesson": "Bibliotheksinventar mit der tatsächlichen Nutzung des fehlerhaften Pfads verbinden.",
+      "source": [
+        "Red Hat – Technische Analyse zu zlib CVE-2022-37434",
+        "https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2022-37434"
+      ]
+    },
+    {
+      "id": "retbleed2022",
+      "number": 304,
+      "title": "Die Rückkehr nimmt die falsche Abzweigung",
+      "year": 2022,
+      "origin": "Sicherheitsforschung",
+      "daily": [
+        "Der Prozessor kannte den Rückweg angeblich auswendig. Ein präparierter Wegweiser brachte ihn trotzdem erst einmal zum falschen Schrank.",
+        "Im Juli 2022 stellte die ETH Zürich Retbleed vor.",
+        "Prozessoren führen Arbeit zur Beschleunigung vorläufig aus und korrigieren falsche Wege später.",
+        "Der Fund stellte bisherige Annahmen über sichere Rücksprünge infrage."
+      ],
+      "lesson": "Auch vermeintlich sichere Ersatzmechanismen gegen neue Hardwareangriffe überprüfen.",
+      "source": [
+        "ETH Zürich – Retbleed, Juli 2022",
+        "https://ethz.ch/en/news-and-events/eth-news/news/2022/07/speculative-calculations-open-a-backdoor-to-information-theft.html"
+      ]
+    },
+    {
+      "id": "pwnkit2022",
+      "number": 305,
+      "title": "Der Pförtner reicht die Krone weiter",
+      "year": 2022,
+      "origin": "Sicherheitsforschung",
+      "daily": [
+        "Der Pförtner sollte Berechtigungen prüfen. Bei einer ungewöhnlichen Anfrage reichte er stattdessen gleich die Krone des Systemverwalters heraus.",
+        "Im Januar 2022 veröffentlichten Qualys-Forscher PwnKit im Linux-Werkzeug pkexec.",
+        "Dafür musste der Angreifer bereits lokalen Code ausführen können.",
+        "pkexec besitzt selbst hohe Rechte, weil es erlaubte Befehle privilegiert starten soll."
+      ],
+      "lesson": "Privilegierte Hilfsprogramme aktualisieren und lokale Rechteausweitung im Schutzkonzept berücksichtigen.",
+      "source": [
+        "Qualys Research – PwnKit, Januar 2022",
+        "https://blog.qualys.com/vulnerabilities-threat-research/2022/01/25/pwnkit-local-privilege-escalation-vulnerability-discovered-in-polkits-pkexec-cve-2021-4034-"
+      ]
+    },
+    {
+      "id": "dirtypipe2022",
+      "number": 306,
+      "title": "Die schreibgeschützte Datei bekommt fremde Tinte",
+      "year": 2022,
+      "origin": "Sicherheitsforschung",
+      "daily": [
+        "Der erste Hinweis war eine störrische Logdatei. Hinter dem kleinen Fleck steckte ein Rohr, das ausgerechnet durch schreibgeschützte Wände tropfte.",
+        "Bei der Untersuchung beschädigter komprimierter Logdateien entdeckte Max Kellermann den später 2022 veröffentlichten Linux-Fehler Dirty Pipe.",
+        "Die Ursache lag im Zusammenspiel von Pipes und gemeinsam genutzten Dateiseiten im Kernel.",
+        "Das konnte auch zur Rechteausweitung führen."
+      ],
+      "lesson": "Wiederkehrende Datenbeschädigung untersuchen und Schreibschutz auf allen Zugriffspfaden prüfen.",
+      "source": [
+        "Max Kellermann – The Dirty Pipe Vulnerability",
+        "https://dirtypipe.cm4all.com/"
+      ]
+    },
+    {
+      "id": "fortios-ssl2022",
+      "number": 307,
+      "title": "Der Fernzugang stolpert vor der Passkontrolle",
+      "year": 2022,
+      "origin": "Unternehmensquelle",
+      "daily": [
+        "Die Passkontrolle war streng geplant. Das Problem saß nur schon im Vorraum, bevor überhaupt jemand einen Ausweis zeigen musste.",
+        "Im Dezember 2022 warnte Fortinet vor einer bereits ausgenutzten Speicherlücke im FortiOS-SSL-VPN.",
+        "Der Hersteller untersuchte eingeschleuste Schadsoftware und weitere Angriffsspuren.",
+        "Dieser Vorfall betrifft CVE-2022-42475 und den VPN-Dienst."
+      ],
+      "lesson": "Internetexponierte Gateways auch vor der Anmeldung als Angriffsfläche behandeln.",
+      "source": [
+        "Fortinet – Analyse des 2022 entdeckten SSL-VPN-Angriffs",
+        "https://www.fortinet.com/blog/psirt-blogs/analysis-of-fg-ir-22-398-fortios-heap-based-buffer-overflow-in-sslvpnd"
+      ]
+    },
+    {
+      "id": "openssl-email2022",
+      "number": 308,
+      "title": "Die E-Mail-Adresse passt nicht in den Zertifikatsrahmen",
+      "year": 2022,
+      "origin": "Unternehmensquelle",
+      "daily": [
+        "Die Zertifikatsprüfung sollte ordentlich Namen vergleichen. Eine präparierte Adresse brachte sie stattdessen dazu, über den Rand ihres eigenen Formulars zu schreiben.",
+        "Im November 2022 korrigierte OpenSSL zwei Speicherfehler bei der Prüfung spezieller E-Mail-Adressen in Zertifikaten.",
+        "Die Verarbeitung lag nach der Signaturprüfung der Zertifikatskette.",
+        "OpenSSL 3.0.7 enthielt Korrekturen; die genannten älteren Reihen 1.1.1 und 1.0.2 waren von diesen Fehlern nicht betroffen."
+      ],
+      "lesson": "Vorwarnungen anhand des endgültigen Advisories nach Version und Voraussetzungen präzisieren.",
+      "source": [
+        "OpenSSL – Sicherheitsadvisory vom 1. November 2022",
+        "https://openssl-library.org/news/secadv/20221101.txt"
+      ]
+    },
+    {
+      "id": "github-oauth2022",
+      "number": 309,
+      "title": "Das Bauticket öffnet noch andere Türen",
+      "year": 2022,
+      "origin": "Unternehmensquelle",
+      "daily": [
+        "Der fremde Besucher brachte kein Passwort mit. Ein gestohlenes, längst genehmigtes Integrationsticket war ihm deutlich lieber.",
+        "Im April 2022 untersuchte GitHub den Missbrauch gestohlener OAuth-Tokens externer Integrationen.",
+        "Angreifer nutzten Tokens für GitHub-API-Zugriffe und den Abruf von Repository-Informationen beziehungsweise Inhalten betroffener Organisationen.",
+        "Die Reaktion umfasste Widerrufe und Benachrichtigungen."
+      ],
+      "lesson": "Alte Integrationsfreigaben überprüfen und unnötige OAuth-Rechte widerrufen.",
+      "source": [
+        "GitHub – Gestohlene OAuth-Tokens April 2022",
+        "https://github.blog/news-insights/company-news/security-alert-stolen-oauth-user-tokens/"
+      ]
+    },
+    {
+      "id": "slack-cache2022",
+      "number": 310,
+      "title": "Der schnelle Helfer leert zu viele Vorräte",
+      "year": 2022,
+      "origin": "Unternehmensquelle",
+      "daily": [
+        "Der Vorratshelfer ersetzte leere Regale besonders eifrig. Bald suchten alle gleichzeitig im Hauptlager, und dort kam niemand mehr durch.",
+        "Am 22.",
+        "Bestimmte Anfragen griffen bei einem Cache-Fehlschlag auf viele Datenbankteile zu.",
+        "Slack drosselte neue Verbindungen und verteilte Datenbanklast besser."
+      ],
+      "lesson": "Cache-Ausfälle mit der tatsächlichen Nachladelast der Datenbank testen.",
+      "source": [
+        "Slack Engineering – Ausfall vom 22. Februar 2022",
+        "https://slack.engineering/slacks-incident-on-2-22-22/"
+      ]
+    },
+    {
+      "id": "advanced-mfa2022",
+      "number": 311,
+      "title": "Die geschützte Firma mit der ungeschützten Tür",
+      "year": 2022,
+      "origin": "Amtliche Quelle",
+      "daily": [
+        "Das Haus hatte an vielen Türen einen zweiten Riegel. Der Einbrecher nahm verständlicherweise die übrig gebliebene Tür ohne ihn.",
+        "Im August 2022 gelangten Angreifer über ein Kundenkonto ohne Mehrfaktor-Anmeldung in Systeme von Advanced.",
+        "Der Ransomwarevorfall störte wichtige Abläufe und führte zum Abfluss persönlicher Informationen.",
+        "Die ICO-Entscheidung von 2025 bezog sich auf Daten von 79.404 Menschen."
+      ],
+      "lesson": "MFA-Abdeckung an jedem externen Zugang prüfen, nicht nur als Durchschnittsquote.",
+      "source": [
+        "ICO – Entscheidung zum Advanced-Angriff von 2022",
+        "https://ico.org.uk/about-the-ico/media-centre/news-and-blogs/2025/03/software-provider-fined-3m-following-2022-ransomware-attack/"
+      ]
+    },
+    {
+      "id": "chaosdb2021",
+      "number": 312,
+      "title": "Das Notizbuch liegt neben dem Datenbankschlüssel",
+      "year": 2021,
+      "origin": "Sicherheitsforschung",
+      "daily": [
+        "Das Notizbuch sollte Daten anschaulich machen. Leider lag daneben ein Schlüsselbund, mit dem man deutlich mehr als Notizen öffnen konnte.",
+        "2021 demonstrierten Wiz-Forscher ChaosDB in Azure Cosmos DB.",
+        "Die Forscher gelangten an primäre Datenbankschlüssel fremder Konten.",
+        "Microsoft deaktivierte den verletzlichen Weg und informierte Betroffene über nötige Schritte."
+      ],
+      "lesson": "Komfortfunktionen nach ihren Rechten bewerten und möglicherweise kopierte Schlüssel erneuern.",
+      "source": [
+        "Wiz – ChaosDB-Forschung August 2021",
+        "https://www.wiz.io/blog/chaosdb-how-we-hacked-thousands-of-azure-customers-databases"
+      ]
+    },
+    {
+      "id": "notlegit2021",
+      "number": 313,
+      "title": "Der Webserver serviert seine eigene Bauanleitung",
+      "year": 2021,
+      "origin": "Sicherheitsforschung",
+      "daily": [
+        "Die Website sollte das fertige Schaufenster zeigen. Bei einer ungünstigen Bereitstellung lag dahinter auch noch die komplette Bauanleitung zur Selbstbedienung.",
+        "Im Dezember 2021 veröffentlichten Wiz-Forscher NotLegit im Azure App Service.",
+        "Ein Git-Verzeichnis enthält nicht nur die aktuelle sichtbare Anwendung, sondern auch Verwaltungsdaten und gegebenenfalls frühere Stände.",
+        "Microsoft korrigierte das Standardverhalten und benachrichtigte je nach Aufbau betroffene Kunden."
+      ],
+      "lesson": "Versionsverwaltungsdaten und Geheimnisse aus öffentlich ausgelieferten Verzeichnissen heraushalten.",
+      "source": [
+        "Wiz – NotLegit, Azure App Service 2021",
+        "https://www.wiz.io/blog/azure-app-service-source-code-leak"
+      ]
+    },
+    {
+      "id": "forcedentry2021",
+      "number": 314,
+      "title": "Die Nachricht braucht keinen Klick",
+      "year": 2021,
+      "origin": "Sicherheitsforschung",
+      "daily": [
+        "Der digitale Briefschlitz war auf bequemes Vorsortieren eingestellt. Ein präparierter Anhang nutzte genau diese Hilfsbereitschaft aus.",
+        "2021 fand Citizen Lab bei der Untersuchung eines infizierten iPhones einen Angriff namens FORCEDENTRY.",
+        "Ein Klick des Betroffenen war nicht nötig.",
+        "Die Forscher meldeten den Fund an Apple, das Korrekturen bereitstellte."
+      ],
+      "lesson": "Automatische Anhangsverarbeitung braucht technische Schutzgrenzen und aktuelle Korrekturen.",
+      "source": [
+        "Citizen Lab – FORCEDENTRY, September 2021",
+        "https://citizenlab.ca/research/forcedentry-nso-group-imessage-zero-click-exploit-captured-in-the-wild/"
+      ]
+    },
+    {
+      "id": "baron-samedit2021",
+      "number": 315,
+      "title": "Der Baron umgeht die Gästeliste",
+      "year": 2021,
+      "origin": "Sicherheitsforschung",
+      "daily": [
+        "Der Baron stand gar nicht auf der Gästeliste. Eine ungünstig verarbeitete Anfrage machte ihn trotzdem zum Hausherrn.",
+        "Im Januar 2021 veröffentlichte Qualys den Sudo-Fehler Baron Samedit.",
+        "Der dokumentierte Angriff war auch für lokale Nutzer ohne Eintrag in der Sudo-Berechtigungsliste relevant.",
+        "Die eigentliche Verarbeitung der Eingabe war bereits Teil der Angriffsfläche."
+      ],
+      "lesson": "Das Rechtewerkzeug selbst absichern, auch für Nutzer ohne vorgesehene Freigabe.",
+      "source": [
+        "Qualys – Originaladvisory zu Baron Samedit 2021",
+        "https://seclists.org/fulldisclosure/2021/Jan/79"
+      ]
+    },
+    {
+      "id": "petitpotam2021",
+      "number": 316,
+      "title": "Der Server meldet sich beim falschen Empfang",
+      "year": 2021,
+      "origin": "Amtliche Quelle",
+      "daily": [
+        "Der Server zeigte brav seinen Dienstausweis. Ein fremder Empfang reichte den Nachweis nur leider gleich an die nächste Tür weiter.",
+        "2021 demonstrierte PetitPotam, wie Windows-Systeme zu einer Anmeldung bei einer fremden Gegenstelle veranlasst werden konnten.",
+        "Ein Angreifer konnte die NTLM-Anmeldung an unzureichend abgesicherte Zertifikatsdienste weiterleiten.",
+        "Dafür musste nicht einfach das Klartextpasswort des betroffenen Computers bekannt sein."
+      ],
+      "lesson": "Authentifizierungsnachweise an die richtige Gegenstelle binden und Relay-Schutz prüfen.",
+      "source": [
+        "CERT/CC – PetitPotam und AD-Zertifikatsdienste 2021",
+        "https://kb.cert.org/vuls/id/405600"
+      ]
+    },
+    {
+      "id": "mshtml2021",
+      "number": 317,
+      "title": "Das Dokument lädt einen heimlichen Browsergast",
+      "year": 2021,
+      "origin": "Unternehmensquelle",
+      "daily": [
+        "Auf dem Umschlag stand „Dokument“. Im Inneren hatte es jedoch schon einen Browsergast eingeladen, der eine sehr unpassende Nebenrolle spielen wollte.",
+        "2021 beobachtete Microsoft gezielte Angriffe mit präparierten Office-Dokumenten auf die Windows-Komponente MSHTML.",
+        "Ein schädliches ActiveX-Element war Teil der Angriffskette.",
+        "Microsoft veröffentlichte Sicherheitsupdates."
+      ],
+      "lesson": "Dokumente mit ihren nachgeladenen Komponenten bewerten und Schutzansichten ernst nehmen.",
+      "source": [
+        "Microsoft – Analyse der MSHTML-Angriffe 2021",
+        "https://www.microsoft.com/en-us/security/blog/2021/09/15/analyzing-attacks-that-exploit-the-mshtml-cve-2021-40444-vulnerability/"
+      ]
+    },
+    {
+      "id": "mybooklive-reset2021",
+      "number": 318,
+      "title": "Die Festplatte macht einen ungebetenen Frühjahrsputz",
+      "year": 2021,
+      "origin": "Unternehmensquelle",
+      "daily": [
+        "Die alte Netzwerkplatte war noch fleißig. Ein fremder Aufräumauftrag nahm das mit dem leeren Speicher leider viel zu wörtlich.",
+        "Im Juni 2021 wurden ältere My-Book-Live-Geräte über ausgenutzte Schwachstellen angegriffen.",
+        "Die Produktreihe hatte ihre letzten Firmwareupdates bereits 2015 erhalten.",
+        "Western Digital empfahl die sofortige Trennung betroffener Modelle vom Internet und bot Unterstützung an."
+      ],
+      "lesson": "Nicht mehr gepflegte Netzwerkgeräte vom offenen Internet trennen und getrennt sichern.",
+      "source": [
+        "Western Digital – My-Book-Live-Angriffe 2021",
+        "https://www.westerndigital.com/en-ae/support/product-security/wdc-21008-recommended-security-measures-wd-mybooklive-wd-mybookliveduo"
+      ]
+    },
+    {
+      "id": "letsencrypt-root2021",
+      "number": 319,
+      "title": "Der alte Vertrauensbaum geht in Rente",
+      "year": 2021,
+      "origin": "Unternehmensquelle",
+      "daily": [
+        "Der Türsteher kannte den neuen Ausweis nicht und bestand auf seinem abgelaufenen Stammbaum. Der Besucher stand ratlos vor einer völlig echten Website.",
+        "Am 30.",
+        "Moderne Systeme vertrauten bereits der neuen Wurzel ISRG Root X1.",
+        "Ein gültiges Website-Zertifikat allein genügt also nicht für jede Gegenstelle."
+      ],
+      "lesson": "Zertifikatswechsel mit den tatsächlich unterstützten alten Clients testen.",
+      "source": [
+        "Let’s Encrypt – DST Root CA X3, September 2021",
+        "https://letsencrypt.org/ca/docs/dst-root-ca-x3-expiration-september-2021/"
+      ]
+    },
+    {
+      "id": "kronos-cloud2021",
+      "number": 320,
+      "title": "Die Stechuhr braucht einen Notizzettel",
+      "year": 2021,
+      "origin": "Unternehmensquelle",
+      "daily": [
+        "Die digitale Stechuhr ging nicht zu spät. Sie kam erst einmal gar nicht zum Dienst, und die Ersatznotizen mussten die Schicht übernehmen.",
+        "Am 11.",
+        "Wenn Zeiterfassung nicht erreichbar ist, fehlen wichtige Grundlagen für nachgelagerte Personalabläufe.",
+        "UKG meldete bis zum 22."
+      ],
+      "lesson": "Zeiterfassung und Abrechnung brauchen einen überprüfbaren Ersatzablauf.",
+      "source": [
+        "UKG – ESG-Bericht 2021, Abschnitt Datensicherheit",
+        "https://www.ukg.com/sites/default/files/2024-06/2021-UKG-ESG-Report.pdf"
+      ]
     }
   ]
 }
