@@ -5763,6 +5763,366 @@
         "UKG – ESG-Bericht 2021, Abschnitt Datensicherheit",
         "https://www.ukg.com/sites/default/files/2024-06/2021-UKG-ESG-Report.pdf"
       ]
+    },
+    {
+      "id": "xerox2013",
+      "number": 321,
+      "title": "Der Scanner erfindet neue Quadratmeter",
+      "year": 2013,
+      "origin": "Fachquelle",
+      "daily": [
+        "Dieser Scanner war zu kreativ für die Buchhaltung: Er sparte Speicher und gönnte manchen Ziffern dabei eine neue Identität.",
+        "2013 dokumentierte David Kriesel, dass betroffene Xerox-Geräte in Scans Zahlen austauschten. Baupläne waren plötzlich nicht mehr originalgetreu.",
+        "Die Ursache lag in der Bildkompression mit Zeichenmustern. Selbst ohne OCR konnte die sichtbare Kopie falsch sein.",
+        "Der Ausdruck sah seriös aus; die Quadratmeter hatten trotzdem Auslauf. Wichtige Zahlen brauchen den Vergleich mit dem Original."
+      ],
+      "lesson": "Bei wichtigen Scans Zahlen am Original prüfen und die Bildkompression als mögliche Fehlerquelle mitbedenken.",
+      "source": [
+        "David Kriesel – Originalbericht zum Xerox-Scanfehler 2013",
+        "https://www.dkriesel.com/blog/2013/0802_xerox-workcentres_are_switching_written_numbers_when_scanning"
+      ]
+    },
+    {
+      "id": "btx1984",
+      "number": 322,
+      "title": "Die teuerste Bildschirmseite der Nacht",
+      "year": 1984,
+      "origin": "Fachquelle",
+      "daily": [
+        "Ein Bildschirmtextdienst bekam 1984 einen unfreiwilligen Stammkunden. Die Seite war kostenpflichtig, der Besuch ausgesprochen ausdauernd.",
+        "Der CCC ließ unter der BTX-Kennung der Hamburger Sparkasse wiederholt eine eigene Bezahlseite abrufen.",
+        "Dabei entstand eine Gebührenforderung von rund 135.000 D-Mark. Die Vorführung sollte die Sicherheitsprobleme des Systems öffentlich machen.",
+        "Kein belegter heimlicher Geldkoffer, sondern eine sehr laute Rechnung: Auch vor dem Web konnte ein Computer teuer auf „noch einmal“ bestehen."
+      ],
+      "lesson": "Identitätsprüfung, Abrechnung und ungewöhnlich häufige Abrufe gemeinsam absichern.",
+      "source": [
+        "CCC – 30 Jahre BTX-Hack, Rückblick mit Beteiligten",
+        "https://media.ccc.de/v/30JahreBTXHack"
+      ]
+    },
+    {
+      "id": "schaeuble2008",
+      "number": 323,
+      "title": "Das Passwort bleibt am Wasserglas kleben",
+      "year": 2008,
+      "origin": "Sicherheitsforschung",
+      "daily": [
+        "Wer ein Passwort auf ein Glas schreibt, bekommt Ärger. Bei Fingerabdrücken erledigt das der Körper ganz ohne Filzstift.",
+        "2008 veröffentlichte der CCC einen Abdruck Wolfgang Schäubles. Er stammte laut Club von einem bei einer Veranstaltung benutzten Wasserglas.",
+        "Damit bekam die Debatte um biometrische Merkmale ein anschauliches Sammelobjekt.",
+        "Die Aktion knackte nicht nachweislich jedes System. Sie zeigte: Fingerabdrücke bleiben im Alltag zurück, und ein neuer Finger ist kein normaler Passwortwechsel."
+      ],
+      "lesson": "Biometrische Merkmale als kopierbare Körperdaten behandeln, nicht als leicht austauschbare Geheimnisse.",
+      "source": [
+        "CCC – Schäubles Fingerabdruck, März 2008",
+        "https://www.ccc.de/updates/2008/schaubles-finger"
+      ]
+    },
+    {
+      "id": "touchid2013",
+      "number": 324,
+      "title": "Das iPhone akzeptiert den Ersatzfinger",
+      "year": 2013,
+      "origin": "Sicherheitsforschung",
+      "daily": [
+        "Der neue Türsteher im Telefon verlangte einen Finger. Der CCC brachte eine Kopie mit – und kam beim getesteten Gerät hinein.",
+        "2013 entsperrte das Team ein iPhone 5s mit einer künstlichen Nachbildung des passenden Fingerabdrucks.",
+        "Die Vorlage stammte von einer Glasfläche. Der Besitzer musste seine Spuren also nicht erst freiwillig als Passwort aufschreiben.",
+        "Der Versuch betraf diese Touch-ID-Generation. Bequemlichkeit und Widerstand gegen Kopien sind zwei unterschiedliche Prüfungen für denselben Türsteher."
+      ],
+      "lesson": "Bei biometrischer Anmeldung auch den Schutz vor Merkmalskopien und die Absicherung der Ausweichanmeldung bewerten.",
+      "source": [
+        "CCC – Touch ID des iPhone 5s überwunden, September 2013",
+        "https://www.ccc.de/en/updates/2013/ccc-breaks-apple-touchid"
+      ]
+    },
+    {
+      "id": "s8iris2017",
+      "number": 325,
+      "title": "Der Drucker hilft dem Auge beim Schummeln",
+      "year": 2017,
+      "origin": "Sicherheitsforschung",
+      "daily": [
+        "Ein Samsung-Handy sollte ein Auge erkennen. Ein Samsung-Drucker half laut CCC dabei, ihm ein gedrucktes vorzusetzen. Familienzusammenhalt ist eben nicht immer hilfreich.",
+        "2017 demonstrierte der CCC die Täuschung der Irisfunktion eines Galaxy S8.",
+        "Ein geeignetes Augenfoto, ein Ausdruck und eine Kontaktlinse bildeten die Attrappe für den Test.",
+        "Der Sensor erkannte das vertraute Muster, aber nicht zuverlässig dessen Echtheit. Ein Blick ist noch kein Lebenszeichen."
+      ],
+      "lesson": "Biometrische Mustererkennung und Erkennung von Attrappen getrennt prüfen.",
+      "source": [
+        "CCC – Iriserkennung des Samsung Galaxy S8, Mai 2017",
+        "https://www.ccc.de/de/updates/2017/iriden"
+      ]
+    },
+    {
+      "id": "pcwahl2017",
+      "number": 326,
+      "title": "Die Wahlergebnisse nehmen einen unsicheren Umweg",
+      "year": 2017,
+      "origin": "Sicherheitsforschung",
+      "daily": [
+        "Der Wahlzettel lag auf Papier. Die Zahlen bekamen danach trotzdem einen digitalen Arbeitsweg – und der brauchte dringend bessere Türschlösser.",
+        "2017 zeigte der CCC Schwächen in PC-Wahl, unter anderem bei Softwareaktualisierungen und Zugangsschutz.",
+        "Das betraf die digitale Ergebniskette. Es war kein Nachweis, dass die Bundestagswahl tatsächlich gefälscht worden war.",
+        "Papierunterlagen und unabhängige Kontrollen blieben entscheidend für das endgültige Ergebnis. Auch ein vorläufiges Resultat sollte unterwegs nicht kreativ werden."
+      ],
+      "lesson": "Ergebnismeldungen absichern und wichtige Resultate unabhängig an den Originalunterlagen nachprüfen.",
+      "source": [
+        "CCC – Untersuchung von PC-Wahl 2017",
+        "https://www.ccc.de/de/updates/2017/pc-wahl"
+      ]
+    },
+    {
+      "id": "wahlstift2007",
+      "number": 327,
+      "title": "Der Wahlstift liest etwas anderes als der Mensch",
+      "year": 2007,
+      "origin": "Sicherheitsforschung",
+      "daily": [
+        "Der Mensch machte ein Kreuz, der Stift las Punkte. Leider konnten beide auf demselben Blatt zu verschiedenen Ergebnissen kommen.",
+        "2007 analysierte der CCC einen digitalen Wahlstift für die Hamburger Wahlplanung.",
+        "Der beschriebene Angriff trennte sichtbare Beschriftung und maschinenlesbares Positionsmuster. So konnte eine Markierung digital anders zugeordnet werden.",
+        "Das war eine demonstrierte Angriffsidee, kein belegter Wahldiebstahl. Papier beruhigt erst dann, wenn seine sichtbare Bedeutung auch nachprüfbar zählt."
+      ],
+      "lesson": "Sichtbare Auswahl und digitale Interpretation unabhängig vergleichen, statt versteckte Codes allein entscheiden zu lassen.",
+      "source": [
+        "CCC – Stellungnahme zum Wahlstift, November 2007",
+        "https://wahlcomputer.ccc.de/doku/wahlstiftVerfassungsausschuss.pdf"
+      ]
+    },
+    {
+      "id": "nedap2006",
+      "number": 328,
+      "title": "Der Wahlcomputer spielt lieber Schach",
+      "year": 2006,
+      "origin": "Sicherheitsforschung",
+      "daily": [
+        "Ein Wahlcomputer bekam eine neue Aufgabe: Schach. Für die Demokratie war das keine neue Sportart, sondern eine ziemlich anschauliche Warnung.",
+        "2006 brachten Forscher einen Nedap ES3B mit veränderter Software zum Spielen.",
+        "Die Untersuchung zeigte auch Möglichkeiten verfälschter Zählsoftware. Nötig war Zugriff auf das Gerät; eine tatsächliche Wahlfälschung war damit nicht belegt.",
+        "Die Maschine konnte offenbar mehr als ihr Stellenangebot versprach. Ein Spezialgehäuse ersetzt keine überprüfbaren Ergebnisse."
+      ],
+      "lesson": "Bei Spezialgeräten zulässige Software und unabhängige Ergebnisprüfung untersuchen, statt dem Gehäuse zu vertrauen.",
+      "source": [
+        "Gonggrijp und Hengeveld – Originalstudie zum Nedap ES3B",
+        "https://www.usenix.org/event/evt07/tech/full_papers/gonggrijp/gonggrijp.pdf"
+      ]
+    },
+    {
+      "id": "staatstrojaner2011",
+      "number": 329,
+      "title": "Der staatliche Trojaner hat selbst eine Hintertür",
+      "year": 2011,
+      "origin": "Sicherheitsforschung",
+      "daily": [
+        "Ein Trojaner soll heimlich durch die Hintertür kommen. Dieser brachte laut CCC gleich zusätzliche Hintertüren für sich selbst mit.",
+        "2011 analysierte der Club staatlich eingesetzte Überwachungssoftware.",
+        "Gefunden wurden unter anderem Bildschirmaufnahmen, nachladbare Programme und Schwächen im Schutz der Fernsteuerung.",
+        "Der CCC kritisierte den Umfang der Funktionen. Die technische Pointe bleibt: „Nur mithören“ auf dem Etikett verhindert keine weitergehenden Fähigkeiten im Programm."
+      ],
+      "lesson": "Versprochene Funktionsgrenzen technisch erzwingen und mächtige Fernsteuerung besonders absichern.",
+      "source": [
+        "CCC – Analyse staatlich eingesetzter Schadsoftware 2011",
+        "https://www.ccc.de/en/updates/2011/staatstrojaner"
+      ]
+    },
+    {
+      "id": "epa2024ccc",
+      "number": 330,
+      "title": "Die Patientenakte prüft auch den Pförtner",
+      "year": 2024,
+      "origin": "Sicherheitsforschung",
+      "daily": [
+        "Die Patientenakte hatte digitale Schlösser. Die Forscher prüften zusätzlich, wie leicht jemand an einen scheinbar passenden Dienstausweis kam.",
+        "Beim 38C3 Ende 2024 zeigte der CCC Risiken in der Zugangskette zur „ePA für alle“.",
+        "Das war eine Forschungsdemonstration, kein belegter Diebstahl von Millionen Patientenakten. Die gematik kündigte zusätzliche Schutzmaßnahmen an.",
+        "Der Fall hat einen historischen Zeitstempel. Auch der beste Tresor braucht einen Pförtner, der die Berechtigung ernsthaft prüft."
+      ],
+      "lesson": "Bei sensiblen Daten auch Ausstellung, Prüfung und Sperrung der Zugangsmittel als Teil der Sicherheitsgrenze testen.",
+      "source": [
+        "CCC – ePA-Forschung auf dem 38C3, Dezember 2024",
+        "https://www.ccc.de/updates/2024/ende-der-epa-experimente"
+      ]
+    },
+    {
+      "id": "pnr2016",
+      "number": 331,
+      "title": "Die Bordkarte verrät mehr als den Sitzplatz",
+      "year": 2016,
+      "origin": "Sicherheitsforschung",
+      "daily": [
+        "Das Urlaubsfoto sollte Neid wecken. Die abfotografierte Bordkarte konnte stattdessen den Schlüssel zur Buchung mitliefern.",
+        "2016 zeigten Karsten Nohl und Nemanja Nikodijevic beim 33C3 Schwächen in Reisebuchungssystemen.",
+        "Bei untersuchten Abläufen eröffneten Nachname und Buchungsreferenz zu weitgehenden Zugriff. Ein Barcode machte die Daten nicht geheim.",
+        "Die Lehre reist ohne Übergepäck: Buchungscodes gehören nicht ins öffentliche Erinnerungsalbum."
+      ],
+      "lesson": "Buchungsreferenzen und Barcodes auf Reiseunterlagen vor einer Veröffentlichung zuverlässig entfernen.",
+      "source": [
+        "33C3 – Where in the World Is Carmen Sandiego?, Nohl und Nikodijevic",
+        "https://media.ccc.de/v/33c3-7964-where_in_the_world_is_carmen_sandiego"
+      ]
+    },
+    {
+      "id": "badusb2014",
+      "number": 332,
+      "title": "Der USB-Stick bewirbt sich als Tastatur",
+      "year": 2014,
+      "origin": "Sicherheitsforschung",
+      "daily": [
+        "Der Stick kam als Speicher und stellte sich zusätzlich als Tastatur vor. Ein erstaunlicher Berufswechsel für etwas ohne Tasten.",
+        "2014 zeigten Nohl und Lell mit BadUSB, wie manipulierte Controller-Firmware solche Rollenwechsel ermöglichen kann.",
+        "Der gefährliche Code musste nicht in einer normalen Datei liegen. Dateien löschen oder formatieren traf daher nicht automatisch die Ursache.",
+        "Der Fall betraf geeignete Controller. Vertrauen endet nicht beim Virenscan des Ordners – der Stecker bringt auch eine Geräteidentität mit."
+      ],
+      "lesson": "USB-Geräte nach Herkunft und zulässigen Funktionen bewerten; ein Dateiscan prüft nicht ihre gesamte Firmware.",
+      "source": [
+        "Black Hat USA 2014 – BadUSB, Karsten Nohl und Jakob Lell",
+        "https://blackhat.com/us-14/video/badusb-on-accessories-that-turn-evil.html"
+      ]
+    },
+    {
+      "id": "jeep2015",
+      "number": 333,
+      "title": "Das Autoradio bekommt zu viel Verantwortung",
+      "year": 2015,
+      "origin": "Sicherheitsforschung",
+      "daily": [
+        "Das Autoradio sollte Musik liefern. Im Jeep-Test bekam sein digitaler Arbeitsweg deutlich mehr Verantwortung als eine gute Playlist.",
+        "2015 zeigten Miller und Valasek eine Angriffskette von Uconnect über die Mobilfunkanbindung zu internen Fahrzeugfunktionen.",
+        "Die Möglichkeiten hatten technische und betriebliche Grenzen. Der dokumentierte Test war kein belegter krimineller Massenangriff.",
+        "Die Lehre sitzt mit im Wagen: Unterhaltung und sicherheitsrelevante Steuerung brauchen belastbare Grenzen."
+      ],
+      "lesson": "Komfortsysteme so isolieren, dass ein Einbruch dort keine weitreichende Kontrolle sicherheitsrelevanter Funktionen eröffnet.",
+      "source": [
+        "Miller und Valasek – Remote Exploitation of an Unaltered Passenger Vehicle",
+        "https://illmatics.com/Remote%20Car%20Hacking.pdf"
+      ]
+    },
+    {
+      "id": "unsaflok2024",
+      "number": 334,
+      "title": "Die Zimmerkarte möchte im ganzen Hotel wohnen",
+      "year": 2024,
+      "origin": "Sicherheitsforschung",
+      "daily": [
+        "Die Zimmerkarte war für ein Zimmer eingestellt. Unsaflok zeigte, wie eine fehlerhafte Berechtigungskette daraus sehr weitreichende Reisepläne machen konnte.",
+        "2024 veröffentlichten Forscher Schwachstellen bestimmter Saflok-Hotelschlösser. Präparierte Karten konnten andere Türen desselben Hotels öffnen.",
+        "Der betroffene Gerätebestand war keine Zahl nachgewiesener Einbrüche.",
+        "Für die Reparatur brauchte es Änderungen an Schlössern, Karten und weiteren Komponenten. Die Rezeption konnte das Problem nicht einfach wegdrucken."
+      ],
+      "lesson": "Bei digitalen Schließanlagen die gesamte Kette aus Karten, Lesern, Schlössern und Verwaltung aktualisieren.",
+      "source": [
+        "Unsaflok – Originalveröffentlichung des Forschungsteams",
+        "https://unsaflok.com/"
+      ]
+    },
+    {
+      "id": "netscaperandom1995",
+      "number": 335,
+      "title": "Das Browser-Schloss würfelt mit der Uhr",
+      "year": 1995,
+      "origin": "Fachquelle",
+      "daily": [
+        "Das Browser-Schloss sah kräftig aus. Sein Würfel fragte vorher aber ausgerechnet Uhrzeit und Prozessnummer nach einem geheimen Tipp.",
+        "1995 untersuchten Goldberg und Wagner die Schlüsselbildung von Netscape. Der Startwert war zu gut eingrenzbar.",
+        "Damit schrumpfte die Suche nach möglichen Schlüsseln, ohne den Verschlüsselungsalgorithmus grundsätzlich zu brechen.",
+        "Die Lehre ist älter als viele heutige Browser: Gute Verschlüsselung braucht gute Zufallswerte, nicht bloß eine sehr überzeugende Schlossgrafik."
+      ],
+      "lesson": "Für Schlüssel geprüfte kryptografische Zufallsquellen nutzen und nicht aus leicht erratbaren Systemwerten selbst etwas mischen.",
+      "source": [
+        "Goldberg und Wagner – Randomness and the Netscape Browser",
+        "https://people.eecs.berkeley.edu/~daw/papers/ddj-netscape.html"
+      ]
+    },
+    {
+      "id": "trustingtrust1984",
+      "number": 336,
+      "title": "Der Compiler schmuggelt sich selbst wieder hinein",
+      "year": 1984,
+      "origin": "Fachquelle",
+      "daily": [
+        "Der Quellcode war aufgeräumt. Leider hatte der Compiler eine eigene Meinung und legte die Hintertür beim Übersetzen wieder dazu.",
+        "Ken Thompson beschrieb 1984, wie ein manipuliertes Bauwerkzeug sowohl ein Anmeldeprogramm als auch seine eigene nächste Version verändern konnte.",
+        "Der sichtbare Schadcode konnte anschließend entfernt werden, ohne die Weitergabe im Werkzeug automatisch zu beenden.",
+        "Das war eine Demonstration, keine pauschale Unix-Seuchenmeldung. Wer das Ergebnis prüfen will, muss auch dem Übersetzer auf die Finger sehen."
+      ],
+      "lesson": "Zur Vertrauensprüfung von Software auch Herkunft und unabhängige Überprüfung ihrer Bauwerkzeuge berücksichtigen.",
+      "source": [
+        "Ken Thompson – Reflections on Trusting Trust, Originaltext",
+        "https://osm.hpi.de/bsArch/2004-2005/Unit6/Security-Threat/"
+      ]
+    },
+    {
+      "id": "atmjack2010",
+      "number": 337,
+      "title": "Der Geldautomat spielt Las Vegas",
+      "year": 2010,
+      "origin": "Sicherheitsforschung",
+      "daily": [
+        "In Las Vegas sollten Spielautomaten den Jackpot liefern. 2010 übernahm bei Barnaby Jacks Vorführung ausgerechnet ein Geldautomat die Rolle.",
+        "Der Forscher zeigte auf der Black Hat Angriffe auf zwei Testgeräte, unter anderem über lokale Zugänge und Fernwartung.",
+        "Manipulierte Software konnte die Geldausgabe auslösen. Das war keine normale Abhebung mit erratener Kunden-PIN.",
+        "Die Konferenzshow demonstrierte ein Verwaltungsproblem: Auch ein Automat mit Kassenschublade braucht streng kontrollierte Wartungswege."
+      ],
+      "lesson": "Wartungszugänge und zulässige Software genauso konsequent schützen wie die sichtbare Kundenanmeldung.",
+      "source": [
+        "Black Hat USA 2010 – Barnaby Jack, Jackpotting Automated Teller Machines Redux",
+        "https://blackhat.com/html/bh-us-10/bh-us-10-archives.html"
+      ]
+    },
+    {
+      "id": "teslafob2020",
+      "number": 338,
+      "title": "Der Autoschlüssel bekommt ein fremdes Update",
+      "year": 2020,
+      "origin": "Sicherheitsforschung",
+      "daily": [
+        "Der Schlüsselanhänger sollte das Auto öffnen. Vorher musste aber noch jemand klären, wer eigentlich den Schlüssel programmieren darf.",
+        "2020 demonstrierten Forschende aus Leuven eine Model-X-Angriffskette mit Schwächen bei Firmwareaktualisierung und Schlüsselanmeldung.",
+        "Der Ablauf brauchte bestimmte Nähebedingungen; er war keine grenzenlose Internet-Fernbedienung für alle Teslas.",
+        "Die kleine Lehre passt an den großen Schlüsselbund: Auch Zubehör mit Updatefunktion braucht eine belastbare Prüfung fremder Software."
+      ],
+      "lesson": "Firmwareherkunft und Kopplungsberechtigungen auch bei kleinen Funk-Zubehörgeräten konsequent prüfen.",
+      "source": [
+        "KU Leuven COSIC – Untersuchung des Model-X-Schlüssels, November 2020",
+        "https://www.esat.kuleuven.be/cosic/news/belgian-security-researchers-from-cosic-and-imec-steal-a-tesla-model-x-in-minutes/"
+      ]
+    },
+    {
+      "id": "leafapi2016",
+      "number": 339,
+      "title": "Der Fremde schaltet die Autoheizung ein",
+      "year": 2016,
+      "origin": "Sicherheitsforschung",
+      "daily": [
+        "Das Auto hatte eine eigene Nummer. Die Schnittstelle behandelte sie leider ein bisschen wie den Hausschlüssel fürs Thermostat.",
+        "2016 dokumentierte Troy Hunt fehlende Zugriffskontrollen bei bestimmten Nissan-Leaf-App-Funktionen.",
+        "Mit der Fahrzeugnummer konnten im Test unter anderem Klimafunktionen und Daten angesprochen werden. Lenkung und Bremse gehörten nicht zum belegten Zugriff.",
+        "Die Heizung war fernbedienbar, die Berechtigung zu großzügig. Eine Objektkennung sagt, welches Auto gemeint ist – nicht, wem es gehört."
+      ],
+      "lesson": "Bei jeder API-Aktion prüfen, ob der angemeldete Nutzer genau auf dieses Objekt zugreifen darf.",
+      "source": [
+        "Troy Hunt – Originalbericht zur Nissan-Leaf-API, Februar 2016",
+        "https://www.troyhunt.com/controlling-vehicle-features-of-nissan/"
+      ]
+    },
+    {
+      "id": "coffeecam1991",
+      "number": 340,
+      "title": "Die Kaffeemaschine bekommt eine Fernüberwachung",
+      "year": 1991,
+      "origin": "Fachquelle",
+      "daily": [
+        "Die Forschung wollte Fortschritt. Zuerst wollte sie aber wissen, ob unten noch Kaffee da war.",
+        "1991 bauten Forschende in Cambridge eine lokale Kameraanzeige für ihre Kaffeekanne. So ersparten sie sich manchen vergeblichen Treppenlauf.",
+        "1993 kamen die Bilder ins Web, und die Kanne wurde berühmt.",
+        "Kein Angriff, sondern Technikgeschichte mit Koffein: Manchmal beginnt weltweite Vernetzung mit einem erstaunlich vernünftigen Verhältnis zu leeren Tassen."
+      ],
+      "lesson": "Vor dem Bau einer Lösung den konkreten Bedarf verstehen – manchmal genügt eine einfache sichtbare Statusanzeige.",
+      "source": [
+        "Quentin Stafford-Fraser – When convenience was the mother of invention",
+        "https://www.cl.cam.ac.uk/coffee/qsf/cacm200107.html"
+      ]
     }
   ]
 }
