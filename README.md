@@ -2,12 +2,12 @@
 
 [Online-App öffnen](https://adrakir.github.io/)
 
-381 illustrierte Akten mit Quellen, drei Kapiteln, einer kurzen Tagesgeschichte und zwei Quizfragen pro Akte. Fünf Akten sind ausdrücklich fiktive Trainingsfälle. Die übrigen sind dokumentierte Vorfälle, Forschungsfälle und Technikgeschichte. Die App ist ein unabhängiges Lernprojekt, keine offizielle oder vom BSI geprüfte Anwendung.
+387 illustrierte Akten mit Quellen, drei Kapiteln, einer kurzen Tagesgeschichte und zwei Quizfragen pro Akte. Sieben Akten sind ausdrücklich fiktive Trainingsfälle. Die übrigen sind dokumentierte Vorfälle, Forschungsfälle und Technikgeschichte. Die App ist ein unabhängiges Lernprojekt, keine offizielle oder vom BSI geprüfte Anwendung.
 
 ## Lesen und entdecken
 
 - Jede Akte hat eine direkt zugängliche **Kurzgeschichte** und eine ausführliche Ansicht mit Quiz.
-- Zwölf Themenbereiche bündeln die Sammlung. Zusätzliche Filter unterscheiden Geschichte, Quelle, Ereignisart und Besonderheiten.
+- Dreizehn Themenbereiche bündeln die Sammlung. Zusätzliche Filter unterscheiden Geschichte, Quelle, Ereignisart und Besonderheiten.
 - Der **Fall des Tages** richtet sich nach dem Kalenderdatum in Europe/Berlin. Das Tagesarchiv beginnt am 24. Oktober 2026; alle anderen Kurzgeschichten bleiben jederzeit über die Sammlung zugänglich.
 - Verwandte Akten verlinken aufeinander. Unter **Einstellungen → Akten vergleichen & prüfen** lassen sich zwei Akten nebeneinander lesen und mögliche Überschneidungen markieren. Die automatische Prüfung ist ein Hinweisverfahren und ersetzt keine vollständige Quellenprüfung. Eigene Markierungen bleiben auf dem jeweiligen Gerät.
 
@@ -80,3 +80,21 @@ Die Sammlung enthält 381 Akten. Die Erweiterung umfasst elf neue Akten mit 33 K
 Der Zeitwertregler rechnet ausschließlich mit Testzahlen. Er verändert weder Geräteuhr noch Systemkonfiguration. Standortdaten der Nutzer werden weder abgefragt noch hochgeladen. Alle neuen Laufzeitinhalte bleiben in der Offline-App enthalten.
 
 Zur Pflege der Erweiterung dienen `scripts/new-topics.json` und `scripts/add-new-topics.py`; danach werden `scripts/quality-content.py` und `scripts/build-quality.py` ausgeführt. Die alte Sammlung wird dabei erhalten. Der fehlgeschlagene direkte GNU-Abruf ist in der Quellenanzeige vermerkt; die Linux-Kernel-Dokumentation ist als ergänzende technische Quelle verlinkt.
+
+
+## Alltag und Fehlerketten (Version 2.4)
+
+Die aktuelle Sammlung enthält 387 Akten mit sieben ausdrücklich fiktiven Trainingsfällen. Sechs Ergänzungen bringen 18 Kapitel, sechs Kurzgeschichten und zwölf Standardfragen mit:
+
+- SEC-Kontoübernahme durch einen mutmaßlichen SIM-Swap (2024).
+- Erneut registrierte alte WHOIS-Domain (Forschungsdemonstration 2024).
+- GoodRx und Werbetracking (FTC-Vorwürfe und abweichende Unternehmensposition 2023).
+- Kennnummern mit führenden Nullen (fiktive Tabellenübung).
+- Gefälschter Support beim Kleinanzeigenverkauf (LKA-Niedersachsen-Warnung 2024).
+- Administrative Kontenübergabe (fiktive Teamübung).
+
+Der Filter „Alltag & Fehlerketten (6)“ zeigt die neuen Fälle. „Der zweite Fehler“ ist eine eigene Themenkarte mit vier Akten: SEC, GitLab, Meta und AWS S3. Pro Akte gibt es drei zusätzliche Lernentscheidungen mit getrennt eingeblendetem dokumentierten Verlauf. Die Antwort verändert die Geschichte nicht. Die Reihe unterscheidet einen zusätzlichen Bedienfehler von einer verstärkenden technischen Abhängigkeit. Alte Akten werden dafür verknüpft und mit Übungsmetadaten ergänzt, nicht als neue Geschichten gezählt.
+
+Die Tabellenübung arbeitet ausschließlich mit fest vorgegebenen erfundenen Kennungen. Sie zeigt Text, Zahleninterpretation und nachträgliche Fünfstellen-Anzeige nebeneinander. Sie lädt keine Datei hoch und bildet keinen vollständigen Excel-Import nach. Die Kontenübung verändert keine realen Benutzer, Rollen oder Schutzmaßnahmen.
+
+Die redaktionellen Quellen liegen in `scripts/everyday-cases.json` und `scripts/cascade-cases.json`. Der bestehende Erweiterungshelfer bindet sie ein. Alle bisherigen Standardfragen, Lernstände und datierten Tagesfälle bleiben erhalten. Die zusätzlichen Fehlerketten zählen separat vom Aktenabschluss.

@@ -1,0 +1,464 @@
+[
+  {
+    "id": "sec-simswap2024",
+    "year": 2024,
+    "icon": "📱",
+    "title": "Die Handynummer zieht ohne ihren Besitzer um",
+    "kicker": "Ein SIM-Swap führt zur Übernahme eines Behördenkontos",
+    "kind": "Kontoübernahme",
+    "origin": "Amtliche Quelle",
+    "type": "incident",
+    "topics": [
+      "alltag",
+      "fraud",
+      "privacy",
+      "cascade"
+    ],
+    "collection": "Alltag & Fehlerketten",
+    "acts": [
+      [
+        "Der Wiederherstellungsweg wird zum Eingang",
+        "Am 9. Januar 2024 wurde das X-Konto der US-Börsenaufsicht SEC übernommen. Nach ihrer späteren Mitteilung erlangte die unbefugte Partei über den Mobilfunkanbieter die Kontrolle über die verknüpfte Telefonnummer. Die SEC beschrieb dies als mutmaßlichen SIM-Swap. Damit ging es zunächst um einen Kommunikationsweg, nicht um einen nachgewiesenen Einbruch in alle internen Behördenrechner."
+      ],
+      [
+        "Eine entfernte Schutzschicht fehlt weiter",
+        "Mit der Nummer ließ sich das Passwort des Social-Media-Kontos zurücksetzen. Die SEC erklärte außerdem: Wegen früherer Zugangsprobleme war die Mehrfaktor-Anmeldung im Juli 2023 auf Wunsch der Mitarbeitenden deaktiviert worden und bis zum Angriff ausgeschaltet geblieben. Der vorübergehende Ausweg hatte damit eine länger bestehende Schutzlücke hinterlassen."
+      ],
+      [
+        "Der Absender ist kein Inhaltsbeweis",
+        "Über das echte Konto erschien eine unbefugte Ankündigung. Die SEC beendete den Zugriff und veröffentlichte eine Klarstellung; Mehrfaktor-Anmeldung wurde wieder aktiviert. Das Beispiel zeigt, warum Wiederherstellungswege zum Schutzkonzept gehören. Eine Nachricht von einem vertrauten Konto kann nach einer Übernahme trotzdem einen falschen Inhalt haben. Die Akte enthält keine Anlageempfehlung."
+      ]
+    ],
+    "daily": [
+      "Die Handynummer bekam einen ungebetenen Umzug. Anschließend stand der digitale Türöffner beim falschen Empfänger.",
+      "Die SEC berichtete nach der Übernahme ihres X-Kontos im Januar 2024 über einen mutmaßlichen SIM-Swap und einen anschließenden Passwort-Reset.",
+      "Eine zweite Schutzschicht war zuvor wegen Zugangsproblemen ausgeschaltet und nicht wieder eingeschaltet worden. So verbanden sich zwei Schwächen.",
+      "Die Behörde stellte den unbefugten Beitrag richtig. Die technische Lehre: Eine vorübergehende Ausnahme braucht einen überprüften Rückweg. Sonst wird aus „gleich wieder einschalten“ ein sehr langer Termin."
+    ],
+    "facts": [
+      "Kontoübernahme am 09.01.2024.",
+      "SEC-Mitteilung: mutmaßlicher SIM-Swap und Passwort-Reset.",
+      "Mehrfaktor-Anmeldung war vor dem Vorfall deaktiviert."
+    ],
+    "lesson": "Telefonnummern und Wiederherstellungswege als Zugangsmittel behandeln; vorübergehende Schutz-Ausnahmen nachverfolgen und beenden.",
+    "quiz": [
+      "Welche Rolle spielte die Telefonnummer laut SEC bei der Kontoübernahme?",
+      [
+        "Sie ermöglichte nach ihrer Übernahme einen Passwort-Reset.",
+        "Sie bewies automatisch die Echtheit jeder Nachricht.",
+        "Sie ersetzte sämtliche internen Systeme der Behörde."
+      ],
+      0,
+      "Die Wiederherstellung des Social-Media-Zugangs hing an der kontrollierten Telefonnummer. Ein Zugriff auf alle SEC-Systeme wurde damit nicht belegt."
+    ],
+    "decision": [
+      "Eine Schutzfunktion wird zur Fehlerbehebung vorübergehend deaktiviert. Was muss zur Aufgabe gehören?",
+      [
+        "Eine dokumentierte Zuständigkeit und Kontrolle für die sichere Wiederherstellung.",
+        "Die Ausnahme nach der ersten erfolgreichen Anmeldung vergessen.",
+        "Das abgeschaltete Verfahren grundsätzlich als dauerhaft unnötig ansehen."
+      ],
+      0,
+      "Eine kurzfristige Ausnahmeregelung darf nicht unbemerkt zum Normalzustand werden."
+    ],
+    "source": [
+      "SEC – Mitteilungen zum übernommenen X-Konto, Januar 2024",
+      "https://www.sec.gov/secgov-x-account"
+    ],
+    "extraSources": [
+      [
+        "SEC – Erklärung zum unbefugten Zugriff vom 12.01.2024",
+        "https://www.sec.gov/newsroom/speeches-statements/gensler-x-account"
+      ]
+    ],
+    "related": [
+      "uber-mfa",
+      "twitter-scam"
+    ],
+    "eventDate": "9. Januar 2024",
+    "scope": "Historische SEC-Darstellung, einschließlich ihrer Formulierung eines mutmaßlichen SIM-Swaps. Kein Nachweis eines Zugriffs auf sämtliche internen Systeme und keine Finanzberatung."
+  },
+  {
+    "id": "expired-whois2024",
+    "year": 2024,
+    "icon": "🌐",
+    "title": "Die alte Internetadresse hat einen neuen Vermieter",
+    "kicker": "Ein abgelaufener WHOIS-Domainname bleibt in Programmen hinterlegt",
+    "kind": "Sicherheitsdemonstration",
+    "origin": "Sicherheitsforschung",
+    "type": "research",
+    "topics": [
+      "alltag",
+      "research",
+      "systems"
+    ],
+    "collection": "Alltag & Fehlerketten",
+    "acts": [
+      [
+        "Der Dienst zieht um, die Verweise bleiben",
+        "watchTowr veröffentlichte im September 2024 eine Untersuchung zu einem alten WHOIS-Dienst für .mobi-Domains. Der Dienst war auf eine neue Adresse umgezogen; die frühere Domain war später abgelaufen. Einige Programme fragten weiterhin die alte Adresse ab. Eine bekannte Zeichenfolge ist aber keine Garantie für einen unveränderten Betreiber."
+      ],
+      [
+        "Eine alte Adresse erhält neue Antworten",
+        "Das Forschungsteam registrierte die abgelaufene Domain und dokumentierte weiter eintreffende Anfragen. In einer Vorführung zeigte es zudem, dass ein Zertifikats-Prüfablauf einen von diesem WHOIS-Server gelieferten Kontakt übernahm. Die Akte beschreibt den Forschungsnachweis, nicht eine belegte kriminelle Massenübernahme von Webseiten oder jedes weltweit ausgestellte Zertifikat."
+      ],
+      [
+        "Auch alte Abhängigkeiten ausmustern",
+        "Die übertragbare Lehre lautet: Beim Umzug eines Dienstes müssen hinterlegte Adressen, Softwareversionen und nachgelagerte Prüfungen mitbetrachtet werden. Wer eine alte Domain aufgibt, sollte die verbliebenen Verwendungen berücksichtigen. Eine Adressänderung ist erst dann sauber abgeschlossen, wenn nicht nur das neue Schild hängt, sondern auch die alten Wegweiser geprüft wurden."
+      ]
+    ],
+    "daily": [
+      "Der WHOIS-Dienst war umgezogen. Einige Programme schickten ihre Fragen aber weiter an die alte Adresse – inzwischen mit neuem Vermieter.",
+      "watchTowr beschrieb 2024 eine abgelaufene Domain, die noch in älteren Verweisen steckte. Das Team registrierte sie im Rahmen seiner Forschung und erhielt weiter Anfragen.",
+      "Eine Vorführung zeigte außerdem eine problematische Übernahme von Kontaktdaten in einem Prüfablauf. Das ist kein Beleg einer kriminellen Massenübernahme.",
+      "Die Lehre: Auch digitale Umzüge brauchen Nachsende- und Aufräumarbeiten. Ein alter Wegweiser kennt den neuen Betreiber nicht persönlich."
+    ],
+    "facts": [
+      "Forschungsbericht vom 11.09.2024.",
+      "Alte WHOIS-Adresse wurde weiter verwendet.",
+      "Vorführung eines problematischen Vertrauens in gelieferte Kontaktdaten."
+    ],
+    "lesson": "Bei Dienstumzügen und Domainaufgaben auch alte Verweise sowie nachgelagerte Vertrauensprüfungen inventarisieren und bereinigen.",
+    "quiz": [
+      "Warum war die abgelaufene WHOIS-Domain im Forschungsfall noch relevant?",
+      [
+        "Programme verwendeten weiterhin die frühere Dienstadresse.",
+        "Ein abgelaufener Domainname kann grundsätzlich nie wieder vergeben werden.",
+        "Ein früherer Betreiber kontrolliert automatisch alle späteren Antworten."
+      ],
+      0,
+      "Veraltete Verweise verbanden alte Vertrauensannahmen mit einem neuen Betreiber."
+    ],
+    "decision": [
+      "Ein externer Dienst zieht auf eine neue Domain um. Welche Prüfung reicht über den neuen Link hinaus?",
+      [
+        "Alte Verweise, eingesetzte Programme und abhängige Prüfabläufe kontrollieren.",
+        "Nur die Farbe des neuen Logos vergleichen.",
+        "Alle alten Verweise ohne Kontrolle als endgültig wirkungslos betrachten."
+      ],
+      0,
+      "Ein Dienstwechsel kann ältere Software und indirekte Abhängigkeiten zurücklassen."
+    ],
+    "source": [
+      "watchTowr Labs – Untersuchung der alten .mobi-WHOIS-Domain, 2024",
+      "https://labs.watchtowr.com/we-spent-20-to-achieve-rce-and-accidentally-became-the-admins-of-mobi/"
+    ],
+    "related": [
+      "dot-mil-vs-ml",
+      "letsencrypt-root2021"
+    ],
+    "eventDate": "11. September 2024",
+    "scope": "Dokumentierter Forschungsversuch. Die Übernahme eines WHOIS-Kontakts in einer Vorführung wird nicht als nachgewiesene kriminelle Massenkompromittierung erzählt."
+  },
+  {
+    "id": "goodrx-trackers2023",
+    "year": 2023,
+    "icon": "📡",
+    "title": "Die Preis-App hat einen stillen Werbeausgang",
+    "kicker": "GoodRx: Behördenvorwürfe und die Stellungnahme des Unternehmens",
+    "kind": "Datenschutz",
+    "origin": "Amtliche Quelle",
+    "type": "incident",
+    "topics": [
+      "privacy",
+      "alltag",
+      "gesellschaft"
+    ],
+    "collection": "Alltag & Fehlerketten",
+    "acts": [
+      [
+        "Ein eingebundener Dienst kann mitlesen",
+        "Die US-Verbraucherschutzbehörde FTC veröffentlichte am 1. Februar 2023 Vorwürfe gegen GoodRx. Nach ihrer Darstellung wurden sensible Informationen an Werbeunternehmen weitergegeben. Die Akte behandelt den damaligen Vorgang und seine Quellen. Ihr technischer Kern: Daten können auch über eingebundene Funktionen abfließen, ohne dass ein fremder Angreifer eine Datenbank aufbricht."
+      ],
+      [
+        "Die Sicht des Anbieters gehört dazu",
+        "Die FTC beschrieb unter anderem Tracking-Technik und Verbindungen zu Werbediensten. GoodRx widersprach den Vorwürfen, räumte in seiner Stellungnahme kein Fehlverhalten ein und verwies auf frühere Änderungen. Diese beiden Darstellungen werden hier getrennt benannt. Eine Vereinbarung wird nicht als strafrechtliches Schuldeingeständnis ausgegeben."
+      ],
+      [
+        "Datenwege vollständig sichtbar machen",
+        "Für die Lernakte folgt daraus: Auch zusätzliche Analyse- und Werbebausteine gehören zur Betrachtung der Datenwege. Man muss wissen, welche Informationen sie erhalten, wofür sie verwendet werden und welche Freigaben gelten. Der Humor betrifft nur die unsichtbare technische Seitentür. Über Erkrankungen oder betroffene Menschen wird kein Witz gemacht."
+      ]
+    ],
+    "daily": [
+      "Eine App kann ihren sichtbaren Dienst erledigen und trotzdem einen zusätzlichen Datenausgang besitzen. Der steht selten als großes Fenster auf dem Startbildschirm.",
+      "Die FTC erhob 2023 Vorwürfe gegen GoodRx wegen der Weitergabe sensibler Informationen an Werbedienste. GoodRx widersprach und räumte kein Fehlverhalten ein.",
+      "Die Akte trennt diese Quellenpositionen. Der technische Lernpunkt bleibt: Auch eingebundene Werbe- und Analysefunktionen gehören zum Datenweg.",
+      "Wer nur die Eingangstür kontrolliert, übersieht leicht die Anschlüsse im Maschinenraum."
+    ],
+    "facts": [
+      "FTC-Mitteilung vom 01.02.2023.",
+      "Vorwürfe zur Weitergabe von Informationen an Werbedienste.",
+      "GoodRx widersprach und erklärte, kein Fehlverhalten einzuräumen."
+    ],
+    "lesson": "Datenflüsse zu eingebundenen Analyse- und Werbediensten erfassen; Zweck, Umfang und Freigaben nachvollziehbar prüfen.",
+    "quiz": [
+      "Welchen Datenweg veranschaulicht die GoodRx-Akte?",
+      [
+        "Eine Weitergabe durch eingebundene Werbe- und Analysefunktionen.",
+        "Ausschließlich einen nachgewiesenen Einbruch über ein gestohlenes Serverkabel.",
+        "Die automatische Anonymität sämtlicher App-Daten."
+      ],
+      0,
+      "Die Akte beschreibt die damaligen Vorwürfe zu Datenweitergaben und nennt die abweichende Unternehmensposition ausdrücklich."
+    ],
+    "decision": [
+      "Du bewertest die Datenwege einer App. Was gehört neben der eigenen Datenbank dazu?",
+      [
+        "Eingebundene Dienste und die an sie übertragenen Informationen.",
+        "Nur die Bildschirmfarbe des Anmeldefensters.",
+        "Die Annahme, ein kleiner Zusatzbaustein könne keine Daten erhalten."
+      ],
+      0,
+      "Die Größe oder Sichtbarkeit eines Bausteins sagt nichts über den Umfang seiner Datenzugriffe aus."
+    ],
+    "source": [
+      "FTC – GoodRx-Mitteilung vom 01.02.2023",
+      "https://www.ftc.gov/news-events/news/press-releases/2023/02/ftc-enforcement-action-bar-goodrx-sharing-consumers-sensitive-health-info-advertising"
+    ],
+    "extraSources": [
+      [
+        "GoodRx – Eigene Stellungnahme vom 01.02.2023",
+        "https://investors.goodrx.com/node/8871/pdf"
+      ]
+    ],
+    "related": [
+      "ring-all-access",
+      "recall-preview2024"
+    ],
+    "eventDate": "1. Februar 2023",
+    "scope": "Historische Behördenvorwürfe und abweichende Unternehmensposition; kein behauptetes strafrechtliches Schuldeingeständnis und keine Bewertung heutiger Produktfunktionen."
+  },
+  {
+    "id": "leading-zero-training",
+    "year": 2026,
+    "icon": "🔢",
+    "title": "Die Kennnummer verliert ihre erste Ziffer",
+    "kicker": "Fiktive Tabellenübung: Eine Kennung ist keine Rechenzahl",
+    "kind": "Trainingsfall",
+    "origin": "Trainingsfall",
+    "type": "fiction",
+    "topics": [
+      "alltag",
+      "systems",
+      "gesellschaft"
+    ],
+    "collection": "Alltag & Fehlerketten",
+    "acts": [
+      [
+        "Eine erfundene Liste wird importiert",
+        "Im fiktiven Trainingsfall enthält eine Übungsliste die Kennnummern 00123 und 00045. Es sind keine echten Konten oder Adressen. Beim Import wird die Spalte als Zahl behandelt. Aus 00123 wird 123. Rechnerisch ist das derselbe Zahlenwert; als Kennung kann es jedoch eine andere oder unbrauchbare Zeichenfolge sein."
+      ],
+      [
+        "Die Anzeige kann den Verlust verdecken",
+        "Eine Darstellung mit fünf Stellen kann vor der Zahl wieder Nullen anzeigen. Das beweist nicht, dass die ursprüngliche Kennung vollständig gespeichert wurde. Microsoft beschreibt sowohl Textformatierung als auch die Grenzen einer nachträglichen Reparatur. Wenn ursprüngliche Angaben verloren sind, muss man die Quelle erneut prüfen oder passend importieren."
+      ],
+      [
+        "Bedeutung vor dem Datentyp klären",
+        "Im Übungsfall wird die Spalte schon vor dem Import als Text behandelt und anschließend mit der Quelle verglichen. Das ist eine Technikgrundlage, kein pauschaler Nachweis einer fehlerhaften Excel-Version. Welche Umwandlungen stattfinden, hängt von Einstellungen und Importweg ab. Der Taschenrechner soll rechnen; die Kennung soll sich wiedererkennen lassen."
+      ]
+    ],
+    "daily": [
+      "Fiktive Tabellenübung: Die Kennnummer 00123 kam ordentlich gekleidet an. Beim Zahlenimport ließ die Tabelle ihre beiden vorderen Nullen an der Garderobe zurück.",
+      "Der Zahlenwert 123 ist zum Rechnen passend, aber nicht automatisch dieselbe Kennung. Eine spätere Fünfstellen-Anzeige kann den Unterschied nur übermalen.",
+      "Im erfundenen Test wird die Spalte deshalb vor dem Import als Text festgelegt und mit der Quelle verglichen.",
+      "Die Lehre: Erst klären, was die Zeichen bedeuten. Eine Kennnummer möchte erkannt und nicht ausgerechnet werden."
+    ],
+    "facts": [
+      "Ausdrücklich fiktive Liste mit erfundenen Kennungen.",
+      "Zahleninterpretation kann führende Nullen entfernen.",
+      "Anzeigeformat und gespeicherter Inhalt sind unterschiedliche Fragen."
+    ],
+    "lesson": "Kennungen als Zeichenfolgen behandeln, Importtypen vorher festlegen und die gespeicherten Werte mit der Quelle vergleichen.",
+    "quiz": [
+      "Warum ist 00123 im Trainingsfall nicht einfach eine gewöhnliche Rechenzahl?",
+      [
+        "Die Zeichenfolge dient als Kennung, bei der die führenden Nullen wichtig sein können.",
+        "Weil Nullen mathematisch niemals vorkommen dürfen.",
+        "Weil jede Kennung automatisch eine Kreditkartennummer ist."
+      ],
+      0,
+      "Der Verwendungszweck entscheidet, ob eine Zeichenfolge als Text erhalten bleiben muss."
+    ],
+    "decision": [
+      "Die Kennungen sollen unverändert importiert werden. Was ist sinnvoll?",
+      [
+        "Die Spalte vor dem Import als Text festlegen und anschließend kontrollieren.",
+        "Erst alle Werte in Zahlen umwandeln und die Quelle ungeprüft verwerfen.",
+        "Nur die Spaltenüberschrift umbenennen."
+      ],
+      0,
+      "Ein vorher festgelegter Texttyp verhindert im Übungsfall die unerwünschte Umwandlung; die Kontrolle sichert das Ergebnis ab."
+    ],
+    "source": [
+      "Microsoft Support – Führende Nullen und große Zahlen erhalten",
+      "https://support.microsoft.com/en-us/excel/keeping-leading-zeros-and-large-numbers"
+    ],
+    "extraSources": [
+      [
+        "Microsoft – Führende Nullen in Excel im Web",
+        "https://support.microsoft.com/en-us/excel/format-numbers-to-keep-leading-zeros-in-excel-for-the-web"
+      ]
+    ],
+    "related": [
+      "xerox2013",
+      "psni-hidden-sheet"
+    ],
+    "eventDate": "Fiktives Trainingsszenario",
+    "scope": "Erfundene Testliste, kein historischer Vorfall. Die Demonstration simuliert ausgewählte Umwandlungen und ist kein vollständiger Excel-Import."
+  },
+  {
+    "id": "marketplace-fakepay2024",
+    "year": 2024,
+    "icon": "📦",
+    "title": "Der Käufer möchte beim Bezahlen erst Geld bekommen",
+    "kicker": "Ein falscher Support macht aus Zahlungsempfang eine Abbuchung",
+    "kind": "Betrug",
+    "origin": "Amtliche Quelle",
+    "type": "incident",
+    "topics": [
+      "alltag",
+      "fraud",
+      "privacy"
+    ],
+    "collection": "Alltag & Fehlerketten",
+    "acts": [
+      [
+        "Der angebliche Käufer kündigt Hilfe an",
+        "Das LKA Niedersachsen beschrieb am 6. Februar 2024 eine Masche gegen Menschen, die auf Kleinanzeigen verkaufen. Ein angeblicher Käufer behauptet, bereits bezahlt zu haben. Danach soll sich vermeintlich der Support melden. Die Geschichte gibt die dokumentierte Masche wieder und erfindet kein zusätzliches Opfer oder einen weiteren konkreten Schaden."
+      ],
+      [
+        "Die gefälschte Hilfe verändert die Richtung",
+        "Eine Nachricht mit vertrauten Logos führt auf einen falschen Support-Chat. Dort werden Bankdaten und Bestätigungen verlangt, angeblich für den Zahlungsempfang. Die Polizei erklärt, dass dabei tatsächlich Zahlungen ausgelöst werden können. Die Richtung ist entscheidend: Eine ausgehende Zahlung wird als notwendiger Schritt für einen Eingang ausgegeben."
+      ],
+      [
+        "Den Vorgang unabhängig prüfen",
+        "Die Warnung empfiehlt, den Ablauf abzubrechen und über bekannte offizielle Zugänge zu prüfen. Bei einem tatsächlichen Schaden nennt sie die unverzügliche Kontaktaufnahme mit der Bank und eine Anzeige. Der Lernkern ist unabhängig vom Portal: Eine Zahlungsbestätigung im Chat ist kein Beleg für den Kontoeingang, und ein Logo bestätigt keinen Supportmitarbeiter."
+      ]
+    ],
+    "daily": [
+      "Eigentlich sollte Geld für die verkaufte Ware eintreffen. Der falsche Support erklärte jedoch einen Ausgang zur Eingangstür.",
+      "Das LKA Niedersachsen warnte 2024 vor angeblichen Käufern und gefälschten Support-Chats. Bankdaten und Bestätigungen sollten dort angeblich den Zahlungsempfang ermöglichen.",
+      "Tatsächlich konnten damit ausgehende Zahlungen ausgelöst werden. Das vertraute Logo hatte keine Kontrollfunktion übernommen.",
+      "Die Lehre: Vorgang und Zahlungsrichtung über einen unabhängigen offiziellen Zugang prüfen. Ein Chat kann viel behaupten, aber keinen echten Kontoeingang herbeireden."
+    ],
+    "facts": [
+      "LKA-Niedersachsen-Warnung vom 06.02.2024.",
+      "Angeblicher Käufer und gefälschter Support-Chat.",
+      "Zahlungsfreigaben wurden als Hilfe beim Geldempfang dargestellt."
+    ],
+    "lesson": "Zahlungsstatus und Zahlungsrichtung unabhängig prüfen; Bestätigungen nicht aufgrund eines fremden Support-Chats freigeben.",
+    "quiz": [
+      "Welche Täuschung steht im beschriebenen Kleinanzeigenbetrug im Mittelpunkt?",
+      [
+        "Eine ausgehende Zahlung wird als nötiger Schritt zum Geldempfang dargestellt.",
+        "Jede Nachricht im Originalportal garantiert einen bereits erfolgten Kontoeingang.",
+        "Ein kopiertes Logo verschlüsselt automatisch die gesamte Zahlung."
+      ],
+      0,
+      "Die Freigabe eines Vorgangs muss nach ihrer tatsächlichen Wirkung beurteilt werden, nicht nach der Erklärung im fremden Chat."
+    ],
+    "decision": [
+      "Ein angeblicher Käufer schickt einen Support-Link zur Zahlungsfreigabe. Was ist der passende nächste Schritt?",
+      [
+        "Die Nachricht verlassen und den Status über einen bekannten offiziellen Zugang prüfen.",
+        "Den Bestätigungstext der Bank ungelesen freigeben.",
+        "Nur prüfen, ob das kopierte Logo scharf genug aussieht."
+      ],
+      0,
+      "Ein unabhängig geöffneter offizieller Zugang trennt die Prüfung von der möglicherweise gefälschten Nachricht."
+    ],
+    "source": [
+      "LKA Niedersachsen – Phishing beim Kleinanzeigenverkauf, 06.02.2024",
+      "https://www.polizei-praevention.de/aktuelles/phishing-beim-kleinanzeigenverkauf-geht-weiter.html"
+    ],
+    "extraSources": [
+      [
+        "Kleinanzeigen – Gefälschte Zahlungsaufforderungen und Kontosperrungen",
+        "https://hilfe.kleinanzeigen.de/hc/de/articles/21577020299164-Gef%C3%A4lschte-Zahlungsaufforderungen-Kontosperrungen"
+      ]
+    ],
+    "related": [
+      "parking-quishing2025",
+      "leoni-fake-ceo"
+    ],
+    "eventDate": "6. Februar 2024",
+    "scope": "Dokumentierte Betrugsmasche aus einer Polizeiwarnung; keine frei erfundene Einzelfallgeschichte und keine Garantie eines bestimmten Zahlungsausgangs."
+  },
+  {
+    "id": "orphan-admin-training",
+    "year": 2026,
+    "icon": "🗝️",
+    "title": "Der letzte Admin hat die Firma verlassen",
+    "kicker": "Fiktive Übergabeübung mit Zuständigkeiten und Wiederherstellungswegen",
+    "kind": "Trainingsfall",
+    "origin": "Trainingsfall",
+    "type": "fiction",
+    "topics": [
+      "alltag",
+      "systems"
+    ],
+    "collection": "Alltag & Fehlerketten",
+    "acts": [
+      [
+        "Ein erfundener Abschied mit echten Fragen",
+        "In diesem fiktiven Trainingsfall verlässt die bisher zuständige Person ein kleines Team. Eine Anwendung läuft weiter, aber niemand hat die administrativen Zuständigkeiten und Wiederherstellungswege übernommen. Das Szenario beschreibt weder eine reale Firma noch eine absichtliche Sabotage. Seine Ausgangsfrage lautet: Wer kann den Dienst nach einer normalen Personaländerung sicher weiterverwalten?"
+      ],
+      [
+        "Ein Passwortzettel ist keine Übergabe",
+        "Zur Übergabe gehören auch Rollen, dokumentierte Notzugänge und die Frage, welche persönlichen Zugänge enden müssen. Microsoft beschreibt getrennte Aufgaben für das Sperren ehemaliger Zugänge und den berechtigten Erhalt benötigter Organisationsdaten. Die Lernakte fordert nicht dazu auf, private Kennwörter weiterzugeben oder Schutzmaßnahmen für eine schnelle Anmeldung auszuschalten."
+      ],
+      [
+        "Zuständigkeit und Zugriff gemeinsam testen",
+        "Im erfundenen Szenario werden berechtigte Zuständigkeiten geklärt und Wiederherstellungswege kontrolliert geübt. Notzugänge bleiben besonders geschützt und für Ausnahmefälle vorgesehen. Ein Dienst ist organisatorisch erst übergeben, wenn die zuständigen Personen ihre vorgesehenen Aufgaben tatsächlich sicher erledigen können. Die Anwendung erhält damit eine Übergabe, keine Sammlung herumgereichter Generalschlüssel."
+      ]
+    ],
+    "daily": [
+      "Fiktive Übergabeübung: Die Anwendung arbeitete weiter. Ihre organisatorische Schlüsselverwaltung war bereits in den Feierabend gegangen.",
+      "Im erfundenen Team fehlt nach einem Personalwechsel eine klare administrative Übergabe. Ein einzelnes bekanntes Passwort würde noch nicht alle Rollen und Wiederherstellungswege erklären.",
+      "Die Übung trennt deshalb berechtigten Weiterbetrieb, das Ende persönlicher Zugänge und besonders geschützten Notzugriff. Es werden keine echten Konten verändert.",
+      "Die Lehre: Eine gute Übergabe braucht getestete Zuständigkeiten. Ein Generalschlüssel auf Wanderschaft ist kein Personalplan."
+    ],
+    "facts": [
+      "Ausdrücklich fiktives Team und keine realen Konten.",
+      "Übergabe umfasst Rollen und Wiederherstellungswege.",
+      "Notzugänge bleiben geschützt und für Ausnahmen vorgesehen."
+    ],
+    "lesson": "Bei Personalwechsel Zuständigkeiten, berechtigten Datenzugriff und geschützte Wiederherstellungswege geplant übergeben und prüfen.",
+    "quiz": [
+      "Was fehlt dem fiktiven Team trotz weiterlaufender Anwendung?",
+      [
+        "Eine kontrollierte administrative Übergabe mit klaren Zuständigkeiten.",
+        "Ein öffentlich ausgehängtes Passwort für sämtliche Personen.",
+        "Eine beliebige neue Farbe für das Programmsymbol."
+      ],
+      0,
+      "Technischer Weiterbetrieb und organisatorisch gesicherte Verwaltung sind verschiedene Voraussetzungen."
+    ],
+    "decision": [
+      "Du organisierst eine administrative Übergabe. Welcher Ansatz ist passend?",
+      [
+        "Berechtigte Rollen und geschützte Wiederherstellungswege prüfen und nachvollziehbar übergeben.",
+        "Private Zugangsdaten ungeprüft an die ganze Firma verteilen.",
+        "Die letzte zuständige Person ersatzlos aus der Dokumentation entfernen."
+      ],
+      0,
+      "Berechtigung, Verantwortlichkeit und überprüfte Zugangswege gehören zusammen; freies Weitergeben von Kennwörtern ersetzt sie nicht."
+    ],
+    "source": [
+      "Microsoft Learn – Emergency access accounts, technische Grundlage",
+      "https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/security-emergency-access"
+    ],
+    "extraSources": [
+      [
+        "Microsoft 365 – Ausscheidende Mitarbeitende und Organisationsdaten",
+        "https://learn.microsoft.com/en-us/microsoft-365/admin/add-users/remove-former-employee?view=o365-worldwide"
+      ]
+    ],
+    "related": [
+      "sf-keys",
+      "okta-support"
+    ],
+    "eventDate": "Fiktives Trainingsszenario",
+    "scope": "Erfundene Übergabesituation, keine reale Kontosperre. Sie unterscheidet sich vom dokumentierten San-Francisco-Fall durch fehlende Übergabe statt absichtlicher Zurückhaltung eines Zugangs."
+  }
+]

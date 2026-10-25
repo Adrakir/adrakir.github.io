@@ -1,8 +1,8 @@
 {
   "date": "2026-10-25",
-  "cases": 381,
-  "chapters": 1143,
-  "questions": 762,
+  "cases": 387,
+  "chapters": 1161,
+  "questions": 774,
   "repairedParagraphs": [
     {
       "id": "ihk",
@@ -706,6 +706,34 @@
       "checked": "2026-10-25"
     },
     "https://arxiv.org/html/2402.06440v1": {
+      "status": "retrieved",
+      "checked": "2026-10-25"
+    },
+    "https://www.sec.gov/secgov-x-account": {
+      "status": "retrieved",
+      "checked": "2026-10-25"
+    },
+    "https://labs.watchtowr.com/we-spent-20-to-achieve-rce-and-accidentally-became-the-admins-of-mobi/": {
+      "status": "retrieved",
+      "checked": "2026-10-25"
+    },
+    "https://www.ftc.gov/news-events/news/press-releases/2023/02/ftc-enforcement-action-bar-goodrx-sharing-consumers-sensitive-health-info-advertising": {
+      "status": "retrieved",
+      "checked": "2026-10-25"
+    },
+    "https://support.microsoft.com/en-us/excel/keeping-leading-zeros-and-large-numbers": {
+      "status": "retrieved",
+      "checked": "2026-10-25"
+    },
+    "https://www.polizei-praevention.de/aktuelles/phishing-beim-kleinanzeigenverkauf-geht-weiter.html": {
+      "status": "retrieved",
+      "checked": "2026-10-25"
+    },
+    "https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/security-emergency-access": {
+      "status": "retrieved",
+      "checked": "2026-10-25"
+    },
+    "https://about.gitlab.com/blog/postmortem-of-database-outage-of-january-31/": {
       "status": "retrieved",
       "checked": "2026-10-25"
     }
