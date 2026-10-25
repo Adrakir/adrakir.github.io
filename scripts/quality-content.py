@@ -80,7 +80,7 @@ for c in stories:
     c['reading'] = {
         'summary': [sentences(act[1])[0] for act in c['acts']],
         'overview': [act[1].split('\n\n')[0] for act in c['acts']],
-        'eventDate': date_match.group() if date_match else month_match.group() if month_match else str(c['year']),
+        'eventDate': c.get('eventDate') or (date_match.group() if date_match else month_match.group() if month_match else str(c['year'])),
         'sourceStatus': source_checks.get(c['source'][1], {'status': 'not-rechecked'}),
     }
 

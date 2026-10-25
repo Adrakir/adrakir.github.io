@@ -1,8 +1,8 @@
 {
   "name": "adrakir-it-pannenakte",
-  "version": "2.2.0",
+  "version": "2.3.0",
   "private": true,
-  "description": "Statische Lern-App mit 370 illustrierten IT-Geschichten",
+  "description": "Statische Lern-App mit 381 illustrierten IT-Geschichten und Trainingsfällen",
   "scripts": {
     "test": "node --test tests/*.test.cjs"
   },

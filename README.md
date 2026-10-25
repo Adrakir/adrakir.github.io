@@ -57,3 +57,26 @@ npm test
 ```
 
 `quality-content.py` erhält bestehende redaktionelle Antwortänderungen und die Korrekturhistorie bei erneutem Aufruf. `build-quality.py` aktualisiert die eingebetteten UI- und CSS-Quellen. Die zusätzlichen Übungen verändern bestehende Aktenabschlüsse nicht.
+
+
+## Neue Themen und „Gut gegangen!“ (Version 2.3)
+
+Die Sammlung enthält 381 Akten. Die Erweiterung umfasst elf neue Akten mit 33 Kapiteln und 22 Fragen:
+
+- QR-Code-Betrug am Parkautomaten (Polizei Celle und Stadt Mannheim, 2025).
+- GNSS-Spoofing und Jamming (EASA-Sicherheitshinweis, 2024).
+- Serverabschaltung des ursprünglichen The Crew (historische Ubisoft-Ankündigung für 2024).
+- Unterseekabel und Notkommunikation in Tonga (ITU/UNESCO, 2022).
+- Robodebt (Untersuchungsbericht 2023 über das bereits 2019 beendete Programm).
+- Barrierefreiheit (WebAIM-Studie 2024 und Grenzen automatisierter Tests).
+- Foto-Metadaten (ausdrücklich fiktives Trainingsszenario).
+- Nest Secure (Support- und Dienstende, 2024).
+- Jahr 2038 (ausdrücklich fiktives Zukunftslabor mit lokalem Zeitwertvergleich).
+- Qakbot-Abwehr (dokumentierte internationale Operation, 2023).
+- Rhysida-Datenrettung (begrenzter Forschungserfolg, 2024).
+
+„Gut gegangen!“ bündelt sieben neue und vorhandene Akten. Jede erklärt den konkreten Erfolg und seine Grenzen. Die neuen Themen sind über eigene Themenkarten und den Filter „Neue Themen (11)“ erreichbar. Von den 381 Akten sind fünf ausdrücklich fiktive Trainingsfälle; Studien und Sicherheitshinweise werden nicht als Einzelunfälle erzählt.
+
+Der Zeitwertregler rechnet ausschließlich mit Testzahlen. Er verändert weder Geräteuhr noch Systemkonfiguration. Standortdaten der Nutzer werden weder abgefragt noch hochgeladen. Alle neuen Laufzeitinhalte bleiben in der Offline-App enthalten.
+
+Zur Pflege der Erweiterung dienen `scripts/new-topics.json` und `scripts/add-new-topics.py`; danach werden `scripts/quality-content.py` und `scripts/build-quality.py` ausgeführt. Die alte Sammlung wird dabei erhalten. Der fehlgeschlagene direkte GNU-Abruf ist in der Quellenanzeige vermerkt; die Linux-Kernel-Dokumentation ist als ergänzende technische Quelle verlinkt.

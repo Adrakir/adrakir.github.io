@@ -6663,6 +6663,204 @@
         "McAfee ATR – Originalanalyse zum Peloton Bike+ 2021",
         "https://www.mcafee.com/blogs/other-blogs/mcafee-labs/a-new-program-for-your-peloton-whether-you-like-it-or-not/"
       ]
+    },
+    {
+      "id": "parking-quishing2025",
+      "number": 371,
+      "title": "Der Parkautomat kassiert auf ein fremdes Konto",
+      "year": 2025,
+      "origin": "Amtliche Quelle",
+      "daily": [
+        "Der Parkautomat bekam einen fremden Wegweiser aufgeklebt. Dafür brauchte niemand seinen Rechner zu knacken.",
+        "Die Polizei Celle warnte im Juni 2025 vor einem falschen QR-Code an einem Parkautomaten. Er führte auf eine gefälschte Webseite; gemeldet wurde auch eine unberechtigte Abbuchung.",
+        "Ein echter Standort garantierte also keinen echten Zahlungsweg. Der Betrug begann bereits vor der Park-App.",
+        "Offizielle App direkt öffnen, Automatenkennung abgleichen: Ein Aufkleber sollte keine Bankvollmacht bekommen."
+      ],
+      "lesson": "Bei QR-Codes den tatsächlichen Anbieter und die Zieladresse prüfen; bekannte Dienste möglichst direkt öffnen.",
+      "source": [
+        "Polizeiinspektion Celle – Warnung vom 26.06.2025",
+        "https://www.presseportal.de/blaulicht/pm/59457/6063462"
+      ]
+    },
+    {
+      "id": "gnss-spoofing2024",
+      "number": 372,
+      "title": "Das Navi glaubt einem falschen Satelliten",
+      "year": 2024,
+      "origin": "Amtliche Quelle",
+      "daily": [
+        "Die Positionsanzeige kann sehr viele Nachkommastellen besitzen und trotzdem am falschen Ort stehen. Präzision hat eben keinen eingebauten Wahrheitsstempel.",
+        "Die EASA erläuterte 2024 zwei Probleme: Jamming stört Navigationssignale, Spoofing liefert gefälschte Informationen.",
+        "Letzteres kann besonders überzeugend aussehen und mehrere Systeme beeinflussen. Diese Geschichte erklärt einen amtlichen Sicherheitshinweis, keinen erfundenen Flug.",
+        "Eine unabhängige Gegenprüfung ist wertvoller als drei Bildschirme, die dieselbe falsche Nachricht abschreiben."
+      ],
+      "lesson": "Messwerte plausibilisieren und bei wichtigen Entscheidungen auf voneinander unabhängige Informationswege achten.",
+      "source": [
+        "EASA – GNSS-Sicherheitshinweis vom 05.07.2024",
+        "https://www.easa.europa.eu/en/newsroom-and-events/news/easa-updates-safety-information-bulletin-global-navigation-satellite"
+      ]
+    },
+    {
+      "id": "crew-shutdown2024",
+      "number": 373,
+      "title": "Das Rennspiel verliert seine Straße",
+      "year": 2024,
+      "origin": "Unternehmensquelle",
+      "daily": [
+        "Die Autos standen als Dateien noch bereit. Nur ein Teil der digitalen Straße gehörte zu einem entfernten Rechner.",
+        "Ubisoft kündigte für das ursprüngliche The Crew die Serverabschaltung nach dem 31. März 2024 und damit das Ende der Zugänglichkeit auf den genannten Plattformen an.",
+        "Die lokale Installation war also kein unabhängiges Ersatzteillager für den gesamten Spielbetrieb.",
+        "Die technische Lehre: Bei vernetzten Käufen auch nachfragen, was ohne den Dienst noch funktioniert. Das gehört mit auf die Packung."
+      ],
+      "lesson": "Bei vernetzten Produkten lokale Funktionen, erforderliche Dienste und den Plan für das Betriebsende gemeinsam betrachten.",
+      "source": [
+        "Ubisoft – An Update on The Crew, 14.12.2023",
+        "https://www.ubisoft.com/en-gb/game/the-crew/the-crew-2/news-updates/3u0la29yUBGBzYlwKp5QMZ"
+      ]
+    },
+    {
+      "id": "tonga-cable2022",
+      "number": 374,
+      "title": "Die Cloud hängt am Meeresboden",
+      "year": 2022,
+      "origin": "Amtliche Quelle",
+      "daily": [
+        "Die Cloud trägt einen luftigen Namen. Ein Teil ihrer Verbindung kann trotzdem auf dem Meeresboden liegen.",
+        "Nach dem Vulkanausbruch bei Tonga im Januar 2022 waren wichtige Seekabel beschädigt. Die Kommunikation mit der Außenwelt war stark eingeschränkt.",
+        "Funk und Satellitentechnik halfen bei Ersatzwegen; der internationale Kabelweg wurde später repariert. Die Wiederherstellung aller Inselverbindungen war keine einzige gleichzeitige Schalterbewegung.",
+        "Für gute Reservewege braucht man verschiedene Abhängigkeiten. Zwei Leitungen im selben Gefahrenbereich sind noch kein doppeltes Sicherheitsnetz."
+      ],
+      "lesson": "Ausweichverbindungen auf gemeinsame physische Abhängigkeiten prüfen und ihre tatsächlich verfügbare Leistung einplanen.",
+      "source": [
+        "ITU – Restoring connectivity in Tonga, 10.02.2022",
+        "https://www.itu.int/hub/2022/02/restoring-connectivity-tonga-internet/"
+      ]
+    },
+    {
+      "id": "robodebt-review2023",
+      "number": 375,
+      "title": "Der Durchschnitt tut so, als wäre er ein Beleg",
+      "year": 2023,
+      "origin": "Amtliche Quelle",
+      "daily": [
+        "Der Taschenrechner konnte einen Durchschnitt bilden. Einen Beleg für jeden einzelnen Zeitraum hatte er damit noch lange nicht in der Schublade.",
+        "Die Robodebt-Untersuchung von 2023 beleuchtete frühere australische Verwaltungsabläufe mit gemittelten Einkommensdaten. Das Programm selbst war bereits 2019 beendet worden.",
+        "Der technische Denkfehler: Eine korrekt berechnete Zahl kann eine ungeeignete Antwort auf die eigentliche Frage sein.",
+        "Die Lehre richtet sich an Systeme und Verfahren: Annahmen offenlegen, Belege prüfen und Entscheidungen verständlich überprüfbar machen."
+      ],
+      "lesson": "Bei automatisierten Entscheidungen Datenbedeutung und Annahmen prüfen; nachvollziehbare Belege und menschliche Überprüfung vorsehen.",
+      "source": [
+        "Royal Commission into the Robodebt Scheme – Bericht 2023",
+        "https://robodebt.royalcommission.gov.au/publications/report"
+      ]
+    },
+    {
+      "id": "webaim-million2024",
+      "number": 376,
+      "title": "Die Webseite ist online und trotzdem nicht erreichbar",
+      "year": 2024,
+      "origin": "Fachquelle",
+      "daily": [
+        "Der Server meldete Erfolg. Ob sich der Knopf ohne Maus finden ließ, hatte er dabei gar nicht gefragt.",
+        "WebAIM fand 2024 bei 95,9 Prozent von einer Million untersuchten Startseiten automatisch erkennbare WCAG-Verstöße. Die Zahl beschreibt eine Stichprobe und einen Test, keine vollständige Vermessung des Internets.",
+        "Kontraste und Beschriftungen können darüber entscheiden, ob eine vorhandene Funktion auch nutzbar ist.",
+        "Prüfwerkzeuge helfen. Sie ersetzen aber keine menschliche Bewertung. Eine grüne Serverlampe ist noch kein Bedienbarkeitspreis."
+      ],
+      "lesson": "Technische Verfügbarkeit und tatsächliche Nutzbarkeit gemeinsam prüfen; automatisierte Tests durch menschliche Bewertung ergänzen.",
+      "source": [
+        "WebAIM – The WebAIM Million, Bericht 2024",
+        "https://webaim.org/projects/million/2024/"
+      ]
+    },
+    {
+      "id": "photo-metadata-training",
+      "number": 377,
+      "title": "Das Foto nimmt die Adresse im Handgepäck mit",
+      "year": 2026,
+      "origin": "Trainingsfall",
+      "daily": [
+        "Fiktiver Trainingsfall: Das Foto zeigte keine Adresse. Die Datei hatte sie trotzdem im unsichtbaren Handgepäck verstaut.",
+        "Im erfundenen Übungsbeispiel soll ein Bild geteilt werden, dessen Metadaten einen Standort enthalten. Der sichtbare Bildausschnitt verrät diesen Eintrag nicht.",
+        "Vor der Weitergabe wird eine passende Kopie ohne die unerwünschten Ortsdaten erstellt und geprüft. Ob Metadaten mitreisen, hängt vom jeweiligen Teilen-Weg ab.",
+        "Eine Datei kann mehr erzählen als ihr Vorschaubild. Deshalb kontrolliert man auch das Gepäck."
+      ],
+      "lesson": "Vor dem Teilen sichtbaren Inhalt und Metadaten prüfen; die ausgegebene Kopie auf unerwünschte Angaben kontrollieren.",
+      "source": [
+        "Apple – Standort-Metadaten verwalten, technische Grundlage",
+        "https://support.apple.com/guide/personal-safety/manage-location-metadata-in-photos-ips0d7a5df82/web"
+      ]
+    },
+    {
+      "id": "nest-support2024",
+      "number": 378,
+      "title": "Die Alarmanlage bekommt einen digitalen Ruhestand",
+      "year": 2024,
+      "origin": "Unternehmensquelle",
+      "daily": [
+        "Das Gehäuse bekam keine grauen Haare. Sein digitaler Dienstpartner ging trotzdem in den Ruhestand.",
+        "Google beendete 2024 die Unterstützung für Nest Secure. Die zugehörige Cloud-Anbindung und App-Nutzung entfielen; die Hilfeseite beschreibt auch das Ende der Sicherheitsupdates.",
+        "Die Geschichte betrifft dieses Produkt und bedeutet keinen Ausfall aller vernetzten Geräte. Sie zeigt aber, warum funktionierende Hardware allein keine unbegrenzte Nutzbarkeit garantiert.",
+        "Wer langlebige Technik plant, sollte den Software-Ruhestand gleich mit einplanen. Auch Geräte brauchen eine Übergabemappe."
+      ],
+      "lesson": "Bei langlebiger Hardware Dienstabhängigkeit, Supportdauer und einen geeigneten Übergang vor dem Betriebsende mitplanen.",
+      "source": [
+        "Google – Ende des Supports für Nest Secure",
+        "https://support.google.com/googlehome/answer/10191961?hl=de-DE"
+      ]
+    },
+    {
+      "id": "time2038-training",
+      "number": 379,
+      "title": "Die Testuhr läuft über ihren Zahlenrand",
+      "year": 2026,
+      "origin": "Trainingsfall",
+      "daily": [
+        "Fiktives Zukunftslabor: Die Testuhr hatte kein Problem mit der Pünktlichkeit. Ihr Zahlenfach war einfach zu klein.",
+        "Ein erfundenes Team prüft 2026 alte Zeitformate für Januar 2038. Eine vorzeichenbehaftete 32-Bit-Sekundenzahl erreicht dort ihre Grenze.",
+        "Das ist eine bekannte Eigenschaft bestimmter Formate, keine Vorhersage, dass sämtliche Computer gleichzeitig ausfallen. Größere Zeittypen werden bereits eingesetzt.",
+        "Im Labor werden deshalb auch Datenbanken und Schnittstellen geprüft. Ein neuer Kalender an der Wand würde das Zahlenfach leider nicht vergrößern."
+      ],
+      "lesson": "Zeitgrenzen im isolierten Test prüfen und Datentypen, Speicherung sowie Schnittstellen gemeinsam modernisieren.",
+      "source": [
+        "GNU Gnulib – Avoiding the year 2038 problem",
+        "https://www.gnu.org/software/gnulib/manual/html_node/Avoiding-the-year-2038-problem.html"
+      ]
+    },
+    {
+      "id": "qakbot-disruption2023",
+      "number": 380,
+      "title": "Das Botnetz bekommt eine Kündigung zugestellt",
+      "year": 2023,
+      "origin": "Amtliche Quelle",
+      "daily": [
+        "Der unerwünschte Software-Lieferdienst bekam 2023 eine sehr nachdrückliche Kündigung. Internationale Behörden griffen die Qakbot-Infrastruktur an.",
+        "Nach ihren Berichten wurden Verbindungen umgeleitet und die Qakbot-Komponente auf betroffenen Rechnern entfernt. So wurde ein Weg zum Nachladen weiterer Schadsoftware unterbrochen.",
+        "Das war ein konkreter Abwehrerfolg, aber keine universelle Reinigung jedes Rechners und kein Generalschlüssel für verschlüsselte Dateien.",
+        "Gut gegangen heißt hier: Eine Angriffsverbindung wurde gekappt. Die anschließende Bestandsaufnahme durfte trotzdem nicht in Urlaub fahren."
+      ],
+      "lesson": "Abwehrerfolge nach ihrem konkreten Umfang bewerten und verbleibende Schadsoftware sowie Wiederherstellungsbedarf gesondert prüfen.",
+      "source": [
+        "US Department of Justice – Qakbot-Operation, 29.08.2023",
+        "https://www.justice.gov/archives/opa/pr/qakbot-malware-disrupted-international-cyber-takedown"
+      ]
+    },
+    {
+      "id": "rhysida-recovery2024",
+      "number": 381,
+      "title": "Der Erpresser hat seinen Zufall schlecht sortiert",
+      "year": 2024,
+      "origin": "Sicherheitsforschung",
+      "daily": [
+        "Der Erpresser wollte die Dateien einschließen. Bei seiner Schlüsselherstellung war der Zufall jedoch schlechter versteckt als geplant.",
+        "2024 beschrieben Forschende eine Schwäche bestimmter Rhysida-Infektionen. Damit ließen sich unter passenden Bedingungen Schlüssel rekonstruieren; ein kostenloses Rettungswerkzeug wurde veröffentlicht.",
+        "Ein schöner Forschungserfolg, aber kein Universalschlüssel für jede Schadsoftware. Die passende Variante und die vorhandenen Daten bleiben entscheidend.",
+        "Gut gegangen heißt hier: Es gab eine weitere Rettungschance. Getestete Sicherungen mussten deshalb noch lange nicht ihren Arbeitsplatz räumen."
+      ],
+      "lesson": "Wiederherstellungswerkzeuge auf ihre konkrete Passung prüfen, Originaldaten bewahren und Versuche an Kopien durchführen.",
+      "source": [
+        "Kim et al. – A Method for Decrypting Data Infected with Rhysida Ransomware",
+        "https://arxiv.org/html/2402.06440v1"
+      ]
     }
   ]
 }

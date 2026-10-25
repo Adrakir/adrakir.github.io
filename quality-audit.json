@@ -1,8 +1,8 @@
 {
   "date": "2026-10-25",
-  "cases": 370,
-  "chapters": 1110,
-  "questions": 740,
+  "cases": 381,
+  "chapters": 1143,
+  "questions": 762,
   "repairedParagraphs": [
     {
       "id": "ihk",
@@ -662,6 +662,50 @@
       "checked": "2026-10-25"
     },
     "https://www.mozilla.org/en-US/security/advisories/mfsa2023-40/": {
+      "status": "retrieved",
+      "checked": "2026-10-25"
+    },
+    "https://www.presseportal.de/blaulicht/pm/59457/6063462": {
+      "status": "retrieved",
+      "checked": "2026-10-25"
+    },
+    "https://www.easa.europa.eu/en/newsroom-and-events/news/easa-updates-safety-information-bulletin-global-navigation-satellite": {
+      "status": "retrieved",
+      "checked": "2026-10-25"
+    },
+    "https://www.ubisoft.com/en-gb/game/the-crew/the-crew-2/news-updates/3u0la29yUBGBzYlwKp5QMZ": {
+      "status": "retrieved",
+      "checked": "2026-10-25"
+    },
+    "https://www.itu.int/hub/2022/02/restoring-connectivity-tonga-internet/": {
+      "status": "retrieved",
+      "checked": "2026-10-25"
+    },
+    "https://robodebt.royalcommission.gov.au/publications/report": {
+      "status": "retrieved",
+      "checked": "2026-10-25"
+    },
+    "https://webaim.org/projects/million/2024/": {
+      "status": "retrieved",
+      "checked": "2026-10-25"
+    },
+    "https://support.apple.com/guide/personal-safety/manage-location-metadata-in-photos-ips0d7a5df82/web": {
+      "status": "retrieved",
+      "checked": "2026-10-25"
+    },
+    "https://support.google.com/googlehome/answer/10191961?hl=de-DE": {
+      "status": "retrieved",
+      "checked": "2026-10-25"
+    },
+    "https://www.gnu.org/software/gnulib/manual/html_node/Avoiding-the-year-2038-problem.html": {
+      "status": "unavailable",
+      "checked": "2026-10-25"
+    },
+    "https://www.justice.gov/archives/opa/pr/qakbot-malware-disrupted-international-cyber-takedown": {
+      "status": "retrieved",
+      "checked": "2026-10-25"
+    },
+    "https://arxiv.org/html/2402.06440v1": {
       "status": "retrieved",
       "checked": "2026-10-25"
     }
