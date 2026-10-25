@@ -33,3 +33,27 @@ npm test
 ```
 
 Die Tests prüfen alle 370 Kurzansichten, Themen und Kennzeichnung, Archivgrenzen, Vorlesen, Verweise und Vergleich, gespeicherte Wiederholungen, Übernahme des vorhandenen Lernstands, Direktlinks und Offline-Auslieferung. Die Installation auf einem konkreten Gerät bleibt browserabhängig. Für eine neue Offline-Version den Cache-Namen in `sw.js` erhöhen und die Funktionstests ausführen.
+
+
+## Qualität und Verständlichkeit (Version 2.2)
+
+- Strukturprüfung der 370 Akten, 1.110 Kapitel und 740 vorhandenen Fragen.
+- 50 Datumsabbrüche in 47 Kurzfassungen aus den vollständigen Kapiteln ergänzt.
+- 586 häufig wiederholte falsche Antwortbausteine durch fallbezogene Quizalternativen ersetzt.
+- Zwei Lesestufen, gegliederte Fallübersicht und 37 Begriffserklärungen mit Beispielen.
+- Lernentscheidung vor der Auflösung sowie zusätzliche Übungen zum Ordnen, Zuordnen und Prüfen von Behauptungen.
+- Individueller Quellenabrufstatus und ausdrücklich benannte Grenzen der Einordnung.
+- Vorbereitete Korrekturmeldung: Kopieren oder vom Nutzer auf GitHub einreichen; kein automatischer Versand.
+- Zusätzliche Aussprachehilfen und Satztrennung, die deutsche Datumsangaben zusammenhält.
+
+`quality-audit.json` protokolliert die Korrekturen und die überprüften Quellenabrufe. Erreichbarkeit einer Quelle ist keine vollständige unabhängige Faktenprüfung; nicht erneut gelesene oder nicht zugängliche Quellen sind gekennzeichnet. Historische Angaben wurden nicht pauschal als neu verifiziert markiert.
+
+Die App bleibt buildless und enthält die Laufzeitfunktionen eingebettet in `index.html`, damit sie auch offline funktionieren. Bei Änderungen an den redaktionellen Helfern:
+
+```sh
+python scripts/quality-content.py
+python scripts/build-quality.py
+npm test
+```
+
+`quality-content.py` erhält bestehende redaktionelle Antwortänderungen und die Korrekturhistorie bei erneutem Aufruf. `build-quality.py` aktualisiert die eingebetteten UI- und CSS-Quellen. Die zusätzlichen Übungen verändern bestehende Aktenabschlüsse nicht.

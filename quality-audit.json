@@ -1,0 +1,669 @@
+{
+  "date": "2026-10-25",
+  "cases": 370,
+  "chapters": 1110,
+  "questions": 740,
+  "repairedParagraphs": [
+    {
+      "id": "ihk",
+      "paragraph": 1,
+      "before": "Am 3.",
+      "after": "Am 3. August 2022 fällt beim IT-Dienstleister der deutschen Industrie- und Handelskammern ungewöhnliches Verhalten in Systemen auf."
+    },
+    {
+      "id": "moveit",
+      "paragraph": 2,
+      "before": "Laut BSI nutzen Angreifer die Lücke spätestens ab dem 27.",
+      "after": "Laut BSI nutzen Angreifer die Lücke spätestens ab dem 27. Mai 2023, noch bevor der Hersteller sie am 31. Mai öffentlich beschreibt."
+    },
+    {
+      "id": "moveit",
+      "paragraph": 3,
+      "before": "Am 1.",
+      "after": "Am 1. Juni 2023 warnt das BSI zunächst mit der höchsten Warnstufe Rot."
+    },
+    {
+      "id": "crowdstrike",
+      "paragraph": 1,
+      "before": "Am 19.",
+      "after": "Am 19. Juli 2024 verteilt CrowdStrike neue Konfigurationsinhalte für seinen Falcon-Sensor auf Windows-Rechnern."
+    },
+    {
+      "id": "ivanti",
+      "paragraph": 2,
+      "before": "Am 3.",
+      "after": "Am 3. April 2025 veröffentlicht Ivanti Hinweise auf die Schwachstelle CVE-2025-22457."
+    },
+    {
+      "id": "aws-s3",
+      "paragraph": 1,
+      "before": "Am 28.",
+      "after": "Am 28. Februar 2017 untersucht das S3-Team von Amazon Web Services eine Verzögerung im Abrechnungssystem."
+    },
+    {
+      "id": "meta-bgp",
+      "paragraph": 1,
+      "before": "Am 4.",
+      "after": "Am 4. Oktober 2021 sind Facebook, WhatsApp und Instagram für viele Menschen weltweit nicht mehr erreichbar."
+    },
+    {
+      "id": "ukd-hospital",
+      "paragraph": 2,
+      "before": "Am 10.",
+      "after": "Am 10. September 2020 wurde an der Universitätsklinik Düsseldorf ein IT-Sicherheitsvorfall bekannt."
+    },
+    {
+      "id": "ovh-fire",
+      "paragraph": 2,
+      "before": "Am 10.",
+      "after": "Am 10. März 2021 brach in einer Energieversorgungseinheit ein Brand aus."
+    },
+    {
+      "id": "hawaii-missile",
+      "paragraph": 1,
+      "before": "Hawaiis Warnzentrale übte am 13.",
+      "after": "Hawaiis Warnzentrale übte am 13. Januar 2018 den Ernstfall."
+    },
+    {
+      "id": "rbs-batch",
+      "paragraph": 2,
+      "before": "Ein Softwarekompatibilitätsproblem führte ab 18.",
+      "after": "Ein Softwarekompatibilitätsproblem führte ab 18. Juni 2012 zu massiven Störungen."
+    },
+    {
+      "id": "toyota-full-disk",
+      "paragraph": 3,
+      "before": "Am 29.",
+      "after": "Am 29. August 2023 standen schließlich 28 Produktionslinien in 14 japanischen Werken still."
+    },
+    {
+      "id": "tse-backup",
+      "paragraph": 2,
+      "before": "Am 1.",
+      "after": "Am 1. Oktober 2020 versagte ein Speicherbaustein."
+    },
+    {
+      "id": "att-peerreview",
+      "paragraph": 3,
+      "before": "Der Fehler pflanzte sich im Netz fort und führte am 22.",
+      "after": "Der Fehler pflanzte sich im Netz fort und führte am 22. Februar zu weitreichenden Mobilfunkausfällen, auch bei Notrufen."
+    },
+    {
+      "id": "cf-portland-power",
+      "paragraph": 2,
+      "before": "Am 2.",
+      "after": "Am 2. November 2023 führten Verkettungen von Störungen und mutmaßlich Wartungsfolgen beim Energieversorger zu einem länger dauernden Stromausfall."
+    },
+    {
+      "id": "teams-cert",
+      "paragraph": 2,
+      "before": "Microsoft Teams war am 3.",
+      "after": "Microsoft Teams war am 3. Februar 2020 wegen eines nicht rechtzeitig erneuerten Authentifizierungszertifikats in Teilen gestört."
+    },
+    {
+      "id": "cf-byoip2026",
+      "paragraph": 1,
+      "before": "Am 20.",
+      "after": "Am 20. Februar 2026 zog Cloudflare versehentlich rund 1.100 Kunden-Netzpräfixe aus der Routenankündigung zurück."
+    },
+    {
+      "id": "nx-singularity2025",
+      "paragraph": 1,
+      "before": "Am 26.",
+      "after": "Am 26. August 2025 veröffentlichten Angreifer manipulierte Nx-Pakete auf npm."
+    },
+    {
+      "id": "chalk-debug2025",
+      "paragraph": 1,
+      "before": "Am 8.",
+      "after": "Am 8. September 2025 führte Phishing gegen einen npm-Maintainer zu manipulierten Updates bekannter Hilfspakete wie debug und chalk."
+    },
+    {
+      "id": "dynamodb-dns2025",
+      "paragraph": 1,
+      "before": "Am 19./20.",
+      "after": "Am 19./20. Oktober 2025 verlor der regionale DynamoDB-Endpunkt in Nord-Virginia seine IP-Adressen im DNS."
+    },
+    {
+      "id": "cf-botfile2025",
+      "paragraph": 1,
+      "before": "Am 18.",
+      "after": "Am 18. November 2025 erzeugte Cloudflare nach einer Datenbank-Berechtigungsänderung doppelte Einträge in einer Bot-Management-Datei."
+    },
+    {
+      "id": "cf-reactloop2025",
+      "paragraph": 1,
+      "before": "Am 12.",
+      "after": "Am 12. September 2025 erzeugte eine Cloudflare-Oberfläche wiederholt API-Aufrufe durch eine React-Effektschleife."
+    },
+    {
+      "id": "gcp-policy2025",
+      "paragraph": 1,
+      "before": "Am 12.",
+      "after": "Am 12. Juni 2025 brachte eine neue Richtlinie mit unbeabsichtigt leeren Feldern Google Clouds Service Control zum Absturz."
+    },
+    {
+      "id": "github-health2024",
+      "paragraph": 1,
+      "before": "Am 14.",
+      "after": "Am 14. August 2024 war GitHub.com für 36 Minuten weitgehend nicht erreichbar."
+    },
+    {
+      "id": "azure-ddos2024",
+      "paragraph": 1,
+      "before": "Am 30.",
+      "after": "Am 30. Juli 2024 traf ein DDoS-Angriff Azure-Netzwerkdienste."
+    },
+    {
+      "id": "dropbox-sign2024",
+      "paragraph": 1,
+      "before": "Am 24.",
+      "after": "Am 24. April 2024 bemerkte Dropbox unbefugten Zugriff auf die Produktionsumgebung von Dropbox Sign."
+    },
+    {
+      "id": "lambda-cell2023",
+      "paragraph": 1,
+      "before": "Am 13.",
+      "after": "Am 13. Juni 2023 überschritt eine AWS-Lambda-Zelle in Nord-Virginia eine bisher nicht erreichte Kapazitätsschwelle."
+    },
+    {
+      "id": "discord-disk2023",
+      "paragraph": 1,
+      "before": "Am 6.",
+      "after": "Am 6. November 2023 fiel Discords Anmeldung ungefähr 50 Minuten aus."
+    },
+    {
+      "id": "azure-wan2023",
+      "paragraph": 1,
+      "before": "Am 25.",
+      "after": "Am 25. Januar 2023 löste eine Azure-Netzwerkänderung in Madrid weitreichende Verbindungsprobleme aus."
+    },
+    {
+      "id": "ledger-connect2023",
+      "paragraph": 1,
+      "before": "Am 14.",
+      "after": "Am 14. Dezember 2023 wurden manipulierte Versionen des Ledger Connect Kit veröffentlicht."
+    },
+    {
+      "id": "cf-routing2022",
+      "paragraph": 1,
+      "before": "Am 21.",
+      "after": "Am 21. Juni 2022 störte eine Netzwerkkonfiguration Cloudflare an 19 Standorten."
+    },
+    {
+      "id": "atlassian-delete2022",
+      "paragraph": 1,
+      "before": "Am 5.",
+      "after": "Am 5. April 2022 löschte ein Atlassian-Skript versehentlich ganze Kunden-Sites statt einer alten App."
+    },
+    {
+      "id": "nvidia-leak2022",
+      "paragraph": 1,
+      "before": "NVIDIA bemerkte am 23.",
+      "after": "NVIDIA bemerkte am 23. Februar 2022 einen Sicherheitsvorfall."
+    },
+    {
+      "id": "exchange-y2k22",
+      "paragraph": 1,
+      "before": "Am 1.",
+      "after": "Am 1. Januar 2022 blieben Nachrichten auf bestimmten lokalen Exchange-Servern in Transportwarteschlangen hängen."
+    },
+    {
+      "id": "aws-retry2021",
+      "paragraph": 1,
+      "before": "Am 7.",
+      "after": "Am 7. Dezember 2021 brachte eine automatische Kapazitätserweiterung bei AWS in Nord-Virginia zu viele Verbindungen ins interne Netz."
+    },
+    {
+      "id": "slack-return2021",
+      "paragraph": 1,
+      "before": "Am 4.",
+      "after": "Am 4. Januar 2021 traf die Rückkehr vieler Slack-Nutzer auf ein nach den Feiertagen geschrumpftes System."
+    },
+    {
+      "id": "roblox-consul2021",
+      "paragraph": 1,
+      "before": "Vom 28.",
+      "after": "Vom 28. bis 31. Oktober 2021 war Roblox 73 Stunden ausgefallen."
+    },
+    {
+      "id": "ua-parser2021",
+      "paragraph": 1,
+      "before": "Am 22.",
+      "after": "Am 22. Oktober 2021 erschienen nach einer Kontoübernahme manipulierte Versionen von ua-parser-js auf npm."
+    },
+    {
+      "id": "asahi-manual2025",
+      "paragraph": 1,
+      "before": "Am 29.",
+      "after": "Am 29. September 2025 löste ein Ransomwareangriff bei Asahi erhebliche Systemstörungen in Japan aus."
+    },
+    {
+      "id": "unfi-supply2025",
+      "paragraph": 1,
+      "before": "Am 5.",
+      "after": "Am 5. Juni 2025 bemerkte der Lebensmittelgroßhändler UNFI unbefugte Aktivitäten in IT-Systemen."
+    },
+    {
+      "id": "mcdonalds-config2024",
+      "paragraph": 1,
+      "before": "Am 15.",
+      "after": "Am 15. März 2024 störte ein weltweiter Technikausfall McDonald’s-Restaurants."
+    },
+    {
+      "id": "openai-telemetry2024",
+      "paragraph": 1,
+      "before": "Am 11.",
+      "after": "Am 11. Dezember 2024 überlastete ein neuer Telemetriedienst die Kubernetes-Steuerung von OpenAI."
+    },
+    {
+      "id": "wd-mycloud2023",
+      "paragraph": 2,
+      "before": "My Cloud wurde laut Unternehmensmeldung am 13.",
+      "after": "My Cloud wurde laut Unternehmensmeldung am 13. April wiederhergestellt."
+    },
+    {
+      "id": "chatgpt-redis2023",
+      "paragraph": 1,
+      "before": "Am 20.",
+      "after": "Am 20. März 2023 konnten manche ChatGPT-Nutzer Titel aus fremden Chatverläufen sehen."
+    },
+    {
+      "id": "dpworld-ports2023",
+      "paragraph": 1,
+      "before": "Am 10.",
+      "after": "Am 10. November 2023 trennte DP World Australia sein Netz nach unbefugtem Zugriff vom Internet."
+    },
+    {
+      "id": "dpworld-ports2023",
+      "paragraph": 3,
+      "before": "Am 13.",
+      "after": "Am 13. November begann die Abfertigung wieder; bis zum 20. November war der gemeldete Rückstau von 30.137 Containern abgearbeitet."
+    },
+    {
+      "id": "slack-cache2022",
+      "paragraph": 1,
+      "before": "Am 22.",
+      "after": "Am 22. Februar 2022 führte Slack-Wartung zum Austausch vieler Cache-Knoten."
+    },
+    {
+      "id": "letsencrypt-root2021",
+      "paragraph": 1,
+      "before": "Am 30.",
+      "after": "Am 30. September 2021 lief das ältere Wurzelzertifikat DST Root CA X3 aus."
+    },
+    {
+      "id": "kronos-cloud2021",
+      "paragraph": 1,
+      "before": "Am 11.",
+      "after": "Am 11. Dezember 2021 traf ein Ransomwareangriff die Kronos Private Cloud von UKG."
+    },
+    {
+      "id": "kronos-cloud2021",
+      "paragraph": 3,
+      "before": "UKG meldete bis zum 22.",
+      "after": "UKG meldete bis zum 22. Januar 2022 den betroffenen Kunden wieder sicheren Zugang zu den Kernfunktionen."
+    }
+  ],
+  "repairedCaseCount": 47,
+  "revisedDistractors": 586,
+  "duplicateQuestionTexts": [],
+  "remainingDateFragments": [],
+  "repeatedAnswers": [
+    {
+      "text": "Für diese Akte annehmen: Der Bootsektorvirus Brain verbreitete sich über Disketten und enthielt Kontaktinformationen.",
+      "count": 5
+    },
+    {
+      "text": "Das weitere Vorgehen auf diese Annahme stützen: „Für diese Akte annehmen: Der Bootsektorvirus Brain verbreitete sich über Disketten und enthielt Kontaktinformationen.“",
+      "count": 5
+    },
+    {
+      "text": "Für diese Akte annehmen: Angreifer entwendeten Daten aus dem Umfeld der US-Demokraten; später wurden Teile veröffentlicht.",
+      "count": 4
+    },
+    {
+      "text": "Das weitere Vorgehen auf diese Annahme stützen: „Für diese Akte annehmen: Angreifer entwendeten Daten aus dem Umfeld der US-Demokraten; später wurden Teile veröffentlicht.“",
+      "count": 4
+    },
+    {
+      "text": "Für diese Akte annehmen: Ein Angreifer mit dem Namen Phineas Fisher veröffentlichte Material aus dem Unternehmen.",
+      "count": 6
+    },
+    {
+      "text": "Das weitere Vorgehen auf diese Annahme stützen: „Für diese Akte annehmen: Ein Angreifer mit dem Namen Phineas Fisher veröffentlichte Material aus dem Unternehmen.“",
+      "count": 6
+    },
+    {
+      "text": "Für diese Akte annehmen: Mydoom verbreitete sich rasant über infizierte Nachrichten und Dateien.",
+      "count": 5
+    },
+    {
+      "text": "Das weitere Vorgehen auf diese Annahme stützen: „Für diese Akte annehmen: Mydoom verbreitete sich rasant über infizierte Nachrichten und Dateien.“",
+      "count": 5
+    },
+    {
+      "text": "Für diese Akte annehmen: Die Gruppe APT41 zielte nach CERT-EU auf Organisationen weltweit in vielen Branchen.",
+      "count": 4
+    },
+    {
+      "text": "Das weitere Vorgehen auf diese Annahme stützen: „Für diese Akte annehmen: Die Gruppe APT41 zielte nach CERT-EU auf Organisationen weltweit in vielen Branchen.“",
+      "count": 4
+    },
+    {
+      "text": "Für diese Akte annehmen: Eine langjährige Spionagekampagne mit dem Namen Red October wurde öffentlich untersucht.",
+      "count": 4
+    },
+    {
+      "text": "Das weitere Vorgehen auf diese Annahme stützen: „Für diese Akte annehmen: Eine langjährige Spionagekampagne mit dem Namen Red October wurde öffentlich untersucht.“",
+      "count": 4
+    },
+    {
+      "text": "Für diese Akte annehmen: CERT-EU beschreibt einen Angriffsvorwurf im Umfeld eines Ausfalls im Dezember 2016.",
+      "count": 4
+    },
+    {
+      "text": "Das weitere Vorgehen auf diese Annahme stützen: „Für diese Akte annehmen: CERT-EU beschreibt einen Angriffsvorwurf im Umfeld eines Ausfalls im Dezember 2016.“",
+      "count": 4
+    },
+    {
+      "text": "Für diese Akte annehmen: AT&T meldete 2024 den Abfluss umfangreicher Verbindungsdaten aus einer externen Datenumgebung.",
+      "count": 4
+    },
+    {
+      "text": "Das weitere Vorgehen auf diese Annahme stützen: „Für diese Akte annehmen: AT&T meldete 2024 den Abfluss umfangreicher Verbindungsdaten aus einer externen Datenumgebung.“",
+      "count": 4
+    },
+    {
+      "text": "Für diese Akte annehmen: TalkTalk erlitt 2015 einen viel beachteten Angriff, bei dem Daten offengelegt wurden.",
+      "count": 4
+    },
+    {
+      "text": "Das weitere Vorgehen auf diese Annahme stützen: „Für diese Akte annehmen: TalkTalk erlitt 2015 einen viel beachteten Angriff, bei dem Daten offengelegt wurden.“",
+      "count": 4
+    },
+    {
+      "text": "Für diese Akte annehmen: CERT-EU beschreibt Angriffe, die der Gruppe Sandworm zugeschrieben wurden.",
+      "count": 5
+    },
+    {
+      "text": "Das weitere Vorgehen auf diese Annahme stützen: „Für diese Akte annehmen: CERT-EU beschreibt Angriffe, die der Gruppe Sandworm zugeschrieben wurden.“",
+      "count": 5
+    },
+    {
+      "text": "Für diese Akte annehmen: Der Wurm Code Red nutzte eine Schwachstelle des IIS-Webservers und vermehrte sich automatisch.",
+      "count": 6
+    },
+    {
+      "text": "Das weitere Vorgehen auf diese Annahme stützen: „Für diese Akte annehmen: Der Wurm Code Red nutzte eine Schwachstelle des IIS-Webservers und vermehrte sich automatisch.“",
+      "count": 6
+    },
+    {
+      "text": "Für diese Akte annehmen: Conficker verbreitete sich über Schwachstellen und teils über unsichere Passwörter.",
+      "count": 4
+    },
+    {
+      "text": "Das weitere Vorgehen auf diese Annahme stützen: „Für diese Akte annehmen: Conficker verbreitete sich über Schwachstellen und teils über unsichere Passwörter.“",
+      "count": 4
+    },
+    {
+      "text": "Für diese Akte annehmen: Angreifer manipulierten 2018 Teile des Web- und Buchungsumfeldes von British Airways.",
+      "count": 5
+    },
+    {
+      "text": "Das weitere Vorgehen auf diese Annahme stützen: „Für diese Akte annehmen: Angreifer manipulierten 2018 Teile des Web- und Buchungsumfeldes von British Airways.“",
+      "count": 5
+    },
+    {
+      "text": "Für diese Akte annehmen: 2020 wurde Software AG von einem Ransomware-Angriff getroffen.",
+      "count": 9
+    },
+    {
+      "text": "Das weitere Vorgehen auf diese Annahme stützen: „Für diese Akte annehmen: 2020 wurde Software AG von einem Ransomware-Angriff getroffen.“",
+      "count": 9
+    },
+    {
+      "text": "Für diese Akte annehmen: WannaCry nutzte eine Schwachstelle, um sich teilweise selbstständig weiterzuverbreiten.",
+      "count": 4
+    },
+    {
+      "text": "Das weitere Vorgehen auf diese Annahme stützen: „Für diese Akte annehmen: WannaCry nutzte eine Schwachstelle, um sich teilweise selbstständig weiterzuverbreiten.“",
+      "count": 4
+    },
+    {
+      "text": "Für diese Akte annehmen: Baltimore wurde 2019 von einem Ransomware-Angriff getroffen.",
+      "count": 4
+    },
+    {
+      "text": "Das weitere Vorgehen auf diese Annahme stützen: „Für diese Akte annehmen: Baltimore wurde 2019 von einem Ransomware-Angriff getroffen.“",
+      "count": 4
+    },
+    {
+      "text": "Für diese Akte annehmen: Bei Therac-25 führten Software- und Sicherheitsmängel zu schwerwiegenden Fehlbestrahlungen.",
+      "count": 5
+    },
+    {
+      "text": "Das weitere Vorgehen auf diese Annahme stützen: „Für diese Akte annehmen: Bei Therac-25 führten Software- und Sicherheitsmängel zu schwerwiegenden Fehlbestrahlungen.“",
+      "count": 5
+    },
+    {
+      "text": "Für diese Akte annehmen: Ein Fehler in der Software des Trägheitsreferenzsystems verursachte falsche Steuerdaten.",
+      "count": 4
+    },
+    {
+      "text": "Das weitere Vorgehen auf diese Annahme stützen: „Für diese Akte annehmen: Ein Fehler in der Software des Trägheitsreferenzsystems verursachte falsche Steuerdaten.“",
+      "count": 4
+    },
+    {
+      "text": "Für diese Akte annehmen: MGM Resorts erlitt 2023 einen Cyberangriff, der zahlreiche Dienste beeinträchtigte.",
+      "count": 4
+    },
+    {
+      "text": "Das weitere Vorgehen auf diese Annahme stützen: „Für diese Akte annehmen: MGM Resorts erlitt 2023 einen Cyberangriff, der zahlreiche Dienste beeinträchtigte.“",
+      "count": 4
+    },
+    {
+      "text": "Für diese Akte annehmen: Bei der inszenierten Besprechung kamen nach Unternehmensangaben gefälschte Stimmen und ein täuschender digitaler Auftritt zum Einsatz.",
+      "count": 4
+    },
+    {
+      "text": "Das weitere Vorgehen auf diese Annahme stützen: „Für diese Akte annehmen: Bei der inszenierten Besprechung kamen nach Unternehmensangaben gefälschte Stimmen und ein täuschender digitaler Auftritt zum Einsatz.“",
+      "count": 4
+    },
+    {
+      "text": "Für diese Akte annehmen: Im August 2016 wurden Gelder auf ausländische Konten transferiert. Leoni meldete einen Betrugsschaden von ungefähr 40 Millionen Euro.",
+      "count": 4
+    },
+    {
+      "text": "Das weitere Vorgehen auf diese Annahme stützen: „Für diese Akte annehmen: Im August 2016 wurden Gelder auf ausländische Konten transferiert. Leoni meldete einen Betrugsschaden von ungefähr 40 Millionen Euro.“",
+      "count": 4
+    }
+  ],
+  "scope": "Strukturprüfung aller Akten, Wiederherstellung abgebrochener Kurzfassungen aus vorhandenen Kapiteln, Prüfung ausgewählter Quellenabrufe. Keine vollständige neue Faktenprüfung aller historischen Angaben.",
+  "sourceChecks": {
+    "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/Lageberichte/Lagebericht2023.pdf?__blob=publicationFile&v=7": {
+      "status": "unavailable",
+      "checked": "2026-10-25"
+    },
+    "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/Lageberichte/Lagebericht2024.pdf?__blob=publicationFile&v=3": {
+      "status": "unavailable",
+      "checked": "2026-10-25"
+    },
+    "https://www.bsi.bund.de/SharedDocs/Cybersicherheitswarnungen/DE/2025/2025-238620-1032.html": {
+      "status": "unavailable",
+      "checked": "2026-10-25"
+    },
+    "https://www.bsi.bund.de/EN/Das-BSI/Zeitstrahl/zeitstrahl_bsi_ab_1991.html": {
+      "status": "unavailable",
+      "checked": "2026-10-25"
+    },
+    "https://corporate.ovhcloud.com/en-gb/newsroom/news/informations-site-strasbourg/": {
+      "status": "retrieved",
+      "checked": "2026-10-25"
+    },
+    "https://dod.hawaii.gov/hiema/hawaii-emergency-management-agency-statement-on-missile-launch-false-alarm-january-13-2018/": {
+      "status": "retrieved",
+      "checked": "2026-10-25"
+    },
+    "https://www.bankofengland.co.uk/news/2014/november/pra-fines-rbs-natwest-and-ulster-bank": {
+      "status": "retrieved",
+      "checked": "2026-10-25"
+    },
+    "https://global.toyota/en/newsroom/corporate/39732568.html": {
+      "status": "retrieved",
+      "checked": "2026-10-25"
+    },
+    "https://www.jpx.co.jp/english/news/1030/20201001-05.html": {
+      "status": "retrieved",
+      "checked": "2026-10-25"
+    },
+    "https://docs.fcc.gov/public/attachments/DOC-404150A1.pdf": {
+      "status": "unavailable",
+      "checked": "2026-10-25"
+    },
+    "https://blog.cloudflare.com/post-mortem-on-cloudflare-control-plane-and-analytics-outage/": {
+      "status": "retrieved",
+      "checked": "2026-10-25"
+    },
+    "https://blog.cloudflare.com/cloudflare-outage-february-20-2026/": {
+      "status": "retrieved",
+      "checked": "2026-10-25"
+    },
+    "https://nx.dev/blog/s1ngularity-postmortem": {
+      "status": "retrieved",
+      "checked": "2026-10-25"
+    },
+    "https://github.com/debug-js/debug/security/advisories/GHSA-4x49-vf9v-38px": {
+      "status": "retrieved",
+      "checked": "2026-10-25"
+    },
+    "https://aws.amazon.com/message/101925/": {
+      "status": "retrieved",
+      "checked": "2026-10-25"
+    },
+    "https://blog.cloudflare.com/18-november-2025-outage/": {
+      "status": "retrieved",
+      "checked": "2026-10-25"
+    },
+    "https://blog.cloudflare.com/deep-dive-into-cloudflares-sept-12-dashboard-and-api-outage/": {
+      "status": "retrieved",
+      "checked": "2026-10-25"
+    },
+    "https://status.cloud.google.com/incidents/ow5i3PPK96RduMcb1SsW": {
+      "status": "retrieved",
+      "checked": "2026-10-25"
+    },
+    "https://github.blog/news-insights/company-news/github-availability-report-august-2024/": {
+      "status": "retrieved",
+      "checked": "2026-10-25"
+    },
+    "https://azure.status.microsoft/status/history/?trackingId=KTY1-HW8": {
+      "status": "retrieved",
+      "checked": "2026-10-25"
+    },
+    "https://sign.dropbox.com/blog/a-recent-security-incident-involving-dropbox-sign": {
+      "status": "retrieved",
+      "checked": "2026-10-25"
+    },
+    "https://aws.amazon.com/message/061323/": {
+      "status": "retrieved",
+      "checked": "2026-10-25"
+    },
+    "https://discord.com/blog/authentication-outage": {
+      "status": "retrieved",
+      "checked": "2026-10-25"
+    },
+    "https://azure.status.microsoft/status/history/?trackingId=VSG1-B90": {
+      "status": "retrieved",
+      "checked": "2026-10-25"
+    },
+    "https://www.ledger.com/blog/security-incident-report": {
+      "status": "retrieved",
+      "checked": "2026-10-25"
+    },
+    "https://blog.cloudflare.com/cloudflare-outage-on-june-21-2022/": {
+      "status": "retrieved",
+      "checked": "2026-10-25"
+    },
+    "https://www.atlassian.com/blog/how-we-build/post-incident-review-april-2022-outage": {
+      "status": "retrieved",
+      "checked": "2026-10-25"
+    },
+    "https://nvidia.custhelp.com/app/answers/detail/a_id/5333/": {
+      "status": "retrieved",
+      "checked": "2026-10-25"
+    },
+    "https://techcommunity.microsoft.com/blog/exchange/email-stuck-in-exchange-on-premises-transport-queues/3049447": {
+      "status": "unavailable",
+      "checked": "2026-10-25"
+    },
+    "https://aws.amazon.com/message/12721/": {
+      "status": "retrieved",
+      "checked": "2026-10-25"
+    },
+    "https://slack.engineering/slacks-outage-on-january-4th-2021/": {
+      "status": "retrieved",
+      "checked": "2026-10-25"
+    },
+    "https://about.roblox.com/newsroom/2022/01/roblox-return-to-service-10-28-10-31-2021": {
+      "status": "retrieved",
+      "checked": "2026-10-25"
+    },
+    "https://www.asahigroup-holdings.com/en/newsroom/detail/20251014-0102.html": {
+      "status": "retrieved",
+      "checked": "2026-10-25"
+    },
+    "https://www.sec.gov/Archives/edgar/data/1020859/000102085925000036/unfi-20250621.htm": {
+      "status": "retrieved",
+      "checked": "2026-10-25"
+    },
+    "https://corporate.mcdonalds.com/corpmcd/our-stories/article/global-tech-outage.html": {
+      "status": "retrieved",
+      "checked": "2026-10-25"
+    },
+    "https://status.openai.com/incidents/ctrsv3lwd797": {
+      "status": "retrieved",
+      "checked": "2026-10-25"
+    },
+    "https://www.westerndigital.com/en-in/company/newsroom/press-releases/2023/2023-05-05-western-digital-provides-update-on-network-security-incident": {
+      "status": "retrieved",
+      "checked": "2026-10-25"
+    },
+    "https://openai.com/index/march-20-chatgpt-outage/": {
+      "status": "retrieved",
+      "checked": "2026-10-25"
+    },
+    "https://www.dpworld.com/en/news/releases/australia/media-statement-update-on-cybersecurity-incident": {
+      "status": "retrieved",
+      "checked": "2026-10-25"
+    },
+    "https://slack.engineering/slacks-incident-on-2-22-22/": {
+      "status": "retrieved",
+      "checked": "2026-10-25"
+    },
+    "https://letsencrypt.org/ca/docs/dst-root-ca-x3-expiration-september-2021/": {
+      "status": "retrieved",
+      "checked": "2026-10-25"
+    },
+    "https://www.ukg.com/sites/default/files/2024-06/2021-UKG-ESG-Report.pdf": {
+      "status": "redirected",
+      "checked": "2026-10-25"
+    },
+    "https://aws.amazon.com/message/41926/": {
+      "status": "retrieved",
+      "checked": "2026-10-25"
+    },
+    "https://engineering.fb.com/2021/10/05/networking-traffic/outage-details/": {
+      "status": "retrieved",
+      "checked": "2026-10-25"
+    },
+    "https://github.com/advisories/GHSA-pjwm-rvh2-c87w": {
+      "status": "retrieved",
+      "checked": "2026-10-25"
+    },
+    "https://www.mozilla.org/en-US/security/advisories/mfsa2023-40/": {
+      "status": "retrieved",
+      "checked": "2026-10-25"
+    }
+  }
+}
