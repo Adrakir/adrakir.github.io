@@ -5,7 +5,7 @@ const dom=new JSDOM(fs.readFileSync('index.html','utf8'),{url:'https://adrakir.g
 const w=dom.window,d=w.document,ev=s=>w.eval(s);
 const click=s=>{const el=d.querySelector(s);assert(el,s);el.click();};
 const cases=ev('STORIES');
-assert.equal(cases.length,381);
+assert.equal(cases.length,387);
 for(const c of cases){
  assert.equal(c.acts.length,3);assert.equal(c.daily.length,4);assert.equal(c.reading.summary.length,3);
  for(const p of c.daily)assert(!/\b\d{1,2}\.$/.test(p),`${c.id}: ${p}`);
@@ -34,6 +34,6 @@ assert(ev('speechChunks("Am 19. Juli 2024 erschien das Update. Danach gab es Pro
 assert(ev('spokenText("CCC WebP Cache VPN")').includes('Chaos Computer Club'));
 assert(!ev('termHTML("<script>alert(1)</script> Token")').includes('<script>'));
 ev('openShort("forgot-backup")'); // unknown IDs must not crash or change data
-ev('go("editorial")');assert(d.querySelector('.quality-summary').textContent.includes('381 Akten'));assert.equal(ev('editorialCandidates().length'),0);
+ev('go("editorial")');assert(d.querySelector('.quality-summary').textContent.includes('387 Akten'));assert.equal(ev('editorialCandidates().length'),0);
 assert.equal(errors.length,0,errors.join('\n'));w.close();
-console.log(JSON.stringify({auditAll:381,readingLevels:'pass',glossaryAndEscaping:'pass',preOutcomeDecision:'pass',reportDraftOnly:'pass',ordering:'pass',matching:'pass',trueAndFalseClaims:'pass',dateSpeech:'pass',errors}));
+console.log(JSON.stringify({auditAll:387,readingLevels:'pass',glossaryAndEscaping:'pass',preOutcomeDecision:'pass',reportDraftOnly:'pass',ordering:'pass',matching:'pass',trueAndFalseClaims:'pass',dateSpeech:'pass',errors}));

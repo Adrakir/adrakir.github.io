@@ -1,5 +1,5 @@
 'use strict';
-const CACHE_NAME='adrakir-offline-2026-10-25-new-topics-v4';
+const CACHE_NAME='adrakir-offline-2026-10-25-everyday-v5';
 const SCOPE=new URL('./',self.location.href);
 const ASSETS=['./index.html','./manifest.webmanifest','./icon.svg','./icon-192.png','./icon-512.png'];
 self.addEventListener('install',event=>{

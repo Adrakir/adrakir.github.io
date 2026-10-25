@@ -1,12 +1,12 @@
 const fs=require('fs'),assert=require('node:assert/strict'),{JSDOM,VirtualConsole}=require('jsdom');
 const errors=[],vc=new VirtualConsole();vc.on('jsdomError',e=>errors.push(e.message));
 const dom=new JSDOM(fs.readFileSync('index.html','utf8'),{url:'https://adrakir.github.io/',runScripts:'dangerously',pretendToBeVisual:true,virtualConsole:vc,beforeParse(w){w.scrollTo=()=>{};w.HTMLElement.prototype.scrollIntoView=()=>{};}});
-const w=dom.window,d=w.document,ev=s=>w.eval(s),cases=ev('STORIES'),added=cases.slice(370),feed=JSON.parse(fs.readFileSync('daily-stories.json'));
+const w=dom.window,d=w.document,ev=s=>w.eval(s),cases=ev('STORIES'),added=cases.slice(370,381),feed=JSON.parse(fs.readFileSync('daily-stories.json'));
 const click=s=>{const el=d.querySelector(s);assert(el,s);el.click();};
-assert.equal(cases.length,381);assert.equal(added.length,11);assert.equal(feed.stories.length,381);
-assert.equal(new Set(cases.map(c=>c.id)).size,381);assert.equal(new Set(cases.map(c=>c.title)).size,381);
+assert.equal(cases.length,387);assert.equal(added.length,11);assert.equal(feed.stories.length,387);
+assert.equal(new Set(cases.map(c=>c.id)).size,387);assert.equal(new Set(cases.map(c=>c.title)).size,387);
 assert.equal(new Set(added.map(c=>c.image)).size,11);assert.equal(new Set(added.flatMap(c=>[c.quiz[0],c.decision[0]])).size,22);
-assert.equal(cases.filter(c=>c.origin==='Trainingsfall').length,5);
+assert.equal(cases.filter(c=>c.origin==='Trainingsfall').length,7);
 assert.deepEqual(feed.stories,JSON.parse(JSON.stringify(cases.map(c=>Object.fromEntries(['id','number','title','year','origin','daily','lesson','source'].map(k=>[k,c[k]]))))));
 click('[data-tag="Neue Themen"]');assert.equal(ev('getFilteredCases().length'),11);assert.equal(d.querySelectorAll('.casecard').length,11);
 let chapters=0,questions=0;
@@ -26,4 +26,4 @@ ev('openStory("time2038-training")');const input=d.querySelector('#time-lab-valu
 ev('openShort("time2038-training")');assert(d.querySelector('#time-lab-result').textContent.includes('2038-01-19'));assert(ev('termHTML("Quishing GNSS WCAG")').includes('data-term="GNSS"'));
 // Historical daily choices remain stable after extending the collection.
 assert.equal(ev('dailyCase(new Date("2026-10-24T12:00:00Z")).c.id'),'mizuho');assert.equal(ev('dailyCase(new Date("2026-10-25T12:00:00Z")).c.id'),'libwebp2023');
-assert.equal(ev('editorialCandidates().length'),0);assert.equal(errors.length,0,errors.join('\n'));w.close();console.log(JSON.stringify({cases:381,added:11,newChapters:chapters,newQuestions:questions,successSeries:7,fiction:5,utcTimeSimulation:'pass',filters:'pass',feed:'exact match',errors}));
+assert.equal(ev('editorialCandidates().length'),0);assert.equal(errors.length,0,errors.join('\n'));w.close();console.log(JSON.stringify({cases:cases.length,added:11,newChapters:chapters,newQuestions:questions,successSeries:7,fiction:cases.filter(c=>c.origin==='Trainingsfall').length,utcTimeSimulation:'pass',filters:'pass',feed:'exact match',errors}));

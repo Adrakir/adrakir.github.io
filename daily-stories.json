@@ -6861,6 +6861,114 @@
         "Kim et al. – A Method for Decrypting Data Infected with Rhysida Ransomware",
         "https://arxiv.org/html/2402.06440v1"
       ]
+    },
+    {
+      "id": "sec-simswap2024",
+      "number": 382,
+      "title": "Die Handynummer zieht ohne ihren Besitzer um",
+      "year": 2024,
+      "origin": "Amtliche Quelle",
+      "daily": [
+        "Die Handynummer bekam einen ungebetenen Umzug. Anschließend stand der digitale Türöffner beim falschen Empfänger.",
+        "Die SEC berichtete nach der Übernahme ihres X-Kontos im Januar 2024 über einen mutmaßlichen SIM-Swap und einen anschließenden Passwort-Reset.",
+        "Eine zweite Schutzschicht war zuvor wegen Zugangsproblemen ausgeschaltet und nicht wieder eingeschaltet worden. So verbanden sich zwei Schwächen.",
+        "Die Behörde stellte den unbefugten Beitrag richtig. Die technische Lehre: Eine vorübergehende Ausnahme braucht einen überprüften Rückweg. Sonst wird aus „gleich wieder einschalten“ ein sehr langer Termin."
+      ],
+      "lesson": "Telefonnummern und Wiederherstellungswege als Zugangsmittel behandeln; vorübergehende Schutz-Ausnahmen nachverfolgen und beenden.",
+      "source": [
+        "SEC – Mitteilungen zum übernommenen X-Konto, Januar 2024",
+        "https://www.sec.gov/secgov-x-account"
+      ]
+    },
+    {
+      "id": "expired-whois2024",
+      "number": 383,
+      "title": "Die alte Internetadresse hat einen neuen Vermieter",
+      "year": 2024,
+      "origin": "Sicherheitsforschung",
+      "daily": [
+        "Der WHOIS-Dienst war umgezogen. Einige Programme schickten ihre Fragen aber weiter an die alte Adresse – inzwischen mit neuem Vermieter.",
+        "watchTowr beschrieb 2024 eine abgelaufene Domain, die noch in älteren Verweisen steckte. Das Team registrierte sie im Rahmen seiner Forschung und erhielt weiter Anfragen.",
+        "Eine Vorführung zeigte außerdem eine problematische Übernahme von Kontaktdaten in einem Prüfablauf. Das ist kein Beleg einer kriminellen Massenübernahme.",
+        "Die Lehre: Auch digitale Umzüge brauchen Nachsende- und Aufräumarbeiten. Ein alter Wegweiser kennt den neuen Betreiber nicht persönlich."
+      ],
+      "lesson": "Bei Dienstumzügen und Domainaufgaben auch alte Verweise sowie nachgelagerte Vertrauensprüfungen inventarisieren und bereinigen.",
+      "source": [
+        "watchTowr Labs – Untersuchung der alten .mobi-WHOIS-Domain, 2024",
+        "https://labs.watchtowr.com/we-spent-20-to-achieve-rce-and-accidentally-became-the-admins-of-mobi/"
+      ]
+    },
+    {
+      "id": "goodrx-trackers2023",
+      "number": 384,
+      "title": "Die Preis-App hat einen stillen Werbeausgang",
+      "year": 2023,
+      "origin": "Amtliche Quelle",
+      "daily": [
+        "Eine App kann ihren sichtbaren Dienst erledigen und trotzdem einen zusätzlichen Datenausgang besitzen. Der steht selten als großes Fenster auf dem Startbildschirm.",
+        "Die FTC erhob 2023 Vorwürfe gegen GoodRx wegen der Weitergabe sensibler Informationen an Werbedienste. GoodRx widersprach und räumte kein Fehlverhalten ein.",
+        "Die Akte trennt diese Quellenpositionen. Der technische Lernpunkt bleibt: Auch eingebundene Werbe- und Analysefunktionen gehören zum Datenweg.",
+        "Wer nur die Eingangstür kontrolliert, übersieht leicht die Anschlüsse im Maschinenraum."
+      ],
+      "lesson": "Datenflüsse zu eingebundenen Analyse- und Werbediensten erfassen; Zweck, Umfang und Freigaben nachvollziehbar prüfen.",
+      "source": [
+        "FTC – GoodRx-Mitteilung vom 01.02.2023",
+        "https://www.ftc.gov/news-events/news/press-releases/2023/02/ftc-enforcement-action-bar-goodrx-sharing-consumers-sensitive-health-info-advertising"
+      ]
+    },
+    {
+      "id": "leading-zero-training",
+      "number": 385,
+      "title": "Die Kennnummer verliert ihre erste Ziffer",
+      "year": 2026,
+      "origin": "Trainingsfall",
+      "daily": [
+        "Fiktive Tabellenübung: Die Kennnummer 00123 kam ordentlich gekleidet an. Beim Zahlenimport ließ die Tabelle ihre beiden vorderen Nullen an der Garderobe zurück.",
+        "Der Zahlenwert 123 ist zum Rechnen passend, aber nicht automatisch dieselbe Kennung. Eine spätere Fünfstellen-Anzeige kann den Unterschied nur übermalen.",
+        "Im erfundenen Test wird die Spalte deshalb vor dem Import als Text festgelegt und mit der Quelle verglichen.",
+        "Die Lehre: Erst klären, was die Zeichen bedeuten. Eine Kennnummer möchte erkannt und nicht ausgerechnet werden."
+      ],
+      "lesson": "Kennungen als Zeichenfolgen behandeln, Importtypen vorher festlegen und die gespeicherten Werte mit der Quelle vergleichen.",
+      "source": [
+        "Microsoft Support – Führende Nullen und große Zahlen erhalten",
+        "https://support.microsoft.com/en-us/excel/keeping-leading-zeros-and-large-numbers"
+      ]
+    },
+    {
+      "id": "marketplace-fakepay2024",
+      "number": 386,
+      "title": "Der Käufer möchte beim Bezahlen erst Geld bekommen",
+      "year": 2024,
+      "origin": "Amtliche Quelle",
+      "daily": [
+        "Eigentlich sollte Geld für die verkaufte Ware eintreffen. Der falsche Support erklärte jedoch einen Ausgang zur Eingangstür.",
+        "Das LKA Niedersachsen warnte 2024 vor angeblichen Käufern und gefälschten Support-Chats. Bankdaten und Bestätigungen sollten dort angeblich den Zahlungsempfang ermöglichen.",
+        "Tatsächlich konnten damit ausgehende Zahlungen ausgelöst werden. Das vertraute Logo hatte keine Kontrollfunktion übernommen.",
+        "Die Lehre: Vorgang und Zahlungsrichtung über einen unabhängigen offiziellen Zugang prüfen. Ein Chat kann viel behaupten, aber keinen echten Kontoeingang herbeireden."
+      ],
+      "lesson": "Zahlungsstatus und Zahlungsrichtung unabhängig prüfen; Bestätigungen nicht aufgrund eines fremden Support-Chats freigeben.",
+      "source": [
+        "LKA Niedersachsen – Phishing beim Kleinanzeigenverkauf, 06.02.2024",
+        "https://www.polizei-praevention.de/aktuelles/phishing-beim-kleinanzeigenverkauf-geht-weiter.html"
+      ]
+    },
+    {
+      "id": "orphan-admin-training",
+      "number": 387,
+      "title": "Der letzte Admin hat die Firma verlassen",
+      "year": 2026,
+      "origin": "Trainingsfall",
+      "daily": [
+        "Fiktive Übergabeübung: Die Anwendung arbeitete weiter. Ihre organisatorische Schlüsselverwaltung war bereits in den Feierabend gegangen.",
+        "Im erfundenen Team fehlt nach einem Personalwechsel eine klare administrative Übergabe. Ein einzelnes bekanntes Passwort würde noch nicht alle Rollen und Wiederherstellungswege erklären.",
+        "Die Übung trennt deshalb berechtigten Weiterbetrieb, das Ende persönlicher Zugänge und besonders geschützten Notzugriff. Es werden keine echten Konten verändert.",
+        "Die Lehre: Eine gute Übergabe braucht getestete Zuständigkeiten. Ein Generalschlüssel auf Wanderschaft ist kein Personalplan."
+      ],
+      "lesson": "Bei Personalwechsel Zuständigkeiten, berechtigten Datenzugriff und geschützte Wiederherstellungswege geplant übergeben und prüfen.",
+      "source": [
+        "Microsoft Learn – Emergency access accounts, technische Grundlage",
+        "https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/security-emergency-access"
+      ]
     }
   ]
 }
