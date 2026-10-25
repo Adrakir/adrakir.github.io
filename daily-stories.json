@@ -84,7 +84,7 @@
       "origin": "BSI",
       "daily": [
         "Manchmal ist der mutigste IT-Knopf ausgerechnet der zum Abschalten.",
-        "Am 3.",
+        "Am 3. August 2022 fällt beim IT-Dienstleister der deutschen Industrie- und Handelskammern ungewöhnliches Verhalten in Systemen auf.",
         "Nach Untersuchungen und Beratung mit Sicherheitsfachleuten werden Systeme vorsorglich heruntergefahren.",
         "Das BSI berichtet, dass einzelne Dienste noch Monate später beeinträchtigt waren."
       ],
@@ -139,8 +139,8 @@
       "daily": [
         "Ein digitaler Paketdienst sollte Dateien bewegen. Nur bitte nicht heimlich in die falschen Hände.",
         "Unternehmen nutzen Dateiübertragungssoftware, um sensible Daten sicher auszutauschen. 2023 wird ausgerechnet eine weitverbreitete Transferlösung namens MOVEit zum Ziel einer Angriffskampagne.",
-        "Laut BSI nutzen Angreifer die Lücke spätestens ab dem 27.",
-        "Am 1."
+        "Laut BSI nutzen Angreifer die Lücke spätestens ab dem 27. Mai 2023, noch bevor der Hersteller sie am 31. Mai öffentlich beschreibt.",
+        "Am 1. Juni 2023 warnt das BSI zunächst mit der höchsten Warnstufe Rot."
       ],
       "lesson": "Öffentlich erreichbare Dateitransfersysteme benötigen schnelle Updates, Überwachung und Datenminimierung.",
       "source": [
@@ -192,7 +192,7 @@
       "origin": "BSI",
       "daily": [
         "Ein Schutz-Update sollte die Computer bewachen. Stattdessen machten manche Computer erst einmal komplett Feierabend.",
-        "Am 19.",
+        "Am 19. Juli 2024 verteilt CrowdStrike neue Konfigurationsinhalte für seinen Falcon-Sensor auf Windows-Rechnern.",
         "Die spätere Ursachenanalyse beschreibt einen ungültigen Speicherzugriff bei der Verarbeitung der neuen Inhalte.",
         "CrowdStrike nimmt die fehlerhaften Inhalte noch am selben Tag zurück."
       ],
@@ -211,7 +211,7 @@
       "daily": [
         "Ein verfügbarer Flicken stopft noch kein Loch, solange er im digitalen Nähkästchen liegen bleibt.",
         "Bei einer Fernzugriffslösung des Herstellers Ivanti existiert im Februar 2025 bereits ein Software-Patch.",
-        "Am 3.",
+        "Am 3. April 2025 veröffentlicht Ivanti Hinweise auf die Schwachstelle CVE-2025-22457.",
         "Ein Fehler kann bereits mit einem Patch bedacht worden sein und trotzdem unterschätzt werden."
       ],
       "lesson": "Bei Fernzugriffssystemen müssen veraltete Versionen schnell ersetzt und neue Bewertungen verfolgt werden.",
@@ -1470,7 +1470,7 @@
       "origin": "Fachquelle",
       "daily": [
         "Ein Wartungsbefehl sollte aufräumen. Ein falscher Parameter kann dabei einen viel zu großen Besen erwischen.",
-        "Am 28.",
+        "Am 28. Februar 2017 untersucht das S3-Team von Amazon Web Services eine Verzögerung im Abrechnungssystem.",
         "Beim Ausführen des Wartungsbefehls wird ein Parameter falsch eingegeben.",
         "AWS erklärte den Ablauf anschließend öffentlich."
       ],
@@ -1524,7 +1524,7 @@
       "origin": "Fachquelle",
       "daily": [
         "Wenn die Wegweiser im Netz verschwinden, hilft es wenig, dass das Zielgebäude noch steht.",
-        "Am 4.",
+        "Am 4. Oktober 2021 sind Facebook, WhatsApp und Instagram für viele Menschen weltweit nicht mehr erreichbar.",
         "Eine fehlerhafte Änderung in der Netzwerkinfrastruktur trennt die Verbindung zwischen wichtigen Rechenzentren.",
         "Erst Stunden später sind die Dienste wieder erreichbar."
       ],
@@ -2605,7 +2605,7 @@
       "daily": [
         "Bei einem Krankenhaus ist IT-Verfügbarkeit kein Komfortzubehör. Genau deshalb müssen Ersatzwege geübt sein.",
         "Ein großes Klinikum benötigt IT für die Koordination seiner medizinischen Versorgung.",
-        "Am 10.",
+        "Am 10. September 2020 wurde an der Universitätsklinik Düsseldorf ein IT-Sicherheitsvorfall bekannt.",
         "Das BSI unterstützte die Bewältigung des Vorfalls mit einem mobilen Team."
       ],
       "lesson": "Kritische Gesundheits-IT benötigt geübte Notfallabläufe.",
@@ -2767,7 +2767,7 @@
       "daily": [
         "Eine Cloud wohnt am Ende auch in echten Gebäuden. Brandschutz lässt sich deshalb nicht einfach virtuell wegklicken.",
         "Im französischen Straßburg liefen zehntausende digitale Dienste über Rechenzentren von OVHcloud.",
-        "Am 10.",
+        "Am 10. März 2021 brach am Standort Straßburg ein Brand aus.",
         "Tausende Kunden waren vom Ausfall betroffen."
       ],
       "lesson": "Backups außer Haus, getrennte Brandschutzabschnitte und überprüfbare Wiederherstellung.",
@@ -2838,7 +2838,7 @@
       "origin": "Amtliche Quelle",
       "daily": [
         "Ein Probealarm muss unmissverständlich Probe heißen, und eine Rücknahme darf kein technisches Rätsel sein.",
-        "Hawaiis Warnzentrale übte am 13.",
+        "Hawaiis Warnzentrale übte am 13. Januar 2018 den Ernstfall.",
         "Ein Mitarbeiter hielt die Situation offenbar für real und bestätigte eine echte Raketenwarnung.",
         "Viele Menschen glaubten an einen unmittelbar bevorstehenden Angriff."
       ],
@@ -2875,7 +2875,7 @@
       "daily": [
         "Ein Bankensystem braucht nach einer Störung mehr als den gut gemeinten Rat, es später noch einmal zu versuchen.",
         "Die Banken RBS, NatWest und Ulster Bank arbeiteten mit komplexen, teils historisch gewachsenen Systemen.",
-        "Ein Softwarekompatibilitätsproblem führte ab 18.",
+        "Ein Softwarekompatibilitätsproblem führte ab 18. Juni 2012 zu massiven Störungen.",
         "Mindestens 6,5 Millionen Kunden waren betroffen; manche konnten Überweisungen nicht ausführen oder erhielten veraltete Kontostände."
       ],
       "lesson": "Altsysteme und Update-Abhängigkeiten verstehen; Resilienz ist Führungsaufgabe.",
@@ -2894,7 +2894,7 @@
         "Der Datenträger war voll. Leider ließ sich freie Kapazität nicht einfach zusammen mit den Fahrzeugteilen bestellen.",
         "Toyota wollte bei einer regulären Wartung angesammelte Daten in seiner Produktions-IT bereinigen.",
         "Bei der Arbeit ging der verfügbare Speicherplatz aus.",
-        "Am 29."
+        "Am 29. August 2023 standen schließlich 28 Produktionslinien in 14 japanischen Werken still."
       ],
       "lesson": "Wartung mit Kapazitätsreserven testen und Redundanz vor gemeinsamen Fehlern schützen.",
       "source": [
@@ -2911,7 +2911,7 @@
       "daily": [
         "Ein Reservegerät sollte im Ernstfall übernehmen, statt gemeinsam mit dem Hauptgerät über das Problem nachzudenken.",
         "Die Börse in Tokio hatte ein technisches Ersatzsystem für den Fall eines Speicherfehlers.",
-        "Am 1.",
+        "Am 1. Oktober 2020 versagte ein Speicherbaustein.",
         "Der Aktienhandel wurde für einen ganzen Tag angehalten."
       ],
       "lesson": "Ein Backup ist erst dann eine Absicherung, wenn der automatische Ernstfall getestet wurde.",
@@ -2966,7 +2966,7 @@
         "Eine zweite Prüfung ist kein Misstrauensvotum, sondern die digitale Variante eines zweiten Blicks vor dem Einparken.",
         "AT&T erweiterte 2024 während eines Wartungsfensters sein Mobilfunknetz.",
         "Die Komponente war falsch konfiguriert.",
-        "Der Fehler pflanzte sich im Netz fort und führte am 22."
+        "Der Fehler pflanzte sich im Netz fort und führte am 22. Februar zu weitreichenden Mobilfunkausfällen, auch bei Notrufen."
       ],
       "lesson": "Peer-Review und Testpflicht bei Kernnetzänderungen technisch erzwingen.",
       "source": [
@@ -3001,7 +3001,7 @@
       "daily": [
         "Auch ein Rechenzentrum braucht Strom aus der Steckdose. Das Wort Cloud ersetzt keine funktionierende Versorgung.",
         "Cloudflare nutzte ein besonders wichtiges Rechenzentrum in Portland.",
-        "Am 2.",
+        "Am 2. November 2023 führten Verkettungen von Störungen und mutmaßlich Wartungsfolgen beim Energieversorger zu einem länger dauernden Stromausfall.",
         "Cloudflare räumte ein, nicht sämtliche vorgesehenen Ausfallschutzmaßnahmen für Dienste konsequent durchgesetzt zu haben."
       ],
       "lesson": "Jede kritische Anwendung muss den Totalausfall eines Standortes überstehen können.",
@@ -3541,7 +3541,7 @@
       "daily": [
         "Ein abgelaufenes Zertifikat kennt keine Besprechungskultur. Es kann das Meeting einfach vor der Tür warten lassen.",
         "Damit Browser und Apps einer Onlineadresse vertrauen, sind gültige Zertifikate erforderlich.",
-        "Microsoft Teams war am 3.",
+        "Microsoft Teams war am 3. Februar 2020 wegen eines nicht rechtzeitig erneuerten Authentifizierungszertifikats in Teilen gestört.",
         "Nutzer konnten sich vorübergehend nicht anmelden."
       ],
       "lesson": "Zertifikatsabläufe automatisch überwachen und Erneuerungen ohne Einzelpersonenabhängigkeit gestalten.",
@@ -3612,7 +3612,7 @@
       "origin": "Unternehmensquelle",
       "daily": [
         "„Bring deine IP mit“, hieß es. Beim Aufräumen wurde sie leider wieder vor die Tür gestellt.",
-        "Am 20.",
+        "Am 20. Februar 2026 zog Cloudflare versehentlich rund 1.100 Kunden-Netzpräfixe aus der Routenankündigung zurück.",
         "Ein Fehler in einer automatisierten Bereinigungsabfrage wählte auch aktive Zuordnungen aus.",
         "Das Team stoppte die fehlerhafte Änderung und stellte die Ankündigungen wieder her."
       ],
@@ -3666,7 +3666,7 @@
       "origin": "Unternehmensquelle",
       "daily": [
         "Der Werkzeugkasten sollte Projekte zusammenbauen. Eine schlechte Lieferung baute stattdessen eine öffentliche Geheimnisausstellung.",
-        "Am 26.",
+        "Am 26. August 2025 veröffentlichten Angreifer manipulierte Nx-Pakete auf npm.",
         "Die Pakete suchten auf betroffenen Systemen nach sensiblen Daten und luden sie in öffentliche GitHub-Repositories.",
         "Nx beschrieb anschließend unter anderem Trusted Publishing und manuelle Freigaben."
       ],
@@ -3702,7 +3702,7 @@
       "origin": "Unternehmensquelle",
       "daily": [
         "Der Helfer sollte Text bunt machen. Das schlechte Update interessierte sich plötzlich für die Farbe fremder Geldbörsen.",
-        "Am 8.",
+        "Am 8. September 2025 führte Phishing gegen einen npm-Maintainer zu manipulierten Updates bekannter Hilfspakete wie debug und chalk.",
         "Der eingeschleuste Code sollte im Browser Kryptotransaktionen auf fremde Zieladressen umlenken.",
         "Betroffene Browser-Bundles konnten den schädlichen Code weiter enthalten, auch wenn das Paket im Registry bereinigt war."
       ],
@@ -3738,7 +3738,7 @@
       "origin": "Unternehmensquelle",
       "daily": [
         "Zwei digitale Hausmeister räumten gleichzeitig auf. Danach wusste niemand mehr, wo das Haus stand.",
-        "Am 19./20.",
+        "Am 19./20. Oktober 2025 verlor der regionale DynamoDB-Endpunkt in Nord-Virginia seine IP-Adressen im DNS.",
         "Ein verzögerter Prozess spielte einen alten Plan ein, während ein anderer alte Pläne löschte.",
         "Menschen mussten den DNS-Zustand wiederherstellen; abhängige Dienste hatten weitere Anlaufprobleme."
       ],
@@ -3756,7 +3756,7 @@
       "origin": "Unternehmensquelle",
       "daily": [
         "Der Bot-Wächter wollte gründlich lesen. Mit dem doppelt dicken Aktenordner fiel er vom Stuhl.",
-        "Am 18.",
+        "Am 18. November 2025 erzeugte Cloudflare nach einer Datenbank-Berechtigungsänderung doppelte Einträge in einer Bot-Management-Datei.",
         "Die neue Datei gelangte automatisch ins Netzwerk und überschritt eine Größenannahme der verarbeitenden Software.",
         "Cloudflare führte den Vorfall auf die eigene Verarbeitung und Verteilung zurück."
       ],
@@ -3774,7 +3774,7 @@
       "origin": "Unternehmensquelle",
       "daily": [
         "Die Oberfläche fragte „Bin ich schon da?“ so oft, bis die Auskunft nicht mehr antwortete.",
-        "Am 12.",
+        "Am 12. September 2025 erzeugte eine Cloudflare-Oberfläche wiederholt API-Aufrufe durch eine React-Effektschleife.",
         "Die Anfragen überlasteten einen internen Tenant-Dienst, der auch für die Anmeldung wichtig war.",
         "Das Team begrenzte Anfragen, vergrößerte Kapazität und nahm Änderungen zurück."
       ],
@@ -3792,7 +3792,7 @@
       "origin": "Unternehmensquelle",
       "daily": [
         "Die Richtlinie hatte leere Felder. Der Kontrollschalter interpretierte das als Einladung zur Vollbremsung.",
-        "Am 12.",
+        "Am 12. Juni 2025 brachte eine neue Richtlinie mit unbeabsichtigt leeren Feldern Google Clouds Service Control zum Absturz.",
         "Der zugehörige Code war zuvor schrittweise verteilt worden, der fehlerhafte Pfad dabei aber unbenutzt geblieben.",
         "Google deaktivierte den betroffenen Prüfpfad mit einer vorbereiteten Notabschaltung."
       ],
@@ -3918,7 +3918,7 @@
       "origin": "Unternehmensquelle",
       "daily": [
         "Die Datenbank bekam keinen Krankenstand, sondern eine falsche Krankmeldung vom eigenen Pförtner.",
-        "Am 14.",
+        "Am 14. August 2024 war GitHub.com für 36 Minuten weitgehend nicht erreichbar.",
         "Die Infrastruktur stufte Datenbanken deshalb als ungesund ein.",
         "GitHub nahm die Änderung zurück und stellte den Dienst wieder her."
       ],
@@ -3936,7 +3936,7 @@
       "origin": "Unternehmensquelle",
       "daily": [
         "Der Schutzschild hielt den Ansturm ab und schickte anschließend die Besucher durch den überfüllten Seiteneingang.",
-        "Am 30.",
+        "Am 30. Juli 2024 traf ein DDoS-Angriff Azure-Netzwerkdienste.",
         "Verkehr von außerhalb Europas lief über europäische Standorte und überlastete sie.",
         "Microsoft korrigierte die Verkehrsführung und bearbeitete verbleibende Netzwerkprobleme."
       ],
@@ -3972,7 +3972,7 @@
       "origin": "Unternehmensquelle",
       "daily": [
         "Der Unterschriftendienst sollte Autogramme sammeln. Ein fremder Besucher interessierte sich mehr für die Zugangskarten.",
-        "Am 24.",
+        "Am 24. April 2024 bemerkte Dropbox unbefugten Zugriff auf die Produktionsumgebung von Dropbox Sign.",
         "Zu den betroffenen Informationen gehörten Nutzerdaten und bestimmte Authentifizierungsdaten wie API-Schlüssel und OAuth-Tokens.",
         "Dropbox setzte Passwörter zurück, beendete Sitzungen und koordinierte die Erneuerung betroffener Zugangsmittel."
       ],
@@ -4134,7 +4134,7 @@
       "origin": "Unternehmensquelle",
       "daily": [
         "Die Funktion hatte keinen eigenen Server, aber plötzlich einen sehr eigenen Wachstumsschmerz.",
-        "Am 13.",
+        "Am 13. Juni 2023 überschritt eine AWS-Lambda-Zelle in Nord-Virginia eine bisher nicht erreichte Kapazitätsschwelle.",
         "Ausführungsumgebungen wurden zugewiesen, vom Frontend aber nicht vollständig genutzt.",
         "Das Team verkleinerte das Frontend zunächst unter die kritische Schwelle."
       ],
@@ -4152,7 +4152,7 @@
       "origin": "Unternehmensquelle",
       "daily": [
         "Die Spielrunde war bereit. Nur der Türsteher am Login hatte gleichzeitig Baustelle und Plattfuß.",
-        "Am 6.",
+        "Am 6. November 2023 fiel Discords Anmeldung ungefähr 50 Minuten aus.",
         "Eine beeinträchtigte Festplatte in einer anderen Zone verschärfte die Lage.",
         "Die Störung betraf die Verfügbarkeit, laut Discord weder korrekte Authentifizierungsergebnisse noch unbefugte Zugriffe."
       ],
@@ -4170,7 +4170,7 @@
       "origin": "Unternehmensquelle",
       "daily": [
         "Der Wartungsbefehl sollte nach Madrid. Er machte daraus eine internationale Rundreise ohne Rückfahrkarte.",
-        "Am 25.",
+        "Am 25. Januar 2023 löste eine Azure-Netzwerkänderung in Madrid weitreichende Verbindungsprobleme aus.",
         "Ein Befehl führte zu Aktualisierungen auf vielen Routern und zu aufwendigen Neuberechnungen.",
         "Microsoft nahm die auslösende Änderung zurück und stabilisierte das Netzwerk."
       ],
@@ -4224,7 +4224,7 @@
       "origin": "Unternehmensquelle",
       "daily": [
         "Die Hardware-Wallet saß im Tresor. Das fremde Zwischenstück wedelte trotzdem mit einem ziemlich verdächtigen Formular.",
-        "Am 14.",
+        "Am 14. Dezember 2023 wurden manipulierte Versionen des Ledger Connect Kit veröffentlicht.",
         "Dezentrale Anwendungen luden die Bibliothek teils dynamisch über ein CDN.",
         "Ledger entfernte die Pakete und beschrieb Verbesserungen des Veröffentlichungsverfahrens."
       ],
@@ -4260,7 +4260,7 @@
       "origin": "Unternehmensquelle",
       "daily": [
         "Die Straße sollte sicherer werden. Beim Umbau verschwand kurz die Ausfahrt.",
-        "Am 21.",
+        "Am 21. Juni 2022 störte eine Netzwerkkonfiguration Cloudflare an 19 Standorten.",
         "Eine fehlerhafte Änderung der Routingregeln machte betroffene Standorte unerreichbar.",
         "Das Zurücknehmen der Konfiguration stellte die Erreichbarkeit wieder her."
       ],
@@ -4278,7 +4278,7 @@
       "origin": "Unternehmensquelle",
       "daily": [
         "Bestellt war eine kleine Entrümpelung. Der digitale Besen nahm gleich das Büro mit.",
-        "Am 5.",
+        "Am 5. April 2022 löschte ein Atlassian-Skript versehentlich ganze Kunden-Sites statt einer alten App.",
         "Das Skript erhielt Site-Kennungen, obwohl für die Aufgabe App-Kennungen gemeint waren.",
         "Die Wiederherstellung dauerte für einen Teil der Kunden viele Tage."
       ],
@@ -4350,7 +4350,7 @@
       "origin": "Unternehmensquelle",
       "daily": [
         "Die Grafikkarte konnte Millionen Pixel bewachen. Beim digitalen Schlüsselbund war sie nicht zuständig.",
-        "NVIDIA bemerkte am 23.",
+        "NVIDIA bemerkte am 23. Februar 2022 einen Sicherheitsvorfall.",
         "NVIDIA fand nach eigener Darstellung keine Hinweise auf eine Ransomware-Verschlüsselung der eigenen Umgebung.",
         "Das Unternehmen reagierte mit Schutzmaßnahmen und verpflichtenden Passwortänderungen."
       ],
@@ -4368,7 +4368,7 @@
       "origin": "Unternehmensquelle",
       "daily": [
         "Die Mail hatte gute Vorsätze fürs neue Jahr. Der Datumswert passte nur nicht mehr durch den Briefschlitz.",
-        "Am 1.",
+        "Am 1. Januar 2022 blieben Nachrichten auf bestimmten lokalen Exchange-Servern in Transportwarteschlangen hängen.",
         "Ein aus Datum und Uhrzeit gebildeter Wert überschritt den Bereich einer vorzeichenbehafteten 32-Bit-Zahl.",
         "Microsoft stellte eine Korrektur bereit, um die betroffenen Systeme wieder arbeitsfähig zu machen."
       ],
@@ -4476,7 +4476,7 @@
       "origin": "Unternehmensquelle",
       "daily": [
         "Die Cloud bekam Schluckauf und bestellte zur Beruhigung noch mehr Schluckauf.",
-        "Am 7.",
+        "Am 7. Dezember 2021 brachte eine automatische Kapazitätserweiterung bei AWS in Nord-Virginia zu viele Verbindungen ins interne Netz.",
         "Wiederholte Verbindungsversuche verstärkten die Überlastung, statt sie zu lösen.",
         "AWS begrenzte Verkehr und arbeitete sich durch die überlasteten Komponenten."
       ],
@@ -4494,7 +4494,7 @@
       "origin": "Unternehmensquelle",
       "daily": [
         "Alle wollten „Frohes Neues!“ schreiben. Das Netzwerk hätte lieber noch einen Urlaubstag genommen.",
-        "Am 4.",
+        "Am 4. Januar 2021 traf die Rückkehr vieler Slack-Nutzer auf ein nach den Feiertagen geschrumpftes System.",
         "Ein AWS Transit Gateway skalierte nicht schnell genug mit und verlor Pakete.",
         "Wartende Prozesse wirkten teilweise wie geringe CPU-Auslastung und begünstigten weitere Verkleinerung."
       ],
@@ -4512,7 +4512,7 @@
       "origin": "Unternehmensquelle",
       "daily": [
         "In der digitalen Bauwelt fehlte kein Stein. Das interne Branchenverzeichnis hatte sich nur selbst zugebaut.",
-        "Vom 28.",
+        "Vom 28. bis 31. Oktober 2021 war Roblox 73 Stunden ausgefallen.",
         "Unter hoher Last trafen ein Consul-Streamingproblem und ein Leistungsproblem der eingebetteten Datenbank BoltDB zusammen.",
         "Auch wichtige Diagnosewerkzeuge hingen von gestörten Systemen ab und erschwerten die Fehlersuche."
       ],
@@ -4584,7 +4584,7 @@
       "origin": "Fachquelle",
       "daily": [
         "Die Bibliothek sollte Browser erkennen. In ihrer schlechten Stunde erkannte sie vor allem Gelegenheiten.",
-        "Am 22.",
+        "Am 22. Oktober 2021 erschienen nach einer Kontoübernahme manipulierte Versionen von ua-parser-js auf npm.",
         "Die veröffentlichten Pakete enthielten Schadcode.",
         "Das Advisory empfahl betroffene Systeme ernsthaft zu untersuchen und dort vorhandene Geheimnisse zu erneuern."
       ],
@@ -4764,7 +4764,7 @@
       "origin": "Unternehmensquelle",
       "daily": [
         "Das Getränk brauchte keinen Neustart. Die Bestellung schon – und die Buchhaltung saß ebenfalls durstig vor einem unerreichbaren System.",
-        "Am 29.",
+        "Am 29. September 2025 löste ein Ransomwareangriff bei Asahi erhebliche Systemstörungen in Japan aus.",
         "Das Unternehmen begann teilweise mit manueller Auftragsbearbeitung und Auslieferung.",
         "Warenversorgung und korrekte Finanzberichterstattung brauchten jeweils ihren Wiederanlauf."
       ],
@@ -4818,7 +4818,7 @@
       "origin": "Unternehmensquelle",
       "daily": [
         "Die Lebensmittel waren nicht plötzlich unsichtbar. Aber ohne den digitalen Einkaufszettel wusste die Lieferkette zeitweise deutlich schlechter, was wohin sollte.",
-        "Am 5.",
+        "Am 5. Juni 2025 bemerkte der Lebensmittelgroßhändler UNFI unbefugte Aktivitäten in IT-Systemen.",
         "Die Maßnahmen beeinträchtigten vorübergehend die Erfüllung und Verteilung von Kundenaufträgen.",
         "In der späteren SEC-Mitteilung erwartete UNFI keine individuellen Verbrauchermeldungen wegen eines gesetzlich definierten Abflusses persönlicher oder gesundheitlicher Daten."
       ],
@@ -4998,7 +4998,7 @@
       "origin": "Unternehmensquelle",
       "daily": [
         "Die Kartoffeln waren einsatzbereit. Nur die digitale Bestellung hatte plötzlich beschlossen, heute langsam zu garen.",
-        "Am 15.",
+        "Am 15. März 2024 störte ein weltweiter Technikausfall McDonald’s-Restaurants.",
         "Die zentrale Abhängigkeit traf Restaurants in mehreren Märkten gleichzeitig.",
         "Am Folgetag meldete McDonald’s alle Restaurants wieder geöffnet."
       ],
@@ -5016,7 +5016,7 @@
       "origin": "Unternehmensquelle",
       "daily": [
         "Das neue Messgerät wollte besonders gründlich nachsehen. Dabei stand es so oft im Maschinenraum, dass dort niemand mehr arbeiten konnte.",
-        "Am 11.",
+        "Am 11. Dezember 2024 überlastete ein neuer Telemetriedienst die Kubernetes-Steuerung von OpenAI.",
         "Die Überlastung erschwerte auch den Zugriff, der zum Entfernen der problematischen Änderung nötig war.",
         "Teams mussten Steuerung und Cluster schrittweise zurückgewinnen."
       ],
@@ -5251,7 +5251,7 @@
       "daily": [
         "Die Dateien lagen zu Hause, der bequeme Weg dorthin machte aber Dienstreise. Plötzlich wurde „eigene Cloud“ zur Frage nach dem Ersatzschlüssel.",
         "Nach einem im März 2023 entdeckten Einbruch trennte Western Digital Systeme und Dienste vom öffentlichen Internet.",
-        "My Cloud wurde laut Unternehmensmeldung am 13.",
+        "My Cloud wurde laut Unternehmensmeldung am 13. April wiederhergestellt.",
         "Die Untersuchung bestätigte außerdem eine kopierte Shop-Datenbank mit persönlichen Kundendaten."
       ],
       "lesson": "Lokalen Datenzugriff unabhängig vom externen Komfortdienst vorbereiten.",
@@ -5322,7 +5322,7 @@
       "origin": "Unternehmensquelle",
       "daily": [
         "Der digitale Postverteiler nahm eine Verbindung zurück, ließ aber die alte Antwort darin liegen. So wurde Wiederverwendung zur peinlichen Verwechslung.",
-        "Am 20.",
+        "Am 20. März 2023 konnten manche ChatGPT-Nutzer Titel aus fremden Chatverläufen sehen.",
         "Ein abgebrochener asynchroner Auftrag konnte eine Antwort in einer wiederverwendeten Verbindung zurücklassen.",
         "OpenAI behob den Fehler und ergänzte Kontrollen der Nutzerzuordnung."
       ],
@@ -5358,9 +5358,9 @@
       "origin": "Unternehmensquelle",
       "daily": [
         "Die Container waren stapelbar, die digitalen Probleme leider auch. Der Hafen musste erst das Netz sortieren, bevor die Kisten weiterdurften.",
-        "Am 10.",
+        "Am 10. November 2023 trennte DP World Australia sein Netz nach unbefugtem Zugriff vom Internet.",
         "Das Unternehmen fand nach eigener Untersuchung keine eingesetzte Ransomware.",
-        "Am 13."
+        "Am 13. November begann die Abfertigung wieder; bis zum 20. November war der gemeldete Rückstau von 30.137 Containern abgearbeitet."
       ],
       "lesson": "Eindämmung und anschließenden Rückstau als getrennte Wiederanlaufaufgaben planen.",
       "source": [
@@ -5574,7 +5574,7 @@
       "origin": "Unternehmensquelle",
       "daily": [
         "Der Vorratshelfer ersetzte leere Regale besonders eifrig. Bald suchten alle gleichzeitig im Hauptlager, und dort kam niemand mehr durch.",
-        "Am 22.",
+        "Am 22. Februar 2022 führte Slack-Wartung zum Austausch vieler Cache-Knoten.",
         "Bestimmte Anfragen griffen bei einem Cache-Fehlschlag auf viele Datenbankteile zu.",
         "Slack drosselte neue Verbindungen und verteilte Datenbanklast besser."
       ],
@@ -5736,7 +5736,7 @@
       "origin": "Unternehmensquelle",
       "daily": [
         "Der Türsteher kannte den neuen Ausweis nicht und bestand auf seinem abgelaufenen Stammbaum. Der Besucher stand ratlos vor einer völlig echten Website.",
-        "Am 30.",
+        "Am 30. September 2021 lief das ältere Wurzelzertifikat DST Root CA X3 aus.",
         "Moderne Systeme vertrauten bereits der neuen Wurzel ISRG Root X1.",
         "Ein gültiges Website-Zertifikat allein genügt also nicht für jede Gegenstelle."
       ],
@@ -5754,9 +5754,9 @@
       "origin": "Unternehmensquelle",
       "daily": [
         "Die digitale Stechuhr ging nicht zu spät. Sie kam erst einmal gar nicht zum Dienst, und die Ersatznotizen mussten die Schicht übernehmen.",
-        "Am 11.",
+        "Am 11. Dezember 2021 traf ein Ransomwareangriff die Kronos Private Cloud von UKG.",
         "Wenn Zeiterfassung nicht erreichbar ist, fehlen wichtige Grundlagen für nachgelagerte Personalabläufe.",
-        "UKG meldete bis zum 22."
+        "UKG meldete bis zum 22. Januar 2022 den betroffenen Kunden wieder sicheren Zugang zu den Kernfunktionen."
       ],
       "lesson": "Zeiterfassung und Abrechnung brauchen einen überprüfbaren Ersatzablauf.",
       "source": [
