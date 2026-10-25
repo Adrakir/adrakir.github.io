@@ -2,12 +2,12 @@
 
 [Online-App öffnen](https://adrakir.github.io/)
 
-370 illustrierte Akten mit Quellen, drei Kapiteln, einer kurzen Tagesgeschichte und zwei Quizfragen pro Akte. Drei Akten sind ausdrücklich fiktive Trainingsfälle. Die übrigen sind dokumentierte Vorfälle, Forschungsfälle und Technikgeschichte. Die App ist ein unabhängiges Lernprojekt, keine offizielle oder vom BSI geprüfte Anwendung.
+381 illustrierte Akten mit Quellen, drei Kapiteln, einer kurzen Tagesgeschichte und zwei Quizfragen pro Akte. Fünf Akten sind ausdrücklich fiktive Trainingsfälle. Die übrigen sind dokumentierte Vorfälle, Forschungsfälle und Technikgeschichte. Die App ist ein unabhängiges Lernprojekt, keine offizielle oder vom BSI geprüfte Anwendung.
 
 ## Lesen und entdecken
 
 - Jede Akte hat eine direkt zugängliche **Kurzgeschichte** und eine ausführliche Ansicht mit Quiz.
-- Acht Themenbereiche bündeln die Sammlung. Zusätzliche Filter unterscheiden Geschichte, Quelle, Ereignisart und Besonderheiten.
+- Zwölf Themenbereiche bündeln die Sammlung. Zusätzliche Filter unterscheiden Geschichte, Quelle, Ereignisart und Besonderheiten.
 - Der **Fall des Tages** richtet sich nach dem Kalenderdatum in Europe/Berlin. Das Tagesarchiv beginnt am 24. Oktober 2026; alle anderen Kurzgeschichten bleiben jederzeit über die Sammlung zugänglich.
 - Verwandte Akten verlinken aufeinander. Unter **Einstellungen → Akten vergleichen & prüfen** lassen sich zwei Akten nebeneinander lesen und mögliche Überschneidungen markieren. Die automatische Prüfung ist ein Hinweisverfahren und ersetzt keine vollständige Quellenprüfung. Eigene Markierungen bleiben auf dem jeweiligen Gerät.
 

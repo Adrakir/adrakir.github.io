@@ -94,5 +94,6 @@ for filename in ['package.json','package-lock.json']:
     if 'description' in d:d['description']='Statische Lern-App mit 381 illustrierten IT-Geschichten und Trainingsfällen'
     if 'packages'in d:d['packages']['']['version']='2.3.0'
     p.write_text(json.dumps(d,ensure_ascii=False,indent=2)+'\n')
+p=ROOT/'manifest.webmanifest';d=json.loads(p.read_text());d['description']=f'{len(stories)} IT-Geschichten und Trainingsfälle lesen, anhören und mit Quiz lernen – auch offline.';p.write_text(json.dumps(d,ensure_ascii=False,indent=2)+'\n')
 p=ROOT/'sw.js';p.write_text(p.read_text().replace('quality-v2','new-topics-v3'))
 print(json.dumps({'cases':len(stories),'newCases':len(new),'successCollection':sum('resilienz'in x['topics']for x in meta.values()),'fiction':sum(c['origin']=='Trainingsfall'for c in stories)}))
