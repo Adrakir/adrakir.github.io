@@ -6123,6 +6123,546 @@
         "Quentin Stafford-Fraser – When convenience was the mother of invention",
         "https://www.cl.cam.ac.uk/coffee/qsf/cacm200107.html"
       ]
+    },
+    {
+      "id": "subaru-starlink2025",
+      "number": 341,
+      "title": "Das Serviceportal kennt die ganze Reiseroute",
+      "year": 2025,
+      "origin": "Sicherheitsforschung",
+      "daily": [
+        "Das Auto hatte einen digitalen Servicehelfer. Der wusste im untersuchten System leider nicht nur den Parkplatz, sondern sehr viel Reisegeschichte.",
+        "2025 veröffentlichten Forscher Schwächen im Subaru-STARLINK-Verwaltungsportal. Mit Satelliteninternet hatte das nichts zu tun.",
+        "Die Demonstration betraf unter anderem Fahrzeugzugriffe und umfangreiche Standortdaten. Subaru schloss die gemeldeten Lücken.",
+        "Eine reparierte Tür ist gut. Zu prüfen bleibt auch, wie viel persönliches Gedächtnis hinter ihr liegt."
+      ],
+      "lesson": "Verwaltungsrechte begrenzen und Standortdaten nur im erforderlichen Umfang und Zeitraum vorhalten.",
+      "source": [
+        "Sam Curry und Shubham Shah – Subaru-STARLINK-Forschung",
+        "https://samcurry.net/hacking-subaru"
+      ]
+    },
+    {
+      "id": "echoleak2025",
+      "number": 342,
+      "title": "Die KI liest eine Mail und bekommt fremde Aufträge",
+      "year": 2025,
+      "origin": "Sicherheitsforschung",
+      "daily": [
+        "Die Mail lag im Postfach und wollte plötzlich Dienstanweisungen erteilen. Der KI-Assistent sollte sie eigentlich nur als Inhalt lesen.",
+        "2025 zeigte EchoLeak eine Angriffskette gegen Microsoft 365 Copilot mit präparierten E-Mails und unerwünschten Daten-Ausgabewegen.",
+        "Ein klassischer Linkklick war nicht nötig; die Verarbeitung im passenden Arbeitskontext blieb Teil des Ablaufs. Microsoft behob die gemeldete Lücke.",
+        "Ein Forschungsfall mit klarer Grenze: Fremde Texte dürfen keine eigenen Zugriffsrechte mitbringen."
+      ],
+      "lesson": "Externe Inhalte als unzuverlässige Daten behandeln und KI-Ausgabewege unabhängig auf Berechtigung prüfen.",
+      "source": [
+        "Aim Labs/Cato – Originalanalyse von EchoLeak",
+        "https://www.catonetworks.com/blog/breaking-down-echoleak/"
+      ]
+    },
+    {
+      "id": "comet-injection2025",
+      "number": 343,
+      "title": "Die Webseite möchte den Browser herumkommandieren",
+      "year": 2025,
+      "origin": "Sicherheitsforschung",
+      "daily": [
+        "Die Webseite sollte zusammengefasst werden. Ein versteckter Kommentar bewarb sich stattdessen als neuer Browserchef.",
+        "Brave demonstrierte 2025 eine indirekte Prompt-Injection gegen Comet.",
+        "Der Assistent folgte beim Lesen fremden Anweisungen und führte im Versuch zusätzliche Kontoaktionen aus.",
+        "Der Forschungsfall zeigt: Wer eine Seite lesen lässt, hat damit noch lange keinen fremden Arbeitsauftrag unterschrieben."
+      ],
+      "lesson": "Bei Browseragenten Leserechte von Handlungsrechten trennen und zusätzliche Kontoaktionen eigenständig autorisieren.",
+      "source": [
+        "Brave – Indirect Prompt Injection in Perplexity Comet",
+        "https://brave.com/blog/comet-prompt-injection/"
+      ]
+    },
+    {
+      "id": "voyager-memory2024",
+      "number": 344,
+      "title": "Die Raumsonde bekommt einen Speicherumzug",
+      "year": 2024,
+      "origin": "Amtliche Quelle",
+      "daily": [
+        "Voyager 1 konnte nicht in die Werkstatt. Also zog die Werkstatt den Programmcode um – ohne Möbelwagen, aber mit sehr langen Funkwegen.",
+        "2024 fand das NASA-Team einen defekten Speicherbereich hinter den unlesbaren Meldungen der Sonde.",
+        "Benötigter Code wurde auf andere Speicherbereiche verteilt; Verweise mussten mit umziehen. Im April kamen wieder verständliche Systemdaten.",
+        "Die Wissenschaft folgte als eigener Arbeitsschritt. Ein erfolgreicher Umzug bedeutet auch bei Software, dass hinterher alle Adressen stimmen."
+      ],
+      "lesson": "Bei alten Systemen Abhängigkeiten und Speicherbelegung dokumentieren, damit gezielte Reparaturen möglich bleiben.",
+      "source": [
+        "NASA/JPL – Voyager 1 meldet wieder lesbare Systemdaten",
+        "https://www.jpl.nasa.gov/news/nasas-voyager-1-resumes-sending-engineering-updates-to-earth/"
+      ]
+    },
+    {
+      "id": "sonos-app2024",
+      "number": 345,
+      "title": "Die Lautsprecher warten auf ihre Fernbedienung",
+      "year": 2024,
+      "origin": "Unternehmensquelle",
+      "daily": [
+        "Die Lautsprecher konnten Musik. Ihre neue Fernbedienung musste erst wieder lernen, wie der Alltag ihrer Besitzer funktioniert.",
+        "2024 verursachte die neue Sonos-App erhebliche Probleme und ließ vertraute Funktionen vermissen.",
+        "Der Hersteller veröffentlichte einen Reparaturplan etwa für Bibliotheken, Lautstärke und Warteschlangen. Patrick Spence entschuldigte sich.",
+        "Ein neues Bedienkonzept ist erst fertig, wenn auch die alten Lieblingswege wieder funktionieren."
+      ],
+      "lesson": "Vor einem großen App-Umbau alltägliche Kernabläufe mit echten Bestandsgeräten und bestehenden Nutzerdaten testen.",
+      "source": [
+        "Sonos – Stellungnahme zum App-Neustart vom Juli 2024",
+        "https://www.sonos.com/en-us/blog/update-on-the-sonos-app"
+      ]
+    },
+    {
+      "id": "okta-longname2024",
+      "number": 346,
+      "title": "Der lange Benutzername drängt das Passwort hinaus",
+      "year": 2024,
+      "origin": "Unternehmensquelle",
+      "daily": [
+        "Der Benutzername machte sich im Cache so breit, dass für das Passwort unter bestimmten Bedingungen zu wenig Bedeutung übrig blieb.",
+        "Okta korrigierte 2024 einen Fehler in delegierter AD/LDAP-Anmeldung mit langen Benutzernamen.",
+        "Für die mögliche Umgehung mussten mehrere Bedingungen zusammenkommen, etwa ein vorhandener Cache-Eintrag und fehlende Mehrfaktoranmeldung.",
+        "Eine abgeschlossene historische Schwachstelle mit klarer Lehre: Auch beim Zusammensetzen von Sicherheitsdaten müssen alle Teile wirklich zählen."
+      ],
+      "lesson": "Bei zusammengesetzten Sicherheitsschlüsseln Längen, Feldgrenzen und die vollständige Berücksichtigung aller Geheimnisse testen.",
+      "source": [
+        "Okta – Sicherheitsmitteilung zu langen Benutzernamen, November 2024",
+        "https://trust.okta.com/security-advisories/okta-ad-ldap-delegated-authentication-username/"
+      ]
+    },
+    {
+      "id": "kia-plate2024",
+      "number": 347,
+      "title": "Das Kennzeichen öffnet den digitalen Seiteneingang",
+      "year": 2024,
+      "origin": "Sicherheitsforschung",
+      "daily": [
+        "Das Kennzeichen gehört außen ans Auto. Als digitaler Generalschlüssel war es nie eingestellt worden.",
+        "2024 demonstrierten Forscher eine Kia-Angriffskette über Web- und Händlerdienste.",
+        "Unzureichende Berechtigungsprüfungen konnten bestimmte Fernfunktionen und Informationen erreichbar machen. Lenkrad und Bremse waren damit nicht beliebig fernsteuerbar.",
+        "Der Fall wurde gemeldet und behoben. Eine sichtbare Fahrzeugkennung sagt, welches Auto gemeint ist – nicht, wer es bedienen darf."
+      ],
+      "lesson": "Öffentliche Objektkennungen strikt von Berechtigungen zur Kontozuordnung und Fernsteuerung trennen.",
+      "source": [
+        "Sam Curry und Team – Hacking Kia 2024",
+        "https://samcurry.net/hacking-kia"
+      ]
+    },
+    {
+      "id": "cariad-location2024",
+      "number": 348,
+      "title": "Der Parkplatz steht im offenen Datenregal",
+      "year": 2024,
+      "origin": "Sicherheitsforschung",
+      "daily": [
+        "Ein Parkplatz ist normalerweise nur ein Ort. In einer langen Datensammlung wird daraus schnell ein ziemlich ausführlicher Tagesplan.",
+        "2024 berichteten Forscher auf dem 38C3 über ungeschützte Daten aus dem Volkswagen-Umfeld zu rund 800.000 E-Autos.",
+        "Bewegungsdaten konnten persönliche Routinen erkennen lassen; die Genauigkeit unterschied sich je nach Datensatz.",
+        "Der Fall zeigt: Auch scheinbar technische Fahrzeugdaten brauchen wirksamen Schutz und einen guten Grund, überhaupt gespeichert zu werden."
+      ],
+      "lesson": "Fahrzeug- und Standortdaten nach Personenbezug, Genauigkeit, Zugriff und notwendiger Speicherdauer bewerten.",
+      "source": [
+        "38C3 – Michael Kreil und Flüpke: Volksdaten von Volkswagen",
+        "https://media.ccc.de/v/38c3-wir-wissen-wo-dein-auto-steht-volksdaten-von-volkswagen"
+      ]
+    },
+    {
+      "id": "slackai-injection2024",
+      "number": 349,
+      "title": "Der Chatbeitrag schreibt an der KI-Antwort mit",
+      "year": 2024,
+      "origin": "Sicherheitsforschung",
+      "daily": [
+        "Der Kanalbeitrag hatte keine Einladung zum privaten Gespräch. Also versuchte er, die KI-Antwort als Mitfahrgelegenheit zu nutzen.",
+        "2024 demonstrierte PromptArmor indirekte Anweisungen über Slack-Inhalte.",
+        "Ein entsprechend formulierter Beitrag konnte die Ausgabe des Assistenten beeinflussen, etwa über präparierte Links und Informationen aus anderen Kontexten.",
+        "Das war Forschung, kein belegter allgemeiner Einbruch in alle privaten Kanäle. Lesen dürfen und Weitergeben dürfen bleiben zwei Fragen."
+      ],
+      "lesson": "Bei KI-Suchen Datenrechte, Quellenvertrauen und die erlaubte Weitergabe von Informationen getrennt prüfen.",
+      "source": [
+        "PromptArmor – Datenabfluss durch indirekte Anweisungen in Slack AI",
+        "https://www.promptarmor.com/resources/data-exfiltration-from-slack-ai-via-indirect-prompt-injection"
+      ]
+    },
+    {
+      "id": "recall-preview2024",
+      "number": 350,
+      "title": "Das Computergedächtnis braucht eine Privatsphäre",
+      "year": 2024,
+      "origin": "Unternehmensquelle",
+      "daily": [
+        "Der PC sollte ein gutes Gedächtnis bekommen. Die erste große Frage lautete: Wer darf eigentlich in dieses Gedächtnis schauen?",
+        "2024 führten Sicherheitsbedenken an der Recall-Vorschau zu Änderungen vor der breiten Einführung.",
+        "Microsoft kündigte unter anderem ausdrückliche Aktivierung, Windows-Hello-Prüfungen und zusätzliche Schutzmaßnahmen an.",
+        "Der historische Vorschaufall ist kein pauschaler Bericht über heutige Geräte. Bequemes Erinnern braucht eine klar geschützte Gedächtnistür."
+      ],
+      "lesson": "Bei Funktionen, die viele persönliche Aktivitäten bündeln, Einwilligung, Zugriff und Schutz der Gesamtsammlung zuerst klären.",
+      "source": [
+        "Microsoft – Änderungen der Recall-Vorschau im Juni 2024",
+        "https://blogs.windows.com/windowsexperience/2024/06/07/update-on-the-recall-preview-feature-for-copilot-pcs/"
+      ]
+    },
+    {
+      "id": "google-rocks2024",
+      "number": 351,
+      "title": "Die Such-KI hält Satire für eine Speisekarte",
+      "year": 2024,
+      "origin": "Unternehmensquelle",
+      "daily": [
+        "Die Such-KI bekam eine unsinnige Essensfrage und fand dazu Satire. Leider servierte sie die Antwort stellenweise zu ernst.",
+        "Google erläuterte 2024 echte Fehlantworten von AI Overviews und warnte zugleich vor gefälschten Screenshots.",
+        "Wenig ernsthaftes Material und falsch eingeordnete Satire konnten zu einer überzeugend formulierten falschen Antwort führen.",
+        "Steine bleiben aus dem Menü. Gute Sprache ist noch keine gute Quellenprüfung."
+      ],
+      "lesson": "Bei KI-Antworten Quellenzweck und Datenlage prüfen; bei dünner Grundlage Unsicherheit sichtbar machen.",
+      "source": [
+        "Google – Einordnung fehlerhafter AI Overviews im Mai 2024",
+        "https://blog.google/products-and-platforms/products/search/ai-overviews-update-may-2024/"
+      ]
+    },
+    {
+      "id": "gitlab-reset2024",
+      "number": 352,
+      "title": "Der Passwort-Reset schickt die Einladung an die falsche Adresse",
+      "year": 2024,
+      "origin": "Unternehmensquelle",
+      "daily": [
+        "Der Notausgang zum Konto hatte einen Briefkasten. Leider konnte die Einladung im Fehlerfall an der falschen Adresse landen.",
+        "GitLab korrigierte 2024 eine Schwachstelle beim Passwort-Reset mit unbestätigten Empfängeradressen.",
+        "Ohne zusätzlichen Schutz konnte sie zur Kontoübernahme führen. Ein aktivierter zweiter Faktor blieb für den Login trotzdem erforderlich.",
+        "Auch der vergessene Passwortweg gehört zur eigentlichen Haustürsicherheit."
+      ],
+      "lesson": "Wiederherstellungswege nach Empfängerprüfung, Berechtigung und Wechselwirkung mit weiteren Faktoren absichern.",
+      "source": [
+        "GitLab – Kritische Sicherheitskorrekturen vom 11. Januar 2024",
+        "https://docs.gitlab.com/releases/patches/patch-release-gitlab-16-7-2-released/"
+      ]
+    },
+    {
+      "id": "artipacked2024",
+      "number": 353,
+      "title": "Das Build-Paket packt den Schlüssel gleich mit ein",
+      "year": 2024,
+      "origin": "Sicherheitsforschung",
+      "daily": [
+        "Das Build-Paket war gründlich gepackt. Leider lagen zwischen den Ergebnissen teilweise auch noch die Werkstattschlüssel.",
+        "2024 zeigte ArtiPACKED, wie gültige Tokens in GitHub-Actions-Artefakten landen konnten.",
+        "Beim Verpacken ganzer Arbeitsordner konnten etwa Git-Verwaltungsdateien mitgehen. Auch kurzlebige Tokens waren während ihrer Gültigkeit ein Risiko.",
+        "Die sichere Packliste enthält nur benötigte Ergebnisse – der Schlüsselbund bleibt draußen."
+      ],
+      "lesson": "Build-Ausgaben gezielt auswählen und vor der Veröffentlichung auf Geheimnisse und Verwaltungsdateien prüfen.",
+      "source": [
+        "Unit 42 – ArtiPACKED und GitHub-Actions-Artefakte",
+        "https://unit42.paloaltonetworks.com/github-repo-artifacts-leak-tokens/"
+      ]
+    },
+    {
+      "id": "taters-laser2023",
+      "number": 354,
+      "title": "Das Katzenvideo kommt aus dem tiefen All",
+      "year": 2023,
+      "origin": "Amtliche Quelle",
+      "daily": [
+        "Das Internet bekam Konkurrenz aus dem All: Selbst eine Raumsonde lieferte nun ein Katzenvideo.",
+        "2023 übertrug das DSOC-Experiment auf Psyche ein zuvor gespeichertes Video von Taters per Laser zur Erde.",
+        "Taters war nicht an Bord. Die Katze jagte im Film einen Laserpunkt, während ihre Videodatei einen ganz anderen Laserweg nahm.",
+        "Eine geplante Technikdemonstration mit Fell: Vertraute Testdaten können erstaunliche neue Verbindungen sichtbar machen."
+      ],
+      "lesson": "Neue Übertragungswege mit klar erkennbaren Testdaten prüfen und Demonstration von regulärem Betrieb unterscheiden.",
+      "source": [
+        "NASA/JPL – Erstes ultrahochauflösendes Video per Laser aus dem tiefen All",
+        "https://www.jpl.nasa.gov/news/nasas-tech-demo-streams-first-video-from-deep-space-via-laser/"
+      ]
+    },
+    {
+      "id": "juice-antenna2023",
+      "number": 355,
+      "title": "Ein kleiner Stift hält die große Antenne fest",
+      "year": 2023,
+      "origin": "Amtliche Quelle",
+      "daily": [
+        "Eine Raumsonde war auf dem Weg zum Jupiter. Ein kleiner Haltestift hatte davon offenbar noch nichts unterschrieben.",
+        "2023 blieb die RIME-Antenne von JUICE zunächst teilweise in ihrer Halterung stecken.",
+        "Das Team probierte Bewegungen und Wärme; schließlich half ein mechanischer Stoß, den klemmenden Stift zu lösen.",
+        "Die Antenne kam frei. Große Missionen hängen manchmal an sehr kleinen Abständen."
+      ],
+      "lesson": "Bei ferngewarteter Hardware schrittweise diagnostizieren und die Wirkung jeder zulässigen Maßnahme beobachten.",
+      "source": [
+        "ESA – Die RIME-Antenne von JUICE kommt frei",
+        "https://www.esa.int/Science_Exploration/Space_Science/Juice/Juice_s_RIME_antenna_breaks_free"
+      ]
+    },
+    {
+      "id": "amd-antilag2023",
+      "number": 356,
+      "title": "Der Grafiktreiber wird zum verdächtigen Mitspieler",
+      "year": 2023,
+      "origin": "Unternehmensquelle",
+      "daily": [
+        "Der Grafiktreiber wollte schneller mitspielen. Der Anti-Cheat-Wächter hielt den Eifer unter Umständen für einen Regelverstoß.",
+        "2023 gab es Anti-Cheat-Sperren im Zusammenhang mit AMD Anti-Lag+.",
+        "AMD deaktivierte die Funktion vorübergehend per Treiberupdate und arbeitete mit Spieleentwicklern an der Lösung.",
+        "Der Fall beweist: Ein offizielles Optimierungswerkzeug kann sich trotzdem mit einem anderen Schutzsystem in die Quere kommen."
+      ],
+      "lesson": "Leistungsoptimierungen gemeinsam mit den Schutzmechanismen der betroffenen Programme testen.",
+      "source": [
+        "AMD – Adrenalin 23.10.2 und die Anti-Lag+-Sperren",
+        "https://www.amd.com/en/resources/support-articles/release-notes/RN-RAD-WIN-23-10-2.html"
+      ]
+    },
+    {
+      "id": "newag-trains2023",
+      "number": 357,
+      "title": "Der Zug braucht einen Software-Detektiv",
+      "year": 2023,
+      "origin": "Sicherheitsforschung",
+      "daily": [
+        "Die Züge standen nach der Wartung still. Also bekam die Werkstatt Verstärkung von Menschen, die lieber Programmcode als Fahrpläne entziffern.",
+        "Dragon Sector berichtete 2023 über die Analyse verdächtiger Software-Sperrbedingungen in polnischen Triebzügen.",
+        "Der Hersteller hatte Sicherheitsfunktionen angeführt; der Vortrag beschreibt die Sicht und Funde des Forschungsteams.",
+        "Die technische Lehre bleibt auch ohne vorschnelles Urteil klar: Ein Stillstand braucht eine nachvollziehbare Diagnose."
+      ],
+      "lesson": "Bei komplexen Maschinen Diagnose, Sperrbedingungen und zulässige Wiederinbetriebnahme nachvollziehbar dokumentieren.",
+      "source": [
+        "37C3 – Originalvortrag „Breaking DRM in Polish trains“",
+        "https://media.ccc.de/v/37c3-12142-breaking_drm_in_polish_trains"
+      ]
+    },
+    {
+      "id": "teams-externalfiles2023",
+      "number": 358,
+      "title": "Der Gastchat bringt eine Datei durch die falsche Tür",
+      "year": 2023,
+      "origin": "Sicherheitsforschung",
+      "daily": [
+        "Der Knopf sagte Nein. Der Server sagte im Versuch trotzdem Ja – eine ungünstige Arbeitsteilung beim Gastzugang.",
+        "JUMPSEC zeigte 2023, wie externe Teams-Kontakte eine Beschränkung für Dateiübertragungen umgehen konnten.",
+        "Die sichtbare Sperre im Programm genügte nicht als serverseitige Berechtigungsgrenze. Ein Anhang bedeutete aber noch nicht automatisch ausgeführten Schadcode.",
+        "Eine vertraute Chatoberfläche macht fremde Dateien nicht automatisch vertrauenswürdig."
+      ],
+      "lesson": "Berechtigungen auf dem Server durchsetzen; sichtbare Einschränkungen der Oberfläche sind nur eine zusätzliche Hilfe.",
+      "source": [
+        "JUMPSEC – Dateiübertragung aus externen Teams-Mandanten",
+        "https://labs.jumpsec.com/advisory-idor-in-microsoft-teams-allows-for-external-tenants-to-introduce-malware/"
+      ]
+    },
+    {
+      "id": "acropalypse2023",
+      "number": 359,
+      "title": "Das abgeschnittene Bild bewahrt sein Geheimnis auf",
+      "year": 2023,
+      "origin": "Sicherheitsforschung",
+      "daily": [
+        "Die Schere hatte das Bild verkleinert. Die Datei hatte den abgeschnittenen Rest vorsichtshalber noch im Anhang behalten.",
+        "2023 zeigte aCropalypse, dass bestimmte bearbeitete Pixel-Screenshots alte PNG-Datenreste enthalten konnten.",
+        "Unter passenden Bedingungen ließen sich daraus Bildteile rekonstruieren. Nicht jede Datei oder Plattform war gleichermaßen betroffen.",
+        "Ein späteres Update säuberte früher geteilte Bilder nicht rückwirkend. Unsichtbar ist bei vertraulichen Daten nicht dasselbe wie entfernt."
+      ],
+      "lesson": "Beim Schwärzen oder Zuschneiden den tatsächlich gespeicherten Dateiinhalt bereinigen, nicht nur die sichtbare Darstellung.",
+      "source": [
+        "David Buchanan – Originalanalyse von aCropalypse",
+        "https://www.da.vidbuchanan.co.uk/blog/exploiting-acropalypse.html"
+      ]
+    },
+    {
+      "id": "fractureiser2023",
+      "number": 360,
+      "title": "Die Minecraft-Erweiterung baut einen fremden Ausgang",
+      "year": 2023,
+      "origin": "Sicherheitsforschung",
+      "daily": [
+        "Die Mod versprach neue Spielmöglichkeiten. Unerwünschter Bonus: ein Bauauftrag für weitere Schadsoftware.",
+        "2023 wurde Fractureiser in manipulierten Minecraft-Erweiterungen untersucht.",
+        "Die mehrstufige Kette konnte weitere Komponenten laden und andere Java-Dateien verändern. Nur die erste verdächtige Datei zu löschen war deshalb nicht immer genug.",
+        "Nicht alle Mods waren betroffen. Entscheidend ist die konkrete Softwarekette, die auf dem eigenen Rechner ausgeführt wurde."
+      ],
+      "lesson": "Erweiterungen als ausführbare Software behandeln und nach einem Fund auch nachgeladene Stufen und Veränderungen prüfen.",
+      "source": [
+        "Fractureiser-Untersuchungsteam – Technischer Originalbericht Juni 2023",
+        "https://github.com/trigram-mrp/fractureiser/blob/main/docs/tech.md"
+      ]
+    },
+    {
+      "id": "triangulation2023",
+      "number": 361,
+      "title": "Das iPhone hat einen undokumentierten Seitengang",
+      "year": 2023,
+      "origin": "Sicherheitsforschung",
+      "daily": [
+        "Der Speicherschutz hatte eine hohe Mauer. Die Angriffskette fand einen ungewöhnlichen Seitengang in der Hardware.",
+        "2023 untersuchte Kaspersky reale iPhone-Angriffe und veröffentlichte Details zu Operation Triangulation.",
+        "Eine undokumentierte Chipfunktion half in der Kette beim Umgehen von Schutzmaßnahmen. Daraus folgt kein Beweis einer absichtlich eingebauten Angreifer-Hintertür.",
+        "Der Fall zeigt, warum auch starke Einzelschutzmaßnahmen im Zusammenspiel geprüft werden müssen."
+      ],
+      "lesson": "Komplexe Angriffsketten über Hardware- und Softwaregrenzen hinweg untersuchen und unbekannte Funktionen nicht vorschnell als Absicht deuten.",
+      "source": [
+        "Kaspersky GReAT – Operation Triangulation, Hardwareanalyse 2023",
+        "https://securelist.com/operation-triangulation-the-last-hardware-mystery/111669/"
+      ]
+    },
+    {
+      "id": "marsis-update2022",
+      "number": 362,
+      "title": "Das Marsradar bekommt nach 19 Jahren ein Update",
+      "year": 2022,
+      "origin": "Amtliche Quelle",
+      "daily": [
+        "Das Marsradar war 19 Jahre alt und bekam trotzdem noch etwas, worauf viele Handys neidisch wären: ein nützliches Softwareupgrade.",
+        "2022 überarbeitete ein Team die MARSIS-Software auf Mars Express und verbesserte die Datenverarbeitung.",
+        "Windows 98 gehörte zur ursprünglichen Entwicklungsumgebung auf der Erde – die Sonde war kein fliegender Windows-PC.",
+        "Die vorhandene Hardware lieferte danach mehr Beobachtungsmöglichkeiten. Alt muss nicht gleich ausgedient bedeuten."
+      ],
+      "lesson": "Bei langlebiger Technik Werkzeuge, Datenformate und Wissen bewahren, damit sinnvolle Verbesserungen möglich bleiben.",
+      "source": [
+        "ESA – Softwareupgrade für das 19 Jahre alte MARSIS-Instrument",
+        "https://www.esa.int/Enabling_Support/Operations/Software_upgrade_for_19-year-old_martian_water-spotter"
+      ]
+    },
+    {
+      "id": "safari-indexeddb2022",
+      "number": 363,
+      "title": "Ein Browsertab sieht das Namensschild des Nachbarn",
+      "year": 2022,
+      "origin": "Sicherheitsforschung",
+      "daily": [
+        "Die Schubladen waren getrennt. Leider konnte der Nachbar die Beschriftungen lesen – und daraus einiges über ihren Besitzer schließen.",
+        "2022 wurde eine Safari-15-Schwäche bei IndexedDB bekannt. Datenbanknamen konnten Informationen über andere besuchte Seiten verraten.",
+        "Das war kein freier Zugriff auf sämtliche fremden Datenbankinhalte. Schon die Namen konnten jedoch sensible Hinweise enthalten.",
+        "Apple korrigierte das Problem. Metadaten gehören eben auch zur Privatsphäre."
+      ],
+      "lesson": "Auch Namen, Kennungen und andere Metadaten konsequent nach ihrer Herkunft isolieren.",
+      "source": [
+        "Apple – Sicherheitskorrektur für Safari 15.3, CVE-2022-22594",
+        "https://support.apple.com/en-mn/103176"
+      ]
+    },
+    {
+      "id": "deere-doom2022",
+      "number": 364,
+      "title": "Der Traktorbildschirm hat jetzt ein Mais-Spiel",
+      "year": 2022,
+      "origin": "Sicherheitsforschung",
+      "daily": [
+        "Auf dem Traktorbildschirm wurde Mais plötzlich zum Spielthema. Für die Forschung war das mehr als eine kreative Mittagspause.",
+        "Sick Codes zeigte 2022 eine manipulierte John-Deere-Bedienkonsole mit einer angepassten Doom-Version.",
+        "Die Untersuchung brauchte Hardwarezugriff und war keine beliebige Internet-Fernsteuerung aller Landmaschinen.",
+        "Das Spiel machte eine Softwarefähigkeit sichtbar. Ein Spezialgerät bleibt eben auch ein Computer."
+      ],
+      "lesson": "Bei Spezialgeräten Zugriff, Reparierbarkeit und tatsächlich ausführbare Software getrennt und nachvollziehbar bewerten.",
+      "source": [
+        "Malwarebytes – Originalinterview mit Sick Codes zur Traktorkonsole",
+        "https://www.malwarebytes.com/blog/podcast/2022/08/playing-doom-on-a-john-deere-tractor-lock-and-code-s03e18"
+      ]
+    },
+    {
+      "id": "tesla-boombox2022",
+      "number": 365,
+      "title": "Das Auto übertönt seinen eigenen Warnhinweis",
+      "year": 2022,
+      "origin": "Unternehmensquelle",
+      "daily": [
+        "Der Außenlautsprecher bekam eine Spaßfunktion. Leider sollte er während der Fahrt gleichzeitig eine sehr ernsthafte Warnaufgabe erfüllen.",
+        "2022 rief Tesla wegen möglicher Überlagerung des Fußgängerwarntons durch Boombox-Geräusche betroffene Fahrzeuge zurück.",
+        "Ein Softwareupdate begrenzte die Funktion in den relevanten Fahrzuständen. Ein dadurch verursachter Unfall wird hier nicht behauptet.",
+        "Die Lehre klingt eindeutig: Wenn Spaß und Warnsignal denselben Lautsprecher nutzen, braucht die Warnung verlässlich Vorrang."
+      ],
+      "lesson": "Komfortfunktionen so begrenzen, dass sicherheitsrelevante Warnungen in jedem Betriebszustand wirksam bleiben.",
+      "source": [
+        "Tesla – Rückruf und Softwarekorrektur zur Boombox-Funktion",
+        "https://www.tesla.com/support/recall-disable-boombox"
+      ]
+    },
+    {
+      "id": "ingenuity-watchdog2021",
+      "number": 366,
+      "title": "Der Marshelikopter darf noch nicht abheben",
+      "year": 2021,
+      "origin": "Amtliche Quelle",
+      "daily": [
+        "Ingenuitys Wachhund passte auf die Uhr auf. So gründlich, dass der Helikopter vorerst Bodenpersonal blieb.",
+        "2021 störte eine Zeitbedingung den Wechsel vom Vorflug- in den Flugzustand. Der Marshelikopter blieb dabei sicher.",
+        "Die NASA passte Befehlsabläufe und Software an, damit der Schutzmechanismus und die Flugvorbereitung wieder zusammenpassten.",
+        "Die Lehre hebt ohne Rotoren ab: Wenn eine Sicherung anspricht, sollte man erst den Ablauf verstehen."
+      ],
+      "lesson": "Schutzmechanismen und Zustandswechsel gemeinsam testen; eine Abschaltung ist zunächst ein Diagnosehinweis.",
+      "source": [
+        "NASA – Ingenuitys Watchdog-Problem und Softwarekorrektur",
+        "https://science.nasa.gov/blog/flight-8-success-software-updates-and-next-steps/"
+      ]
+    },
+    {
+      "id": "cellebrite-files2021",
+      "number": 367,
+      "title": "Das Auslesewerkzeug wird selbst zum Prüfling",
+      "year": 2021,
+      "origin": "Sicherheitsforschung",
+      "daily": [
+        "Das Auslesewerkzeug wollte das Telefon durchleuchten. Eine präparierte Datei stellte ihm stattdessen eigene unangenehme Fragen.",
+        "2021 demonstrierte Signal Schwachstellen in Cellebrite-Software beim Verarbeiten fremder Gerätedaten.",
+        "Der Versuch konnte Code auf dem Untersuchungsrechner ausführen. Das ist kein Beweis, dass jede Auswertung tatsächlich manipuliert worden wäre.",
+        "Auch ein Sicherheitswerkzeug braucht Schutz – besonders dann, wenn es hauptberuflich unbekannte Dateien öffnet."
+      ],
+      "lesson": "Sicherheits- und Analysewerkzeuge beim Verarbeiten fremder Dateien isolieren und ebenso sorgfältig aktualisieren wie andere Software.",
+      "source": [
+        "Moxie Marlinspike/Signal – Analyse von Cellebrite-Software",
+        "https://signal.org/blog/cellebrite-vulnerabilities/"
+      ]
+    },
+    {
+      "id": "fbi-mails2021",
+      "number": 368,
+      "title": "Die falsche Warnung kommt vom echten Server",
+      "year": 2021,
+      "origin": "Amtliche Quelle",
+      "daily": [
+        "Die Warnung trug die richtige Serverherkunft und trotzdem die falsche Geschichte. Der Briefkopf hatte seinen eigenen Sicherheitsvorfall.",
+        "2021 wurde ein FBI-Benachrichtigungsdienst durch eine Fehlkonfiguration zum Versand falscher E-Mails missbraucht.",
+        "Das FBI grenzte den betroffenen Dienst vom normalen Mailnetz ab und meldete keinen Zugriff auf interne Daten oder persönliche Informationen.",
+        "Die Lehre: Ein echter Versandweg macht noch nicht jede darin verschickte Behauptung echt."
+      ],
+      "lesson": "Bei ungewöhnlichen Nachrichten technischen Absender, inhaltliche Plausibilität und unabhängige Bestätigung getrennt prüfen.",
+      "source": [
+        "FBI – Erklärung zu den gefälschten Nachrichten vom November 2021",
+        "https://www.fbi.gov/news/press-releases/fbi-statement-on-incident-involving-fake-emails"
+      ]
+    },
+    {
+      "id": "chatter-bluetooth2021",
+      "number": 369,
+      "title": "Das Spielzeugtelefon ist zu kontaktfreudig",
+      "year": 2021,
+      "origin": "Sicherheitsforschung",
+      "daily": [
+        "Das Spielzeugtelefon sah freundlich aus und war beim Kennenlernen neuer Funkpartner leider ebenfalls etwas zu freundlich.",
+        "2021 zeigte Pen Test Partners Schwächen der Bluetooth-Kopplung einer Chatter-Neuauflage.",
+        "Unter bestimmten Bedingungen waren unerwünschte Audioverbindungen in Funknähe möglich. Ein weltweiter Abhörzugriff war damit nicht belegt.",
+        "Wenn ein Spielzeug ein echtes Mikrofon und Funk bekommt, braucht es auch echte Regeln für seine Gesprächspartner."
+      ],
+      "lesson": "Bei vernetzten Spiel- und Audiogeräten Kopplung, Verbindungsanzeige und ausdrückliche Freigabe prüfen.",
+      "source": [
+        "Pen Test Partners – Untersuchung des Chatter-Bluetooth-Telefons",
+        "https://www.pentestpartners.com/security-blog/audio-bugging-with-the-fisher-price-chatter-bluetooth-telephone/"
+      ]
+    },
+    {
+      "id": "peloton-boot2021",
+      "number": 370,
+      "title": "Das Trainingsrad bekommt ein fremdes Programm",
+      "year": 2021,
+      "origin": "Sicherheitsforschung",
+      "daily": [
+        "Das Trainingsrad sollte die Beine beschäftigen. Im Test bekam stattdessen sein Rechner ein nicht bestelltes Zusatzprogramm.",
+        "2021 demonstrierte McAfee einen manipulierten Startweg am Peloton Bike+.",
+        "Dafür war direkter Gerätezugriff nötig. Peloton korrigierte den gemeldeten Weg; ein allgemeiner Fernangriff auf alle Räder war damit nicht belegt.",
+        "Auch ein Fitnessgerät braucht einen geschützten Softwarestart. Schwitzen allein ist noch kein Sicherheitskonzept."
+      ],
+      "lesson": "Bei vernetzten Geräten den Startprozess und physisch erreichbare Wartungswege zusätzlich zur normalen App absichern.",
+      "source": [
+        "McAfee ATR – Originalanalyse zum Peloton Bike+ 2021",
+        "https://www.mcafee.com/blogs/other-blogs/mcafee-labs/a-new-program-for-your-peloton-whether-you-like-it-or-not/"
+      ]
     }
   ]
 }

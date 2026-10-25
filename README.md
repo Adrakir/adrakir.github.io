@@ -2,7 +2,7 @@
 
 [Online-App öffnen](https://adrakir.github.io/)
 
-340 illustrierte Akten mit Quellen, drei Kapiteln, einer kurzen Tagesgeschichte und zwei Quizfragen pro Akte. Drei Akten sind ausdrücklich fiktive Trainingsfälle. Die übrigen sind dokumentierte Vorfälle, Forschungsfälle und Technikgeschichte. Die App ist ein unabhängiges Lernprojekt, keine offizielle oder vom BSI geprüfte Anwendung.
+370 illustrierte Akten mit Quellen, drei Kapiteln, einer kurzen Tagesgeschichte und zwei Quizfragen pro Akte. Drei Akten sind ausdrücklich fiktive Trainingsfälle. Die übrigen sind dokumentierte Vorfälle, Forschungsfälle und Technikgeschichte. Die App ist ein unabhängiges Lernprojekt, keine offizielle oder vom BSI geprüfte Anwendung.
 
 ## Lesen und entdecken
 
@@ -32,4 +32,4 @@ npm install
 npm test
 ```
 
-Die Tests prüfen alle 340 Kurzansichten, Themen und Kennzeichnung, Archivgrenzen, Vorlesen, Verweise und Vergleich, gespeicherte Wiederholungen, Übernahme des vorhandenen Lernstands, Direktlinks und Offline-Auslieferung. Die Installation auf einem konkreten Gerät bleibt browserabhängig. Für eine neue Offline-Version den Cache-Namen in `sw.js` erhöhen und die Funktionstests ausführen.
+Die Tests prüfen alle 370 Kurzansichten, Themen und Kennzeichnung, Archivgrenzen, Vorlesen, Verweise und Vergleich, gespeicherte Wiederholungen, Übernahme des vorhandenen Lernstands, Direktlinks und Offline-Auslieferung. Die Installation auf einem konkreten Gerät bleibt browserabhängig. Für eine neue Offline-Version den Cache-Namen in `sw.js` erhöhen und die Funktionstests ausführen.
