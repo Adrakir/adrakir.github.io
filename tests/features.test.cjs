@@ -14,8 +14,8 @@ function start(saved,url='https://adrakir.github.io/'){
 }
 let dom=start({favorites:['loveletter'],visited:{loveletter:true},done:{loveletter:{q:true,decision:true}},theme:'light'}),w=dom.window,d=w.document,ev=s=>w.eval(s);
 function click(selector){const el=d.querySelector(selector);assert(el,selector);el.click();}
-assert.equal(ev('STORIES.length'),370);assert.equal(ev('completed("loveletter")'),true);assert.equal(ev('state.favorites[0]'),'loveletter');assert.equal(d.body.dataset.theme,'light');
-assert.equal(d.querySelectorAll('.topic-card').length,8);
+assert.equal(ev('STORIES.length'),381);assert.equal(ev('completed("loveletter")'),true);assert.equal(ev('state.favorites[0]'),'loveletter');assert.equal(d.body.dataset.theme,'light');
+assert.equal(d.querySelectorAll('.topic-card').length,12);
 let shortCount=0;
 for(const c of ev('STORIES')){ev(`openShort(${JSON.stringify(c.id)})`);assert.equal(d.querySelectorAll('.brief-text p').length,4);assert.equal(d.querySelector('.brief-text').textContent,c.daily.join(''));assert(d.querySelector('.content-type').textContent.includes(ev(`contentType(find(${JSON.stringify(c.id)})).label`)));shortCount++;}
 ev('openShort("xerox2013")');click('[data-brief-speak]');assert.equal(ev('speechTask.mode'),'short');utterances[0].onstart();assert(d.querySelector('#speech-status').textContent.includes('läuft'));
@@ -25,7 +25,7 @@ assert.equal(ev('overlapCandidates([STORIES[0],{...STORIES[0],id:"dupe"}]).lengt
 assert.equal(ev('overlapCandidates([find("rsa"),find("lockheed")]).length'),0);
 click('[data-compare="rsa|lockheed"]');assert.equal(ev('state.compareA'),'rsa');assert.equal(ev('state.compareB'),'lockheed');assert.equal(d.querySelectorAll('.compare-card').length,2);
 ev('go("library")');click('[data-topic="ccc"]');assert.equal(ev('getFilteredCases().length'),24);assert(ev('getFilteredCases().some(c=>c.id==="xerox2013")'));
-click('[data-action="reset-filters"]');const type=d.querySelector('#content-type');type.value='fiction';type.dispatchEvent(new w.Event('change',{bubbles:true}));assert.equal(ev('getFilteredCases().length'),3);assert.equal(d.querySelectorAll('.type-fiction').length,3);
+click('[data-action="reset-filters"]');const type=d.querySelector('#content-type');type.value='fiction';type.dispatchEvent(new w.Event('change',{bubbles:true}));assert.equal(ev('getFilteredCases().length'),5);assert.equal(d.querySelectorAll('.type-fiction').length,5);
 click('[data-action="reset-filters"]');click('[data-tag="Weitere 30"]');assert.equal(d.querySelectorAll('.casecard').length,24);click('[data-action="more"]');assert.equal(d.querySelectorAll('.casecard').length,30);
 ev('go("archive")');assert.equal(ev('state.archiveDate'),'2026-10-25');assert(d.querySelector('.brief-card').textContent.includes('Das Bild mit zu viel Wirkung'));click('[data-archive-shift="-1"]');assert.equal(ev('state.archiveDate'),'2026-10-24');assert(d.querySelector('.brief-card').textContent.includes('610.000 Aktien'));
 assert.equal(ev('setArchiveDate("2026-10-23")'),false);assert.equal(ev('setArchiveDate("2026-02-30")'),false);assert.equal(ev('setArchiveDate("2026-10-26")'),false);assert.equal(ev('state.archiveDate'),'2026-10-24');click('[data-archive-shift="1"]');assert.equal(ev('state.archiveDate'),'2026-10-25');
