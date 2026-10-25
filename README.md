@@ -104,3 +104,9 @@ Die redaktionellen Quellen liegen in `scripts/everyday-cases.json` und `scripts/
 Eigener Bereich unter `#sicherheit`, getrennt von den 387 Akten. Acht Grundlagen-Einheiten mit Checklisten, Verständnisfragen und verlinkten Primär- bzw. Verbraucherquellen. Antworten und Vorhaben bleiben nur für die Sitzung im Speicher und verändern den Akten-Lernstand nicht. Keine Geräte- oder Kontoprüfung.
 
 Inhalte: `scripts/security-content.json`, Darstellung: `scripts/security-ui.js` und `scripts/security.css`. Nach Änderungen mit `python scripts/build-security.py` in die Offline-App einbetten. Anschließend `npm test`. Quellenstand: 25.10.2026.
+
+### Mitmachlabor und Spiele
+
+Jede der acht Security-Einheiten enthält ein visuelles Beispiel mit drei Varianten und drei Lernspiele, insgesamt 24 Spiele mit sechs Spielmechaniken: Sortieren, Ablauf-Puzzle, Begriffsbrücken, Memo, Detektivspiel und Schutz-Werkstatt. Alle Situationen sind fiktive, vereinfachte Modelle ohne Gerätezugriff. Bedienung per Antippen und Tastatur, ohne Zeitdruck. Animationen beachten die App-Einstellung und `prefers-reduced-motion`.
+
+Konfiguration: `scripts/security-games.json`; Oberfläche: `scripts/security-games.js` und `scripts/security-games.css`. `python scripts/build-security.py` bettet alle Inhalte für die Offline-Nutzung ein. Spielstände und Sterne liegen nur im Sitzungsspeicher; Akten-Lernstände bleiben getrennt.
