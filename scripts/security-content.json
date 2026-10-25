@@ -1,0 +1,322 @@
+[
+  {
+    "id": "grundlagen",
+    "icon": "🧭",
+    "title": "Was schützen wir eigentlich?",
+    "subtitle": "Cybersecurity, Datensicherheit und Datenschutz auseinanderhalten",
+    "text": [
+      "Cybersecurity schützt vernetzte Geräte, Konten und Dienste vor digitalen Angriffen. Datensicherheit schützt Informationen auch vor versehentlichem Löschen, falschen Änderungen und technischen Ausfällen. Nicht jede Panne ist also ein Hackerangriff.",
+      "Drei Schutzziele helfen beim Einordnen: Vertraulichkeit heißt, dass nur Berechtigte Informationen lesen. Integrität heißt, dass Daten korrekt und unversehrt bleiben. Verfügbarkeit heißt, dass Berechtigte sie rechtzeitig nutzen können.",
+      "Datenschutz fragt zusätzlich nach dem Umgang mit personenbezogenen Daten: Welche Angaben werden wofür benötigt, wer erhält sie und wie lange bleiben sie gespeichert? Eine verschlüsselte Datensammlung ist deshalb nicht automatisch datenschutzgerecht."
+    ],
+    "checks": [
+      "Wichtige Daten und zuständige Personen benennen.",
+      "Für diese Daten alle drei Schutzziele prüfen.",
+      "Nur die für den jeweiligen Zweck benötigten personenbezogenen Daten verwenden."
+    ],
+    "lesson": "Daten sollen vertraulich, unverfälscht und rechtzeitig verfügbar sein.",
+    "question": [
+      "Eine Datei ist korrekt und nur für Berechtigte lesbar. Beim Termin lässt sie sich aber nicht öffnen. Welches Schutzziel ist betroffen?",
+      [
+        "Verfügbarkeit",
+        "Nur Vertraulichkeit",
+        "Keines, weil die Datei verschlüsselt ist"
+      ],
+      0,
+      "Auch eine unveränderte und geschützte Datei muss rechtzeitig nutzbar sein."
+    ],
+    "sources": [
+      [
+        "BSI – Standard 200-2, Grundwerte der Informationssicherheit",
+        "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/BSI_Standards/standard_200_2.pdf?__blob=publicationFile&v=2"
+      ],
+      [
+        "Berliner Datenschutzbeauftragte – Sichere IT-Nutzung",
+        "https://www.datenschutz-berlin.de/buergerinnen-und-buerger/selbstdatenschutz/it-sicherheit"
+      ]
+    ],
+    "cases": [
+      "gitlab-delete"
+    ]
+  },
+  {
+    "id": "konten",
+    "icon": "🔑",
+    "title": "Konten und Zugänge schützen",
+    "subtitle": "Passwörter, Passkeys und Mehrfaktor-Anmeldung",
+    "text": [
+      "Verwende für jeden Dienst ein eigenes, langes Passwort. Ein Passwort-Manager kann unterschiedliche Zugangsdaten erzeugen und verwalten. Sein Hauptzugang braucht besonders guten Schutz. Ändere ein Passwort bei Verdacht auf Missbrauch oder Bekanntwerden eines Datenlecks; ein bloßer Kalendertermin macht ein gutes Passwort nicht unsicher.",
+      "Mehrfaktor-Anmeldung ergänzt den Zugang um einen weiteren Nachweis. Bestätige nur Anmeldungen, die du selbst begonnen hast. Passkeys sind an den jeweiligen Dienst gebunden und erschweren klassische Phishing-Angriffe. Sie ersetzen aber weder Geräteschutz noch einen durchdachten Wiederherstellungsweg.",
+      "Schütze besonders das E-Mail-Konto: Darüber lassen sich oft andere Konten zurücksetzen. Bewahre Wiederherstellungscodes geschützt und getrennt vom einzigen Anmeldegerät auf. Teile weder Passwörter noch Einmalcodes mit vermeintlichem Support."
+    ],
+    "checks": [
+      "Unterschiedliche Zugangsdaten oder angebotene Passkeys nutzen.",
+      "Mehrfaktor-Schutz und Wiederherstellung für wichtige Konten einrichten.",
+      "Unbekannte Anmeldeaufforderungen ablehnen und den Zugang unabhängig prüfen."
+    ],
+    "lesson": "Nicht nur die Anmeldung schützen, auch den Weg zurück ins Konto.",
+    "question": [
+      "Dein Handy zeigt eine Anmeldefreigabe, obwohl du dich gerade nirgends anmeldest. Was passt?",
+      [
+        "Trotzdem bestätigen, damit die Meldung verschwindet",
+        "Ablehnen und den Kontozugang über die echte App prüfen",
+        "Den angezeigten Code an den Anrufer weitergeben"
+      ],
+      1,
+      "Eine unerwartete Freigabe ist kein Anlass zum Bestätigen. Nutze einen unabhängig geöffneten Zugang."
+    ],
+    "sources": [
+      [
+        "BSI – Passwort-Manager",
+        "https://www.bsi.bund.de/DE/Themen/Verbraucherinnen-und-Verbraucher/Informationen-und-Empfehlungen/Cyber-Sicherheitsempfehlungen/Accountschutz/Sichere-Passwoerter-erstellen/Passwort-Manager/passwort-manager_node.html"
+      ],
+      [
+        "BSI – Passkeys",
+        "https://www.bsi.bund.de/DE/Themen/Verbraucherinnen-und-Verbraucher/Informationen-und-Empfehlungen/Cyber-Sicherheitsempfehlungen/Accountschutz/Passkeys/passkeys-anmelden-ohne-passwort_node.html"
+      ],
+      [
+        "BSI – Passwortwechseln war gestern",
+        "https://www.bsi.bund.de/DE/Service-Navi/Presse/Pressemitteilungen/Presse2025/250131_Passwortwechsel_next-level.html"
+      ]
+    ],
+    "cases": [
+      "sec-simswap2024"
+    ]
+  },
+  {
+    "id": "phishing",
+    "icon": "🎣",
+    "title": "Täuschungen erkennen und prüfen",
+    "subtitle": "E-Mail, SMS, QR-Codes und falscher Support",
+    "text": [
+      "Phishing versucht, dich zu einer schädlichen Handlung zu bringen: Zugangsdaten eingeben, eine Zahlung freigeben oder eine Datei öffnen. Das kann per E-Mail, SMS, Telefon oder QR-Code beginnen. Druck, Drohungen und ungewöhnliche Geheimhaltungswünsche sind Warnsignale.",
+      "Ein bekanntes Logo, fehlerfreies Deutsch oder dein richtiger Name beweisen keine Echtheit. Auch eine verschlüsselte HTTPS-Verbindung bestätigt nicht, dass der Anbieter vertrauenswürdig ist.",
+      "Unterbrich die Situation. Öffne die bekannte App selbst oder nutze eine bereits bekannte Adresse. Frage über einen unabhängig ermittelten Kontakt nach. Verwende dafür weder den Link noch die Telefonnummer aus der verdächtigen Nachricht."
+    ],
+    "checks": [
+      "Bei unerwarteten Aufforderungen kurz stoppen.",
+      "Anlass und Absender unabhängig überprüfen.",
+      "Keine Codes, Anhänge oder Zahlungsfreigaben auf Zuruf verwenden."
+    ],
+    "lesson": "Vertrauen prüfen, bevor der nächste Klick Folgen hat.",
+    "question": [
+      "Eine Nachricht droht mit Kontosperrung und enthält einen QR-Code zur Anmeldung. Wie prüfst du den Anlass?",
+      [
+        "QR-Code scannen und erst danach nachdenken",
+        "Auf das korrekte Logo vertrauen",
+        "Die bekannte App selbst öffnen und dort nachsehen"
+      ],
+      2,
+      "Der unabhängige Einstieg vermeidet den vorgegebenen Weg der Nachricht."
+    ],
+    "sources": [
+      [
+        "Verbraucherzentrale – Phishing erkennen",
+        "https://www.verbraucherzentrale.de/wissen/digitale-welt/phishingradar/phishingmails-woran-sie-sie-erkennen-und-worauf-sie-achten-muessen-6073"
+      ]
+    ],
+    "cases": [
+      "marketplace-fakepay2024"
+    ]
+  },
+  {
+    "id": "geraete",
+    "icon": "📱",
+    "title": "Geräte und Software absichern",
+    "subtitle": "Updates, Bildschirmsperre und sparsame Rechte",
+    "text": [
+      "Updates schließen bekannte Sicherheitslücken. Halte Betriebssystem, Browser und Apps aktuell und aktiviere passende automatische Aktualisierungen. Prüfe auch Router und andere vernetzte Geräte. Wenn ein Produkt keine Sicherheitsupdates mehr bekommt, plane einen unterstützten Ersatz.",
+      "Nutze eine Bildschirmsperre und installiere Programme aus vertrauenswürdigen Originalquellen. Eine angebliche Warnung auf einer Webseite ist kein Auftrag, dort angebotene Sicherheitssoftware zu installieren.",
+      "Gib Apps und Konten nur die Rechte, die ihre Aufgabe benötigt. Ein Alltagskonto braucht nicht ständig Administratorrechte. Auf Schul- und Arbeitsgeräten gelten die Vorgaben der zuständigen IT; Sicherheitseinstellungen werden dort abgestimmt."
+    ],
+    "checks": [
+      "Update-Status von System, Browser und Apps prüfen.",
+      "Gerätesperre und vorhandene Schutzfunktionen nutzen.",
+      "Berechtigungen und nicht mehr benötigte Apps durchsehen."
+    ],
+    "lesson": "Aktuell halten, sperren und nur nötige Rechte vergeben.",
+    "question": [
+      "Eine Webseite behauptet, dein Gerät sei infiziert, und bietet sofort einen Download an. Was ist sinnvoll?",
+      [
+        "Die Warnung nicht als Diagnose übernehmen und Schutzfunktionen über die bekannten Systemeinstellungen prüfen",
+        "Die angebotene Datei sofort installieren",
+        "Die Bildschirmsperre deaktivieren"
+      ],
+      0,
+      "Webseiten-Werbung ersetzt keine Prüfung des Geräts. Nutze die bekannten Werkzeuge und bei Bedarf die zuständige IT."
+    ],
+    "sources": [
+      [
+        "BSI – Updates, Browser und Open Source",
+        "https://www.bsi.bund.de/DE/Themen/Verbraucherinnen-und-Verbraucher/Informationen-und-Empfehlungen/Cyber-Sicherheitsempfehlungen/Updates-Browser-Open-Source-Software/updates-browser-open-source-software_node.html"
+      ],
+      [
+        "BSI – Basistipps",
+        "https://www.bsi.bund.de/DE/Themen/Verbraucherinnen-und-Verbraucher/Informationen-und-Empfehlungen/Cyber-Sicherheitsempfehlungen/cyber-sicherheitsempfehlungen_node.html"
+      ]
+    ],
+    "cases": [
+      "libwebp2023"
+    ]
+  },
+  {
+    "id": "backups",
+    "icon": "🗄️",
+    "title": "Daten sichern und zurückholen",
+    "subtitle": "Ein Backup braucht einen funktionierenden Rückweg",
+    "text": [
+      "Ein Backup ist eine zusätzliche, wiederherstellbare Sicherung. Ein zweiter Ordner auf derselben Festplatte schützt nicht vor deren Defekt. Reine Synchronisation reicht ebenfalls nicht: Sie kann versehentliches Löschen oder beschädigte Dateien auf andere Geräte übertragen.",
+      "Lege mehrere Sicherungen mit getrennten Speicherorten und geeigneten Aufbewahrungsständen an. Mindestens eine Sicherung sollte gegen Änderungen vom Alltagsgerät geschützt sein, etwa durch einen nach der Sicherung getrennten Datenträger oder entsprechend geschützte Sicherungsversionen.",
+      "Prüfe regelmäßig die Wiederherstellung einer Testdatei. Schütze Sicherungen und ihre Zugangsdaten vor fremdem Zugriff. Bei Schadsoftware-Verdacht keine Sicherung unüberlegt am betroffenen Gerät anschließen; die Wiederherstellung gehört auf ein geprüftes, sauberes System."
+    ],
+    "checks": [
+      "Wichtige Daten regelmäßig zusätzlich sichern.",
+      "Sicherungen getrennt und vor unbeabsichtigten Änderungen geschützt aufbewahren.",
+      "Eine Testdatei aus einer Sicherung wiederherstellen."
+    ],
+    "lesson": "Eine Sicherung zählt erst, wenn sich daraus Daten zurückholen lassen.",
+    "question": [
+      "Ein synchronisierter Ordner übernimmt eine versehentliche Löschung. Was hilft verlässlich weiter?",
+      [
+        "Mehrere Verknüpfungen zu demselben Ordner",
+        "Ein wiederherstellbarer, geschützter Sicherungsstand vor der Löschung",
+        "Ein neuer Dateiname für den leeren Ordner"
+      ],
+      1,
+      "Entscheidend ist ein nutzbarer älterer Sicherungsstand, nicht die Anzahl der Verknüpfungen."
+    ],
+    "sources": [
+      [
+        "NCSC – Schutz vor Malware und Ransomware",
+        "https://www.ncsc.gov.uk/guidance/mitigating-malware-and-ransomware-attacks"
+      ],
+      [
+        "NCSC – Daten sichern",
+        "https://www.ncsc.gov.uk/collection/top-tips-for-staying-secure-online/always-back-up-your-most-important-data"
+      ]
+    ],
+    "cases": [
+      "gitlab-delete"
+    ]
+  },
+  {
+    "id": "verschluesselung",
+    "icon": "🔐",
+    "title": "Verschlüsseln und gezielt teilen",
+    "subtitle": "Inhalte schützen und Empfänger prüfen",
+    "text": [
+      "Verschlüsselung macht Daten ohne den passenden Schlüssel unlesbar. Sie schützt zum Beispiel gespeicherte Dateien bei Geräteverlust oder Inhalte auf einem Übertragungsweg. Wer den Schlüssel oder einen bereits entsperrten Zugang besitzt, kann die Inhalte unter Umständen trotzdem lesen.",
+      "Geräteverschlüsselung, eine HTTPS-Verbindung und Ende-zu-Ende-Verschlüsselung schützen unterschiedliche Abschnitte. Bei Ende-zu-Ende-Verschlüsselung sind die Inhalte zwischen den beteiligten Endgeräten geschützt. Ein kompromittiertes Endgerät bleibt ein Risiko.",
+      "Prüfe beim Teilen die tatsächlichen Empfänger und Berechtigungen. Ein öffentlicher Freigabelink ist eine andere Entscheidung als eine Freigabe an bestimmte Personen. Bewahre Wiederherstellungsschlüssel geschützt auf: Verschlüsselung ersetzt kein Backup."
+    ],
+    "checks": [
+      "Geräte- und Dateischutz passend zum Inhalt wählen.",
+      "Empfänger und Lese- oder Bearbeitungsrechte vor der Freigabe prüfen.",
+      "Wiederherstellungsschlüssel geschützt und auffindbar aufbewahren."
+    ],
+    "lesson": "Verschlüsselung schützt Inhalte; Freigaberechte bestimmen den Zugang.",
+    "question": [
+      "Ein Dokument ist verschlüsselt gespeichert, aber per öffentlichem Freigabelink lesbar. Ist der Empfängerkreis dadurch begrenzt?",
+      [
+        "Ja, Verschlüsselung begrenzt immer jeden Zugriff",
+        "Ja, solange der Dateiname unbekannt ist",
+        "Nein, die Freigabe muss passend eingeschränkt werden"
+      ],
+      2,
+      "Speicherverschlüsselung ersetzt keine gezielte Freigabe."
+    ],
+    "sources": [
+      [
+        "BSI – Daten verschlüsseln, löschen und sichern",
+        "https://www.bsi.bund.de/DE/Themen/Verbraucherinnen-und-Verbraucher/Informationen-und-Empfehlungen/Cyber-Sicherheitsempfehlungen/Daten-sichern-verschluesseln-und-loeschen/daten-sichern-verschluesseln-und-loeschen.html"
+      ],
+      [
+        "Berliner Datenschutzbeauftragte – Sichere IT-Nutzung",
+        "https://www.datenschutz-berlin.de/buergerinnen-und-buerger/selbstdatenschutz/it-sicherheit"
+      ]
+    ],
+    "cases": []
+  },
+  {
+    "id": "datenschutz",
+    "icon": "👁️",
+    "title": "Mit persönlichen Daten sparsam umgehen",
+    "subtitle": "Berechtigungen, Tracking und Alltag",
+    "text": [
+      "Personenbezogene Daten können sich auf eine bestimmte oder bestimmbare Person beziehen. Dazu gehören nicht nur Namen, sondern je nach Zusammenhang auch Kennungen oder Standortdaten. Überlege vor einer Eingabe, ob die Angabe für den Zweck nötig ist.",
+      "Prüfe App-Berechtigungen: Eine Funktion benötigt nicht automatisch Kontakte, Mikrofon und dauerhaften Standort. Erlaube passende Zugriffe möglichst nur während der Nutzung und prüfe sie erneut, wenn sich die Aufgabe ändert.",
+      "Tracking kann Aktivitäten über Dienste hinweg verknüpfen. Gehe bewusster mit Einwilligungen und Freigaben um. Auch ein technisch abgesicherter Dienst kann mehr Daten sammeln als für deine Aufgabe nötig. Für Schule und Arbeit nutze die dafür vorgesehenen Dienste und Zuständigkeiten."
+    ],
+    "checks": [
+      "Vor Eingaben den Zweck und nötigen Umfang prüfen.",
+      "App-Berechtigungen und Freigaben regelmäßig durchsehen.",
+      "Vertrauliche oder personenbezogene Inhalte nur über dafür vorgesehene Dienste teilen."
+    ],
+    "lesson": "Was nicht benötigt wird, muss auch nicht mitgeschickt werden.",
+    "question": [
+      "Eine einfache Taschenlampen-App verlangt Zugriff auf dein vollständiges Adressbuch. Was ist eine gute Reaktion?",
+      [
+        "Den Zugriff ablehnen und prüfen, ob die App sinnvoll nutzbar ist",
+        "Alle Berechtigungen erteilen, weil die App sonst beleidigt ist",
+        "Die Kontakte vorab öffentlich hochladen"
+      ],
+      0,
+      "Eine Berechtigung braucht einen nachvollziehbaren Bezug zur benötigten Funktion."
+    ],
+    "sources": [
+      [
+        "Berliner Datenschutzbeauftragte – Sichere IT-Nutzung",
+        "https://www.datenschutz-berlin.de/buergerinnen-und-buerger/selbstdatenschutz/it-sicherheit"
+      ],
+      [
+        "BSI – Daten schützen",
+        "https://www.bsi.bund.de/DE/Themen/Verbraucherinnen-und-Verbraucher/Informationen-und-Empfehlungen/Cyber-Sicherheitsempfehlungen/Daten-sichern-verschluesseln-und-loeschen/daten-sichern-verschluesseln-und-loeschen.html"
+      ]
+    ],
+    "cases": [
+      "goodrx-trackers2023"
+    ]
+  },
+  {
+    "id": "ernstfall",
+    "icon": "🛟",
+    "title": "Ruhig handeln im Ernstfall",
+    "subtitle": "Je nach Vorfall die passenden nächsten Schritte",
+    "text": [
+      "Notiere, was wann passiert ist, und bewahre verdächtige Nachrichten oder sichtbare Fehlermeldungen als Hinweise auf. Auf einem Arbeits- oder Schulgerät informierst du sofort die zuständige IT über einen bekannten Kontakt und befolgst den Notfallplan. Lösche oder setze das Gerät nicht vorschnell zurück.",
+      "Hast du Zugangsdaten preisgegeben, öffne den echten Anbieter auf einem vertrauenswürdigen Gerät. Sichere den betroffenen Zugang, prüfe Wiederherstellungswege und beende fremde Sitzungen. Bei betroffenen Zahlungsdaten oder unbekannten Zahlungen kontaktiere sofort die Bank über einen unabhängig bekannten Kontakt.",
+      "Bei Verdacht auf laufende Schadsoftware trenne ein privates betroffenes Gerät möglichst vom Netz und hole fachkundige Hilfe. Schließe keine Backup-Datenträger an. Ein angeklickter Link, eingegebene Zugangsdaten und gestartete Schadsoftware sind unterschiedliche Situationen und brauchen unterschiedliche Maßnahmen."
+    ],
+    "checks": [
+      "Bekannte Notfallkontakte außerhalb des betroffenen Kontos bereithalten.",
+      "Beobachtungen festhalten und zuständige Stelle informieren.",
+      "Wiederherstellung erst nach Klärung und mit sauberen Geräten angehen."
+    ],
+    "lesson": "Stoppen, einordnen, melden und gezielt wiederherstellen.",
+    "question": [
+      "Nach einem verdächtigen Anhang verhält sich der Arbeitsrechner ungewöhnlich. Was passt?",
+      [
+        "Alle Dateien löschen, damit niemand etwas merkt",
+        "Die zuständige IT über einen bekannten Kontakt informieren und den Notfallplan befolgen",
+        "Das Backup-Laufwerk zur Sicherheit sofort anschließen"
+      ],
+      1,
+      "Frühes Melden und abgestimmtes Handeln helfen, Ausbreitung und Beweisverlust zu vermeiden."
+    ],
+    "sources": [
+      [
+        "BSI – Ich habe einen IT-Sicherheitsvorfall",
+        "https://www.bsi.bund.de/DE/IT-Sicherheitsvorfall/Buergerinnen-und-Buerger/Ich-habe-einen-IT-Sicherheitsvorfall-Was-soll-ich-tun/ich-habe-einen-it-sicherheitsvorfall-was-soll-ich-tun.html"
+      ],
+      [
+        "NCSC – Malware und Ransomware",
+        "https://www.ncsc.gov.uk/guidance/mitigating-malware-and-ransomware-attacks"
+      ],
+      [
+        "Verbraucherzentrale – Nach einem Phishing-Versuch",
+        "https://www.verbraucherzentrale.de/wissen/digitale-welt/phishingradar/phishingmails-woran-sie-sie-erkennen-und-worauf-sie-achten-muessen-6073"
+      ]
+    ],
+    "cases": []
+  }
+]

@@ -98,3 +98,9 @@ Der Filter „Alltag & Fehlerketten (6)“ zeigt die neuen Fälle. „Der zweite
 Die Tabellenübung arbeitet ausschließlich mit fest vorgegebenen erfundenen Kennungen. Sie zeigt Text, Zahleninterpretation und nachträgliche Fünfstellen-Anzeige nebeneinander. Sie lädt keine Datei hoch und bildet keinen vollständigen Excel-Import nach. Die Kontenübung verändert keine realen Benutzer, Rollen oder Schutzmaßnahmen.
 
 Die redaktionellen Quellen liegen in `scripts/everyday-cases.json` und `scripts/cascade-cases.json`. Der bestehende Erweiterungshelfer bindet sie ein. Alle bisherigen Standardfragen, Lernstände und datierten Tagesfälle bleiben erhalten. Die zusätzlichen Fehlerketten zählen separat vom Aktenabschluss.
+
+## Cybersecurity & Datensicherheit
+
+Eigener Bereich unter `#sicherheit`, getrennt von den 387 Akten. Acht Grundlagen-Einheiten mit Checklisten, Verständnisfragen und verlinkten Primär- bzw. Verbraucherquellen. Antworten und Vorhaben bleiben nur für die Sitzung im Speicher und verändern den Akten-Lernstand nicht. Keine Geräte- oder Kontoprüfung.
+
+Inhalte: `scripts/security-content.json`, Darstellung: `scripts/security-ui.js` und `scripts/security.css`. Nach Änderungen mit `python scripts/build-security.py` in die Offline-App einbetten. Anschließend `npm test`. Quellenstand: 25.10.2026.
