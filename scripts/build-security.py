@@ -6,8 +6,11 @@ root=Path(__file__).resolve().parent.parent
 page=root/'index.html'
 text=page.read_text()
 data=json.loads((root/'scripts/security-content.json').read_text())
-js='// SECURITY_UI_START\nconst SECURITY_MODULES = '+json.dumps(data,ensure_ascii=False,separators=(',',':'))+';\n'+(root/'scripts/security-ui.js').read_text()+'\n// SECURITY_UI_END'
-css='/* SECURITY_CSS_START */\n'+(root/'scripts/security.css').read_text()+'\n/* SECURITY_CSS_END */'
+play=json.loads((root/'scripts/security-games.json').read_text())
+assert set(play)=={m['id'] for m in data}
+assert all(len(pack['games'])==3 for pack in play.values())
+js='// SECURITY_UI_START\nconst SECURITY_MODULES = '+json.dumps(data,ensure_ascii=False,separators=(',',':'))+';\nconst SECURITY_PLAY = '+json.dumps(play,ensure_ascii=False,separators=(',',':'))+';\n'+(root/'scripts/security-ui.js').read_text()+'\n'+(root/'scripts/security-games.js').read_text()+'\n// SECURITY_UI_END'
+css='/* SECURITY_CSS_START */\n'+(root/'scripts/security.css').read_text()+'\n'+(root/'scripts/security-games.css').read_text()+'\n/* SECURITY_CSS_END */'
 if '// SECURITY_UI_START' in text:
     text=re.sub(r'// SECURITY_UI_START.*?// SECURITY_UI_END',lambda _:js,text,flags=re.S)
 else:

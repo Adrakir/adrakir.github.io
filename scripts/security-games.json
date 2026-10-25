@@ -1,0 +1,1238 @@
+{
+  "grundlagen": {
+    "example": {
+      "title": "Eine Datei – drei verschiedene Pannen",
+      "states": [
+        {
+          "label": "Fremde lesen mit",
+          "nodes": [
+            [
+              "📄",
+              "Vertrauliche Datei"
+            ],
+            [
+              "👀",
+              "Fremder Zugriff"
+            ],
+            [
+              "📢",
+              "Inhalt bekannt"
+            ]
+          ],
+          "result": "Vertraulichkeit verletzt: Unberechtigte können den Inhalt lesen.",
+          "tone": "risk"
+        },
+        {
+          "label": "Eine Zahl wird verändert",
+          "nodes": [
+            [
+              "📄",
+              "Betrag: 15"
+            ],
+            [
+              "✏️",
+              "Unbemerkte Änderung"
+            ],
+            [
+              "📄",
+              "Betrag: 51"
+            ]
+          ],
+          "result": "Integrität verletzt: Der Inhalt ist nicht mehr korrekt.",
+          "tone": "risk"
+        },
+        {
+          "label": "Die Datei fehlt beim Termin",
+          "nodes": [
+            [
+              "🗓️",
+              "Termin beginnt"
+            ],
+            [
+              "🚫",
+              "Server nicht erreichbar"
+            ],
+            [
+              "⌛",
+              "Datei fehlt"
+            ]
+          ],
+          "result": "Verfügbarkeit verletzt: Berechtigte kommen nicht rechtzeitig an die Datei.",
+          "tone": "risk"
+        }
+      ]
+    },
+    "games": [
+      {
+        "kind": "sort",
+        "title": "Schutzziel-Sortierer",
+        "instruction": "Bringe jede Situationskarte durch Antippen ins passende Fach.",
+        "items": [
+          {
+            "text": "Ein Unbefugter liest eine private Nachricht.",
+            "answer": 0,
+            "why": "Hier geht es um unerlaubtes Lesen."
+          },
+          {
+            "text": "Eine Kontonummer wird unbemerkt verändert.",
+            "answer": 1,
+            "why": "Hier wurde die Korrektheit des Inhalts verletzt."
+          },
+          {
+            "text": "Die benötigte Datei lässt sich beim Termin nicht abrufen.",
+            "answer": 2,
+            "why": "Hier fehlt rechtzeitiger Zugriff."
+          },
+          {
+            "text": "Ein offener Link zeigt vertrauliche Fotos.",
+            "answer": 0,
+            "why": "Der Empfängerkreis ist nicht passend begrenzt."
+          }
+        ],
+        "lesson": "Frage: Wer darf lesen, bleibt der Inhalt korrekt, ist er rechtzeitig nutzbar?",
+        "labels": [
+          "Vertraulichkeit",
+          "Integrität",
+          "Verfügbarkeit"
+        ]
+      },
+      {
+        "kind": "match",
+        "title": "Schutz-Domino",
+        "instruction": "Wähle links einen Begriff und rechts die passende Erklärung.",
+        "items": [
+          {
+            "left": "🔒 Vertraulichkeit",
+            "right": "Nur Berechtigte lesen.",
+            "why": "Berechtigungen begrenzen den Leserkreis."
+          },
+          {
+            "left": "🧩 Integrität",
+            "right": "Inhalte bleiben korrekt.",
+            "why": "Änderungen müssen kontrolliert sein."
+          },
+          {
+            "left": "⏱️ Verfügbarkeit",
+            "right": "Daten sind rechtzeitig nutzbar.",
+            "why": "Auch Berechtigte brauchen funktionierenden Zugriff."
+          }
+        ],
+        "lesson": "Die drei Schutzziele ergänzen sich."
+      },
+      {
+        "kind": "build",
+        "title": "Die sichere Dokumenteninsel",
+        "instruction": "Stelle das passende Schutzpaket zusammen. Wähle alle drei hilfreichen Bausteine und lass die zwei riskanten weg. Teste dann deinen Aufbau.",
+        "items": [
+          {
+            "text": "Freigabe nur für Berechtigte",
+            "safe": true,
+            "why": "Das begrenzt den Empfängerkreis."
+          },
+          {
+            "text": "Nachvollziehbare Änderungen",
+            "safe": true,
+            "why": "Änderungen können geprüft und zugeordnet werden."
+          },
+          {
+            "text": "Getestete Sicherung",
+            "safe": true,
+            "why": "Eine Wiederherstellung hilft nach Datenverlust."
+          },
+          {
+            "text": "Öffentlicher Link für alle",
+            "safe": false,
+            "why": "Dadurch könnten Unberechtigte lesen."
+          },
+          {
+            "text": "Einzige Kopie löschen",
+            "safe": false,
+            "why": "Damit fehlt eine nutzbare Datei."
+          }
+        ],
+        "lesson": "Schutz braucht mehrere passende Maßnahmen.",
+        "prompt": "Baue Schutz für ein gemeinsames wichtiges Dokument."
+      }
+    ]
+  },
+  "konten": {
+    "example": {
+      "title": "Was stoppt eine fremde Anmeldung?",
+      "states": [
+        {
+          "label": "Wiederverwendetes Passwort",
+          "nodes": [
+            [
+              "🔓",
+              "Passwort bekannt"
+            ],
+            [
+              "🔁",
+              "Auch hier verwendet"
+            ],
+            [
+              "🚪",
+              "Fremder Zugang möglich"
+            ]
+          ],
+          "result": "Ein bekannt gewordenes Passwort gefährdet weitere Konten, auf denen es ebenfalls benutzt wird.",
+          "tone": "risk"
+        },
+        {
+          "label": "Unerwartete MFA ablehnen",
+          "nodes": [
+            [
+              "🕵️",
+              "Fremder Anmeldeversuch"
+            ],
+            [
+              "📱",
+              "Du lehnst ab"
+            ],
+            [
+              "🛑",
+              "Freigabe fehlt"
+            ]
+          ],
+          "result": "Die unerwartete Freigabe bleibt aus. Prüfe anschließend den Zugang über die echte App.",
+          "tone": "good"
+        },
+        {
+          "label": "Passkey auf falscher Seite",
+          "nodes": [
+            [
+              "🎭",
+              "Falsche Anmeldeseite"
+            ],
+            [
+              "🔑",
+              "Passkey an Dienst gebunden"
+            ],
+            [
+              "🛑",
+              "Kein passender Schlüssel"
+            ]
+          ],
+          "result": "Die Bindung an den Dienst erschwert klassisches Phishing. Geräteschutz und Wiederherstellung bleiben wichtig.",
+          "tone": "good"
+        }
+      ]
+    },
+    "games": [
+      {
+        "kind": "memory",
+        "title": "Schlüssel-Memo",
+        "instruction": "Decke jeweils zwei Karten auf und finde gleiche Bild-Begriff-Paare. Nach einem Fehlversuch deckst du sie selbst wieder zu.",
+        "items": [
+          {
+            "text": "Passkey",
+            "icon": "🔑",
+            "why": "Ein Passkey ist an den jeweiligen Dienst gebunden."
+          },
+          {
+            "text": "Passwort-Manager",
+            "icon": "🗝️",
+            "why": "Ein Manager hilft bei unterschiedlichen starken Passwörtern."
+          },
+          {
+            "text": "Mehrfaktor-Schutz",
+            "icon": "📱",
+            "why": "Ein weiterer Nachweis erschwert fremde Anmeldung."
+          },
+          {
+            "text": "Wiederherstellung",
+            "icon": "🛟",
+            "why": "Ein geschützter Rückweg hilft bei Geräteverlust."
+          }
+        ],
+        "lesson": "Die Anmeldung und ihren Rückweg gemeinsam schützen."
+      },
+      {
+        "kind": "build",
+        "title": "Baue deinen Konto-Schutzschild",
+        "instruction": "Stelle das passende Schutzpaket zusammen. Wähle alle drei hilfreichen Bausteine und lass die zwei riskanten weg. Teste dann deinen Aufbau.",
+        "items": [
+          {
+            "text": "Eigenes langes Passwort",
+            "safe": true,
+            "why": "Einzigartige Zugangsdaten begrenzen Folgen anderer Datenlecks."
+          },
+          {
+            "text": "Mehrfaktor-Schutz",
+            "safe": true,
+            "why": "Ein zusätzlicher Nachweis schützt die Anmeldung."
+          },
+          {
+            "text": "Geschützte Wiederherstellungscodes",
+            "safe": true,
+            "why": "Sie helfen, wenn das einzige Anmeldegerät fehlt."
+          },
+          {
+            "text": "Dasselbe Passwort überall",
+            "safe": false,
+            "why": "Ein Datenleck könnte mehrere Konten betreffen."
+          },
+          {
+            "text": "Code an Anrufer weitergeben",
+            "safe": false,
+            "why": "Einmalcodes gehören nicht in fremde Hände."
+          }
+        ],
+        "lesson": "Keine Zugangsdaten oder Codes an vermeintlichen Support weitergeben.",
+        "prompt": "Sichere ein erfundenes wichtiges E-Mail-Konto."
+      },
+      {
+        "kind": "order",
+        "title": "Der geplante Gerätewechsel",
+        "instruction": "Tippe die Schritte in sinnvoller Reihenfolge an. Sie stehen anfangs durcheinander.",
+        "items": [
+          {
+            "text": "Wiederherstellungsweg am alten Gerät prüfen",
+            "why": "Vorher klären, wie der Zugang bei Problemen wiederhergestellt werden kann."
+          },
+          {
+            "text": "Neues Gerät über den echten Dienst einrichten",
+            "why": "Nutze einen selbst geöffneten, bekannten Zugang."
+          },
+          {
+            "text": "Anmeldung am neuen Gerät testen",
+            "why": "Erst prüfen, ob der neue Zugang tatsächlich funktioniert."
+          },
+          {
+            "text": "Alten Zugang nach erfolgreichem Test gezielt entfernen",
+            "why": "So bleibt der Rückweg während des Wechsels erhalten."
+          }
+        ],
+        "lesson": "Bei einem geplanten Wechsel erst testen, dann alte Zugänge entfernen."
+      }
+    ]
+  },
+  "phishing": {
+    "example": {
+      "title": "Welchen Weg nimmst du zur Prüfung?",
+      "states": [
+        {
+          "label": "Nachrichtenlink folgen",
+          "nodes": [
+            [
+              "✉️",
+              "Konto angeblich gesperrt"
+            ],
+            [
+              "🔗",
+              "Link aus Nachricht"
+            ],
+            [
+              "🎭",
+              "Falsche Anmeldeseite möglich"
+            ]
+          ],
+          "result": "Du übernimmst den vorgegebenen Weg. Ein Logo oder korrektes Deutsch beweist keine Echtheit.",
+          "tone": "risk"
+        },
+        {
+          "label": "Bekannte App selbst öffnen",
+          "nodes": [
+            [
+              "✉️",
+              "Unerwartete Aufforderung"
+            ],
+            [
+              "📱",
+              "Echte App selbst öffnen"
+            ],
+            [
+              "🔎",
+              "Anlass unabhängig prüfen"
+            ]
+          ],
+          "result": "Der unabhängige Einstieg vermeidet den Link der Nachricht.",
+          "tone": "good"
+        },
+        {
+          "label": "Bekannten Kontakt nutzen",
+          "nodes": [
+            [
+              "☎️",
+              "Anrufer macht Druck"
+            ],
+            [
+              "⏸️",
+              "Gespräch unterbrechen"
+            ],
+            [
+              "📞",
+              "Bekannten Kontakt selbst wählen"
+            ]
+          ],
+          "result": "Eine unabhängig bekannte Kontaktmöglichkeit hilft, die Behauptung zu prüfen.",
+          "tone": "good"
+        }
+      ]
+    },
+    "games": [
+      {
+        "kind": "detect",
+        "title": "Postfach-Detektiv",
+        "instruction": "Untersuche die erfundene Szene. Finde alle drei problematischen Stellen durch Antippen.",
+        "items": [
+          {
+            "text": "„In fünf Minuten wird alles gelöscht!“",
+            "risk": true,
+            "why": "Starker Zeitdruck soll eine unüberlegte Reaktion auslösen."
+          },
+          {
+            "text": "„Sende uns dein Passwort und deinen Einmalcode.“",
+            "risk": true,
+            "why": "Zugangsdaten und Einmalcodes gehören nicht zum Support."
+          },
+          {
+            "text": "„Installiere das angehängte Reparaturprogramm.“",
+            "risk": true,
+            "why": "Ein unerwarteter Download kann schaden."
+          },
+          {
+            "text": "Die Nachricht nennt deinen Namen.",
+            "risk": false,
+            "why": "Ein richtiger Name beweist keine Echtheit, ist aber hier nicht die gesuchte gefährliche Aufforderung."
+          },
+          {
+            "text": "Die Nachricht ist fehlerfrei geschrieben.",
+            "risk": false,
+            "why": "Gutes Deutsch ist kein Echtheitsbeweis. Prüfe den Anlass unabhängig."
+          }
+        ],
+        "lesson": "Warnsignale erkennen und dann unabhängig prüfen.",
+        "prompt": "Erfundene Nachricht: „Dein Lernkonto braucht eine Prüfung.“"
+      },
+      {
+        "kind": "sort",
+        "title": "Klick-Stopp",
+        "instruction": "Bringe jede Situationskarte durch Antippen ins passende Fach.",
+        "items": [
+          {
+            "text": "Bank angeblich gesperrt: echte Bank-App selbst öffnen.",
+            "answer": 0,
+            "why": "Du gehst nicht über den Nachrichtenlink."
+          },
+          {
+            "text": "Ein Anrufer will deinen Einmalcode.",
+            "answer": 1,
+            "why": "Codes werden nicht weitergegeben."
+          },
+          {
+            "text": "Für den Geldeingang sollst du eine fremde Zahlung bestätigen.",
+            "answer": 1,
+            "why": "Eine Zahlungsfreigabe kann Geld aus deinem Konto bewegen."
+          },
+          {
+            "text": "Eine Kollegin bittet ungewöhnlich um Daten: über bekannte Nummer rückfragen.",
+            "answer": 0,
+            "why": "Der bekannte zweite Kontaktweg hilft beim Prüfen."
+          }
+        ],
+        "lesson": "Druck unterbrechen und einen eigenen Prüfweg wählen.",
+        "labels": [
+          "Unabhängig prüfen",
+          "Nicht ausführen"
+        ]
+      },
+      {
+        "kind": "match",
+        "title": "Täuschungs-Trio",
+        "instruction": "Wähle links einen Begriff und rechts die passende Erklärung.",
+        "items": [
+          {
+            "left": "SMS",
+            "right": "Smishing",
+            "why": "Phishing per SMS wird häufig Smishing genannt."
+          },
+          {
+            "left": "Telefon",
+            "right": "Vishing",
+            "why": "Vishing bezeichnet Phishing über Sprachanrufe."
+          },
+          {
+            "left": "QR-Code",
+            "right": "Quishing",
+            "why": "QR-Codes können auf eine manipulierte Anmeldeseite führen."
+          }
+        ],
+        "lesson": "Die Verpackung wechselt; das Ziel bleibt eine schädliche Handlung."
+      }
+    ]
+  },
+  "geraete": {
+    "example": {
+      "title": "Eine bekannte Sicherheitslücke",
+      "states": [
+        {
+          "label": "Update aufschieben",
+          "nodes": [
+            [
+              "📱",
+              "Veraltete App"
+            ],
+            [
+              "🕳️",
+              "Bekannte Lücke offen"
+            ],
+            [
+              "⚠️",
+              "Angriff weiter möglich"
+            ]
+          ],
+          "result": "Für diese bekannte Lücke bleibt die alte Version angreifbar.",
+          "tone": "risk"
+        },
+        {
+          "label": "Offiziell aktualisieren",
+          "nodes": [
+            [
+              "⚙️",
+              "Bekannte Einstellungen"
+            ],
+            [
+              "🩹",
+              "Sicherheitsupdate"
+            ],
+            [
+              "🛡️",
+              "Diese Lücke geschlossen"
+            ]
+          ],
+          "result": "Ein passendes Sicherheitsupdate schließt die behobene Lücke. Es ist keine Garantie gegen alle Risiken.",
+          "tone": "good"
+        },
+        {
+          "label": "Werbe-Download anklicken",
+          "nodes": [
+            [
+              "🌐",
+              "Webseite meldet Virus"
+            ],
+            [
+              "📦",
+              "Unbekanntes Programm"
+            ],
+            [
+              "⚠️",
+              "Zusätzliches Risiko"
+            ]
+          ],
+          "result": "Eine Webseitenmeldung ist keine Gerätediagnose. Installiere ihren vermeintlichen Retter nicht auf Zuruf.",
+          "tone": "risk"
+        }
+      ]
+    },
+    "games": [
+      {
+        "kind": "build",
+        "title": "Geräte-Werkstatt",
+        "instruction": "Stelle das passende Schutzpaket zusammen. Wähle alle drei hilfreichen Bausteine und lass die zwei riskanten weg. Teste dann deinen Aufbau.",
+        "items": [
+          {
+            "text": "Aktuelle Software",
+            "safe": true,
+            "why": "Sicherheitsupdates schließen bekannte Lücken."
+          },
+          {
+            "text": "Bildschirmsperre",
+            "safe": true,
+            "why": "Sie erschwert den Zugriff bei unbeaufsichtigten Geräten."
+          },
+          {
+            "text": "Nur nötige App-Rechte",
+            "safe": true,
+            "why": "Weniger Rechte begrenzen Zugriffsmöglichkeiten."
+          },
+          {
+            "text": "Schutzfunktionen ausschalten",
+            "safe": false,
+            "why": "Damit entfernst du vorhandenen Schutz."
+          },
+          {
+            "text": "Sicherheitsprogramm aus Werbepopup",
+            "safe": false,
+            "why": "Ein unbekannter Download kann selbst gefährlich sein."
+          }
+        ],
+        "lesson": "Sperren, aktuell halten und Rechte passend begrenzen.",
+        "prompt": "Wähle die passenden drei Teile für ein privates Alltagsgerät."
+      },
+      {
+        "kind": "order",
+        "title": "Update-Pfad",
+        "instruction": "Tippe die Schritte in sinnvoller Reihenfolge an. Sie stehen anfangs durcheinander.",
+        "items": [
+          {
+            "text": "Bekannte Systemeinstellungen öffnen",
+            "why": "Starte aus dem System statt aus einem Werbelink."
+          },
+          {
+            "text": "Verfügbare offizielle Updates prüfen",
+            "why": "Prüfe das angebotene Update und plane nötige Unterbrechungen."
+          },
+          {
+            "text": "Update installieren und erforderlichen Neustart ausführen",
+            "why": "Manche Änderungen werden erst nach dem Neustart aktiv."
+          },
+          {
+            "text": "Update-Status erneut kontrollieren",
+            "why": "So erkennst du, ob die Installation erfolgreich war."
+          }
+        ],
+        "lesson": "Aktualisieren und den Abschluss überprüfen."
+      },
+      {
+        "kind": "detect",
+        "title": "Berechtigungs-Radar",
+        "instruction": "Untersuche die erfundene Szene. Finde alle drei problematischen Stellen durch Antippen.",
+        "items": [
+          {
+            "text": "Bildschirmsperre: ausgeschaltet",
+            "risk": true,
+            "why": "Ohne Sperre ist ein unbeaufsichtigtes Gerät leichter zugänglich."
+          },
+          {
+            "text": "Browser: keine Sicherheitsupdates mehr",
+            "risk": true,
+            "why": "Für nicht mehr unterstützte Software braucht es einen Wechselplan."
+          },
+          {
+            "text": "Taschenlampe: voller Zugriff auf Kontakte",
+            "risk": true,
+            "why": "Diese Berechtigung passt nicht zur benötigten Funktion."
+          },
+          {
+            "text": "Automatische Sicherheitsupdates: aktiv",
+            "risk": false,
+            "why": "Das ist eine hilfreiche Einstellung, keine Garantie für umfassende Sicherheit."
+          },
+          {
+            "text": "Gerät zeigt Uhrzeit und Datum.",
+            "risk": false,
+            "why": "Das ist hier kein Sicherheitsproblem."
+          }
+        ],
+        "lesson": "Nicht jede Anzeige ist ein Risiko; entscheidend sind Funktion und Einstellung.",
+        "prompt": "Erfundene Einstellungsübersicht eines privaten Geräts."
+      }
+    ]
+  },
+  "backups": {
+    "example": {
+      "title": "Was bleibt nach einer Löschung?",
+      "states": [
+        {
+          "label": "Nur synchronisiert",
+          "nodes": [
+            [
+              "💻",
+              "Datei versehentlich gelöscht"
+            ],
+            [
+              "🔁",
+              "Löschung synchronisiert"
+            ],
+            [
+              "☁️",
+              "Datei dort auch weg"
+            ]
+          ],
+          "result": "Reine Synchronisation kann die Löschung übernehmen. Ein nutzbarer älterer Stand ist dadurch nicht garantiert.",
+          "tone": "risk"
+        },
+        {
+          "label": "Geschützte Sicherung",
+          "nodes": [
+            [
+              "💻",
+              "Datei versehentlich gelöscht"
+            ],
+            [
+              "🗄️",
+              "Älterer Stand geschützt"
+            ],
+            [
+              "📄",
+              "Rückweg vorhanden"
+            ]
+          ],
+          "result": "Ein getrennter, passender Sicherungsstand kann die Wiederherstellung ermöglichen.",
+          "tone": "good"
+        },
+        {
+          "label": "Testdatei zurückholen",
+          "nodes": [
+            [
+              "🗄️",
+              "Sicherungsstand wählen"
+            ],
+            [
+              "🧪",
+              "Auf sauberem System testen"
+            ],
+            [
+              "✅",
+              "Datei lässt sich öffnen"
+            ]
+          ],
+          "result": "Erst ein Test zeigt, ob sich die gesicherte Datei tatsächlich zurückholen und nutzen lässt.",
+          "tone": "good"
+        }
+      ]
+    },
+    "games": [
+      {
+        "kind": "order",
+        "title": "Rettungsroute für eine gelöschte Testdatei",
+        "instruction": "Tippe die Schritte in sinnvoller Reihenfolge an. Sie stehen anfangs durcheinander.",
+        "items": [
+          {
+            "text": "Passenden Sicherungsstand vor der Löschung auswählen",
+            "why": "Du brauchst einen Stand, in dem die Datei noch vorhanden war."
+          },
+          {
+            "text": "Geeignetes sauberes Ziel für den Test festlegen",
+            "why": "Überschreibe dabei nicht unüberlegt aktuelle Dateien."
+          },
+          {
+            "text": "Testdatei aus der Sicherung wiederherstellen",
+            "why": "Jetzt wird der Rückweg tatsächlich ausprobiert."
+          },
+          {
+            "text": "Inhalt und Nutzbarkeit der Datei prüfen",
+            "why": "Ein Dateiname allein beweist noch keine erfolgreiche Wiederherstellung."
+          }
+        ],
+        "lesson": "Der Rückweg gehört zum Sicherungsplan."
+      },
+      {
+        "kind": "match",
+        "title": "Backup-Brücken",
+        "instruction": "Wähle links einen Begriff und rechts die passende Erklärung.",
+        "items": [
+          {
+            "left": "Synchronisation",
+            "right": "Überträgt Änderungen zwischen Speicherorten.",
+            "why": "Auch unerwünschte Änderungen können weitergegeben werden."
+          },
+          {
+            "left": "Backup-Version",
+            "right": "Bewahrt einen wiederherstellbaren Stand.",
+            "why": "Ein älterer Stand kann nach einer Löschung helfen."
+          },
+          {
+            "left": "Wiederherstellungstest",
+            "right": "Prüft, ob gesicherte Daten nutzbar zurückkommen.",
+            "why": "Ein Test findet Probleme vor dem Ernstfall."
+          }
+        ],
+        "lesson": "Kopieren, Versionen bewahren und Rückholen sind verschiedene Aufgaben."
+      },
+      {
+        "kind": "memory",
+        "title": "Sicherungs-Memo",
+        "instruction": "Decke jeweils zwei Karten auf und finde gleiche Bild-Begriff-Paare. Nach einem Fehlversuch deckst du sie selbst wieder zu.",
+        "items": [
+          {
+            "text": "Getrennte Kopie",
+            "icon": "🗄️",
+            "why": "Ein zweiter Ordner auf derselben Platte schützt nicht vor ihrem Defekt."
+          },
+          {
+            "text": "Älterer Stand",
+            "icon": "🕰️",
+            "why": "Versionen können vor einer späteren Beschädigung liegen."
+          },
+          {
+            "text": "Testdatei",
+            "icon": "🧪",
+            "why": "Regelmäßiges Wiederherstellen prüft den Rückweg."
+          },
+          {
+            "text": "Sauberes Gerät",
+            "icon": "💻",
+            "why": "Backups gehören bei Malware-Verdacht nicht an das betroffene Gerät."
+          }
+        ],
+        "lesson": "Eine Sicherung schützt nur, wenn sie getrennt, geschützt und nutzbar ist."
+      }
+    ]
+  },
+  "verschluesselung": {
+    "example": {
+      "title": "Verschlüsselung und Freigabe sind zwei Hebel",
+      "states": [
+        {
+          "label": "Öffentlicher Freigabelink",
+          "nodes": [
+            [
+              "📄",
+              "Datei verschlüsselt gespeichert"
+            ],
+            [
+              "🔗",
+              "Öffentlicher Leselink"
+            ],
+            [
+              "👥",
+              "Großer Empfängerkreis"
+            ]
+          ],
+          "result": "Die Speicherverschlüsselung begrenzt nicht automatisch die über den Dienst erlaubte Freigabe.",
+          "tone": "risk"
+        },
+        {
+          "label": "Gezielte Freigabe",
+          "nodes": [
+            [
+              "📄",
+              "Geschütztes Dokument"
+            ],
+            [
+              "👤",
+              "Bestimmte Berechtigte"
+            ],
+            [
+              "📖",
+              "Nur nötige Leserechte"
+            ]
+          ],
+          "result": "Eine passende Freigabe begrenzt Empfänger und Bearbeitungsmöglichkeiten.",
+          "tone": "good"
+        },
+        {
+          "label": "Datenträger verloren",
+          "nodes": [
+            [
+              "💾",
+              "Verschlüsselter Datenträger"
+            ],
+            [
+              "🔐",
+              "Schlüssel fehlt dem Finder"
+            ],
+            [
+              "🧩",
+              "Inhalt nicht direkt lesbar"
+            ]
+          ],
+          "result": "Verschlüsselung kann gespeicherte Inhalte bei Verlust schützen. Schlüssel und Wiederherstellung müssen gesichert bleiben.",
+          "tone": "good"
+        }
+      ]
+    },
+    "games": [
+      {
+        "kind": "match",
+        "title": "Verschlüsselungs-Brücken",
+        "instruction": "Wähle links einen Begriff und rechts die passende Erklärung.",
+        "items": [
+          {
+            "left": "Geräteverschlüsselung",
+            "right": "Schützt gespeicherte Daten bei Geräteverlust.",
+            "why": "Ein entsperrtes oder kompromittiertes Gerät bleibt ein Risiko."
+          },
+          {
+            "left": "HTTPS",
+            "right": "Schützt die Verbindung zur aufgerufenen Website.",
+            "why": "Auch eine betrügerische Website kann HTTPS verwenden."
+          },
+          {
+            "left": "Ende-zu-Ende",
+            "right": "Schützt Inhalte zwischen den beteiligten Endgeräten.",
+            "why": "Die Sicherheit der Endgeräte bleibt wichtig."
+          }
+        ],
+        "lesson": "Schutz gilt jeweils für einen bestimmten Abschnitt."
+      },
+      {
+        "kind": "build",
+        "title": "Freigabe-Tresor",
+        "instruction": "Stelle das passende Schutzpaket zusammen. Wähle alle drei hilfreichen Bausteine und lass die zwei riskanten weg. Teste dann deinen Aufbau.",
+        "items": [
+          {
+            "text": "Nur diese zwei Empfänger berechtigen",
+            "safe": true,
+            "why": "So ist der Empfängerkreis begrenzt."
+          },
+          {
+            "text": "Nur Leserechte vergeben",
+            "safe": true,
+            "why": "Für das Lesen sind keine Bearbeitungsrechte nötig."
+          },
+          {
+            "text": "Freigabe nach dem Zweck wieder prüfen",
+            "safe": true,
+            "why": "Nicht mehr benötigte Zugriffe sollen nicht bestehen bleiben."
+          },
+          {
+            "text": "Öffentlichen Link erstellen",
+            "safe": false,
+            "why": "Der Link könnte auch Unberechtigten zugänglich werden."
+          },
+          {
+            "text": "Bearbeiten für alle erlauben",
+            "safe": false,
+            "why": "Das geht über den vorgesehenen Zweck hinaus."
+          }
+        ],
+        "lesson": "Der Inhaltsschutz und die Freigabe müssen zusammenpassen.",
+        "prompt": "Ein vertrauliches Dokument soll von genau zwei Personen gelesen werden."
+      },
+      {
+        "kind": "sort",
+        "title": "Welcher Hebel schützt was?",
+        "instruction": "Bringe jede Situationskarte durch Antippen ins passende Fach.",
+        "items": [
+          {
+            "text": "Verschlüsselung einer ausgeschalteten Laptop-Festplatte.",
+            "answer": 0,
+            "why": "Sie schützt Daten auf dem Datenträger."
+          },
+          {
+            "text": "HTTPS zwischen Browser und Website.",
+            "answer": 1,
+            "why": "Hier wird der Übertragungsweg geschützt."
+          },
+          {
+            "text": "Leserecht nur für ein bestimmtes Konto.",
+            "answer": 2,
+            "why": "Das grenzt den erlaubten Zugriff ein."
+          },
+          {
+            "text": "Öffentlichen Link auf ausgewählte Personen beschränken.",
+            "answer": 2,
+            "why": "Das ändert den Empfängerkreis."
+          }
+        ],
+        "lesson": "Verschlüsselung ist kein Ersatz für gezielte Berechtigungen.",
+        "labels": [
+          "Gespeicherte Daten",
+          "Verbindung",
+          "Freigabe"
+        ]
+      }
+    ]
+  },
+  "datenschutz": {
+    "example": {
+      "title": "Was braucht die Taschenlampe?",
+      "states": [
+        {
+          "label": "Alles erlauben",
+          "nodes": [
+            [
+              "🔦",
+              "Licht einschalten"
+            ],
+            [
+              "📇",
+              "Kontakte freigeben"
+            ],
+            [
+              "📍",
+              "Dauerhafter Standort"
+            ]
+          ],
+          "result": "Für das reine Licht sind diese Daten nicht nötig. Zu viele Rechte vergrößern den möglichen Zugriff.",
+          "tone": "risk"
+        },
+        {
+          "label": "Nur nötige Funktion",
+          "nodes": [
+            [
+              "🔦",
+              "Licht einschalten"
+            ],
+            [
+              "🚫",
+              "Keine Kontakte"
+            ],
+            [
+              "✅",
+              "Funktion ohne Extra-Daten"
+            ]
+          ],
+          "result": "Begrenze Rechte auf das, was die benötigte Funktion nachvollziehbar braucht.",
+          "tone": "good"
+        },
+        {
+          "label": "Freigaben später prüfen",
+          "nodes": [
+            [
+              "⚙️",
+              "App-Einstellungen"
+            ],
+            [
+              "🔎",
+              "Rechte durchsehen"
+            ],
+            [
+              "✂️",
+              "Unnötige Rechte entziehen"
+            ]
+          ],
+          "result": "Prüfe Berechtigungen erneut, wenn Apps oder ihre Aufgaben sich ändern.",
+          "tone": "good"
+        }
+      ]
+    },
+    "games": [
+      {
+        "kind": "sort",
+        "title": "Berechtigungs-Gärtchen",
+        "instruction": "Bringe jede Situationskarte durch Antippen ins passende Fach.",
+        "items": [
+          {
+            "text": "Taschenlampe: vollständiges Adressbuch.",
+            "answer": 1,
+            "why": "Für Licht werden keine Kontakte benötigt."
+          },
+          {
+            "text": "Sprachnachricht aufnehmen: Mikrofon während der Aufnahme.",
+            "answer": 0,
+            "why": "Für eine selbst gewählte Tonaufnahme ist das Mikrofon nötig."
+          },
+          {
+            "text": "Route vom aktuellen Standort berechnen: Standort während der Nutzung.",
+            "answer": 0,
+            "why": "Diese ausdrücklich gewählte Funktion benötigt den Standort."
+          },
+          {
+            "text": "Rechner für Plus und Minus: dauerhafter Standort.",
+            "answer": 1,
+            "why": "Die Rechnung benötigt keinen Standort."
+          }
+        ],
+        "lesson": "Berechtigungen nach der konkreten gewählten Funktion bewerten.",
+        "labels": [
+          "Für diese Funktion nötig",
+          "Nicht nötig"
+        ]
+      },
+      {
+        "kind": "detect",
+        "title": "Das neugierige Formular",
+        "instruction": "Untersuche die erfundene Szene. Finde alle drei problematischen Stellen durch Antippen.",
+        "items": [
+          {
+            "text": "Pflichtfeld: E-Mail-Adresse",
+            "risk": false,
+            "why": "Für die gewünschte E-Mail-Zustellung ist diese Angabe nachvollziehbar."
+          },
+          {
+            "text": "Pflichtfeld: Kontopasswort deiner E-Mail",
+            "risk": true,
+            "why": "Ein Newsletter braucht keinen Zugang zu deinem Postfach."
+          },
+          {
+            "text": "Pflichtfeld: vollständige Kontaktliste",
+            "risk": true,
+            "why": "Die Kontakte sind für deine Newsletter-Zustellung nicht nötig."
+          },
+          {
+            "text": "Pflichtfeld: dauerhafter Live-Standort",
+            "risk": true,
+            "why": "Der Standort gehört nicht zur gewählten Zustellfunktion."
+          },
+          {
+            "text": "Beschreibung: Versand per E-Mail",
+            "risk": false,
+            "why": "Der Zweck wird hier passend beschrieben."
+          }
+        ],
+        "lesson": "Prüfe Zweck und Umfang, bevor du Daten eingibst.",
+        "prompt": "Erfundene Anmeldung: Ein einmaliger Newsletter braucht eine E-Mail-Adresse, aber keine weiteren persönlichen Angaben."
+      },
+      {
+        "kind": "memory",
+        "title": "Datenspar-Memo",
+        "instruction": "Decke jeweils zwei Karten auf und finde gleiche Bild-Begriff-Paare. Nach einem Fehlversuch deckst du sie selbst wieder zu.",
+        "items": [
+          {
+            "text": "Zweck",
+            "icon": "🎯",
+            "why": "Frage, wofür die Daten benötigt werden."
+          },
+          {
+            "text": "Datenumfang",
+            "icon": "✂️",
+            "why": "Weniger unnötige Daten bedeuten weniger Preisgabe."
+          },
+          {
+            "text": "Berechtigung",
+            "icon": "🎚️",
+            "why": "Zugriffe müssen zur gewählten Funktion passen."
+          },
+          {
+            "text": "Freigabe",
+            "icon": "👥",
+            "why": "Prüfe, wer welche Inhalte erhalten soll."
+          }
+        ],
+        "lesson": "Persönliche Daten bewusst und zweckbezogen einsetzen."
+      }
+    ]
+  },
+  "ernstfall": {
+    "example": {
+      "title": "Schadsoftware-Verdacht auf einem privaten Gerät",
+      "states": [
+        {
+          "label": "Backup sofort anschließen",
+          "nodes": [
+            [
+              "⚠️",
+              "Gerät möglicherweise betroffen"
+            ],
+            [
+              "🔌",
+              "Backup angeschlossen"
+            ],
+            [
+              "🗄️",
+              "Sicherung ebenfalls gefährdet"
+            ]
+          ],
+          "result": "Verbundene Sicherungen können ebenfalls betroffen werden. Schließe sie nicht unüberlegt an.",
+          "tone": "risk"
+        },
+        {
+          "label": "Verbindung trennen & Hilfe holen",
+          "nodes": [
+            [
+              "⚠️",
+              "Laufende Schadsoftware vermutet"
+            ],
+            [
+              "📴",
+              "Gerät vom Netz trennen"
+            ],
+            [
+              "🛟",
+              "Fachkundige Hilfe"
+            ]
+          ],
+          "result": "Das kann weitere Ausbreitung begrenzen. Hinweise erhalten und die nächsten Schritte fachkundig klären.",
+          "tone": "good"
+        },
+        {
+          "label": "Arbeitsgerät: Notfallplan",
+          "nodes": [
+            [
+              "💼",
+              "Arbeitsgerät auffällig"
+            ],
+            [
+              "☎️",
+              "Bekannte IT kontaktieren"
+            ],
+            [
+              "📋",
+              "Notfallplan befolgen"
+            ]
+          ],
+          "result": "Bei verwalteten Geräten koordiniert die zuständige IT das Vorgehen. Nicht vorschnell löschen oder zurücksetzen.",
+          "tone": "good"
+        }
+      ]
+    },
+    "games": [
+      {
+        "kind": "order",
+        "title": "Notfall-Kette am Arbeitsgerät",
+        "instruction": "Tippe die Schritte in sinnvoller Reihenfolge an. Sie stehen anfangs durcheinander.",
+        "items": [
+          {
+            "text": "Verdächtige Handlung unterbrechen",
+            "why": "Öffne keine weiteren Anhänge und bestätige keine weiteren Aufforderungen."
+          },
+          {
+            "text": "Beobachtung und Zeitpunkt festhalten",
+            "why": "Notiere Hinweise, ohne Dateien zu löschen oder eigenmächtig aufzuräumen."
+          },
+          {
+            "text": "Zuständige IT über bekannten Kontakt informieren",
+            "why": "Für die echte Ansprechperson einen unabhängig bekannten Weg wählen."
+          },
+          {
+            "text": "Abgestimmten Notfallplan befolgen",
+            "why": "Isolation und Wiederherstellung werden passend zum Vorfall koordiniert."
+          }
+        ],
+        "lesson": "Früh melden und koordiniert handeln."
+      },
+      {
+        "kind": "detect",
+        "title": "Finde die drei Notfall-Fallen",
+        "instruction": "Untersuche die erfundene Szene. Finde alle drei problematischen Stellen durch Antippen.",
+        "items": [
+          {
+            "text": "„Ich lösche alles, damit die Warnung weg ist.“",
+            "risk": true,
+            "why": "Vorschnelles Löschen kann Daten und Hinweise vernichten."
+          },
+          {
+            "text": "„Ich schließe sofort alle Backups an.“",
+            "risk": true,
+            "why": "Dadurch könnten auch Sicherungen gefährdet werden."
+          },
+          {
+            "text": "„Ich rufe die Supportnummer aus dem verdächtigen Popup an.“",
+            "risk": true,
+            "why": "Der Kontakt könnte Teil der Täuschung sein."
+          },
+          {
+            "text": "„Ich notiere Zeitpunkt und Beobachtungen.“",
+            "risk": false,
+            "why": "Das hilft der zuständigen Stelle beim Einordnen."
+          },
+          {
+            "text": "„Ich informiere die zuständige IT über einen bekannten Kontakt.“",
+            "risk": false,
+            "why": "Das ist ein sinnvoller abgestimmter Meldeweg."
+          }
+        ],
+        "lesson": "Keine vorschnelle Eigenreparatur über unklare Wege.",
+        "prompt": "Erfundene Ideensammlung nach ungewöhnlichem Verhalten des Arbeitsrechners."
+      },
+      {
+        "kind": "build",
+        "title": "Ruhiger Kopf, guter Plan",
+        "instruction": "Stelle das passende Schutzpaket zusammen. Wähle alle drei hilfreichen Bausteine und lass die zwei riskanten weg. Teste dann deinen Aufbau.",
+        "items": [
+          {
+            "text": "Notfallkontakte außerhalb des Hauptkontos",
+            "safe": true,
+            "why": "Sie bleiben erreichbar, wenn dieses Konto ausfällt."
+          },
+          {
+            "text": "Bekannter Meldeweg und Zuständigkeit",
+            "safe": true,
+            "why": "Dann weißt du, wer helfen kann."
+          },
+          {
+            "text": "Getestete getrennte Sicherung",
+            "safe": true,
+            "why": "Ein Rückweg erleichtert eine abgestimmte Wiederherstellung."
+          },
+          {
+            "text": "Alle Wiederherstellungscodes öffentlich posten",
+            "safe": false,
+            "why": "Damit könnten Fremde Zugang erlangen."
+          },
+          {
+            "text": "Nur die Notfallnummer im einzigen gesperrten Konto speichern",
+            "safe": false,
+            "why": "Dann fehlt gerade im Ernstfall der Zugriff."
+          }
+        ],
+        "lesson": "Vorbereitung macht ruhiges Handeln leichter.",
+        "prompt": "Wähle drei hilfreiche Vorbereitungen für einen möglichen Vorfall."
+      }
+    ]
+  }
+}
